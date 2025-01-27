@@ -1,2 +1,5 @@
 #EXTINF:-1 tvg-id="StarSports1Telugu.in" tvg-name="Fire TV" tvg-logo="https://i.pinimg.com/736x/cc/8e/20/cc8e20a6b6643ec02b26f905f383a823.jpg" group-title="Stock",Fire Tv
 http://tvstation.cc:80/K0599LE/FWJ6Q3D/1124839
+#EXTINF:-1 tvg-id="StarSports1Telugu.in" tvg-name="Zee Telugu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2f/Zee_Telugu_logo.jpeg" group-title="Regional",Zee Telugu
+
+http://tvstation.cc:80/K0599LE/FWJ6Q3D/1019637
