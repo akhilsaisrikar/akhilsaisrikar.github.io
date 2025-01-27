@@ -13,3 +13,35 @@ http://cloud.streamplay.in:1935/gospeltv/gospeltv/playlist.m3u8
 http://cloud.streamplay.in:1935/news9/news9/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Devotional Channels",TTD
 https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="ZeeTeluguNews.in" tvg-name="IN: Zee Telugu" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/Zee_Telugu_2017.png/revision/latest?cb=20180101122718" group-title="Telugu",IN: Zee Telugu
+http://xtremity.tv:2052/4913419680/2408656514/1126206.m3u8
+#EXTINF:-1 tvg-id="StarSports1Telugu.in" tvg-name="IN: Star Sports 1 Telugu" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/e8/STAR_Sports_1_logo.png/revision/latest?cb=20150719162710" group-title="Telugu",IN: Star Sports 1 Telugu
+http://xtremity.tv:2052/4913419680/2408656514/1126207.m3u8
+#EXTINF:-1 tvg-id="Asianet.in" tvg-name="IN: TV Asia Telugu (US)" tvg-logo="https://iptvboss.xyz/logos/India/AsianetNews.in.png" group-title="Telugu",IN: TV Asia Telugu (US)
+http://xtremity.tv:2052/4913419680/2408656514/1126208.m3u8
+#EXTINF:-1 tvg-id="AasthaGujarati.in" tvg-name="IN: Asian Aastha Telugu (US)" tvg-logo="https://iptvboss.xyz/logos/India/Asianet.in.png" group-title="Telugu",IN: Asian Aastha Telugu (US)
+http://xtremity.tv:2052/4913419680/2408656514/1126209.m3u8
+#EXTINF:-1 tvg-id="StarMaaMovies.in" tvg-name="IN: Star Maa" tvg-logo="https://iptvboss.xyz/logos/India/STARMaa.in.png" group-title="Telugu",IN: Star Maa
+http://xtremity.tv:2052/4913419680/2408656514/1126210.m3u8
+#EXTINF:-1 tvg-id="ETVTelugu.in" tvg-name="IN: ETV Telugu" tvg-logo="https://iptvboss.xyz/logos/India/ETVTelugu.in.png" group-title="Telugu",IN: ETV Telugu
+http://xtremity.tv:2052/4913419680/2408656514/1126211.m3u8
+#EXTINF:-1 tvg-id="GEMITV" tvg-name="IN: Gemini TV" tvg-logo="https://iptvboss.xyz/logos/India/GeminiTV.in.png" group-title="Telugu",IN: Gemini TV
+http://xtremity.tv:2052/4913419680/2408656514/1126212.m3u8
+#EXTINF:-1 tvg-id="ABNAndhraJyothy.in" tvg-name="IN: ABN Andhra Jyothi" tvg-logo="https://iptvboss.xyz/logos/India/ABNAndhraJyothy.in.png" group-title="Telugu",IN: ABN Andhra Jyothi
+http://xtremity.tv:2052/4913419680/2408656514/1126213.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="IN: 9XM Telugu" tvg-logo="https://iptvboss.xyz/logos/India/9XM.in.png" group-title="Telugu",IN: 9XM Telugu
+http://xtremity.tv:2052/4913419680/2408656514/1128779.m3u8
+#EXTINF:-1 tvg-id="StarMaaMusic.in" tvg-name="IN: Star Maa Music (US)" tvg-logo="https://iptvboss.xyz/logos/India/STARMaa.in.png" group-title="Telugu",IN: Star Maa Music (US)
+http://xtremity.tv:2052/4913419680/2408656514/1128872.m3u8
+#EXTINF:-1 tvg-id="StarGOLD.in" tvg-name="IN: Star Maa Gold" tvg-logo="https://iptvboss.xyz/logos/India/STARMaa.in.png" group-title="Telugu",IN: Star Maa Gold
+http://xtremity.tv:2052/4913419680/2408656514/1128948.m3u8
+#EXTINF:-1 tvg-id="ZeeCinemalu.in" tvg-name="IN: Zee CinemaLU" tvg-logo="" group-title="Telugu",IN: Zee CinemaLU
+http://xtremity.tv:2052/4913419680/2408656514/1129057.m3u8
+#EXTINF:-1 tvg-id="GeminiMovies.in" tvg-name="IN: Gemini Movies" tvg-logo="https://iptvboss.xyz/logos/India/GeminiMovies.in.png" group-title="Telugu",IN: Gemini Movies
+http://xtremity.tv:2052/4913419680/2408656514/1129495.m3u8
+#EXTINF:-1 tvg-id="TV5News.in" tvg-name="IN: TV5 News (US)" tvg-logo="https://iptvboss.xyz/logos/India/TV5News.in.png" group-title="Telugu",IN: TV5 News (US)
+http://xtremity.tv:2052/4913419680/2408656514/1128610.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="IN: V6 News" tvg-logo="" group-title="Telugu",IN: V6 News
+http://xtremity.tv:2052/4913419680/2408656514/1129582.m3u8
+#EXTINF:-1 tvg-id="StarMaaMovies.in" tvg-name="IN: Star Maa Movies" tvg-logo="https://iptvboss.xyz/logos/India/StarMaaMovies.in.png" group-title="Telugu",IN: Star Maa Movies
+http://xtremity.tv:2052/4913419680/2408656514/1129583.m3u8
