@@ -34,14 +34,13 @@ http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129582
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129583
 #EXTINF:-1,IN: ETV Telangana
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129584
-https://www.youtube.com/watch?v=sYZtOFzM78M
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Super Tv
 http://cloud.streamplay.in:1935/supertv/supertv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Power Tv
 http://cloud.streamplay.in:1935/powertv/powertv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",TNN Tv
 http://cloud.streamplay.in:1935/tnn/tnn/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/akhilsaisrikar/lnctv.github.io/refs/heads/main/nstv.jpg" ,Nstv Tv
+#EXTINF:-1 tvg-logo="https://akhilsaisrikar.github.io/nstv.jpg" ,Nstv Tv
 http://cloud.streamplay.in:1935/nstv/nstv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Gospel Tv
 http://cloud.streamplay.in:1935/gospeltv/gospeltv/playlist.m3u8
