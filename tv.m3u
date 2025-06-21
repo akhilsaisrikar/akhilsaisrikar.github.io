@@ -34,82 +34,21 @@ http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129582
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129583
 #EXTINF:-1,IN: ETV Telangana
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129584
-#EXTINF:-1,ATN Bangla (Indian)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291198
-#EXTINF:-1,IN: 24 Ghanta (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291199
-#EXTINF:-1,IN: Aakaash Aath
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291200
-#EXTINF:-1,IN: AATH (Bengali) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291201
-#EXTINF:-1,IN: ABP Ananda
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291202
-#EXTINF:-1,IN: ATN Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291203
-#EXTINF:-1,IN: ATN Bangla (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291204
-#EXTINF:-1,IN: ATN Bangla (CA)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291205
-#EXTINF:-1,IN: ATN News (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291206
-#EXTINF:-1,IN: Calcutta News
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291207
-#EXTINF:-1,IN: Channel I (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291208
-#EXTINF:-1,IN: Colors (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291209
-#EXTINF:-1,IN: Colors Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291210
-#EXTINF:-1,IN: Colors Bangla (CA)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291211
-#EXTINF:-1,IN: Colors Bangla HD
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291212
-#EXTINF:-1,IN: CTVN AKD Plus
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291213
-#EXTINF:-1,IN: DD Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291214
-#EXTINF:-1,IN: Jalsha Movies HD
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291215
-#EXTINF:-1,IN: Khushboo Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291216
-#EXTINF:-1,IN: Kolkata TV
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291217
-#EXTINF:-1,IN: News Time Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291218
-#EXTINF:-1,IN: News18 Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291219
-#EXTINF:-1,IN: NTV Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291220
-#EXTINF:-1,IN: NTV Bangla (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291221
-#EXTINF:-1,IN: NTV Bangla (CA)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291222
-#EXTINF:-1,IN: Ruposhi Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291223
-#EXTINF:-1,IN: Sangeet Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291224
-#EXTINF:-1,IN: SONY AATH
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291225
-#EXTINF:-1,IN: Sony Aath (CA)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291226
-#EXTINF:-1,IN: Star Jalsha HD
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291227
-#EXTINF:-1,IN: Zee 24 Ghanta
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291228
-#EXTINF:-1,IN: Zee Bangla
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291229
-#EXTINF:-1,IN: Zee Bangla (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291230
-#EXTINF:-1,IN: Zee Bangla Cinema
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291231
-#EXTINF:-1,IN: Zee Bangla Cinema
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291232
-#EXTINF:-1,IN: Zee Bangla Cinema (Bangla) (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291233
-#EXTINF:-1,IN: Zee Bangla HD
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291234
-#EXTINF:-1,IQRA Bangla (Indian)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291235
+https://www.youtube.com/watch?v=sYZtOFzM78M
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Super Tv
+http://cloud.streamplay.in:1935/supertv/supertv/playlist.m3u8
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Power Tv
+http://cloud.streamplay.in:1935/powertv/powertv/playlist.m3u8
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",TNN Tv
+http://cloud.streamplay.in:1935/tnn/tnn/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/akhilsaisrikar/lnctv.github.io/refs/heads/main/nstv.jpg" ,Nstv Tv
+http://cloud.streamplay.in:1935/nstv/nstv/playlist.m3u8
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Gospel Tv
+http://cloud.streamplay.in:1935/gospeltv/gospeltv/playlist.m3u8
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",News9 Today Tv
+http://cloud.streamplay.in:1935/news9/news9/playlist.m3u8
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Devotional Channels",TTD
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
 #EXTINF:-1,IN: &Flix
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291236
 #EXTINF:-1,IN: &pictures HD
@@ -1144,3 +1083,79 @@ http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/292012
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/292013
 #EXTINF:-1,IN: Malton Gurdwara (CA)
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/292014
+#EXTINF:-1,ATN Bangla (Indian)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291198
+#EXTINF:-1,IN: 24 Ghanta (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291199
+#EXTINF:-1,IN: Aakaash Aath
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291200
+#EXTINF:-1,IN: AATH (Bengali) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291201
+#EXTINF:-1,IN: ABP Ananda
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291202
+#EXTINF:-1,IN: ATN Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291203
+#EXTINF:-1,IN: ATN Bangla (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291204
+#EXTINF:-1,IN: ATN Bangla (CA)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291205
+#EXTINF:-1,IN: ATN News (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291206
+#EXTINF:-1,IN: Calcutta News
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291207
+#EXTINF:-1,IN: Channel I (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291208
+#EXTINF:-1,IN: Colors (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291209
+#EXTINF:-1,IN: Colors Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291210
+#EXTINF:-1,IN: Colors Bangla (CA)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291211
+#EXTINF:-1,IN: Colors Bangla HD
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291212
+#EXTINF:-1,IN: CTVN AKD Plus
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291213
+#EXTINF:-1,IN: DD Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291214
+#EXTINF:-1,IN: Jalsha Movies HD
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291215
+#EXTINF:-1,IN: Khushboo Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291216
+#EXTINF:-1,IN: Kolkata TV
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291217
+#EXTINF:-1,IN: News Time Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291218
+#EXTINF:-1,IN: News18 Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291219
+#EXTINF:-1,IN: NTV Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291220
+#EXTINF:-1,IN: NTV Bangla (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291221
+#EXTINF:-1,IN: NTV Bangla (CA)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291222
+#EXTINF:-1,IN: Ruposhi Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291223
+#EXTINF:-1,IN: Sangeet Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291224
+#EXTINF:-1,IN: SONY AATH
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291225
+#EXTINF:-1,IN: Sony Aath (CA)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291226
+#EXTINF:-1,IN: Star Jalsha HD
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291227
+#EXTINF:-1,IN: Zee 24 Ghanta
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291228
+#EXTINF:-1,IN: Zee Bangla
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291229
+#EXTINF:-1,IN: Zee Bangla (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291230
+#EXTINF:-1,IN: Zee Bangla Cinema
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291231
+#EXTINF:-1,IN: Zee Bangla Cinema
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291232
+#EXTINF:-1,IN: Zee Bangla Cinema (Bangla) (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291233
+#EXTINF:-1,IN: Zee Bangla HD
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291234
+#EXTINF:-1,IQRA Bangla (Indian)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/291235
