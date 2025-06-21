@@ -2,12 +2,6 @@
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_13"
 #EXTINF:-1,IN: Zee Telugu
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126206
-#EXTINF:-1,IN: Star Sports 1 Telugu
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126207
-#EXTINF:-1,IN: TV Asia Telugu (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126208
-#EXTINF:-1,IN: Asian Aastha Telugu (US)
-http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126209
 #EXTINF:-1,IN: Star Maa
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126210
 #EXTINF:-1,IN: ETV Telugu
@@ -34,6 +28,12 @@ http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129582
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129583
 #EXTINF:-1,IN: ETV Telangana
 http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129584
+#EXTINF:-1,IN: Star Sports 1 Telugu
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126207
+#EXTINF:-1,IN: TV Asia Telugu (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126208
+#EXTINF:-1,IN: Asian Aastha Telugu (US)
+http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1126209
 #EXTINF:-1 tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/TV9TeluguLogo.jpg/330px-TV9TeluguLogo.jpg" tvg-id="https://tv9telugu.com/" group-title="Local Tv",TV9
 https://youtu.be/II_m28Bm-iM.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" group-title="Local Tv",Super Tv
