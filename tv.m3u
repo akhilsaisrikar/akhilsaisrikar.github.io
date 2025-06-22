@@ -41,7 +41,7 @@ http://cloud.streamplay.1935/powertv/powertv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,TNN Tv
 http://cloud.streamplay.1935/tnn/tnn/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://akhilsaisrikar.github.io/nstv.jpg" ,NStv 
-http://cloud.streamplay.1935/nstv/nstv/playlist.m3u
+http://cloud.streamplay.1935/nstv/nstv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,Gospel Tv
 http://cloud.streamplay.1935/gospeltv/gospeltv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,News9 Today Tv
