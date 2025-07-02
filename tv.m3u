@@ -35,17 +35,17 @@ http://flextv.link:2052/iptvm3ulink.com/goldclub.tv/1129584
 #EXTINF:-1 tvg-name="TV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/TV9TeluguLogo.jpg/330px-TV9TeluguLogo.jpg" tvg-id="https://tv9telugu.com/" =,TV9
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,Super Tv
-http://cloud.streamplay.1935/supertv/supertv/playlist.m3u8
+http://cloud.streamplay:1935/supertv/supertv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,Power Tv
-http://cloud.streamplay.1935/powertv/powertv/playlist.m3u8
+http://cloud.streamplay:1935/powertv/powertv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,TNN Tv
-http://cloud.streamplay.1935/tnn/tnn/playlist.m3u8
+http://cloud.streamplay:1935/tnn/tnn/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://akhilsaisrikar.github.io/nstv.jpg" ,NStv 
 http://cloud.streamplay:1935/nstv/nstv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,Gospel Tv
-http://cloud.streamplay.1935/gospeltv/gospeltv/playlist.m3u8
+http://cloud.streamplay:1935/gospeltv/gospeltv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,News9 Today Tv
-http://cloud.streamplay.1935/news9/news9/playlist.m3u8
+http://cloud.streamplay:1935/news9/news9/playlist.m3u8
 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-chno="1103" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/da/Local_Television_Limited_logo.png" =,TTD
 https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
 #EXTINF:-1,IN: &Flix
