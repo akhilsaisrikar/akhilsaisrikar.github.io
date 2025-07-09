@@ -292,6 +292,19 @@
         }
       }
     });
+
+    // ✅ Load built-in playlist on page load
+    window.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const response = await fetch("https://akhilsaisrikar.github.io/tv.m3u");
+        const m3uText = await response.text();
+        const parsed = parseM3U(m3uText);
+        loadChannels(parsed);
+      } catch (err) {
+        alert("Failed to load built-in playlist");
+        console.error(err);
+      }
+    });
   </script>
 </body>
 </html>
