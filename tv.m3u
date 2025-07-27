@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="starplus.in" tvg-logo="https://akhilsaisrikar.github.io/NSTV.jpg" group-title="Entertainment",NSTV
+http://live.streamplay.in:1935/nstv/nstv/playlist.m3u8
 #EXTINF:54,Mango TV Telugu
 https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
 #EXTINF:38,10TV
