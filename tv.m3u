@@ -1,5 +1,7 @@
 
 #EXTM3U
+#EXTINF:-1 tvg-id="USBA3700002JF" tvg-name="ET Live" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/08/USBA3700002JF_20200915T081305.png" group-title="Entertainment",ET Live
+https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 #EXTINF:38,10TV
 http://cache.internode.co.in:6081/10TV/index.m3u8
 #EXTINF:24,ABN AndhraJyothi
