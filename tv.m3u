@@ -4,9 +4,9 @@
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 #EXTINF:38,10TV
 http://cache.internode.co.in:6081/10TV/index.m3u8
-#EXTINF:24,ABN AndhraJyothi
+#EXTINF:24 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-logo="https://www.andhrajyothy.com/assets/images/logo.png",ABN AndhraJyothi
 http://cache.internode.co.in:6081/ABNAndhraJyothi/index.m3u8
-#EXTINF:19,Big TV
+#EXTINF:19#EXTINF:24 #EXTINF:-1 tvg-id="USBA3700002JF" tvg-logo="https://www.bigtvlive.com/wp-content/uploads/2024/08/BigTvLive-Telugu-Logo.png",Big TV
 https://cdn-1.pishow.tv/live/1059/master.m3u8
 #EXTINF:24,HMTV
 http://cache.internode.co.in:6081/HMTV/index.m3u8
