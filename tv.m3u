@@ -4,7 +4,7 @@
 https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
 #EXTINF:-1 tvg-id="INBA49000152P" tvg-name="9x Jalwa" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/42/INBA49000152P_20220223T042109.png" group-title="Entertainment",9x Jalwa
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01281-9xmediapvtltd-9xjalwa-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-id="INBA4900031M8" tvg-name="9xjhakaas" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/19/INBA4900031M8_20220223T042110.png" group-title="Entertainment",9xjhakaas
+#EXTINF:-1 tvg-id="INBA4900031M8" tvg-name="9x Jhakaas" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/19/INBA4900031M8_20220223T042110.png" group-title="Entertainment",9xjhakaas
 https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="INBA51000038B" tvg-name="Fashion TV" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/INBA51000038B_20220223T042513.png" group-title="News",Fashion TV
 https://aa1ce778ea0544e4aa7429bc8a16eb1c.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-in_FashionTV/playlist.m3u8
