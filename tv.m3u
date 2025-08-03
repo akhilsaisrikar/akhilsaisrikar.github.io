@@ -1,12 +1,3242 @@
 #EXTM3U
-
-#EXTINF:-1 tvg-id="USBA3700002JF" tvg-name="ET Live" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/08/USBA3700002JF_20200915T081305.png" group-title="Entertainment",ET Live
-https://dai.google.com/linear/hls/event/xrVrJYTmTfitfXBQfeZByQ/master.m3u8
-#EXTINF:-1 tvg-id="INBA49000152P" tvg-name="9x Jalwa" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/42/INBA49000152P_20220223T042109.png" group-title="Entertainment",9x Jalwa
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01281-9xmediapvtltd-9xjalwa-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-id="INBA4900031M8" tvg-name="9x Jhakaas" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/19/INBA4900031M8_20220223T042110.png" group-title="Entertainment",9xjhakaas
-https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-id="INBA51000038B" tvg-name="Fashion TV" tvg-logo="https://tvpmlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/70/02/40/INBA51000038B_20220223T042513.png" group-title="News",Fashion TV
-https://aa1ce778ea0544e4aa7429bc8a16eb1c.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/Samsung-in_FashionTV/playlist.m3u8
-#EXTINF:-1 tvg-id="DEBA3300042XG" tvg-name="Wilder Planet" tvg-logo="https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/26/DEBA3300042XG_20210714T000946.png" group-title="Entertainment",Wilder Planet
-https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00477-samsunguk-wilderplanet-samsunguk-samsunguk/playlist.m3u8
+#EXTINF:17,t.me/allinonereborn
+#EXTVLCOPT:network-caching=1000
+https://embed-cloudfront.wistia.com/deliveries/282114c59788866afb4d40b935a62258.m3u8
+#EXTINF:60,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25974
+#EXTINF:57,PK | ARY DIGITAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221337
+#EXTINF:0,PK | ARY DIGITAL HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25989
+#EXTINF:0,PK | ARY ZINDAGI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25990
+#EXTINF:0,PK: ARY Family
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103673
+#EXTINF:0,PK | Express Entertainment
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26010
+#EXTINF:0,PK | HUM TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221339
+#EXTINF:0,PK | HUM TV (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25981
+#EXTINF:0,PK | HUM SITARAY
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25983
+#EXTINF:0,PK: HUM EUROPE*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103688
+#EXTINF:0,PK: HUM MASALA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103689
+#EXTINF:0,PK: Hum Pashto 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=207397
+#EXTINF:0,PK | GEO ENTERMENT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221338
+#EXTINF:0,PK | GEO ENTERMENT FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25977
+#EXTINF:0,PK | GEO KAHANI HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221341
+#EXTINF:0,PK | Urdu 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221340
+#EXTINF:0,PK | Urdu 1 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26040
+#EXTINF:0,PK: PTV HOME
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221342
+#EXTINF:0,PK: PTV HOME HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103703
+#EXTINF:0,PK | Set Entertainment
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389825
+#EXTINF:0,PK: SAB TV PAK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25975
+#EXTINF:0,PK | A PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25984
+#EXTINF:0,PK | TV ONE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25986
+#EXTINF:0,PK | See HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25982
+#EXTINF:0,PK | ATV ENTERTENMENT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25987
+#EXTINF:0,PK | PTV GLOBAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25994
+#EXTINF:0,PK | Apna Channel
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=25998
+#EXTINF:0,PK | Ary Music Pk
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26000
+#EXTINF:0,PK | Kay 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26023
+#EXTINF:0,PK | Khyber TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26025
+#EXTINF:0,PK | KTN ENTERTAINMENT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26026
+#EXTINF:0,PK | FILMAX
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26038
+#EXTINF:0,PK | Lahore Rung
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26039
+#EXTINF:0,PK | Waseeb TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26042
+#EXTINF:0,PK | Zindgai TV*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26043
+#EXTINF:0,PK | Bol Entertainment HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26045
+#EXTINF:0,PK: 8XM
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103668
+#EXTINF:0,PK: AAJ ENTERTAINMENT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103670
+#EXTINF:0,PK: EAWAZ TV*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103671
+#EXTINF:0,PK: C44
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103677
+#EXTINF:0,PK: Discover Pakistan
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103684
+#EXTINF:0,PK: ARUJ TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103685
+#EXTINF:0,PK: FILMWORLD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103686
+#EXTINF:0,PK: GTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103687
+#EXTINF:0,PK: PLAY TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103699
+#EXTINF:0,PK: Raavi Films
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103705
+#EXTINF:0,PK: SINDH TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103709
+#EXTINF:0,PK: Venus TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=103712
+#EXTINF:0,PK: FILMAZIA ENTERTAINMENT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=105792
+#EXTINF:0,PK | A1 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=105796
+#EXTINF:0,PK: PAKUS TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=105799
+#EXTINF:0,PK | LTN FAMILY
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106114
+#EXTINF:0,PK | KASHISH
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106115
+#EXTINF:0,PK | KOHINOOR NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106116
+#EXTINF:0,PK | ROHI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106117
+#EXTINF:0,PK | JOO MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106118
+#EXTINF:0,PK: PTV NATIONAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=110050
+#EXTINF:0,PK: Khyber Middle East TV*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=110051
+#EXTINF:0,PK: KING TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=110053
+#EXTINF:0,PK : Tag Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=110059
+#EXTINF:0,PK: Mehran Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=110060
+#EXTINF:0,Ary World
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=153291
+#EXTINF:0,PK | JALWA MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167670
+#EXTINF:0,PK: Afghan Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167888
+#EXTINF:0,PK: ISAAS TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244936
+#EXTINF:0,PK: AUR LIFE HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167885
+#EXTINF:0,Pak: Stage Drama 01
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301513
+#EXTINF:0,Pak: Stage Drama 02
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301514
+#EXTINF:0,PAK: PTV BOLAN
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=341213
+#EXTINF:0,Pak: Green entertainment
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=344646
+#EXTINF:0,PK | AAN TV FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371733
+#EXTINF:0,PK | MUN TV FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371734
+#EXTINF:0,PK | FILMAZIA PUNJABI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371763
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245892
+#EXTINF:0,IND-Bangla: Zee Bangla HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245893
+#EXTINF:0,BD-loc: Colors Bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245895
+#EXTINF:0,IND-Bangla: Zee Bangla Cinema
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245897
+#EXTINF:0,IND-Bangla: Star Jalsa HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245898
+#EXTINF:0,IND-Bangla: Jalsa Movies HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245900
+#EXTINF:0,BD-loc: Gazi TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245901
+#EXTINF:0,BD-loc: Channel 9
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245902
+#EXTINF:0,BD-loc: NEWS 24
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245903
+#EXTINF:0,BD-loc: Masranga HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245904
+#EXTINF:0,BD-LOC: ATN News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245905
+#EXTINF:0,IND-Bangla: SUN Bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245906
+#EXTINF:0,BD-LOC: 71banglatv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245907
+#EXTINF:0,BD-LOC: Asian tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245908
+#EXTINF:0,BD-LOC: ATN Bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245909
+#EXTINF:0,BD-LOC: Bangla Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245910
+#EXTINF:0,BD-LOC: RTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245911
+#EXTINF:0,BD-LOC: channel I
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245913
+#EXTINF:0,BD-LOC: Dbc News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245914
+#EXTINF:0,BD | EKATTOR TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245915
+#EXTINF:0,BD-LOC: independent
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245916
+#EXTINF:0,BD-LOC: jamuna tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245917
+#EXTINF:0,BD-LOC: R PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245918
+#EXTINF:0,BD-loc: Mohona tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245920
+#EXTINF:0,BD-loc: DHOOM MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245921
+#EXTINF:0,BD-loc: Btv world
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245922
+#EXTINF:0,BD | BOISHAKHI TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245923
+#EXTINF:0,BD-loc: ntv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245924
+#EXTINF:0,BD-loc: SOMOY tv NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245925
+#EXTINF:0,BD-loc: Deepto tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245927
+#EXTINF:0,BD-loc: Aakaash
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245928
+#EXTINF:0,BD: Ananda TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245929
+#EXTINF:0,BD-loc: BTV-
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245930
+#EXTINF:0,BD-loc: Ruposhi Bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245932
+#EXTINF:0,BD-loc: sangeet bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245933
+#EXTINF:0,BD: GaanbAngla Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245935
+#EXTINF:0,bd-loc: Ekushey TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245937
+#EXTINF:0,bd-loc: Nagorik tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245939
+#EXTINF:0,bd-loc: SANGSAD BANGLADESH
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245940
+#EXTINF:0,bd-loc: R PLUS GOLD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245941
+#EXTINF:0,BD | NEWS TIME TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245942
+#EXTINF:0,BD: EKHON TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245943
+#EXTINF:0,bd-loc: SA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245945
+#EXTINF:0,bd-loc: bijoy tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245946
+#EXTINF:0,BD-Loc: channel S BD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245947
+#EXTINF:0,BD-Loc: Nexus TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245949
+#EXTINF:0,Bd-loc: Tv9 bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245950
+#EXTINF:0,BD: MOVIE BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245951
+#EXTINF:0,BD: ENTER 10 BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245954
+#EXTINF:0,BD | DURONTO TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245955
+#EXTINF:0,BD | BANGLA VISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245957
+#EXTINF:0,SONY YAY!
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245959
+#EXTINF:0,BD | NRB TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245962
+#EXTINF:0,BD | MY TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245964
+#EXTINF:0,BD | ATN MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245965
+#EXTINF:0,BD | DISCOVERY BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245966
+#EXTINF:0,NAT GEO BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245967
+#EXTINF:0,BD: TRAVELXP BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245968
+#EXTINF:0,BD: CHANNEL 24
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245969
+#EXTINF:0,BD | SONY AATH
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245989
+#EXTINF:0,BTV CTG
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245990
+#EXTINF:0,ABP ANANDA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245991
+#EXTINF:0,NEWS 18 BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=245992
+#EXTINF:0,JONMO BHUMI TV **
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246001
+#EXTINF:0,BANGLA 21 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246003
+#EXTINF:0,BD | AMAR BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246007
+#EXTINF:0,BD-UK: ATN BANGLA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246010
+#EXTINF:0,BD: channel S UK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301102
+#EXTINF:0,IN: Republic Bangla
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355824
+#EXTINF:0,***KIDS***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106148
+#EXTINF:0,IN: Cartoon Network
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=150478
+#EXTINF:0,IN: Pogo
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=150483
+#EXTINF:0,IN: Cartoon Network HD+
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=153154
+#EXTINF:0,IN | Sony yay
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26187
+#EXTINF:0,IN: Hungama**
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=150480
+#EXTINF:0,IN: Nick
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=150482
+#EXTINF:0,IND: Nick Junior
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=153156
+#EXTINF:0,Discovery kids
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=76723
+#EXTINF:0,IN: Disney Junior
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=153175
+#EXTINF:0,KIDS: Chutti Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=150479
+#EXTINF:0,IN | DISNEY HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167551
+#EXTINF:0,IN: NICK SONIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=34011
+#EXTINF:0,NICK HD+ [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=76722
+#EXTINF:0,PK | Kids Zone+ HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383066
+#EXTINF:0,24/7 MOTU PATLU 01
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=307079
+#EXTINF:0,24/7 MOTU PATLU 02
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=311373
+#EXTINF:0,24/7 SHIVA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=342074
+#EXTINF:0,24/7 CHUCHU TV 
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=340807
+#EXTINF:0,24/7 Baal Veer 
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=340809
+#EXTINF:0,24/7 Chacha Bhatija
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=311774
+#EXTINF:0,24/7 Wow Kids Action
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=314753
+#EXTINF:0,24/7 Vir The Robot Boy
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=314754
+#EXTINF:0,24/7 KIDS | DORAEMON
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=388459
+#EXTINF:0,KIDS: PINK PANTHER 24/7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301503
+#EXTINF:0,KIDS: CHU CHU TV 24/7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301502
+#EXTINF:0,KIDS: Sonic 24/7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301500
+#EXTINF:0,KIDS: MR BEAN (CARTOON) 24/7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301501
+#EXTINF:0,KIDS: CoComelon TV 24/7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301499
+#EXTINF:0,24/7 Kids: All Hail King Julien_ Exiled
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301504
+#EXTINF:0,24/7 Kids: Rick And Morty
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301505
+#EXTINF:0,24/7 Kids: Masha and the Bear
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301506
+#EXTINF:0,24/7 Kids: Little Baby Bum
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301507
+#EXTINF:0,24/7 Kids: The Boss Baby_ Back in Business
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301508
+#EXTINF:0,24/7 Kids: Peppa Pig
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301509
+#EXTINF:0,24/7 Kids: Blippi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301510
+#EXTINF:0,24/7 Kids: Kids: Gabby_s Dollhouse
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=301511
+#EXTINF:0,Oggy and the Cockroaches Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=308282
+#EXTINF:0,24/7 Chhota Bheem
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=315401
+#EXTINF:0,24/7 Tom & Jerry
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=329247
+#EXTINF:0,24/7 Scooby-Doo
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=329248
+#EXTINF:0,24/7 Booba
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=340803
+#EXTINF:0,24/7 KIDS SONGS HINDI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=340802
+#EXTINF:0,24/7 BabyBus | Nursery Rhymes
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=340804
+#EXTINF:0,24/7 KIDS | MOV HINDI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362998
+#EXTINF:0,24/7 KIDS | MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362999
+#EXTINF:0,24/7 KIDS | MOVIES ENG 01
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363000
+#EXTINF:0,24/7 KIDS | MOVIES ENG 02
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363001
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=26014
+#EXTINF:0,PK: PTV SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167567
+#EXTINF:0,PK: PTV SPORTS HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=217968
+#EXTINF:0,PK | Geo Super HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167568
+#EXTINF:0,PK: TEN SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167569
+#EXTINF:0,T20 WORLD CUP 01
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219643
+#EXTINF:0,PK: A Sports HD (Server 1)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219689
+#EXTINF:0,PK: A Sports HD (Server 2)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221417
+#EXTINF:0,IN | SONY TEN 1 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167570
+#EXTINF:0,IN | SONY TEN 2 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167571
+#EXTINF:0,IN | SONY TEN 3 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167572
+#EXTINF:0,IN | SONY TEN 4 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167595
+#EXTINF:0,IN | SONY TEN 5 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167580
+#EXTINF:0,CRI: Ten Cricket
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167587
+#EXTINF:0,IN: STAR SPORTS 1 Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167573
+#EXTINF:0,IN: Star Sports tamil 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167574
+#EXTINF:0,IN | Star Sports 1 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167575
+#EXTINF:0,IN | Star Sports 2 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167576
+#EXTINF:0,IN | Star Sports 3 HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167577
+#EXTINF:0,IN | STAR SPORTS SELECT 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167578
+#EXTINF:0,IN | STAR SPORTS SELECT 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167579
+#EXTINF:0,IN: Sports 18 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382205
+#EXTINF:0,IN | Astro Cricket HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167581
+#EXTINF:0,SuperSport Cricket
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167592
+#EXTINF:0,AU: FOX CRICKET 501
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167593
+#EXTINF:0,UK: Sky Sports Cricket
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167594
+#EXTINF:0,IN | Willow Xtra
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167582
+#EXTINF:0,IN: Willow Cricket HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167583
+#EXTINF:0,BS | beIN SPORT CRICKET
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167584
+#EXTINF:0,IN: EUROSPORT HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167585
+#EXTINF:0,IN: 1SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167586
+#EXTINF:0,IN: DD Sports
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167588
+#EXTINF:0,T-SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167590
+#EXTINF:0,AFG: RTA SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=167591
+#EXTINF:0,IND: jio Cricket
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206297
+#EXTINF:0,UK: TNT Sport 2 CRICKET
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206566
+#EXTINF:0,PK: MAQ TV CRICKET
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=207190
+#EXTINF:0,NZ: SKY Sport Cricket 3
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=217530
+#EXTINF:0,PK: FAST SPORTS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=308225
+#EXTINF:0,StarzPlay CricLife 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371469
+#EXTINF:0,StarzPlay CricLife 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371470
+#EXTINF:0,StarzPlay CricLife 3
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=371471
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=222375
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238568
+#EXTINF:0,Af | DSTV: Studio Universal
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238576
+#EXTINF:0,Af | DSTV: KIX *
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238577
+#EXTINF:0,Af | DSTV: Me HD*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238578
+#EXTINF:0,Af | DSTV: Universal TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238579
+#EXTINF:0,Af | DSTV: Telemundo*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238580
+#EXTINF:0,Af | DSTV: BBC Brit
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238581
+#EXTINF:0,Af | DSTV: BET
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238582
+#EXTINF:0,Af | DSTV: 1 Magic
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238583
+#EXTINF:0,Af | DSTV: CBS Reality HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238585
+#EXTINF:0,Af | DSTV: TLNovelas*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238586
+#EXTINF:0,Af | DSTV: TLC HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238587
+#EXTINF:0,Af | DSTV: Comedy Central HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238590
+#EXTINF:0,Af | DSTV: TNT Africa*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238591
+#EXTINF:0,Af | DSTV: kyk NET
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238592
+#EXTINF:0,Af | DSTV: kyk NET & Kie
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238593
+#EXTINF:0,Af | DSTV: Africa Magic Epic
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238594
+#EXTINF:0,Af | DSTV: Africa Magic Urban
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238595
+#EXTINF:0,Af | DSTV: Africa Magic lgbo
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238596
+#EXTINF:0,Af | DSTV: Africa Magic Showcase
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238598
+#EXTINF:0,Af | DSTV: Africa Magic Hausa*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238599
+#EXTINF:0,Af | DSTV: Africa Magic Family
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238600
+#EXTINF:0,Af | DSTV: Mzansi Magic HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383059
+#EXTINF:0,Af | DSTV: Africa Magic Yoruba
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238601
+#EXTINF:0,Af | DSTV: Mzansi Bioskop
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238603
+#EXTINF:0,Af | DSTV: Novela Magic*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238604
+#EXTINF:0,Af | DSTV: Zee World
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238605
+#EXTINF:0,Af | DSTV: Star Life
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238606
+#EXTINF:0,Af | DSTV: ROK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238607
+#EXTINF:0,Af | DSTV: SABC 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238608
+#EXTINF:0,Af | DSTV: SABC 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238609
+#EXTINF:0,Af | DSTV: SABC 3
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238610
+#EXTINF:0,Af | DSTV: E.TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238611
+#EXTINF:0,Af | DSTV: Big Brother Naija
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238613
+#EXTINF:0,Af | DSTV: Mzansi Wethu
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238614
+#EXTINF:0,Af | DSTV: Soweto TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238615
+#EXTINF:0,Af | DSTV: Mpuma Kapa TV*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238616
+#EXTINF:0,Af | DSTV: 1 KZN
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238617
+#EXTINF:0,Af | DSTV: Tshwane TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238618
+#EXTINF:0,Af | DSTV: Cape Town TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238619
+#EXTINF:0,Af | DSTV: Gau TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238620
+#EXTINF:0,Af | DSTV: Lesotho TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238621
+#EXTINF:0,Af | DSTV: RTP Internacional
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238623
+#EXTINF:0,Af | DSTV: TV5 Monde Afrique*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238624
+#EXTINF:0,Af | DSTV: CCTV 4*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238625
+#EXTINF:0,Af | DSTV: Real Time*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238626
+#EXTINF:0,Af | DSTV: Moja Love*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238627
+#EXTINF:0,Af | DSTV: M-Net City
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238628
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238524
+#EXTINF:0,Af | DSTV: Cartoon Network HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238525
+#EXTINF:0,Af | DSTV: Boomerang HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238526
+#EXTINF:0,Af | DSTV: Disney Channel HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238527
+#EXTINF:0,Af | DSTV: Disney Junior HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238528
+#EXTINF:0,Af | DSTV: Nickelodeon HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238529
+#EXTINF:0,Af | DSTV: NickToons HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238530
+#EXTINF:0,Af | DSTV: Nick Jr. HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238531
+#EXTINF:0,Af | DSTV: Cbeebies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238532
+#EXTINF:0,Af | DSTV: JimJam
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238533
+#EXTINF:0,Af | DSTV: eToonz
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238534
+#EXTINF:0,Af | DSTV: PBS Kids
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238535
+#EXTINF:0,Af | DSTV: Da Vinci
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238536
+#EXTINF:0,Af | DSTV: Mindset Learn
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238537
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238551
+#EXTINF:0,Af | DSTV: E!
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238552
+#EXTINF:0,Af | DSTV: VIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238553
+#EXTINF:0,Af | DSTV: Honey*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238554
+#EXTINF:0,Af | DSTV: BBC Life Style
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238555
+#EXTINF:0,Af | DSTV: Food Network HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238556
+#EXTINF:0,Af | DSTV: The Home Channel
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238557
+#EXTINF:0,Af | DSTV: HGTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238558
+#EXTINF:0,Af | DSTV: Travel Channel HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238559
+#EXTINF:0,Af | DSTV: Spice TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238560
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238561
+#EXTINF:0,Af | DSTV: Dumisa
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238562
+#EXTINF:0,Af | DSTV: Faith
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238563
+#EXTINF:0,Af | DSTV: Day Star
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238564
+#EXTINF:0,Af | DSTV: TBN Africa
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238565
+#EXTINF:0,Af | DSTV: iTV Networks
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238566
+#EXTINF:0,Af | DSTV: Emmanuel TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238567
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238633
+#EXTINF:0,Af | DSTV: kyk NET Nou!
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238634
+#EXTINF:0,Af | DSTV: Channel O
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238635
+#EXTINF:0,Af | DSTV: Mzansi Magic Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238636
+#EXTINF:0,Af | DSTV: MTV Base
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238637
+#EXTINF:0,Af | DSTV: MTV Hits**
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238638
+#EXTINF:0,Af | DSTV: MTV Music HD*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238639
+#EXTINF:0,Af | DSTV: Trace Africa*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238640
+#EXTINF:0,Af | DSTV: Trace Gospel*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238641
+#EXTINF:0,Af | DSTV: Trace Urban*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238642
+#EXTINF:0,Af | DSTV: Sound City
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238643
+#EXTINF:0,Af | DSTV: One Gospel
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=238644
+#EXTINF:0,24/7 WWE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=388817
+#EXTINF:0,US: WWE HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383062
+#EXTINF:0,ZA: WWE Superslam
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383061
+#EXTINF:0,CA: SportsNet WWE FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383064
+#EXTINF:0,AR: OSN WWE Network HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383063
+#EXTINF:0,My: WWE Network HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383065
+#EXTINF:0,IN | Zoom TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66190
+#EXTINF:0,IN | 9xm
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66192
+#EXTINF:0,IN | B4u Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66203
+#EXTINF:0,IN | 9x Jalwa
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66226
+#EXTINF:0,IN | MTV BEAT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66273
+#EXTINF:0,IN | YRF MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383530
+#EXTINF:0,IN | SHOWBOX MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383529
+#EXTINF:0,ind-pun: Pittara TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66285
+#EXTINF:0,IN | 9x Tashan
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66289
+#EXTINF:0,***IND: DRAMA (4K ULTRA HD)***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109946
+#EXTINF:0,Colors (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109947
+#EXTINF:0,SONY SET (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109948
+#EXTINF:0,Star Plus (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109949
+#EXTINF:0,ZEE TV (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109950
+#EXTINF:0,STAR BHARAT (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109951
+#EXTINF:0,&tv (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109952
+#EXTINF:0,SONY SAB (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109953
+#EXTINF:0,IN: Mastii
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112988
+#EXTINF:0,IN: UTV Bindass
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112993
+#EXTINF:0,IND-Punjabi: PTC MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=153373
+#EXTINF:0,MUSIC INDIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=190028
+#EXTINF:0,IN: Boogle Bollywood
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206045
+#EXTINF:0,IND: MTV HD +
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206049
+#EXTINF:0,IND: MTV India
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206054
+#EXTINF:0,IN | BBC EART HINDI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206278
+#EXTINF:0,IN | BBC EART ENG
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383184
+#EXTINF:0,IND: Animal Planet Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206282
+#EXTINF:0,IN: Animal Planet FHD ENG
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206283
+#EXTINF:0,IND: Nat Geo HD Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206285
+#EXTINF:0,IND: Nat Geo HD ENG
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383183
+#EXTINF:0,IN | Nat Geo Wild HINDI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206286
+#EXTINF:0,IN | Nat Geo Wild FHD ENG
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206587
+#EXTINF:0,IND: Discovery Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206287
+#EXTINF:0,IND: Discovery Science
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206289
+#EXTINF:0,IND: Investigation Discovery Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206291
+#EXTINF:0,IND: Discovery Turbo
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206292
+#EXTINF:0,IND: Travel XP Eng
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206279
+#EXTINF:0,IND: Travel_XP Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206280
+#EXTINF:0,IND: History 18 Hindi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206294
+#EXTINF:0,IN: History TV 18 FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206295
+#EXTINF:0,IND: Epic
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206296
+#EXTINF:0,IND:PB: Balle Balle
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219495
+#EXTINF:0,IND:PB: Wah Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219496
+#EXTINF:0,IND: ZING
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219497
+#EXTINF:0,***IND: MOVIES (4K ULTRA HD)***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109954
+#EXTINF:0,&pictures (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109955
+#EXTINF:0,SONY MAX (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109957
+#EXTINF:0,ZEE CINEMA (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109958
+#EXTINF:0,Star GOLD (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109959
+#EXTINF:0,Star Gold Select (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109960
+#EXTINF:0,Movies_active (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109961
+#EXTINF:0,& flix (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109962
+#EXTINF:0,& Prive (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109963
+#EXTINF:0,& Xplorer (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109964
+#EXTINF:0,MN+ (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109965
+#EXTINF:0,SONY PIX (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109966
+#EXTINF:0,Movies Now (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109968
+#EXTINF:0,STAR MOVIES (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109970
+#EXTINF:0,STAR WORLD (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109971
+#EXTINF:0,DISCOVERY (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109974
+#EXTINF:0,ANIMAL PLANET (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109975
+#EXTINF:0,NAT Geo Wild (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109976
+#EXTINF:0,National GEO (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109977
+#EXTINF:0,Sony BBC Ear (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109978
+#EXTINF:0,FOX Life (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109980
+#EXTINF:0,IN: COLORS CINEPLEX (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206315
+#EXTINF:0,IN: Jalsha Movies (4K)*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206320
+#EXTINF:0,***IND: SPORTS (4K ULTRA HD)***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109982
+#EXTINF:0,Sony Ten 1 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109983
+#EXTINF:0,Sony Ten 2 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109984
+#EXTINF:0,Sony Ten 3 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109985
+#EXTINF:0,Star Sport 1 HINDI (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109986
+#EXTINF:0,Star Sports 1 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109987
+#EXTINF:0,Star Sports 2 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109988
+#EXTINF:0,STAR 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=390407
+#EXTINF:0,SONY SIX (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109992
+#EXTINF:0,Star Sports Select 1 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109993
+#EXTINF:0,Star Sports Select 2 (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=109994
+#EXTINF:0,IN: EUROPSPORT (4K)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206324
+#EXTINF:0,***** IN | India *****
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66161
+#EXTINF:0,IN | Zee TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221250
+#EXTINF:0,IN | Zee TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66162
+#EXTINF:0,IN | Zee TV [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66163
+#EXTINF:0,IN | Sony SET (TATAPLAY)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221251
+#EXTINF:0,IN | Sony SET HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66164
+#EXTINF:0,IN | Sony SET [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66165
+#EXTINF:0,IN | Star Plus
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221252
+#EXTINF:0,IN | Star Plus HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66166
+#EXTINF:0,IN | Star Plus FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66208
+#EXTINF:0,IN | Colors
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221254
+#EXTINF:0,IN | Colors HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66167
+#EXTINF:0,IN | Colors [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66168
+#EXTINF:0,IN | Star Bharat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221255
+#EXTINF:0,IN | Star Bharat HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66170
+#EXTINF:0,IN | Star Bharat [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66171
+#EXTINF:0,IN | Sony Sab
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221256
+#EXTINF:0,IN | Sony Sab HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66174
+#EXTINF:0,IN | Sony Sab UK*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66175
+#EXTINF:0,IN: SONY SAB [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104194
+#EXTINF:0,IN | &Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221253
+#EXTINF:0,IN | &Tv HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66172
+#EXTINF:0,IN | &Tv [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66173
+#EXTINF:0,IN | STAR GOLD THRILLS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221258
+#EXTINF:0,IN | Star Gold HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66177
+#EXTINF:0,IN | Star Gold [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66178
+#EXTINF:0,IN | Star Gold Select
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221257
+#EXTINF:0,IN | Star Gold Select FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66176
+#EXTINF:0,IND: Star Gold 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106133
+#EXTINF:0,IN: STAR GOLD HD (TATASKY)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112982
+#EXTINF:0,IN | & Pictures
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221260
+#EXTINF:0,IN | & Pictures HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66181
+#EXTINF:0,IN | & Pictures [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66183
+#EXTINF:0,IN | ZEE CINEMA FHD (TATASKY)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221261
+#EXTINF:0,IN | ZEE CINEMA HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206307
+#EXTINF:0,IN | ZEE CINEMA [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206308
+#EXTINF:0,IND: Zee Cinema USA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206268
+#EXTINF:0,IN: Dhamaka Movies B4U
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66184
+#EXTINF:0,IN: Oscar Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66185
+#EXTINF:0,IN: STAR GOLD ROMANCE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66186
+#EXTINF:0,IN: COLORS CINEPLEX
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104191
+#EXTINF:0,IN: COLORS CINEPLEX FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206310
+#EXTINF:0,IN | Sony Max (TATAPLAY)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=221259
+#EXTINF:0,IN | Sony Max HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66179
+#EXTINF:0,IN | Sony Max [FHD]
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66180
+#EXTINF:0,IN | SONY MAX 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66189
+#EXTINF:0,IN | Zee Anmol Cinema
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66187
+#EXTINF:0,IN | Colors Rishtey
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66188
+#EXTINF:0,IN: Color Cineplex SuperHits
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66199
+#EXTINF:0,IN | ZEE ACTION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66191
+#EXTINF:0,IN | ZEE CLASSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66201
+#EXTINF:0,IN: Bflix Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104190
+#EXTINF:0,IN | Sony Pal
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104192
+#EXTINF:0,IND: BIG MAGIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104198
+#EXTINF:0,IND: B4U Kadak
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104199
+#EXTINF:0,IND: ABZY MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104200
+#EXTINF:0,IND: B4U Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104201
+#EXTINF:0,IN | Evergreeen Classic
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=384600
+#EXTINF:0,IND: ENTER 10 Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104202
+#EXTINF:0,IND: MANORANJAN TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104203
+#EXTINF:0,IN | Zee Anmol
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66357
+#EXTINF:0,IND: MANORANJAN MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104204
+#EXTINF:0,IN | Maha Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=104206
+#EXTINF:0,IN: WOW CINEMA ONE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=106132
+#EXTINF:0,IN: |UK| ZEE CINEMA UK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112970
+#EXTINF:0,IN: STAR UTSAV MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112971
+#EXTINF:0,IN: GOLDMINES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112972
+#EXTINF:0,IN: GOLDMINES BOLLYWOOD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112973
+#EXTINF:0,IN: DD National
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112975
+#EXTINF:0,IN: ZEE TV CANADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112976
+#EXTINF:0,IN: STAR UTSAV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112977
+#EXTINF:0,IND: DHAMAAL TV*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112978
+#EXTINF:0,IN | Sony Wah
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112979
+#EXTINF:0,IND: Colors Cineplex Bollywood
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112983
+#EXTINF:0,IN: MBC BOLLYWOOD*
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112984
+#EXTINF:0,IN: GEM BOLLYWOOD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=112986
+#EXTINF:0,IND: Dabangg
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206270
+#EXTINF:0,IND: Zee Cinema SD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206271
+#EXTINF:0,IN: MOVIES ACTIVE FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206276
+#EXTINF:0,IN | ZEE AFLAM
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=206277
+#EXTINF:0,IN: ZEE Bollywood
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=207200
+#EXTINF:0,IN | Star World HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66211
+#EXTINF:0,IN | Star Movies FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66213
+#EXTINF:0,IN | Sony Pix FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66224
+#EXTINF:0,IN | &Prive FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66228
+#EXTINF:0,IN | HBO HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66229
+#EXTINF:0,IN | & Flix FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66236
+#EXTINF:0,IN: & Explor FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66241
+#EXTINF:0,IN: MNX FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66266
+#EXTINF:0,IN | Movies Now FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66271
+#EXTINF:0,IN | BBO HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66277
+#EXTINF:0,IN | Fox Life FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66278
+#EXTINF:0,IN | Romedy Now
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66282
+#EXTINF:0,IN | Zee Cafe HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66287
+#EXTINF:0,IN | Star Movies Select HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=66315
+#EXTINF:0,IND: Bhojpuri_Cinema
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=269091
+#EXTINF:0,IND: GOLDMINES MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=275337
+#EXTINF:0,IND: BBO CLASSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=308228
+#EXTINF:0,24/7 MUSIC 18
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362865
+#EXTINF:0,24/7 MUSIC 19
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362866
+#EXTINF:0,24/7 MUSIC 20
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362867
+#EXTINF:0,24/7 MUSIC 21
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=362868
+#EXTINF:0,IN: 24/7 MUSIC 01
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=219498
+#EXTINF:0,IN: 24/7 MUSIC 02
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270503
+#EXTINF:0,IN: 24/7 MUSIC 03
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270504
+#EXTINF:0,24/7 MUSIC 04
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270505
+#EXTINF:0,24/7 MUSIC 05
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270506
+#EXTINF:0,24/7 MUSIC 06
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270507
+#EXTINF:0,24/7 MUSIC 07
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270508
+#EXTINF:0,24/7 MUSIC 08
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270509
+#EXTINF:0,24/7 MUSIC 09
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270510
+#EXTINF:0,24/7 MUSIC 10
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270511
+#EXTINF:0,24/7 MUSIC 11
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270512
+#EXTINF:0,24/7 MUSIC 12
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270513
+#EXTINF:0,24/7 MUSIC 13
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270514
+#EXTINF:0,24/7 MUSIC 14
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270515
+#EXTINF:0,24/7 MUSIC 15
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270516
+#EXTINF:0,24/7 MUSIC 16
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270517
+#EXTINF:0,24/7 MUSIC 17
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=270518
+#EXTINF:0,DOC | NAT GEO WILD Safari
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363003
+#EXTINF:0,DOC | Nat Geo Wild and Worlds Deadliest
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363004
+#EXTINF:0,DOC | Nat Geo Wild Newest Clips
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363005
+#EXTINF:0,DOC | Nat Geo Wild NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363006
+#EXTINF:0,DOC | Wildlife HINDI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=363002
+#EXTINF:0,IN: Dangal 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=356002
+#EXTINF:0,IN: Dangal
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355655
+#EXTINF:0,IND: DHINCHAAK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=374980
+#EXTINF:0,IN: Manoranjan Grand
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355999
+#EXTINF:0,IN: B4U Bhojpuri
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355988
+#EXTINF:0,IN: Shemaroo TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355809
+#EXTINF:0,IN: Colors Infinity FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355571
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244361
+#EXTINF:0,IND:PB:  PB: PTC Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244362
+#EXTINF:0,IND: PB: Pop Pataka HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244363
+#EXTINF:0,IND: PB: Brit Asia
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244364
+#EXTINF:0,IND: MH1 Prime
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244365
+#EXTINF:0,IND:PB:  PTC Gold
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244366
+#EXTINF:0,IND: PB: Sangat TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244367
+#EXTINF:0,IND:PB: PTC Chak De
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244368
+#EXTINF:0,IND: Jus Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244369
+#EXTINF:0,IND:PB:  PTC News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244370
+#EXTINF:0,IND:PB: Pitara
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244371
+#EXTINF:0,IND: PB: Desi Channel
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244372
+#EXTINF:0,IND: HINDI_Chakde TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244373
+#EXTINF:0,IND:PB: mh1_Shraddha
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244374
+#EXTINF:0,IND:PB: Living_India_News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244375
+#EXTINF:0,IND:PB: JUSOne
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244376
+#EXTINF:0,IND:PB: JUS24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244377
+#EXTINF:0,IND:PB: Chardikla_Time_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244378
+#EXTINF:0,IND:PB:  PTC Simran
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244379
+#EXTINF:0,IND: PB: Hulchul TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244380
+#EXTINF:0,IND:PB: PTC Dhol
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244381
+#EXTINF:0,IND:PB: PTC Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244382
+#EXTINF:0,IND:PB: Balle Balle
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244383
+#EXTINF:0,IND:PB: Wah Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244384
+#EXTINF:0,IND:PB: World Punjab
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244385
+#EXTINF:0,IND:PB: Gurkebaani
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244386
+#EXTINF:0,IND: PB: Garv Gurbani
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244387
+#EXTINF:0,IND: PB: Gaunda Punjab TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244388
+#EXTINF:0,IND:PB: Only Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244389
+#EXTINF:0,IND:PB: ITV 24
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244390
+#EXTINF:0,IND: PB: SWAG SADDA VAKRAA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244391
+#EXTINF:0,IND: PTC News (Sling)
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244392
+#EXTINF:0,IND: PB: 7X Music HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244393
+#EXTINF:0,IND: PB: Punjab Plus HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244394
+#EXTINF:0,IND: PB: News Only
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244395
+#EXTINF:0,IND: PB: Sri Patna Sahib
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244396
+#EXTINF:0,IND: PB: Punjab1 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244397
+#EXTINF:0,IND: PB: Sangat TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244398
+#EXTINF:0,IND: PB: Punjab Plus HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244399
+#EXTINF:0,IND: PB: Steelbird Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244400
+#EXTINF:0,IND: PB: Rangrez TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244401
+#EXTINF:0,IND: PB: Hamdard TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244402
+#EXTINF:0,IND: PB: Parvasi TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244403
+#EXTINF:0,IND:PB: PBN Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244404
+#EXTINF:0,IND: Jus Punjabi ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244405
+#EXTINF:0,IND: Garv Punjab ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244406
+#EXTINF:0,IND: Garv Punjab
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244407
+#EXTINF:0,IND: PTC Punjabi ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244408
+#EXTINF:0,IND: PTC Simran ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244409
+#EXTINF:0,IND: PTC Punjabi Gold ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244410
+#EXTINF:0,IND: PTC Dhol TV ( SLING )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244411
+#EXTINF:0,IND: News18 Punjab Haryana HP
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244413
+#EXTINF:0,IND: DD Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244414
+#EXTINF:0,IND: Zee Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244415
+#EXTINF:0,IND: Etc Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244416
+#EXTINF:0,IND: Zee Punjab Haryana Himachal Pradesh
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244417
+#EXTINF:0,IN: PTC Punjabi Gold
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355565
+#EXTINF:0,IN: Fateh TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355695
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380936
+#EXTINF:0,IND: TG: Maa Movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250841
+#EXTINF:0,IND: TG: STAR MAA MOVIES FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381117
+#EXTINF:0,IND: TG: Maa HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250843
+#EXTINF:0,IND: TG: STAR MAA FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381103
+#EXTINF:0,IND: TG: STAR MAA GOLD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250845
+#EXTINF:0,IND: TG: ZEE TELUGU
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250844
+#EXTINF:0,IND: TG: GEMINI movies
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250846
+#EXTINF:0,IND: TG: GEMINI comedy
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250847
+#EXTINF:0,IND: TG: Gemini life
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250848
+#EXTINF:0,IND: TG: Etv HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250842
+#EXTINF:0,IND: TG: ETV PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250849
+#EXTINF:0,IND: TG: ETV LIFE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250850
+#EXTINF:0,IND: TG: ETV Cinema
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250851
+#EXTINF:0,IND: TG: GEMINI MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250852
+#EXTINF:0,IND: TG: Gemini HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250855
+#EXTINF:0,IND: TG: Raj Musix
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250853
+#EXTINF:0,IND: TG: TV9 Telugu
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=250854
+#EXTINF:0,IND: TG: ETV ABHIRUCHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381112
+#EXTINF:0,IND: TG: ZEE CINEMALU HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381108
+#EXTINF:0,IND: TG: SONY BBC EARTH FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381102
+#EXTINF:0,IND: TG: NAT GEO WILD FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381099
+#EXTINF:0,IND: TG: DISCOVERY CHANNEL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381095
+#EXTINF:0,IND: TG: CARTOON NETWORK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381094
+#EXTINF:0,IND: TG: SONY PIX FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381093
+#EXTINF:0,IND: TG: 10 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381088
+#EXTINF:0,IND: TG: RAJ NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381086
+#EXTINF:0,IND: TG: ABN ANDHRA JYOTHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381085
+#EXTINF:0,IND: TG: TV5 NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381084
+#EXTINF:0,IND: TG: VANITHA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381083
+#EXTINF:0,IND: TG: STUDIO YUVA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381180
+#EXTINF:0,IND: TG: HISTORY 18 FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381179
+#EXTINF:0,IND: TG: VISSA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381176
+#EXTINF:0,IND: TG: T NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381171
+#EXTINF:0,IND: TG: DD SAPTAGIRI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381166
+#EXTINF:0,IND: TG: ETV ANDHRA PRADESH
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381164
+#EXTINF:0,IND: TG: ETV TELANGANA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381159
+#EXTINF:0,ININD: TG: SAKSHI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381154
+#EXTINF:0,IND: TG: TATA PLAY FITNESS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381147
+#EXTINF:0,IND: TG: TATA PLAY HOLLYWOOD LOCAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381146
+#EXTINF:0,IND: TG: TATA PLAY ENGLISH IN TELUGU
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381145
+#EXTINF:0,IND: TG: DISCOVERY WORLD FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381141
+#EXTINF:0,IND: TG: NATIONAL GEOGRAPHIC FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381139
+#EXTINF:0,IND: TG: TATA PLAY TOONS+
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381130
+#EXTINF:0,IND: TG: GUBBARE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381129
+#EXTINF:0,IND: TG: NTV TELUGU
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381126
+#EXTINF:0,IND: TG: V6 NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381124
+#EXTINF:0,IND: TG: 4TV NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381121
+#EXTINF:0,IND: TG: Kushi TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382286
+#EXTINF:0,IND: TG: iNews
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382285
+#EXTINF:0,IND: TG: India Now
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382284
+#EXTINF:0,IND: TG: HMTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382283
+#EXTINF:0,IND: TG: Swatantra News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382282
+#EXTINF:0,IND: TG: Subhavartha_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382281
+#EXTINF:0,IND: TG: Studio One
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382280
+#EXTINF:0,IND: TG: Sonic Telugu
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382279
+#EXTINF:0,IND: TG: CVR News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382278
+#EXTINF:0,IND: TG: CVR Health
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382277
+#EXTINF:0,IND: TG: CVR English News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382276
+#EXTINF:0,IND: TG: CN HD+ Telugu
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382275
+#EXTINF:0,IND: TG: CARTOON NETWORK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382274
+#EXTINF:0,IND: TG: Calvary TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382273
+#EXTINF:0,IND: TG: Big TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382272
+#EXTINF:0,IND: TG: 99 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382271
+#EXTINF:0,IND: TG: PMC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382270
+#EXTINF:0,IND: TG: Sri Venkateshwar Bhakti   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382294
+#EXTINF:0,IIND: TG: Hindu Dharmam  ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382293
+#EXTINF:0,IND: TG: Aastha Telugu    ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382292
+#EXTINF:0,IND: TG: OM CVR  ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382291
+#EXTINF:0,IND: TG: SVBC2  ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382290
+#EXTINF:0,IND: TG: Krishna Vani ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382289
+#EXTINF:0,IND: TG: Bhakti TV   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382288
+#EXTINF:0,IND: TG: Aradana TV  ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382287
+#EXTINF:0,IN-TM | PUTIYA THALAMURAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381078
+#EXTINF:0,IN-TM | JAYA MAX
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381076
+#EXTINF:0,IN-TM | COLORS HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381073
+#EXTINF:0,IN-TM | RAJ DIGITAL PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381068
+#EXTINF:0,IN-TM | MAKKAL TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381067
+#EXTINF:0,IN-TM | DD PODHIGAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381065
+#EXTINF:0,IN-TM | POLIMER NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381062
+#EXTINF:0,IN-TM | JAYA TV FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381061
+#EXTINF:0,IN-TM | Janam Tamil
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381058
+#EXTINF:0,IN-TM | NEWS TAMIL 24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381055
+#EXTINF:0,IN-TM | MEGA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381047
+#EXTINF:0,IN-TM | VASANTH TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381046
+#EXTINF:0,IN-TM | Jaya TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381044
+#EXTINF:0,IN-TM | MADHA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381042
+#EXTINF:0,IN-TM | NAMBIKKAI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381041
+#EXTINF:0,IN-TM | PEPPERS TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381040
+#EXTINF:0,IN-TM | NEWS18 TAMIL NADU
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381032
+#EXTINF:0,IN-TM | SATHIYAM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381030
+#EXTINF:0,IN-TM | NEWS J
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381029
+#EXTINF:0,IN-TM | GOOD TIMES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381026
+#EXTINF:0,IN-TM | DISCOVERY CHANNEL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381020
+#EXTINF:0,IN-TM | CN HD+
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381019
+#EXTINF:0,IN-TM | DISNEY JUNIOR
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381018
+#EXTINF:0,IN-TM | TATA PLAY TOONS+
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381017
+#EXTINF:0,IN-TM | POLIMER TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381015
+#EXTINF:0,IN-TM | Tamil One
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381014
+#EXTINF:0,IN-TM | THANTHI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381012
+#EXTINF:0,IN-TM | SEITHIGAL TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381011
+#EXTINF:0,IN-TM | PUTHIYA THALAIMURAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381010
+#EXTINF:0,IN-TM | NEWS 7 TAMIL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381009
+#EXTINF:0,IN-TM | ISAI ARUVI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381008
+#EXTINF:0,IN-TM | TTN 24 TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381007
+#EXTINF:0,IN-TM | ATHAVAN TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381006
+#EXTINF:0,IN-TM | PUTHU YUGAM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381005
+#EXTINF:0,IN-TM | VENDHAR TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381004
+#EXTINF:0,IN-TM | IBC ISAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381003
+#EXTINF:0,IN-TM | IBC MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381002
+#EXTINF:0,IN-TM | EET TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381001
+#EXTINF:0,IN-TM | IBC COMEDY
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381000
+#EXTINF:0,IN-TM | IBC CANADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380999
+#EXTINF:0,IN-TM | IBC TAMIL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380998
+#EXTINF:0,IN-TM | CHUTTI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380997
+#EXTINF:0,IN-TM | ADITHYA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380995
+#EXTINF:0,IN-TM | KALAIGNAR TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380990
+#EXTINF:0,IN-TM | RAJ TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380989
+#EXTINF:0,IN-TM | RAJ MUSIX
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380988
+#EXTINF:0,IN-TM | RAJ NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380987
+#EXTINF:0,IN-TM | SIRIPPOLI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380986
+#EXTINF:0,IN-TM | SUN NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380985
+#EXTINF:0,IN-TM | ZEE THIRAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380984
+#EXTINF:0,IN-TM | MEGA 24
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380983
+#EXTINF:0,IN-TM | MEGA MUSIQ
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380982
+#EXTINF:0,IN-TM | JAYA MOVIE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380981
+#EXTINF:0,IN-TM | JAYA PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380980
+#EXTINF:0,IN-TM | JOTHI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380979
+#EXTINF:0,IN-TM | D TAMIL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380977
+#EXTINF:0,IN-TM | Tamilan Television
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380976
+#EXTINF:0,IN-TM | MURASU TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380975
+#EXTINF:0,IN-TM | CHITHIRAM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380974
+#EXTINF:0,IN-TM | MALAI MURASU SEITHIGAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380973
+#EXTINF:0,IN-TM | 7S MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380972
+#EXTINF:0,IN-TM | ZEE TAMIL FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380970
+#EXTINF:0,IN-TM | VIJAY SUPER
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380969
+#EXTINF:0,IN-TM | SUN LIFE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380968
+#EXTINF:0,IN-TM | SUN TV FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380967
+#EXTINF:0,IN-TM | SONY BBC EARTH FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380966
+#EXTINF:0,IN-TM | SONIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380965
+#EXTINF:0,IN-TM | POGO
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380964
+#EXTINF:0,IN-TM | KTV FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380961
+#EXTINF:0,IN-TM | HISTORY TV18 FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380960
+#EXTINF:0,IN-TM | FOX LIFE FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380959
+#EXTINF:0,IN-TM | CARTOON NETWORK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380956
+#EXTINF:0,IN-TM | ANIMAL PLANET HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380955
+#EXTINF:0,IN-TM | SUN MUSIC FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380953
+#EXTINF:0,IN-TM | STAR VIJAY FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380952
+#EXTINF:0,IN-TM | IBC BHAKTHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380951
+#EXTINF:0,IN-TM | IBC SILUVAI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380950
+#EXTINF:0,IN-TM | MOON TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380949
+#EXTINF:0,IN-TM | Hosanna
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380946
+#EXTINF:0,IN-TM | GTA TAMIL TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380945
+#EXTINF:0,IN-TM | VAANAVIL TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380943
+#EXTINF:0,IN-TM | 3 TAMIL TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380942
+#EXTINF:0,IN-TM | DD Tamil
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382342
+#EXTINF:0,IN-TM | Tunes 6
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382341
+#EXTINF:0,IN-TM | MK TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382340
+#EXTINF:0,IN-TM | MK Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382339
+#EXTINF:0,IN-TM | Madhimugam TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382338
+#EXTINF:0,IN-TM | Aastha Tamil   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382343
+#EXTINF:0,IN-TM | SVBC   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382345
+#EXTINF:0,IN-TM | SVBC3   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382346
+#EXTINF:0,IN-TM | Swasthik TV ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382344
+#EXTINF:0,IN-TM | TRAVEL XP
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380937
+#EXTINF:0,IN-MY | ASIANET MIDDLE EAST
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380911
+#EXTINF:0,IN | ARIHANT TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380921
+#EXTINF:0,IN-MY | Asianet 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380881
+#EXTINF:0,IN-MY | ASIANET MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380864
+#EXTINF:0,IN-MY | ASIANET NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380861
+#EXTINF:0,IN-MY | ASIANET PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380884
+#EXTINF:0,IN-MY | WE TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380873
+#EXTINF:0,IN-MY | STAR VISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380874
+#EXTINF:0,IN-MY | JAIHIND TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380887
+#EXTINF:0,IN-MY | JANAM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380886
+#EXTINF:0,IN-MY | KAIRALI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380880
+#EXTINF:0,IN-MY | RAJ MUSIX MALAYALAM
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380862
+#EXTINF:0,IN-MY | RAJ NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380863
+#EXTINF:0,IN-MY | One TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380875
+#EXTINF:0,IN-MY | Kairali Arabia
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380865
+#EXTINF:0,IN-MY | SURYA COMEDY
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380876
+#EXTINF:0,IN-MY | SURYA TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380878
+#EXTINF:0,IN-MY | SURYA MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380877
+#EXTINF:0,IN-MY | ZEE KERALAM FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380870
+#EXTINF:0,IN-MY | DARSHANA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380866
+#EXTINF:0,IN-MY | DD INDIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380888
+#EXTINF:0,IN-MY | JEEVAN TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380892
+#EXTINF:0,IN-MY | KAUMUDY TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380891
+#EXTINF:0,IN-MY | KOCHU TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380890
+#EXTINF:0,IN-MY |  Magnavision TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380927
+#EXTINF:0,IN-MY | POWER VISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380872
+#EXTINF:0,IN-MY | REPORTER TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380869
+#EXTINF:0,IN-MY | SAFARI CHANNEL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380871
+#EXTINF:0,IN-MY | AMRITA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380920
+#EXTINF:0,IN-MY | ASIANET HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380913
+#EXTINF:0,IN-MY | ASIANET FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=390459
+#EXTINF:0,IN-MY | DD MALAYALAM
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380923
+#EXTINF:0,IN-MY | Manorama News Central
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380910
+#EXTINF:0,IN-MY | FLOWER TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380918
+#EXTINF:0,IN-MY | GOD TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380909
+#EXTINF:0,IN-MY | GOODNESS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380908
+#EXTINF:0,IN-MY | HARVEST TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380868
+#EXTINF:0,IN-MY | KAIRALI NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380928
+#EXTINF:0,IN-MY | KAPPA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380916
+#EXTINF:0,IN-MY | KERALA VISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380867
+#EXTINF:0,IN-MY | MANORAMA NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380930
+#EXTINF:0,IN-MY | MATHRUBHUMI NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380915
+#EXTINF:0,IN-MY | MAZAVALI MANORAMA HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380932
+#EXTINF:0,IN-MY | MEDIA ONE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380903
+#EXTINF:0,IN-MY | NEWS 18 KERALA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380931
+#EXTINF:0,IN-MY | People TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380902
+#EXTINF:0,IN-MY | REAL NEWS KERALA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380899
+#EXTINF:0,IN-MY | SAFARI TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380898
+#EXTINF:0,IN-MY | SHALOM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380897
+#EXTINF:0,IN-MY | Mazhavil Manorama International
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380896
+#EXTINF:0,IN-MY | KITE Victers
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380895
+#EXTINF:0,IN-MY | SURYA MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380933
+#EXTINF:0,IN-MY | TWENTY FOUR NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380912
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380811
+#EXTINF:0,IN-MAR | ABP MAJHA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380819
+#EXTINF:0,IN-MAR | LOKSHAHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380820
+#EXTINF:0,IN-MAR | COLORS MARATHI SD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380821
+#EXTINF:0,IN-MAR | COLORS MARATHI HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383175
+#EXTINF:0,IN-MAR | COLORS MARATHI FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383174
+#EXTINF:0,IN-MAR | STAR PRAVAH HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383034
+#EXTINF:0,IN-MAR | STAR PRAVAH FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380815
+#EXTINF:0,IN-MAR | ZEE MARATHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=383033
+#EXTINF:0,IN-MAR | ZEE MARATHI HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380816
+#EXTINF:0,IN-MAR | ZEE TALKIES FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380818
+#EXTINF:0,IN-MAR | ZEE YUVA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380837
+#EXTINF:0,IN-MAR | Zee Chitra Mandir
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380859
+#EXTINF:0,IN-MAR | SONY MARATHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380842
+#EXTINF:0,IN-MAR | Lokshahi News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382296
+#EXTINF:0,IN-MAR | NEWS18 LOKMAT
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380822
+#EXTINF:0,IN-MAR | Sheemaroo MarathiBana
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380856
+#EXTINF:0,IN-MAR | Sun TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380855
+#EXTINF:0,IN-MAR | 9X JHAKAAS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380854
+#EXTINF:0,IN-MAR | DD SAHYADRI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380840
+#EXTINF:0,IN-MAR | FAKT MARATHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380846
+#EXTINF:0,IN-MAR | IN GOA 24X7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380835
+#EXTINF:0,IN-MAR | JAI MAHARASHTRA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380834
+#EXTINF:0,IN-MAR | MEDIA 9
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380832
+#EXTINF:0,IN-MAR | NEWS STATE MAHARASHTRA GOA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380831
+#EXTINF:0,IN-MAR | RDX GOA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380829
+#EXTINF:0,IN-MAR | SONIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380860
+#EXTINF:0,IN-MAR | SONIC NICKELODEON
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380828
+#EXTINF:0,IN-MAR | C NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380852
+#EXTINF:0,IN-MAR | SANGEET MARATHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380853
+#EXTINF:0,IN-MAR | TV9 MARATHI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380851
+#EXTINF:0,IN-MAR | ZEE 24 TAAS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=380850
+#EXTINF:0,IN-GUJ | Aastha Gujarati
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382011
+#EXTINF:0,IN-GUJ | GUJARATI: Buletin India
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382012
+#EXTINF:0,IN-GUJ | GUJARATI: Digishala
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382013
+#EXTINF:0,IN-GUJ | GUJARATI: GS TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382014
+#EXTINF:0,IN-GUJ | Shree Shani Shingnapur Live Darshan ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382015
+#EXTINF:0,IN-GUJ | News Capital Gujarat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382016
+#EXTINF:0,IN-GUJ | Shiksha TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=382017
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381262
+#EXTINF:0,IN-GUJ | ABP ASMITHA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381268
+#EXTINF:0,IN-GUJ | COLORS GUJRATI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381266
+#EXTINF:0,IN-GUJ | COLORS GUJRATI CINEMA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381267
+#EXTINF:0,IN-GUJ | **
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381263
+#EXTINF:0,IN-GUJ | NEWS18 GUJARATI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381270
+#EXTINF:0,IN-GUJ | GUJRATI CINEMA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381289
+#EXTINF:0,IN-GUJ | PRARTHANA BHAWAN
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381269
+#EXTINF:0,IN-GUJ | CNBC BAZAR
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381288
+#EXTINF:0,IN-GUJ | DD GIRNAR
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381284
+#EXTINF:0,IN-GUJ | GUJARAT FIRST
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381272
+#EXTINF:0,IN-GUJ | INDIA NEWS GUJ
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381285
+#EXTINF:0,IN-GUJ | LAKSHYA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381274
+#EXTINF:0,IN-GUJ | Mantavya 24x7 News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381273
+#EXTINF:0,IN-GUJ | SANDESH NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381278
+#EXTINF:0,IN-GUJ | SWAR SHREE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381276
+#EXTINF:0,IN-GUJ | TV9 BHARATVARSH
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381281
+#EXTINF:0,IN-GUJ | TV9 GUJARATI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381287
+#EXTINF:0,IN-GUJ | VALAM TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381275
+#EXTINF:0,IN-GUJ | VTV NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381280
+#EXTINF:0,IN-GUJ | ZEE 24 KALAK
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381286
+#EXTINF:0,IN-GUJ | Vande Gujarat 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381290
+#EXTINF:0,IN-GUJ | Vande Gujarat 10
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381299
+#EXTINF:0,IN-GUJ | Vande Gujarat 11
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381300
+#EXTINF:0,IN-GUJ | Vande Gujarat 12
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381301
+#EXTINF:0,IN-GUJ | Vande Gujarat 13
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381302
+#EXTINF:0,IN-GUJ | Vande Gujarat 14
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381303
+#EXTINF:0,IN-GUJ | Vande Gujarat 15
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381304
+#EXTINF:0,IN-GUJ | Vande Gujarat 16
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381305
+#EXTINF:0,IN-GUJ | Vande Gujarat 2
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381291
+#EXTINF:0,IN-GUJ | Vande Gujarat 3
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381292
+#EXTINF:0,IN-GUJ | Vande Gujarat 4
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381293
+#EXTINF:0,IN-GUJ | Vande Gujarat 5
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381294
+#EXTINF:0,IN-GUJ | Vande Gujarat 6
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381295
+#EXTINF:0,IN-GUJ | Vande Gujarat 7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381296
+#EXTINF:0,IN-GUJ | Vande Gujarat 8
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381297
+#EXTINF:0,IN-GUJ | Vande Gujarat 9
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381298
+#EXTINF:0,IN-GUJ | VT COLORS FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381271
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381243
+#EXTINF:0,IN-ODIA | KALINGA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381247
+#EXTINF:0,IN-ODIA | COLORS HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381245
+#EXTINF:0,IN-ODIA | Sidharth Gold
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381248
+#EXTINF:0,IN-ODIA | ZEE SARTHAK TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381246
+#EXTINF:0,IN-ODIA | MBC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381244
+#EXTINF:0,IN-ODIA | ALANKAR TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381255
+#EXTINF:0,IN-ODIA | ARGUS NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381254
+#EXTINF:0,IN-ODIA | Prameya News 7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381256
+#EXTINF:0,IN-ODIA | DD ODIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381253
+#EXTINF:0,IN-ODIA | KANAK NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381261
+#EXTINF:0,IN-ODIA | NANDIGHOSHA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381252
+#EXTINF:0,IN-ODIA | NEWS 18 ODIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381257
+#EXTINF:0,IN-ODIA | SIDHARTH TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381251
+#EXTINF:0,IN-ODIA | TARANG MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381259
+#EXTINF:0,IN-ODIA | TARANG TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381258
+#EXTINF:0,IN-ODIA | Sidharth Bhakti   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381260
+#EXTINF:0,IN-ODIA | Naxatra News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381250
+#EXTINF:0,IN-ODIA | Badakhabar
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381249
+#EXTINF:0,*** WellCome ***
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381181
+#EXTINF:0,IN-KN | ASIANET SUVARNA NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381182
+#EXTINF:0,IN-KN | BTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381203
+#EXTINF:0,IN-KN | CHINTU TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381197
+#EXTINF:0,IN-KN | COLORS SUPER
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381187
+#EXTINF:0,IN-KN | Zee Kannada News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381239
+#EXTINF:0,IN-KN | Colors Kannada Cinema
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381185
+#EXTINF:0,IN-KN | RAJ MUSIC KANNADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381199
+#EXTINF:0,IN-KN | RAJ NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381183
+#EXTINF:0,IN-KN | STAR SUVARNA FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381194
+#EXTINF:0,IN-KN | UDAYA TV HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381192
+#EXTINF:0,IN-KN | ZEE TV KANNADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381202
+#EXTINF:0,IN-KN | AYUSH TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381226
+#EXTINF:0,IN-KN | COLORS CINEMA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381230
+#EXTINF:0,IN-KN | COLORS FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381229
+#EXTINF:0,IN-KN | DAIJI WORLD TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381210
+#EXTINF:0,IN-KN | DD CHANDANA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381213
+#EXTINF:0,IN-KN | Republic Kannada
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381206
+#EXTINF:0,IN-KN | Aastha Kannada   ( Spiritual )
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381242
+#EXTINF:0,IN-KN | NAKSHATRA DIGITAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381220
+#EXTINF:0,IN-KN | NAMMA TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381212
+#EXTINF:0,IN-KN | NEWS 1ST
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381214
+#EXTINF:0,IN-KN | NEWS18 KANNADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381218
+#EXTINF:0,IN-KN | POWER TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381215
+#EXTINF:0,IN-KN | PUBLIC MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381222
+#EXTINF:0,IN-KN | PUBLIC MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381232
+#EXTINF:0,IN-KN | PUBLIC TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381237
+#EXTINF:0,IN-KN | SAMARA NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381211
+#EXTINF:0,IN-KN | SIRIKANNADA ALLTIME
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381221
+#EXTINF:0,IN-KN | Udaya Music
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381205
+#EXTINF:0,IN-KN | STAR SUVARNA PLUS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381223
+#EXTINF:0,IN-KN | TV5 NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381238
+#EXTINF:0,IN-KN | TV9 KANNADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381241
+#EXTINF:0,IN-KN | UDAYA MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381234
+#EXTINF:0,IN-KN | ZEE PICCHAR
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=381240
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244797
+#EXTINF:0,IND: ABP News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244798
+#EXTINF:0,IND: DD News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244799
+#EXTINF:0,IND: News State up uk
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244800
+#EXTINF:0,IND: Zee Madhya Pradesh Chhattisgarh News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244801
+#EXTINF:0,IND: Zee Rajasthan News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244802
+#EXTINF:0,IND: Zee News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244803
+#EXTINF:0,IND: Surya Samachar News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244804
+#EXTINF:0,IND: News 24
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244805
+#EXTINF:0,IND: Rajasthan News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244806
+#EXTINF:0,IND: Good News Today
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244807
+#EXTINF:0,IND: HINDI_Sudarshan News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244808
+#EXTINF:0,IND: ENGLIASH: India Today News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244809
+#EXTINF:0,IND: Sadhna Plus News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244812
+#EXTINF:0,IND: Assamese: Prag News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244814
+#EXTINF:0,IND: India News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244815
+#EXTINF:0,IND: News X
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244816
+#EXTINF:0,IND: India News Punjabi
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244817
+#EXTINF:0,IND: India News UP
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244818
+#EXTINF:0,IND: India News Rajasthan
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244819
+#EXTINF:0,IND: India News MP
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244820
+#EXTINF:0,IND: India News Haryana
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244821
+#EXTINF:0,IND: North East Live
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244822
+#EXTINF:0,IND: Gulistan News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244825
+#EXTINF:0,IND: Assamese: News Live
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244826
+#EXTINF:0,IND: Assamese: News 18 Assam
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244827
+#EXTINF:0,IND: AB Star News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244829
+#EXTINF:0,IND: C News Bharat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244831
+#EXTINF:0,IND: HNN 24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244832
+#EXTINF:0,IND: URDU: ANN News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244834
+#EXTINF:0,IND: Assamese: Pratham Khabar 24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244835
+#EXTINF:0,IND: STV Haryana News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244839
+#EXTINF:0,IND: Sadhna News Plus
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244842
+#EXTINF:0,IND: Swadesh News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244844
+#EXTINF:0,IND: News India 24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244846
+#EXTINF:0,IND: INH 24x7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244847
+#EXTINF:0,IND: A1 TV Rajasthan
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244848
+#EXTINF:0,IND: Bansal News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244849
+#EXTINF:0,IND: First India News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244850
+#EXTINF:0,IND: News 11
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244851
+#EXTINF:0,IND: APN News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244852
+#EXTINF:0,IND: News 1 India
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244853
+#EXTINF:0,IND: K News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244854
+#EXTINF:0,IND: JK 24x7 News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244855
+#EXTINF:0,IND: Kashish News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244856
+#EXTINF:0,IND: News 18 Urdu
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244861
+#EXTINF:0,IND: CNN News 18 FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244862
+#EXTINF:0,IND: News18 MP Chhattisgarh
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244863
+#EXTINF:0,IND: News18 UP Uttarakhand
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244864
+#EXTINF:0,IND: News18 Bihar Jharkhand
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244865
+#EXTINF:0,IND: News18 Rajasthan FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244866
+#EXTINF:0,IND: News18 Lokmat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244867
+#EXTINF:0,IND: News18 Odia FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244868
+#EXTINF:0,IND: Aaj Tak HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244915
+#EXTINF:0,IND: NDTV Profit
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244916
+#EXTINF:0,IND: NDTV INDIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244917
+#EXTINF:0,IND: NDTV Good Times
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=244918
+#EXTINF:0,IN: Republic Bharat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=243733
+#EXTINF:0,IN: Zee Business
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=341135
+#EXTINF:0,IN: Time Now Navbharat
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=345354
+#EXTINF:0,IN: CNBC-TV18
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=355645
+#EXTINF:0,#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246163
+#EXTINF:0,IND-regional: 10tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246164
+#EXTINF:0,IND-regional: 7SMUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246165
+#EXTINF:0,PkInd-regional: AAHOMUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246166
+#EXTINF:0,IND-regional: ANDHRA_JYOTI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246167
+#EXTINF:0,IND-regional: AP_24X7
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246168
+#EXTINF:0,IND-regional: ATE_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246169
+#EXTINF:0,IND-regional: CALVARY_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246170
+#EXTINF:0,IND-regional: CAPTAIN_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246171
+#EXTINF:0,IND-regional: CVR_NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246172
+#EXTINF:0,IND-regional: Darshana_Tv
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246174
+#EXTINF:0,IND-regional: Dheeran_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246175
+#EXTINF:0,IND-regional: HMTV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246176
+#EXTINF:0,IND-regional: I_NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246177
+#EXTINF:0,IND-regional: IMAYAM_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246178
+#EXTINF:0,IND-regional: KAIRALI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246179
+#EXTINF:0,IND-regional: KAIRALI_ARABIA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246180
+#EXTINF:0,IND-regional: KAIRALI_NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246181
+#EXTINF:0,IND-regional: KALAIGNAR_CHITHIRAM
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246182
+#EXTINF:0,IND-regional: KALAIGNAR_ISAI_ARUVI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246183
+#EXTINF:0,IND-regional: KALAIGNAR_MURASU
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246184
+#EXTINF:0,IND-regional: KALAIGNAR_SEITHIGAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246185
+#EXTINF:0,IND-regional: KALAIGNAR_SIRIPPOLI
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246186
+#EXTINF:0,IND-regional: KALAIGNAR_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246187
+#EXTINF:0,IND-regional: KALINGA_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246188
+#EXTINF:0,IND-regional: Kerala_Vision
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246189
+#EXTINF:0,IND-regional: MADHA_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246190
+#EXTINF:0,IND-regional: MAKKAL_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246191
+#EXTINF:0,IND-regional: MALAI_MURASU_SEITHIKAL
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246192
+#EXTINF:0,IND-regional: MANGALAM_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246193
+#EXTINF:0,IND-regional: Manorama_News_Central
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246194
+#EXTINF:0,IND-regional: Manorama_News_North
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246195
+#EXTINF:0,IND-regional: Mazhavil_HD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246196
+#EXTINF:0,IND-regional: MBC_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246197
+#EXTINF:0,IND-regional: MEDIA_ONE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246198
+#EXTINF:0,IND-regional: MH_ONE_MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246199
+#EXTINF:0,IND-regional: MH_ONE_NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246200
+#EXTINF:0,IND-regional: MK_SIX
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246201
+#EXTINF:0,IND-regional: MK_TELEVISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246202
+#EXTINF:0,IND-regional: MK_TUNES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246203
+#EXTINF:0,IND-regional: MOON_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246204
+#EXTINF:0,IND-regional: ORANGE_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246205
+#EXTINF:0,IND-regional: POLIMER
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246206
+#EXTINF:0,IND-regional: POWER_VISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246207
+#EXTINF:0,IND-regional: PUBLIC_MOVIES
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246208
+#EXTINF:0,IND-regional: PUBLIC_MUSIC
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246209
+#EXTINF:0,IND-regional: PUBLIC_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246210
+#EXTINF:0,IND-regional: R_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246211
+#EXTINF:0,IND-regional: RM_RUJUMARGAM_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246212
+#EXTINF:0,IND-regional: Sadhna_Prime_News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246213
+#EXTINF:0,IND-regional: SATHIYAM_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246214
+#EXTINF:0,IND-regional: SHEMAROO_MARATHIBANA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246215
+#EXTINF:0,IND-regional: SRI_SANKARA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246216
+#EXTINF:0,IND-regional: Studio_One
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246217
+#EXTINF:0,IND-regional: T_NEWS
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246218
+#EXTINF:0,IND-regional: TAMILAN_TELEVISION
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246219
+#EXTINF:0,IND-regional: TV_5
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246220
+#EXTINF:0,IND-regional: TV5_KANNADA
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246221
+#EXTINF:0,IND-regional: 24News
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246222
+#EXTINF:0,IND-regional: Jeevan
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246223
+#EXTINF:0,IND-regional: Jaihind
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246224
+#EXTINF:0,IND-regional: AMrita
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246225
+#EXTINF:0,IND-regional: Survana_news
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246226
+#EXTINF:0,IND-regional: WE
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246227
+#EXTINF:0,IND-regional: WIN_TV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246228
+#EXTINF:0,IND-regional: YONETV
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246229
+#EXTINF:0,IND-regional: Mazhavil Manorama
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=246230
+#EXTINF:0,CineMania Gold 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389027
+#EXTINF:0,CineMania Bollywood 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389030
+#EXTINF:0,CineMania Punjabi 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389031
+#EXTINF:0,CineMania Netfilx FHD
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389028
+#EXTINF:0,CineMania Hollywood 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389029
+#EXTINF:0,CineMania Telugu 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389033
+#EXTINF:0,CineMania Tamil 4K
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/opplex.m3u8?id=389032
+#EXTINF:0,SONY MAX 1
+#EXTVLCOPT:network-caching=1000
+https://allinonereborn.fun/filex/index.php?id=512328
