@@ -1,1 +1,5 @@
-
+#EXTM3U
+#EXTINF:-1 tvg-id="TenTV.in" tvg-name="10TV" tvg-logo="https://10tv.in/wp-content/themes/10tv_v_2.0/images/logo.png",10TV
+http://cache.internode.co.in:6081/10TV/index.m3u8
+#EXTINF:-1 tvg-id="ABNAndhraJyothi.in" tvg-name="ABN AndhraJyothi" tvg-logo="https://www.andhrajyothy.com/assets/images/logo.png",ABN AndhraJyothi
+http://cache.internode.co.in:6081/ABNAndhraJyothi/index.m3u8
