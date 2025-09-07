@@ -12,6 +12,8 @@ https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg012
 #EXTINF:-1 tvg-id="9XM.in" tvg-logo="https://i.imgur.com/F17QtN2.png" group-title="Music",9XM (576p)
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/23886666-8fc5-470f-aab1-bd637ed607b1/3.m3u8
 #EXTINF:-1 tvg-id="10TV.in@SD" tvg-logo="https://i.imgur.com/TauWtuJ.png" group-title="News",10 TV (720p)
+#EXTINF:-1 tvg-id="nstv.in" tvg-logo="https://akhilsaisrikar.github.io/nstv.png" group-title="News",NSTV Telugu
+http://live.streamplay.in:1935/nstv/nstv/playlist.m3u8
 https://cdn-1.pishow.tv/live/391/master.m3u8
 #EXTINF:-1 tvg-id="99TV.in@SD" tvg-logo="https://i.imgur.com/dZA4gel.png" group-title="News",99TV (720p)
 https://cdn-1.pishow.tv/live/1211/master.m3u8
@@ -921,3 +923,4 @@ https://live-stream.utkalbongo.com/utkalbongo/stream18/hls/zillarbartalive.m3u8
 http://183.89.246.119:8881/play/a09a/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.in@SD" tvg-logo="https://i.imgur.com/kcDJ4g0.png" group-title="Undefined",Zoom (720p)
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/zoom-tv/master.m3u8
+
