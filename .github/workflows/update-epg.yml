@@ -3,7 +3,7 @@ name: Update EPG
 on:
   schedule:
     - cron: "0 */6 * * *" # Run every 6 hours
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:      # Allow manual trigger from GitHub Actions UI
 
 jobs:
   update-epg:
@@ -12,16 +12,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download EPG
+      - name: Download EPG from iptv-org
         run: |
-          curl -L "https://iptv-org.github.io/epg/epg.xml.gz" -o epg.xml.gz
+          mkdir -p public
+          curl -L https://iptv-org.github.io/epg/epg.xml.gz -o public/epg.xml.gz
+          ls -lh public
 
       - name: Deploy to gh-pages branch
-        run: |
-          git init
-          git checkout -B gh-pages
-          rm -rf *
-          cp epg.xml.gz .
-          git -c user.name="github-actions" -c user.email="actions@github.com" add epg.xml.gz
-          git -c user.name="github-actions" -c user.email="actions@github.com" commit -m "Update EPG"
-          git push --force origin gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
