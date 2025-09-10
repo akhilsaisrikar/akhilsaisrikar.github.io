@@ -8,21 +8,34 @@ on:
 jobs:
   update-epg:
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout the repository
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download EPG from iptv-org
+      # 2️⃣ Download EPG from IPTV-org
+      - name: Download EPG
         run: |
           mkdir -p public
-          curl -L https://iptv-org.github.io/epg/epg.xml.gz -o public/epg.xml.gz
-          ls -lh public
+          echo "Downloading EPG..."
+          curl -L https://raw.githubusercontent.com/iptv-org/epg/master/epg.xml.gz -o public/epg.xml.gz
+          
+          # ✅ Check if file exists and size is > 0
+          if [ ! -s public/epg.xml.gz ]; then
+            echo "EPG download failed or file is empty!"
+            exit 1
+          fi
+          
+          # Show file info for debugging
+          ls -lh public/
+          gzip -l public/epg.xml.gz
 
-      - name: Deploy to gh-pages branch
+      # 3️⃣ Deploy to gh-pages branch
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages   # <-- Add this line
+          publish_branch: gh-pages
           force_orphan: true
-
