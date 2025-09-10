@@ -18,20 +18,10 @@ jobs:
 
       - name: Deploy to gh-pages branch
         run: |
-          # Create an empty worktree for gh-pages branch
-          git fetch origin
-          git worktree add gh-pages || git worktree add gh-pages origin/gh-pages || true
-          cd gh-pages
-
-          # Remove all old files
-          rm -rf *
-
-          # Copy new epg file
-          cp ../epg.xml.gz .
-
-          # Commit and force-push
           git init
           git checkout -B gh-pages
-          git add epg.xml.gz
+          rm -rf *
+          cp epg.xml.gz .
+          git -c user.name="github-actions" -c user.email="actions@github.com" add epg.xml.gz
           git -c user.name="github-actions" -c user.email="actions@github.com" commit -m "Update EPG"
           git push --force origin gh-pages
