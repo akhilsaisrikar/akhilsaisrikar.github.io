@@ -24,3 +24,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages   # <-- Add this line
+          force_orphan: true
+
