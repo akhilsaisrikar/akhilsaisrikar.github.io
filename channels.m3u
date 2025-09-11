@@ -1,59 +1,12 @@
 #EXTM3U
-#EXTINF:38,10TV
-http://cache.internode.co.in:6081/10TV/index.m3u8
-#EXTINF:24,ABN AndhraJyothi
-http://cache.internode.co.in:6081/ABNAndhraJyothi/index.m3u8
-#EXTINF:19,Big TV
-https://cdn-1.pishow.tv/live/1059/master.m3u8
-#EXTINF:24,HMTV
-http://cache.internode.co.in:6081/HMTV/index.m3u8
-#EXTINF:24,Maha News
-http://cache.internode.co.in:6081/MahaNews/index.m3u8
-#EXTINF:54,Mango TV Telugu
-https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
-#EXTINF:24,Metro TV
-https://mercury.streambridge.cloud:8042/telugu/metrotv/index.m3u8
-#EXTINF:24,NTV
-http://cache.internode.co.in:6081/NTVTelugu/index.m3u8
-#EXTINF:30,playlist.m3u8
-#EXTVLCOPT:network-caching=1000
-http://live.streamplay.in:1935/nstv/nstv/playlist.m3u8
-#EXTINF:30,108TV:
-http://live.streamplay.in:1935/108tv/108tv/playlist.m3u8
-#EXTINF:30,Sai Tv
-http://decode.streamplay.in:1935/srisai/srisai/playlist.m3u8
-#EXTINF:20,Studio N
-https://cdn-1.pishow.tv/live/403/master.m3u8
-#EXTINF:40,SVBC1
-https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
-#EXTINF:24,SVBC3
-https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
-#EXTINF:40,SVBC4
-https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
-#EXTINF:24,Swatantra TV
-http://cache.internode.co.in:6081/SwatantraTV/index.m3u8
-#EXTINF:24,TNews
-http://cache.internode.co.in:6081/TNews/index.m3u8
-#EXTINF:54,ToneTV
-https://amg02821-amg02821c1-samsung-in-4717.playouts.now.amagi.tv/playlist/amg02821-objectone-teluguone-samsungin/cb563f0072727b8c9bc92167d5f56294855936d44524dc3567fe06c57494025d84b9a2deec4ab96841cd4e8b3417380008609d1e8d2e07c3882ba2710e454620d986e12499d9432b81e23e2a2090402900aa4d0b847c0700b1837c13b50e9c5d184990630957369ef30df33270f8ba31c01b58e9daa805461d3e12954d67dbf10ae0e1b01d05b738feec4d11cb0d7bddbe09b8b47cd4f4ab26ef3af83bfb38a7aea1df900ed3c6d10cf706ef317b34481782a149a3f67397f7bf740b7210423e76d44d3ef1842c09b5052e69f6f6dfba61bf20da8831847345c36afa61a54047ef376bdd8c60afbfafd7026034a1d6526226da8bc84c56f451cf01dab1e1df666e97b46710f74bf0ba50490eb187a3228dd1129fb82a84fe0e775d92c114cfc4e0c98738ea3bff3da183bc7e1e623723078cbc7f9ca9cd9bb6be32d8ef1e244e4447acd57bc191e6673f7044bcea34b01d14bddef9e3a56e31a9314e0cf001393ad2d52d960adcf60ccf3a294ddc95f48c780ccead7d/156/1920x1080_5129264/index.m3u8
-#EXTINF:33,TV5 Telugu
-http://cache.internode.co.in:6081/TV5Telugu/index.m3u8
-#EXTINF:60,Tv9
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
-#EXTINF:32,V6 News Tv
-https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/140622/v6news/playlist.m3u8
-#EXTINF:24,Vanitha TV
-http://cache.internode.co.in:6081/VanithaTV/index.m3u8
-#EXTINF:36,Zee Telugu News
-https://d116gfrn8orazi.cloudfront.net/index_3.m3u8
-#EXTINF:60,Dd saptagiri
-https://d2lk5u59tns74c.cloudfront.net/out/v1/26e915d6d12b4a06822c5e33c088ed56/index_3.m3u8
-#EXTINF:60,Dd yadagiri
-https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/c89fa6d6f5864ac29670d6f91cb7e32a/index_3.m3u8
+#EXTINF:30, Cowa TV
+http://live.streamplay.in:1935/cowa/cowa/playlist.m3u8
 #EXTINF:30, Grate Guntur
 http://cloud.streamplay.in:1935/ggv/ggv/playlist.m3u8
 #EXTINF:16, Mee TV
 https://sharsolution.in/hls/meetv/meetv.m3u8
+#EXTINF:0, Metro TV
+https://2nbyjxw5l53k-hls-live.qezycdn.com/metrotv/live.stream/playlist.m3u8
 #EXTINF:16, S9 Channel
 https://sharsolution.in/hls/s9tv/s9tv.m3u8
 #EXTINF:30, Siti Channel
@@ -62,287 +15,601 @@ https://amigofx.com:1936/sitichannel/sitichannel/playlist.m3u8
 http://streamcp.logosys.cloud:1935/snewsnpt/snewsnpt/playlist.m3u8
 #EXTINF:44, TV7 Hills
 https://server.streamwell.in/hls/7hills.m3u8
-#EXTINF:20,2Telugu
+#EXTINF:0, V5 News Tv
+http://cloud.streamplay.in:1935/v5news/v5news/playlist.m3u8
+#EXTINF:0, Vinodam Tv
+https://sharsolution.in/hls/vinodam/vinodam.m3u8
+#EXTINF:0, Zilla vani Tv
+https://streaming.livebox.co.in/vedhikahls/live.m3u8
+#EXTINF:30,108TV:
+http://live.streamplay.in:1935/108tv/108tv/playlist.m3u8
+#EXTINF:0,10TV
+http://cache.internode.co.in:6081/10TV/index.m3u8
+#EXTINF:0,10Tv
+https://ythls.armelin.one/channel/UCfymZbh17_3T_UhgjkQ9fRQ.m3u8
+#EXTINF:0,10Tv
+https://ythls.armelin.one/channel/UCfymZbh17_3T_UhgjkQ9fRQ.m3u8
+#EXTINF:0,2Telugu
 http://cache.internode.co.in:6081/2Telugu/index.m3u8
-#EXTINF:30,4 sides tv
+#EXTINF:0,4 sides tv
 https://mars.streambridge.cloud/4sidestv/telugu/playlist.m3u8
-#EXTINF:24,ABNews
+#EXTINF:0,99 Tv
+https://ythls.armelin.one/channel/UCl5YgCiwSRVOiC2Nd1P9v1A.m3u8
+#EXTINF:0,99 Tv
+https://ythls.armelin.one/channel/UCl5YgCiwSRVOiC2Nd1P9v1A.m3u8
+#EXTINF:0,A1 TV
+http://183.82.119.7:1935/a1tv/a1tv/playlist.m3u8
+#EXTINF:0,ABN AndhraJyothi
+http://cache.internode.co.in:6081/ABNAndhraJyothi/index.m3u8
+#EXTINF:0,ABN Tv
+https://ythls.armelin.one/channel/UC_2irx_BQR7RsBKmUV9fePQ.m3u8
+#EXTINF:0,ABN Tv
+https://ythls.armelin.one/channel/UC_2irx_BQR7RsBKmUV9fePQ.m3u8
+#EXTINF:0,ABNews
 http://cache.internode.co.in:6081/ABNews/index.m3u8
-#EXTINF:111,Access Tv
+#EXTINF:0,Access Tv
 https://vvsolutions.in/accesstv/accesstv.m3u8
-#EXTINF:72,Akshara Tv
+#EXTINF:0,acn digital
+https://amigofx.com:1936/acndigital/acndigital/playlist.m3u8
+#EXTINF:0,acn gadwali
+https://amigofx.com:1936/acngadwali/acngadwali/playlist.m3u8
+#EXTINF:0,Akshara Tv
 https://vvsolutions.in/aksharanews/aksharanews.m3u8
-#EXTINF:29,amma news
+#EXTINF:0,amma news
 http://cloud.streamplay.in:1935/ammanews/ammanews/playlist.m3u8
-#EXTINF:44,Anjali TV
+#EXTINF:0,Anjali TV
 https://sharsolution.in/hls/anjalitv.m3u8
-#EXTINF:73,AP
+#EXTINF:0,AP
 https://vvsolutions.in/aplocaltv/aplocaltv.m3u8
-#EXTINF:24,AWAAZNEWS
+#EXTINF:0,ap prime 111
+https://amigofx.com:1936/apprime/apprime/playlist.m3u8
+#EXTINF:0,AWAAZNEWS
 http://cache.internode.co.in:6081/AWAAZNEWS/index.m3u8
-#EXTINF:40,Ayush Tv
+#EXTINF:0,ayra gold
+https://amigofx.com:1936/ayragold/ayragold/playlist.m3u8
+#EXTINF:0,ayra movies
+https://amigofx.com:1936/ayramovies/ayramovies/playlist.m3u8
+#EXTINF:0,ayra music
+https://amigofx.com:1936/ayramusic/ayramusic/playlist.m3u8
+#EXTINF:0,Ayush Tv
 https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
-#EXTINF:24,Bathukamma TV
+#EXTINF:0,Ayush Tv
+https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
+#EXTINF:0,Bakthi TV
+http://longstream-05.ajaah.com/PlayBoxTV/NTVBhakthi/PlayBoxTV/NTVBhakthi_2/playlist.m3u8
+#EXTINF:0,Bakthi TV
+http://longstream-05.ajaah.com/PlayBoxTV/NTVBhakthi/PlayBoxTV/NTVBhakthi_2/playlist.m3u8
+#EXTINF:0,Bathukamma TV
+https://mumbai-edge.smartplaytv.in/BathukammaTV/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0,Bathukamma TV
 http://cache.internode.co.in:6081/BathukammaTV/index.m3u8
-#EXTINF:20,BBR Tv
+#EXTINF:0,bathukammatv
+https://cloud.smartplaytv.in/BathukammaTV/tracks-v1a1/mono.m3u8
+#EXTINF:0,BBR Tv
 http://bbrtv.phoenixcreations.online/bbrtv/bbrtv/playlist.m3u8
-#EXTINF:30,bcn channel
+#EXTINF:0,BBR Tv
+http://bbrtv.phoenixcreations.online:1935/bbrtv/bbrtv/chunklist_w1927464872.m3u8
+#EXTINF:0,bcn channel
 http://streamcp.logosys.cloud:1935/bcnchannel/bcnchannel/chunklist_w1043016966.m3u8
-#EXTINF:24,BCT Classic
+#EXTINF:0,BCN MOVIES
+https://vvsolution.in/hls/bcntv_633.m3u8
+#EXTINF:0,Bcn movies
+https://vvsolution.in/hls/bcntv_633.m3u8
+#EXTINF:0,Bcn music
+https://vvsolutions-server11.in/bcnmusic_24/video.m3u8
+#EXTINF:0,BCT Classic
 http://cache.internode.co.in:6081/BCTClassic/index.m3u8
-#EXTINF:24,BCT Keerthana
+#EXTINF:0,BCT Keerthana
 http://cache.internode.co.in:6081/BCTKeerthana/index.m3u8
-#EXTINF:24,BCT Music
+#EXTINF:0,BCT Music
 http://cache.internode.co.in:6081/BCTMusic/index.m3u8
-#EXTINF:24,BCT News
+#EXTINF:0,BCT News
 http://cache.internode.co.in:6081/BCTNews/index.m3u8
-#EXTINF:30,Bhavya TV
+#EXTINF:0,Bhavya TV
 http://encode.streamplay.in:1935/bhavyatv/bhavyatv/playlist.m3u8
-#EXTINF:24,Bomsak
+#EXTINF:0,Big TV
+https://cdn-1.pishow.tv/live/1059/master.m3u8
+#EXTINF:0,Bomsak
 http://cache.internode.co.in:6081/Bomsak/index.m3u8
-#EXTINF:31,Brathakamma TV
+#EXTINF:0,Brathakamma TV
 http://live.streamplay.in:1935/bkamma/bkamma/playlist.m3u8
-#EXTINF:20,C news
+#EXTINF:0,Brathakamma TV
+http://live.streamplay.in:1935/bkamma/bkamma/playlist.m3u8
+#EXTINF:0,BV9 News
+http://rikuta.in:1935/bv9/bv9/chunklist_w1435248932.m3u8
+#EXTINF:0,BV9 News
+http://rikuta.in:1935/bv9/bv9/chunklist_w1435248932.m3u8
+#EXTINF:0,C news
 http://cnews.phoenixcreations.online/cnews/cnews/tracks-v1a1/index.m3u8
-#EXTINF:30,ccc channel
+#EXTINF:0,ccc channel
 https://amigofx.com:1936/ccchd/ccchd/playlist.m3u8
-#EXTINF:28,Channel 9 News
+#EXTINF:30,Channel 9 News
 http://channel9hd.in:1935/hd/hd/chunklist_w1051485029.m3u8
-#EXTINF:45,Chittoor TV
+#EXTINF:0,Channel 9 News
+http://channel9hd.in:1935/hd/hd/chunklist_w1051485029.m3u8
+#EXTINF:0,Chittoor TV
 https://server.streamwell.in/hls/chittoortvhd.m3u8
-#EXTINF:30,City news
+#EXTINF:0,city channel
+https://amigofx.com:1936/citychannelsh/citychannelsh/playlist.m3u8
+#EXTINF:0,City news
 http://citynews.mythrimediaindia.com:1935/citynews/citynews/index.m3u8
-#EXTINF:30,citynews
+#EXTINF:0,city tv
+http://citytv.phoenixcreations.online/citytv/citytv/index.m3u8
+#EXTINF:0,citynews
 http://citynews.mythrimediaindia.com:1935/citynews/citynews/index.m3u8
-#EXTINF:30,Cowa Tv
+#EXTINF:0,Cowa Tv
 http://live.streamplay.in:1935/cowa/cowa/playlist.m3u8
-#EXTINF:24,CVR Health
+#EXTINF:0,CVR Health
 http://cache.internode.co.in:6081/CVRHealth/index.m3u8
-#EXTINF:24,CVR News
+#EXTINF:0,CVR News
 http://cache.internode.co.in:6081/CVRNews/index.m3u8
-#EXTINF:30,d news
+#EXTINF:0,d news
 http://dnews.phoenixcreations.online:1935/dnews/dnews/index.m3u8
-#EXTINF:50,D4 channel
+#EXTINF:0,D4 channel
 https://sharsolution.in/hls/d4.m3u8
-#EXTINF:72,DBR News
+#EXTINF:0,DBR News
 http://telugusolutions.in:8088/dbr12/dbr12.m3u8
-#EXTINF:24,DS9
+#EXTINF:0,Dd saptagiri
+https://d2lk5u59tns74c.cloudfront.net/out/v1/26e915d6d12b4a06822c5e33c088ed56/index_3.m3u8
+#EXTINF:0,Dd yadagiri
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/c89fa6d6f5864ac29670d6f91cb7e32a/index_3.m3u8
+#EXTINF:0,DS9
 http://cache.internode.co.in:6081/DS9/index.m3u8
-#EXTINF:24,ds9e
+#EXTINF:0,ds9e
 http://cache.internode.co.in:6081/ds9e/index.m3u8
-#EXTINF:24,GeeTV
+#EXTINF:0,ETV Telangana
+https://ythls.armelin.one/channel/UC6ickpgDIsltU_-8CbZaksQ.m3u8
+#EXTINF:0,ETV Telangana
+https://ythls.armelin.one/channel/UC6ickpgDIsltU_-8CbZaksQ.m3u8
+#EXTINF:0,etvap
+http://cache.internode.co.in:6081/etvap/index.m3u8
+#EXTINF:0,G Channel
+http://gchannel.mythrimediaindia.com:1935/gchannel/gchannel/tracks-v1a1/mono.m3u8
+#EXTINF:0,G Channel
+http://gchannel.mythrimediaindia.com:1935/gchannel/gchannel/tracks-v1a1/mono.m3u8
+#EXTINF:0,GarudaTv
+https://mars.streambridge.cloud:443/GarudaTV/live/playlist.m3u8
+#EXTINF:0,gee tv
+http://mn.capitalfi.net:8088/geetv/geetv.m3u8
+#EXTINF:0,GeeTV
 http://cache.internode.co.in:6081/GeeTV/index.m3u8
-#EXTINF:30,Grate Guntur
+#EXTINF:0,Gospel Tv
+http://live.adostream.com:1935/gospeltv/gospeltv/playlist.m3u8
+#EXTINF:0,Gospel Tv
+http://live.adostream.com:1935/gospeltv/gospeltv/playlist.m3u8
+#EXTINF:0,Grate Guntur
 http://cloud.streamplay.in:1935/ggv/ggv/playlist.m3u8
-#EXTINF:30,Greater Guntur Voice
+#EXTINF:0,Greater Guntur Voice
 http://cloud.streamplay.in:1935/ggv/ggv/playlist.m3u8
-#EXTINF:30,GTPL
+#EXTINF:0,Gs Grameena
+https://amigofx.com:1936/gsgrameena/gsgrameena/playlist.m3u8
+#EXTINF:0,GTPL
 http://cloud.streamplay.in:1935/gtpl/gtpl/playlist.m3u8
-#EXTINF:30,Gtpl karimnagar
+#EXTINF:0,Gtpl karimnagar
 http://cloud.streamplay.in:1935/samacomedy/samacomedy/playlist.m3u8
-#EXTINF:30,Gtpl nizambad
+#EXTINF:0,Gtpl nizambad
 http://cloud.streamplay.in:1935/gtpl/gtpl/playlist.m3u8
-#EXTINF:29,GunturTV
+#EXTINF:0,GunturTV
 https://amigofx.com:1936/srkent/srkent/playlist.m3u8
-#EXTINF:30,Harika Star
+#EXTINF:0,Harika Star
 https://amigofx.com:1936/harikastar/harikastar/playlist.m3u8
-#EXTINF:100,Indian Yoga & Wellness TV Telugu
+#EXTINF:0,HM Tv
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1710891096/ei/-Mv5ZYKXLN3d4-EPx4epkAM/ip/54.254.162.138/id/44mb9R154Do.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51066119/txs/51066116%2C51066117%2C51066118%2C51066119%2C51066120%2C51066121/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f2tixJh3lBZE8u8bSgC9aIb9CR80vDlLduMfMxqkv-U/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALjlcQ6atZfD02qCQQyQ1qiWohr5TrNIFYllZ-zC1jY7AiEArEPvjq8EfvQSelHmZQbn1fIZ92bH3NijsV4kC-0r92U%3D/file/index.m3u8
+#EXTINF:0,HM Tv
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1710891096/ei/-Mv5ZYKXLN3d4-EPx4epkAM/ip/54.254.162.138/id/44mb9R154Do.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51066119/txs/51066116%2C51066117%2C51066118%2C51066119%2C51066120%2C51066121/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f2tixJh3lBZE8u8bSgC9aIb9CR80vDlLduMfMxqkv-U/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhALjlcQ6atZfD02qCQQyQ1qiWohr5TrNIFYllZ-zC1jY7AiEArEPvjq8EfvQSelHmZQbn1fIZ92bH3NijsV4kC-0r92U%3D/file/index.m3u8
+#EXTINF:0,HMTV
+http://cache.internode.co.in:6081/HMTV/index.m3u8
+#EXTINF:0,Indian Yoga & Wellness TV Telugu
 https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/indian-yoga-and-wellness-tv-telugu/b1c19878-ebfe-4eab-9545-f7eae7636188/2.m3u8
-#EXTINF:24,IRMedia
+#EXTINF:0,IRMedia
 http://cache.internode.co.in:6081/IRMedia/index.m3u8
-#EXTINF:20,Janapadalu
+#EXTINF:0,J News
+https://streamlive.livebox.co.in/JNewshls/live.m3u8
+#EXTINF:0,Janapadalu
 http://cache.internode.co.in:6081/Janapadalu/index.m3u8
-#EXTINF:30,jkc city
+#EXTINF:0,jkc city
 https://amigofx.com:1936/jkccity/jkccity/playlist.m3u8
-#EXTINF:70,JVR
+#EXTINF:0,JVR
 https://vvsolution.in/hls/jvrnews_623.m3u8
-#EXTINF:30,K6 channel
+#EXTINF:0,k2 news
+https://k2new.in/hls/k2news.m3u8
+#EXTINF:0,K6 channel
 http://cloud.streamplay.in:1935/roshni/roshni/playlist.m3u8
-#EXTINF:30,KCF
+#EXTINF:0,KCF
 https://amigofx.com:1936/kcf/kcf/playlist.m3u8
-#EXTINF:72,KTV
+#EXTINF:0,KTV
+https://amigofx.com:1936/ktv/ktv/playlist.m3u8
+#EXTINF:0,KTV
 https://vvsolutions.in/ktimes/ktimes.m3u8
-#EXTINF:30,local news
+#EXTINF:0,local news
 https://amigofx.com:1936/localnews/localnews/playlist.m3u8
-#EXTINF:23,Local TV News
+#EXTINF:0,Local News Tv
+http://live.streamplay.in:1935/localtv/localtv/playlist.m3u8
+#EXTINF:0,Local News Tv
+http://live.streamplay.in:1935/localtv/localtv/playlist.m3u8
+#EXTINF:0,Local TV News
 http://cache.internode.co.in:6081/LocalTVNews/index.m3u8
-#EXTINF:72,M TV
+#EXTINF:0,M TV
 https://vvsolutions.in/mtvchannel/mtvchannel.m3u8
-#EXTINF:72,M3
+#EXTINF:0,M3
 https://vvsolutions.in/my3telugu/my3telugu.m3u8
-#EXTINF:30,MA Telagana Tv
+#EXTINF:0,MA Telagana Tv
 http://telanganatv.phoenixcreations.online:1935/telanganatv/telanganatv/chunklist_w1691683123.m3u8
-#EXTINF:24,MaaCable
+#EXTINF:0,MA Telanagana Tv
+http://telanganatv.phoenixcreations.online:1935/telanganatv/telanganatv/chunklist_w1691683123.m3u8
+#EXTINF:0,MaaCable
 http://cache.internode.co.in:6081/MaaCable/index.m3u8
-#EXTINF:30,Mana Telugu TV
+#EXTINF:0,Maha News
+http://cache.internode.co.in:6081/MahaNews/index.m3u8
+#EXTINF:0,Mahaa News
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711091594/ei/Ktv8ZeeBOMPHi9oPgeCjoA8/ip/89.163.231.66/id/guoyy3xYmtQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-4g5e6nsy.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f7Hf-fhexj7bIsErq7n80EbSPMloQJdZNWS4TOGCjj8/vprv/1/playlist_type/DVR/mh/gh/mm/44/mn/sn-4g5e6nsy/ms/lva/mv/u/mvi/2/pl/26/dover/11/pacing/0/keepalive/yes/mt/1711068377/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgSk8TKWfbSBsNmZao-44yEXZWsbyfRRr0r3jEwiH-5pUCIGlEUGa7_v8XXJDE3A6NnCtkAbRMh18q-9eGg9HhaCsq/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgF1oDXTZ05RKPRSCgSyAt2shwolPh-_E17VtWAeHBsZACIE4mTv7btuRrI4lXdcbCWCw_RbI-aClYQmm993rr5zfJ/playlist/index.m3u8
+#EXTINF:0,Mahaa News
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711091594/ei/Ktv8ZeeBOMPHi9oPgeCjoA8/ip/89.163.231.66/id/guoyy3xYmtQ.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr2---sn-4g5e6nsy.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f7Hf-fhexj7bIsErq7n80EbSPMloQJdZNWS4TOGCjj8/vprv/1/playlist_type/DVR/mh/gh/mm/44/mn/sn-4g5e6nsy/ms/lva/mv/u/mvi/2/pl/26/dover/11/pacing/0/keepalive/yes/mt/1711068377/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRAIgSk8TKWfbSBsNmZao-44yEXZWsbyfRRr0r3jEwiH-5pUCIGlEUGa7_v8XXJDE3A6NnCtkAbRMh18q-9eGg9HhaCsq/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgF1oDXTZ05RKPRSCgSyAt2shwolPh-_E17VtWAeHBsZACIE4mTv7btuRrI4lXdcbCWCw_RbI-aClYQmm993rr5zfJ/playlist/index.m3u8
+#EXTINF:0,MahaMax
+http://cache.internode.co.in:6081/MahaMax/index.m3u8
+#EXTINF:0,Mana Telugu TV
 http://decode.streamplay.in:1935/telugutv/telugutv/playlist.m3u8
-#EXTINF:30,Mana Tv
+#EXTINF:28,Mana Tv
 http://decode.streamplay.in:1935/telugutv/telugutv/chunklist_w2044669398.m3u8
-#EXTINF:32,Mana tv international
+#EXTINF:0,Mana TV
+https://8088y.site/YuppTv-FTA/master.php?path=mana-tv%2Flive&.m3u8
+#EXTINF:0,Mana tv international
 https://manatv.akamaized.net/090823/smil:manatvint.smil/playlist.m3u8
-#EXTINF:32,Mana tv2
+#EXTINF:0,Mana tv2
 https://manatv.akamaized.net/120723/smil:manatv2.smil/playlist.m3u8
-#EXTINF:20,Manavooru
+#EXTINF:0,Manavooru
 http://cache.internode.co.in:6081/Manavooru/index.m3u8
-#EXTINF:33,Masti Music
+#EXTINF:0,Mango TV Telugu
+https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
+#EXTINF:0,masti music
+https://cloud.smartplaytv.in/MastiMusic/tracks-v1a1/mono.m3u8
+#EXTINF:0,Masti Music
+https://mumbai-edge.smartplaytv.in/MastiMusic/tracks-v1a1/mono.ts.m3u8
+#EXTINF:0,Masti Music
 http://cache.internode.co.in:6081/MastiMusic/index.m3u8
-#EXTINF:12,mee tv
+#EXTINF:0,mee tv
 https://sharsolution.in/hls/meetv/meetv.m3u8
-#EXTINF:24,MTV
+#EXTINF:0,Metro TV
+https://mercury.streambridge.cloud:8042/telugu/metrotv/index.m3u8
+#EXTINF:0,metro tv
+https://mercury.streambridge.link:8042/telugu/metrotv/index.fmp4.m3u8
+#EXTINF:0,Metro TV
+https://2nbyjxw5l53k-hls-live.qezycdn.com/metrotv/live.stream/playlist.m3u8
+#EXTINF:0,MTV
 http://cache.internode.co.in:6081/MTV/index.m3u8
-#EXTINF:72,mtv channel
+#EXTINF:0,mtv channel
 https://vvsolutions.in/mtvchannel/mtvchannel.m3u8
-#EXTINF:30,MTV Local
+#EXTINF:0,MTV Local
 https://amigofx.com:1936/mtv/mtv/playlist.m3u8
-#EXTINF:20,new tv telugu
+#EXTINF:0,my3telugu
+http://telugusolutions.com:8088/my3telugu/my3telugu.m3u8
+#EXTINF:0,ncn
+http://stream.sundaylive.co.in:8088/ncnncn/ncnncn.m3u8
+#EXTINF:0,ncn hd
+http://stream.sundaylive.co.in:8088/ncnncn/ncnncn.m3u8
+#EXTINF:0,New Tv
+http://newtvtelugu.phoenixcreations.online:1935/newtvtelugu/newtvtelugu/chunklist_w615754673.m3u8
+#EXTINF:0,new tv telugu
 http://newtvtelugu.phoenixcreations.online/newtvtelugu/newtvtelugu/tracks-v1a1/index.m3u8
-#EXTINF:30,News 9 Today
+#EXTINF:0,News 9 Today
 http://live.streamplay.in:1935/news9/news9/playlist.m3u8
-#EXTINF:24,News9
+#EXTINF:0,News 9 Today
+http://live.streamplay.in:1935/news9/news9/playlist.m3u8
+#EXTINF:0,News9
 http://cache.internode.co.in:6081/News9/index.m3u8
-#EXTINF:72,Orugallu
+#EXTINF:0,NTV
+http://cache.internode.co.in:6081/NTVTelugu/index.m3u8
+#EXTINF:0,Orugallu
 https://vvsolutions.in/orugallu9/orugallu9.m3u8
-#EXTINF:25,Paraja TV
+#EXTINF:0,p news
+http://pnews.phoenixcreations.online/pnews/pnews/tracks-v1a1/index.m3u8
+#EXTINF:0,P News:
+http://pnews.phoenixcreations.online/pnews/pnews/tracks-v1a1/mono.m3u8
+#EXTINF:0,Paraja TV
 http://prajatv.mythrimediaindia.com:1935/prajatv/prajatv/index.m3u8
-#EXTINF:30,PCN HD
+#EXTINF:0,PCN HD
 https://amigofx.com:1936/pcnhd/pcnhd/playlist.m3u8
-#EXTINF:24,PCNHD
+#EXTINF:0,PCNHD
 http://cache.internode.co.in:6081/PCNHD/index.m3u8
-#EXTINF:71,PPS Entertainment
+#EXTINF:0,PMC
+https://live.drmlive-02.workers.dev/yupptv/fta/pmc.m3u8
+#EXTINF:0,PMC Tv
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711091471/ei/r9r8ZbSmD7GE6dsPy8qkqA8/ip/89.163.231.66/id/xhaiooSX3Zc.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-4g5edndk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f1dnUmroEVquDZB5wzjI9_KjqC4SF-DjUMpDK8DDDnY/vprv/1/playlist_type/DVR/mh/az/mm/44/mn/sn-4g5edndk/ms/lva/mv/u/mvi/3/pl/26/dover/11/pacing/0/keepalive/yes/mt/1711068377/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAPI6h5oVgAUEzrgT_nI7ihckpf_xCxas_ftFELvV5bmuAiBH5VqvP_AygkfImU6D19l5TRiPK1lZsi0d1awhW8kt1w%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgOYHKYaaH3SwMw98izwO4rbZ4cTuLBtGo0drk-r09AxUCICl5er2jUVlTkgXYBU9tuz_Bw9tZ9oGlZqKmCUQXwJgd/playlist/index.m3u8
+#EXTINF:0,PMC Tv
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1711091471/ei/r9r8ZbSmD7GE6dsPy8qkqA8/ip/89.163.231.66/id/xhaiooSX3Zc.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hdlc/1/hls_chunk_host/rr3---sn-4g5edndk.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/spc/UWF9f1dnUmroEVquDZB5wzjI9_KjqC4SF-DjUMpDK8DDDnY/vprv/1/playlist_type/DVR/mh/az/mm/44/mn/sn-4g5edndk/ms/lva/mv/u/mvi/3/pl/26/dover/11/pacing/0/keepalive/yes/mt/1711068377/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,hdlc,xpc,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AJfQdSswRQIhAPI6h5oVgAUEzrgT_nI7ihckpf_xCxas_ftFELvV5bmuAiBH5VqvP_AygkfImU6D19l5TRiPK1lZsi0d1awhW8kt1w%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/ALClDIEwRAIgOYHKYaaH3SwMw98izwO4rbZ4cTuLBtGo0drk-r09AxUCICl5er2jUVlTkgXYBU9tuz_Bw9tZ9oGlZqKmCUQXwJgd/playlist/index.m3u8
+#EXTINF:0,PPS Entertainment
 https://vvsolutions.in/sreshtamedia/sreshtamedia.m3u8
-#EXTINF:33,Praja Tv
+#EXTINF:0,Praja Tv
 http://prajatv.mythrimediaindia.com:1935/prajatv/prajatv/index.m3u8
-#EXTINF:24,Prime9 News
+#EXTINF:0,Prime9 News
 http://cache.internode.co.in:6081/Prime9News/index.m3u8
-#EXTINF:72,Public Music
+#EXTINF:0,Public Music
 https://vvsolutions.in/publictv/publictv.m3u8
-#EXTINF:72,Public Tv
+#EXTINF:0,Public Tv
 https://vvsolutions.in/publictvfolkmusic/publictvfolkmusic.m3u8
-#EXTINF:24,Publictv
+#EXTINF:0,Publictv
 http://cache.internode.co.in:6081/Publictv/index.m3u8
-#EXTINF:72,pvphd
+#EXTINF:0,pvphd
 https://vvsolutions.in/pvphd/pvphd.m3u8
-#EXTINF:72,PVPMOVIE
+#EXTINF:0,PVPMOVIE
 https://vvsolutions.in/pvpmovies/pvpmovies.m3u8
-#EXTINF:70,Reshya TV
+#EXTINF:0,Raj News Telugu
+http://59.103.181.178:8000/play/a06o/index.m3u8
+#EXTINF:0,Raj News Telugu
+http://59.103.181.178:8000/play/a06o/index.m3u8
+#EXTINF:0,Rapid Media
+http://cache.internode.co.in:6081/RapidMedia/index.m3u8
+#EXTINF:0,Ravi Krishnalu Tv
+http://poojarihealth.live:1935/ravikiranalu/ravikiranalu/chunklist_w1926338509.m3u8
+#EXTINF:0,Ravi Krishnalu Tv
+http://poojarihealth.live:1935/ravikiranalu/ravikiranalu/chunklist_w1926338509.m3u8
+#EXTINF:0,Reshya TV
 https://vvsolutions-server11.in/reshyatv_5/video.m3u8
-#EXTINF:20,Rich Tv
+#EXTINF:0,ReshyaTV
+http://cache.internode.co.in:6081/ReshyaTV/index.m3u8
+#EXTINF:0,Rich Tv
 http://richtv.stream.onecloudlive.in/richtv/richtvhd/tracks-v1a1/mono.m3u8
-#EXTINF:64,Rk
+#EXTINF:0,Rich Tv
+http://richtv.stream.onecloudlive.in/richtv/richtvhd/tracks-v1a1/mono.m3u8
+#EXTINF:0,Rk
 https://vvsolutions.in/rktv_347/rktv_347.m3u8
-#EXTINF:29,Roshni
+#EXTINF:0,RK9 News
+https://vvsolutions.in/rk9news/rk9news.m3u8
+#EXTINF:0,RK9 News
+https://vvsolutions.in/rk9news/rk9news.m3u8
+#EXTINF:0,Roshni
 http://cloud.streamplay.in:1935/roshni/roshni/playlist.m3u8
-#EXTINF:16,S9 Channel
+#EXTINF:0,S9 Channel
 https://sharsolution.in/hls/s9tv/s9tv.m3u8
-#EXTINF:33,S9 News
+#EXTINF:0,S9 News
 http://cache.internode.co.in:6081/S9News/index.m3u8
-#EXTINF:30,Sama Comedy
+#EXTINF:0,Saaksyam TV
+https://live.kpsnetwork.in/kps/kps/index.m3u8
+#EXTINF:0,Sagar Express Tv
+http://sexpress.mythrimediaindia.com:1935/sexpress/sexpress/index.m3u8
+#EXTINF:0,Sagar Express Tv
+http://sexpress.mythrimediaindia.com:1935/sexpress/sexpress/index.m3u8
+#EXTINF:0,Sai Tv
+http://decode.streamplay.in:1935/srisai/srisai/playlist.m3u8
+#EXTINF:0,Sama Comedy
 http://cloud.streamplay.in:1935/samacomedy/samacomedy/playlist.m3u8
-#EXTINF:30,Sama music
+#EXTINF:0,Sama music
 http://cloud.streamplay.in:1935/samatv/samatv/playlist.m3u8
-#EXTINF:30,Sama TV
+#EXTINF:0,Sama TV
 http://cloud.streamplay.in:1935/samatv/samatv/playlist.m3u8
-#EXTINF:30,Samskuruthi TV
+#EXTINF:0,Samskuruthi TV
 http://cloud.streamplay.in:1935/telanganasamskruthi/telanganasamskruthi/playlist.m3u8
-#EXTINF:60,Santhosham TV
+#EXTINF:0,Samskuruthi TV
+http://cloud.streamplay.in:1935/telanganasamskruthi/telanganasamskruthi/playlist.m3u8
+#EXTINF:0,Sannidi Tv
+http://sanniditv.phoenixcreations.online:1935/sanniditv/sanniditv/chunklist_w1052960370.m3u8
+#EXTINF:0,Sannidi Tv
+http://sanniditv.phoenixcreations.online:1935/sanniditv/sanniditv/chunklist_w1052960370.m3u8
+#EXTINF:0,Santhosham TV
 https://vvsolutions-server10.in/hls/santhoshamtv_110.m3u8
-#EXTINF:30,sarkar
+#EXTINF:0,Saranya Tv
+http://rikuta.in:1935/saranyatv/saranyatv/chunklist_w1267284690.m3u8
+#EXTINF:0,Saranya Tv
+http://rikuta.in:1935/saranyatv/saranyatv/chunklist_w1267284690.m3u8
+#EXTINF:0,sarkar
 https://amigofx.com:1936/sarkartv/sarkartv/playlist.m3u8
-#EXTINF:30,Satya News Tv
+#EXTINF:0,Sattva Tv
+https://amigofx.com:1936/sattvatv/sattvatv/playlist.m3u8
+#EXTINF:0,Satya News Tv
 http://103.146.170.102:1935/satya/satya/chunklist_w1792896619.m3u8
-#EXTINF:33,SDTV
+#EXTINF:0,Satya News Tv
+http://103.146.170.102:1935/satya/satya/chunklist_w1792896619.m3u8
+#EXTINF:0,SDTV
 https://mumbai-edge.smartplaytv.in/SDTV/index.m3u8
-#EXTINF:24,Shakthi TV
+#EXTINF:0,sdtv
+https://cloud.smartplaytv.in/SDTV/tracks-v1a1/mono.m3u8
+#EXTINF:0,Shakthi TV
 http://cache.internode.co.in:6081/ShakthiTV/index.m3u8
-#EXTINF:30,Siti Channel
+#EXTINF:0,Shakthi Tv
+https://cloud.smartplaytv.in/ShakthiTv/tracks-v1a1/mono.m3u8
+#EXTINF:0,Shakthi Tv
+http://shakthitv.mythrimediaindia.com:1935/shakthitv/shakthitv/tracks-v1a1/mono.m3u8
+#EXTINF:0,Shakthi Tv
+https://cloud.smartplaytv.in/ShakthiTv/index.m3u8
+#EXTINF:0,Shakthi Tv
+http://shakthitv.mythrimediaindia.com:1935/shakthitv/shakthitv/tracks-v1a1/mono.m3u8
+#EXTINF:0,shakthitv
+https://cloud.smartplaytv.in/ShakthiTv/tracks-v1a1/mono.m3u8
+#EXTINF:0,Shreyas Music
+http://cache.internode.co.in:6081/ShreyasMusic/index.m3u8
+#EXTINF:0,Shreyas TV
+http://cache.internode.co.in:6081/ShreyasTV/index.m3u8
+#EXTINF:0,Siti Channel
 https://amigofx.com:1936/sitichannel/sitichannel/playlist.m3u8
-#EXTINF:30,SITI Telugu
+#EXTINF:0,SITI Telugu
 https://amigofx.com:1936/sititelugu/sititelugu/playlist.m3u8
-#EXTINF:30,Sity CCC Tv
+#EXTINF:0,Sity CCC Tv
 http://cloud.streamplay.in:1935/ccc/ccc/playlist.m3u8
-#EXTINF:29,Sity CCC Tv
+#EXTINF:0,Sity CCC Tv
 http://cloud.streamplay.in:1935/ccc/ccc/playlist.m3u8
-#EXTINF:72,SLN News
+#EXTINF:0,SLN News
 https://vvsolutions-server11.in/slnnews_2/video.m3u8
-#EXTINF:30,sntv telugu
+#EXTINF:0,sntv telugu
 https://live.sntvtelugu.com/sntvtelugu/livetv/playlist.m3u8
+#EXTINF:0,SR
+https://vvsolutions-server11.in/sr_14/video.m3u8
+#EXTINF:0,SR News Tv
+http://sr7tv.phoenixcreations.online:1935/sr7tv/sr7tv/chunklist_w908646649.m3u8
+#EXTINF:0,SR News Tv
+http://sr7tv.phoenixcreations.online:1935/sr7tv/sr7tv/chunklist_w908646649.m3u8
+#EXTINF:0,SR7TV News
+http://sr7tv.phoenixcreations.online:1935/sr7tv/sr7tv/playlist.m3u8
 #EXTINF:0,Sravya Tv
 https://vvsolutions.in/sravyatv/sravyatv.m3u8
-#EXTINF:72,Sree News
+#EXTINF:0,Sree News
 https://vvsolutions.in/sreenews/sreenews.m3u8
-#EXTINF:30,Sri Chakra
+#EXTINF:0,Sri Chakra
 http://srichakra.mythrimediaindia.com:1935/srichakra/srichakra/chunklist_w922956034.m3u8
-#EXTINF:30,Sri Chakra Tv
+#EXTINF:0,Sri Chakra Tv
 http://srichakra.mythrimediaindia.com:1935/srichakra/srichakra/chunklist_w922956034.m3u8
-#EXTINF:30,Srisaila TV
+#EXTINF:0,sri channel
+http://stream.sundaylive.co.in:8088/srichannel/srichannel.m3u8
+#EXTINF:0,Srisaila Tv
 http://202.83.27.171:1935/sslm/live/playlist.m3u8
-#EXTINF:30,Srisaila Tv
+#EXTINF:0,Srisaila TV
 http://202.83.27.171:1935/sslm/live/playlist.m3u8
-#EXTINF:46,SRK City
+#EXTINF:0,SRK City
 https://server.streamwell.in/hls/srkcity.m3u8
-#EXTINF:20,SRK News
+#EXTINF:0,SRK News
 http://cache.internode.co.in:6081/SRKNews/index.m3u8
-#EXTINF:29,srkent
+#EXTINF:0,srkent
 https://amigofx.com:1936/srkent/srkent/playlist.m3u8
-#EXTINF:30,SS News Tv
+#EXTINF:0,srs bhakthi
+http://live.adostream.com:1935/srsbhakthi/srsbhakthi/playlist.m3u8
+#EXTINF:0,SS News Tv
 http://streamcp.logosys.cloud:1935/snewsnpt/snewsnpt/playlist.m3u8
-#EXTINF:20,SSLC BanjaraDolu
+#EXTINF:0,SSLC BanjaraDolu
 http://cache.internode.co.in:6081/SSLCBanjaraDolu/index.m3u8
-#EXTINF:20,SSLC Cinemalu
+#EXTINF:0,SSLC Cinemalu
 http://cache.internode.co.in:6081/SSLCCinemalu/index.m3u8
-#EXTINF:20,SSLC Gold
+#EXTINF:0,SSLC Gold
 http://cache.internode.co.in:6081/SSLCGold/index.m3u8
-#EXTINF:20,SSLC Kathalu
+#EXTINF:0,SSLC Kathalu
 http://cache.internode.co.in:6081/SSLCKathalu/index.m3u8
-#EXTINF:20,SSLC Multiplex
+#EXTINF:0,SSLC Multiplex
 http://cache.internode.co.in:6081/SSLCMultiplex/index.m3u8
-#EXTINF:20,SSLC Music
+#EXTINF:0,SSLC Music
 http://cache.internode.co.in:6081/SSLCMusic/index.m3u8
-#EXTINF:30,Studio 18 Tv
+#EXTINF:0,SSLC2 Cinemalu
+http://cache.internode.co.in:6081/SSLC2Cinemalu/index.m3u8
+#EXTINF:0,Studio 18 Tv
 http://cloud.streamplay.in:1935/studio18/studio18/playlist.m3u8
+#EXTINF:0,Studio 18 Tv
+http://cloud.streamplay.in:1935/studio18/studio18/playlist.m3u8
+#EXTINF:0,Studio N
+https://cdn-1.pishow.tv/live/403/master.m3u8
+#EXTINF:0,Studio N Telugu
+http://studion.phoenixcreations.online:1935/studion/studion/playlist.m3u8
 #EXTINF:30,Super TV
 http://mars.streambridge.cloud:1935/livetv/SuperTV/playlist.m3u8
-#EXTINF:24,SuperTv
-http://cache.internode.co.in:6081/SuperTv/index.m3u8
-#EXTINF:30,SVC Channel
+#EXTINF:0,SVBC1
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+#EXTINF:0,SVBC1
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+#EXTINF:0,SVBC3
+https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+#EXTINF:0,SVBC3
+https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+#EXTINF:0,SVBC4
+https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
+#EXTINF:0,SVBC4
+https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
+#EXTINF:0,SVC
+http://cache.internode.co.in:6081/SVC/index.m3u8
+#EXTINF:0,SVC Channel
 http://cloud.streamplay.in:1935/svc/svc/playlist.m3u8
-#EXTINF:30,Telangana Samskruthi
+#EXTINF:0,Swatantra TV
+http://cache.internode.co.in:6081/SwatantraTV/index.m3u8
+#EXTINF:0,tcn
+http://stream.sundaylive.co.in:8088/tcndigital/tcndigital.m3u8
+#EXTINF:0,Tcn digital
+http://stream.sundaylive.co.in:8088/tcndigital/tcndigital.m3u8
+#EXTINF:0,Telangana Samskruthi
 http://cloud.streamplay.in:1935/telanganasamskruthi/telanganasamskruthi/playlist.m3u8
-#EXTINF:30,Telugu Tv
+#EXTINF:0,Telugu one tv
+https://amg02821-amg02821c1-samsung-in-4717.playouts.now.amagi.tv/playlist/amg02821-objectone-teluguone-samsungin/cb573f007971619098ce3d78d1f34982ef583dd50222c0323ca9539320c81c4486bef490f04aee3e5c821788610370595b33ca118c2802c3dc2eaf5b18462b25cedbac2a99d97d57e3855a0816894055209e6e7aae542e57c4b36a62ec3cb16a4b10e7197e5740eed768ad7c71ffb75bdf3c37dff4894301476c14ff3e2491ed548bc5d60c119b72f5ef586aa8157eace633aba369dfffb43fd349964ccf45c9d1eeda9350edd2ce3ef80eec4667324e66b8b049aced729bfbb34724ae9f492c663d67080e9c345eb3740131cdf1c2ab60fb53fd9d24956524c978f22daa11faa62e94c59b238ea2a9cb4a0118a9c1496824a19fcee23d98f2df149c83fad571698bf8560b2f79ef4540595aa6dcb17cb2ca0791bf2d8cb5237a52a5c315cac9ebd1a5d8052ded46d2acb0d0db616e1a4401086780a45e7b69421be2be322c595f4dae9b1aea83ce61096d5d8dba34be7715b6df8ef1bf745bc0024a03f001393ad88831950a1d7b6a0be61719a902579dacbb8edc32/19/1920x1080_5500000/index.m3u8
+#EXTINF:0,Telugu Tv
 http://live.streamplay.in:1935/telugutv/telugutv/playlist.m3u8
-#EXTINF:23,The Way Tv
+#EXTINF:0,Telugu TV
+http://live.streamplay.in:1935/telugutv/telugutv/playlist.m3u8
+#EXTINF:0,The Way Tv
 http://198.144.149.206:8080/NOTV/THEWAYTV/index.m3u8?token=GTR
-#EXTINF:30,Tirumala
+#EXTINF:0,The Way Tv
+http://198.144.149.206:8080/NOTV/THEWAYTV/index.m3u8?token=GTR
+#EXTINF:0,Tirumala
 http://cloud.streamplay.in:1935/tmc/tmc/playlist.m3u8
-#EXTINF:30,tnn news
+#EXTINF:0,TirumalaHD
+http://cache.internode.co.in:6081/TirumalaHD/index.m3u8
+#EXTINF:0,TNews
+http://cache.internode.co.in:6081/TNews/index.m3u8
+#EXTINF:0,tnn news
 http://cloud.streamplay.in:1935/tnn/tnn/playlist.m3u8
-#EXTINF:60,Tolly Tv
+#EXTINF:0,Tolly Tv
 https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
-#EXTINF:30,TR9
+#EXTINF:0,ToneTV
+https://amg02821-amg02821c1-samsung-in-4717.playouts.now.amagi.tv/playlist/amg02821-objectone-teluguone-samsungin/cb563f0072727b8c9bc92167d5f56294855936d44524dc3567fe06c57494025d84b9a2deec4ab96841cd4e8b3417380008609d1e8d2e07c3882ba2710e454620d986e12499d9432b81e23e2a2090402900aa4d0b847c0700b1837c13b50e9c5d184990630957369ef30df33270f8ba31c01b58e9daa805461d3e12954d67dbf10ae0e1b01d05b738feec4d11cb0d7bddbe09b8b47cd4f4ab26ef3af83bfb38a7aea1df900ed3c6d10cf706ef317b34481782a149a3f67397f7bf740b7210423e76d44d3ef1842c09b5052e69f6f6dfba61bf20da8831847345c36afa61a54047ef376bdd8c60afbfafd7026034a1d6526226da8bc84c56f451cf01dab1e1df666e97b46710f74bf0ba50490eb187a3228dd1129fb82a84fe0e775d92c114cfc4e0c98738ea3bff3da183bc7e1e623723078cbc7f9ca9cd9bb6be32d8ef1e244e4447acd57bc191e6673f7044bcea34b01d14bddef9e3a56e31a9314e0cf001393ad2d52d960adcf60ccf3a294ddc95f48c780ccead7d/156/1920x1080_5129264/index.m3u8
+#EXTINF:0,TR9
 https://live.tr9tv.com/tr9tv/myStream/playlist.m3u8
-#EXTINF:47,TV7 Hills
+#EXTINF:0,Tv5 News
+https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/110322/tv5/playlist.m3u8
+#EXTINF:0,Tv5 News
+https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/110322/tv5/playlist.m3u8
+#EXTINF:0,TV5 Telugu
+http://cache.internode.co.in:6081/TV5Telugu/index.m3u8
+#EXTINF:0,TV7 Hills
 https://server.streamwell.in/hls/7hills.m3u8
-#EXTINF:72,Tv8
+#EXTINF:0,Tv8
 https://vvsolutions.in/tv8news/tv8news.m3u8
-#EXTINF:30,Vihari Tv
+#EXTINF:0,Tv9
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
+#EXTINF:0,Tv9
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
+#EXTINF:0,V27
+http://cache.internode.co.in:6081/V27/index.m3u8
+#EXTINF:0,V5 News Tv
+http://cloud.streamplay.in:1935/v5news/v5news/playlist.m3u8
+#EXTINF:0,V6 News
+http://cache.internode.co.in:6081/V6News/index.m3u8
+#EXTINF:0,V6 News Tv
+https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/140622/v6news/playlist.m3u8
+#EXTINF:0,V6 News Tv
+https://medtaor.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/plives/140622/v6news/playlist.m3u8
+#EXTINF:0,Vanitha TV
+http://cache.internode.co.in:6081/VanithaTV/index.m3u8
+#EXTINF:0,VCN
+https://amigofx.com:1936/vcn/vcn/playlist.m3u8
+#EXTINF:0,VCNTV
+https://vvsolutions-server11.in/vcnentertainment_42/video.m3u8
+#EXTINF:0,victoria Media
+http://cache.internode.co.in:6081/victoriaMedia/index.m3u8
+#EXTINF:0,Vihari Tv
 http://viharitv.phoenixcreations.online:1935/viharitv/viharitv/chunklist_w714070156.m3u8
-#EXTINF:24,Vinodam HD
+#EXTINF:0,Vihari Tv
+http://viharitv.phoenixcreations.online:1935/viharitv/viharitv/chunklist_w714070156.m3u8
+#EXTINF:0,Vinodam HD
 http://cache.internode.co.in:6081/VinodamHD/index.m3u8
-#EXTINF:24,VV Comedy HD
+#EXTINF:0,Vinodam Tv
+https://sharsolution.in/hls/vinodam/vinodam.m3u8
+#EXTINF:0,Vismaya
+https://cloud.dndcommunication.in/vismaya/vismaya/playlist.m3u8
+#EXTINF:0,Vismaya tv
+https://cloud.dndcommunication.in/vismaya/vismaya/playlist.m3u8
+#EXTINF:0,Vissa Tv
+http://59.103.181.178:8000/play/a06k/index.m3u8
+#EXTINF:0,Vissa Tv
+http://59.103.181.178:8000/play/a06k/index.m3u8
+#EXTINF:0,vpower news
+https://vvsolutions.in/vpowernews_343/vpowernews_343.m3u8
+#EXTINF:0,VV Comedy HD
 http://allchannels.in:80/live/vvcomedy_100/tracks-v1a1/mono.m3u8
-#EXTINF:33,VV Movies HD
+#EXTINF:0,VV Movies HD
 http://allchannels.in:80/live/vvmovies_100/tracks-v1a1/mono.m3u8
-#EXTINF:25,VV Music HD
+#EXTINF:0,VV Music HD
 http://allchannels.in:80/live/vvmusic_100/tracks-v1a1/mono.m3u8
-#EXTINF:30,WPN digital
+#EXTINF:0,WPN digital
 https://amigofx.com:1936/wpndigital/wpndigital/playlist.m3u8
-#EXTINF:30,Y channel
+#EXTINF:0,Y Channel
 https://amigofx.com:1936/ychannel/ychannel/playlist.m3u8
-#EXTINF:72,YJ TV
+#EXTINF:0,Y channel
+https://amigofx.com:1936/ychannel/ychannel/playlist.m3u8
+#EXTINF:0,YJ TV
 https://vvsolutions.in/yjtv/yjtv.m3u8
-#EXTINF:72,YSR TV
+#EXTINF:0,YLR9
+http://cache.internode.co.in:6081/YLR9/index.m3u8
+#EXTINF:0,YSR TV
 https://vvsolutions.in/ysrtv/ysrtv.m3u8
-#EXTINF:30,Yuva Tv
+#EXTINF:0,Yuva Tv
 https://amigofx.com:1936/yuvatv/yuvatv/playlist.m3u8
-#EXTINF:46,Zoy HD
+#EXTINF:0,Zee Telugu News
+https://d116gfrn8orazi.cloudfront.net/index_3.m3u8
+#EXTINF:0,Zilla vani Tv
+https://streaming.livebox.co.in/vedhikahls/live.m3u8
+#EXTINF:0,Zillavani
+https://streaming.livebox.co.in/vedhikahls/live.m3u8
+#EXTINF:0,Zoy HD
 https://rtmp.streamwell.in/hls/zoyhd.m3u8
