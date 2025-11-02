@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zero Protocol Podcast</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="particle-bg"></div>
+
+  <div id="loader" class="loader">
+    <img src="images/zplogo.png" alt="Zero Protocol" class="loader-img">
+    <div class="music-waves">
+      <div class="bar b1"></div>
+      <div class="bar b2"></div>
+      <div class="bar b3"></div>
+      <div class="bar b4"></div>
+      <div class="bar b5"></div>
+    </div>
+  </div>
+
+  <div class="side-menu minimized" id="sideMenu">
+    <button class="sm-toggle" id="smToggle"><i class="bi bi-list"></i></button>
+    <div class="sm-items" id="smItems">
+      <button class="sm-btn" data-tooltip="Home"><i class="bi bi-house"></i> <span class="btn-text">Home</span></button>
+      <button class="sm-btn" data-tooltip="Guests"><i class="bi bi-person"></i> <span class="btn-text">Guests</span></button>
+      <button class="sm-btn" data-tooltip="Episodes"><i class="bi bi-play-circle"></i> <span class="btn-text">Episodes</span></button>
+      <button class="sm-btn" data-tooltip="Contact"><i class="bi bi-envelope"></i> <span class="btn-text">Contact</span></button>
+    </div>
+  </div>
+
+  <div class="logo-hero">
+    <div class="logo-wrap">
+      <img src="images/zplogo.png" class="zp-logo" alt="Zero Protocol Logo">
+    </div>
+  </div>
+   <div class="search-bar-wrap">
+        <input type="text" id="episodeSearch" placeholder="Search Episodes, Guests, or Topics..." class="search-input">
+        <button class="btn primary btn-search-icon"><i class="bi bi-search"></i></button>
+    </div>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-left">
+        <h1 class="hero-title">THE PODCAST.
+THE SPACE.                   
+    The MOVEMENT.</h1>
+        <p class="hero-sub">Zero Protocol is more than a podcast.
+ It is a sanctuary of slow, soul-level conversations where silence has weight,
+ contradictions are welcomed, and truth doesn’t need to shout.</p>
+        <div class="host-social-links">
+          <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+		  <a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-threads "></i></a>
+          <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-snapchat"></i></a>
+          <a href="#" class="social-link"><i class="bi bi-whatsapp"></i></a>
+
+        </div>
+      </div>
+
+      <div class="hero-center">
+        <div class="host-strip">
+          <img src="images/host.jpg" class="host-photo" alt="Host Aman Gupta">
+          <div class="host-text">
+            <div class="small">New Episode Every Friday</div>
+            <div class="host-by">by <strong>Aman Gupta</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="fullPlayer" class="hero-right">
+        <div class="player-card modern-player">
+          <div class="pc-top">
+            <div class="pc-left">
+              <img id="playerGuestImg" src="images/demopic.jpg" alt="Guest" class="pc-guest">
+              <div class="pc-info">
+                <div id="playerEpisodeName" class="pc-title">Episode 01 — Topic 1</div>
+                <div id="playerGuestName" class="pc-sub">Guest 1 • Filmmaker</div>
+              </div>
+            </div>
+            
+          </div>
+
+          <div id="waveform" class="waveform paused">
+            <div class="wbar"></div><div class="wbar"></div><div class="wbar"></div>
+            <div class="wbar"></div><div class="wbar"></div><div class="wbar"></div>
+            <div class="wbar"></div><div class="wbar"></div><div class="wbar"></div>
+            <div class="wbar"></div>
+          </div>
+
+          <div class="prog-wrap">
+            <input type="range" id="seek" min="0" max="100" value="0">
+            <div class="time-display"><span id="curTime">0:00</span> / <span id="durTime">0:00</span></div>
+          </div>
+
+          <div class="pc-controls">
+            <div class="controls-share">
+              <button class="btn-ctrl btn-share"><i class="bi bi-share"></i></button>
+              <button class="btn-ctrl btn-embed"><i class="bi bi-code-slash"></i></button>
+            </div>
+            <div class="controls-main">
+              <button id="prevBtn" class="btn-ctrl" data-tooltip="Previous (←)"><i class="bi bi-skip-backward"></i></button>
+              <button id="playPauseBtn" class="btn-play" data-tooltip="Play/Pause (Space)">▶</button>
+              <button id="nextBtn" class="btn-ctrl" data-tooltip="Next (→)"><i class="bi bi-skip-forward"></i></button>
+            </div>
+            <div class="controls-volume">
+              <button id="muteBtn" class="btn-ctrl" data-tooltip="Mute/Unmute"><i class="bi bi-volume-up"></i></button>
+              <input type="range" id="volume" min="0" max="1" step="0.01" value="1" style="width:80px">
+            </div>
+          </div>
+
+          
+
+          <audio id="mainAudio">
+            <source id="mainAudioSource" src="audio/episode1.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section id="guests" class="guests">
+      <div class="section-head">
+        <h2 style="color:#fff">Guests</h2>
+        <div class="slider-nav">
+          <button id="guestPrev" class="nav-sm"><i class="bi bi-chevron-left"></i></button>
+          <button id="guestNext" class="nav-sm"><i class="bi bi-chevron-right"></i></button>
+        </div>
+      </div>
+      <div id="guestSlider" class="guest-slider custom-scroll"></div>
+    </section>
+
+    <section id="episodes" class="episodes">
+      <div class="section-head">
+        <h2 style="color:#fff">Episodes</h2>
+        <button id="nextEpisodes" class="nav-sm"><i class="bi bi-chevron-right"></i></button>
+      </div>
+      <div id="episodeRow" class="episode-row custom-scroll"></div>
+    </section>
+
+    <section id="about-host" class="about-host">
+    <div class="host-image-wrap">
+        <img src="images/host.jpg" alt="Aman Gupta - Host" class="host-photo-lg">
+    </div>
+    <div class="host-bio-content">
+        <h2 class="host-name">Aman Gupta</h2>
+        <p class="host-designation">Host & Founder, Zero Protocol</p>
+        
+        <div class="host-social-links lg">
+            <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+			<a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+			<a href="#" class="social-link"><i class="bi bi-youtube"></i></a>
+
+
+        
+        <div class="host-bio-text">
+            <p>Aman Gupta is the visionary behind **Zero Protocol**, crafting it as a sanctuary for unfiltered, deep-dive conversations. With a background spanning technology and storytelling, Aman leverages his unique perspective to guide guests toward their most honest narratives. He believes true innovation stems from clarity, not noise.</p>
+            <p>He founded Zero Protocol out of a personal need for less superficial content, aiming to build a platform where silence is as valued as speech. Aman is a lifelong learner, dedicated to exploring the philosophical undercurrents of modern business and creative pursuits.</p>
+        </div>
+        
+        <a href="#contact" class="btn primary host-contact-btn">Get In Touch</a>
+    </div>
+</section>
+<section id="voice-message" class="voice-message">
+    <div class="vm-content">
+        <h2 style="color:#fff">Voice Note to the Host</h2>
+        <p class="vm-sub">Got a quick thought, question, or just want to say hi? Leave a short voice clip for Aman.</p>
+        
+        <form id="voiceMessageForm" class="voice-form">
+            <div class="input-group">
+                <input type="text" id="vmName" name="name" required>
+                <label for="vmName">Your Name</label>
+            </div>
+            <div class="input-group">
+                <input type="email" id="vmEmail" name="email" required>
+                <label for="vmEmail">Your Email</label>
+            </div>
+            
+            <div class="record-wrap full-width">
+    
+    <div id="recordControl"> 
+        <button type="button" id="recordBtn" class="btn primary record-btn">
+            <i class="bi bi-mic"></i> Start Recording
+        </button>
+    </div>
+    
+    <div id="recordTimer" class="record-timer">0:00</div>
+    
+    <div id="submitControl"> 
+        <button type="submit" class="btn primary submit-voice-btn">
+            <i class="bi bi-send"></i> Send Voice Message
+        </button>
+    </div>
+</div>
+        </form>
+    </div>
+</section>
+      </div>
+    </section>
+	<section id="mission-vision" class="mission-vision">
+    <div class="section-head">
+      <h2 style="color:#fff">Our Protocol</h2>
+      <p class="section-sub">Why we exist, and what we aim to build.</p>
+    </div>
+    
+    <div class="mv-grid">
+        <div class="mv-card mission-card">
+            <h3>Our Mission</h3>
+            <p>Our mission is to create a sanctuary of slow, soul-level conversations —a space where people can unmask without performance, where contradictions are welcomed, and where silence is as meaningful as words. We exist to help listeners pause, unlearn the noise, and return to their inner clarity.</p>
+            <a href="#" class="btn primary mv-btn">Listen Now</a>
+        </div>
+        
+        <div class="mv-card vision-card">
+            <h3>Our Vision</h3>
+            <p>Our vision is to evolve into a movement of honest storytelling —one that lingers, not trends. Beyond being a podcast, Zero Protocol aspires to become a trusted cultural platform for deep dialogue, creative collaborations, and unfiltered human stories that inspire clarity, courage, and connection. </p>
+            <a href="#" class="btn outline mv-btn">Collaborate</a>
+        </div>
+    </div>
+</section>
+<section id="listen">
+  <h2 class="section-head" style="color:#fff; text-align:center;">Listen Us On</h2>
+  <div class="listen-grid">
+    <div class="listen-item"><img src="images/spotify.jpg" alt="Spotify"></div>
+    <div class="listen-item"><img src="images/applepodcasts.jpg" alt="Apple Podcasts"></div>
+    <div class="listen-item"><img src="images/saavn.jpg" alt="JioSaavn"></div>
+    <div class="listen-item"><img src="images/gaana.jpg" alt="Gaana"></div>
+    <div class="listen-item"><img src="images/amazon.jpg" alt="Amazon Music"></div>
+    <div class="listen-item"><img src="images/google.jpg" alt="Google Podcasts"></div>
+    <div class="listen-item"><img src="images/youtube.jpg" alt="YouTube"></div>
+    <div class="listen-item"><img src="images/stitcher.jpg" alt="Stitcher"></div>
+  </div>
+</section>
+
+
+    <section id="contact" class="contact modern-contact">
+      <h2 style="color:#fff;margin-bottom:12px;">Be Our Guest</h2>
+      <form id="guestForm" class="guest-form">
+        <div class="input-group">
+          <input type="text" id="guestName" name="name" required>
+          <label for="guestName">Your Name</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="guestEmail" name="email" required>
+          <label for="guestEmail">Your Email</label>
+        </div>
+        <div class="input-group full-width">
+          <input type="text" id="guestTopic" name="topic" required>
+          <label for="guestTopic">Proposed Topic</label>
+        </div>
+        <div class="input-group full-width">
+          <textarea id="guestMessage" name="message"></textarea>
+          <label for="guestMessage">Tell us briefly about your work</label>
+        </div>
+        <button type="submit" class="btn primary submit-btn" style="grid-column:1 / -1;">Submit Guest Application</button>
+      </form>
+    </section>
+	<section id="about-brand" class="about-brand">
+    <div class="about-content">
+        <h2 class="section-title" style="color:#fff">About The Brand</h2>
+        
+        <div class="brand-pillars">
+            <h3 class="pillar-heading">Zero Protocol is:</h3>
+            <ul>
+                <li>"The Podcast"</li>
+                <li>"The Space"</li>
+                <li>"The Movement"</li>
+            </ul>
+        </div>
+        
+        <p class="brand-description">
+            Zero Protocol is more than a podcast. It is a **sanctuary of slow, soul-level conversations** where silence has weight, contradictions are welcomed, and truth doesn't need to shout. We are shaped by the unease with surface-level noise, by the **hunger for depth**, and by the stories we sit with. After this, we hope you'll come to know us a little more clearly.
+        </p>
+        
+        <p class="brand-discovery">
+            "Within this section, you will discover who we are, what we stand for, and why we exist"
+        </p>
+    </div>
+</section>
+
+    <div id="miniPlayer" class="mini-player hidden modern-mini">
+      <img id="miniGuestImg" src="images/demopic.jpg" alt="Mini Guest">
+      <div class="mini-meta">
+        <div id="miniEpisodeTitle" style="color:#fff;font-weight:700;">Episode 01 — Topic 1</div>
+        <div id="miniGuest" style="font-size:13px;color:#ccc;">Guest 1</div>
+      </div>
+      <div class="mini-controls">
+        <button id="miniPrev" class="icon-btn" data-tooltip="Previous (←)"><i class="bi bi-skip-backward"></i></button>
+        <button id="miniPlay" class="icon-btn btn-lg" data-tooltip="Play/Pause (Space)"><i class="bi bi-play"></i></button>
+        <button id="miniNext" class="icon-btn" data-tooltip="Next (→)"><i class="bi bi-skip-forward"></i></button>
+        <input type="range" id="miniSeek" min="0" max="100" value="0">
+        <button id="miniMute" class="icon-btn" data-tooltip="Mute/Unmute"><i class="bi bi-volume-up"></i></button>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <img src="images/zplogo.png" class="footer-logo" alt="Zero Protocol Logo">
+      <p>© <span id="year"></span> Zero Protocol. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
