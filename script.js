@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
       title:`Episode ${String(id).padStart(2,'0')} — Topic ${id}`,
       guest:`Guest ${id}`,
       guestTitle:(id%3===0)?'Writer':(id%3===1)?'Actor':'Singer',
-      img:'images/demopic.jpg',
-      audio:`audio/episode${id}.mp3`,
+      img:'https://i.pinimg.com/736x/fa/ba/64/faba6420fc457ec0bdcc251994b8836c.jpg',
+      audio:`https://akhilsaisrikar.github.io/demo.mp3`,
       // nextInfo:`Next ep ${Math.min(id+1,15)} • Fri`, // REMOVED per user request
       transcript: `This is the detailed show transcript for Episode ${id}, discussing ${id % 3 === 0 ? 'creative writing and the future of storytelling' : id % 3 === 1 ? 'modern filmmaking techniques and independent cinema' : 'ancient philosophy and its relevance in the digital age'}.`
     };
