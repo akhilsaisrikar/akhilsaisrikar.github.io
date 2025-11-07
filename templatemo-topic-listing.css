@@ -1,0 +1,2724 @@
+/*
+
+TemplateMo 590 topic listing
+
+https://templatemo.com/tm-590-topic-listing
+
+*/
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+  --white-color:                  #ffffff;
+  --primary-color:                #13547a;
+  --secondary-color:              #80d0c7;
+  --section-bg-color:             #f0f8ff;
+  --custom-btn-bg-color:          #80d0c7;
+  --custom-btn-bg-hover-color:    #13547a;
+  --dark-color:                   #000000;
+  --p-color:                      #717275;
+  --border-color:                 #7fffd4;
+  --link-hover-color:             #13547a;
+
+  --body-font-family:             'Open Sans', sans-serif;
+  --title-font-family:            'Montserrat', sans-serif;
+
+  --h1-font-size:                 58px;
+  --h2-font-size:                 46px;
+  --h3-font-size:                 32px;
+  --h4-font-size:                 28px;
+  --h5-font-size:                 24px;
+  --h6-font-size:                 22px;
+  --p-font-size:                  20px;
+  --menu-font-size:               14px;
+  --btn-font-size:                18px;
+  --copyright-font-size:          16px;
+
+  --border-radius-large:          100px;
+  --border-radius-medium:         20px;
+  --border-radius-small:          10px;
+
+  --font-weight-normal:           400;
+  --font-weight-medium:           500;
+  --font-weight-semibold:         600;
+  --font-weight-bold:             700;
+}
+
+body {
+  background-color: var(--white-color);
+  font-family: var(--body-font-family); 
+}
+
+
+/*---------------------------------------
+  TYPOGRAPHY               
+-----------------------------------------*/
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--title-font-family); 
+  font-weight: var(--font-weight-semibold);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-weight-bold);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  color: var(--primary-color);
+  font-size: var(--h6-font-size);
+}
+
+p {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-normal);
+}
+
+ul li {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-normal);
+}
+
+a, 
+button {
+  touch-action: manipulation;
+  transition: all 0.3s;
+}
+
+a {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+b,
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+
+/*---------------------------------------
+  SECTION               
+-----------------------------------------*/
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.section-bg {
+  background-color: var(--section-bg-color);
+}
+
+.section-overlay {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+}
+
+.section-overlay + .container {
+  position: relative;
+}
+
+.tab-content {
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-medium);
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ecf3f2;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  color: var(--p-color);
+  font-family: var(--title-font-family);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-medium);
+  padding: 15px 25px;
+  transition: all 0.3s;
+}
+
+.nav-tabs .nav-link:first-child {
+  margin-right: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover {
+  border-bottom-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+
+/*---------------------------------------
+  CUSTOM ICON COLOR               
+-----------------------------------------*/
+.custom-icon {
+  color: var(--secondary-color);
+}
+
+
+/*---------------------------------------
+  CUSTOM BUTTON               
+-----------------------------------------*/
+.custom-btn {
+  background: var(--custom-btn-bg-color);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-semibold);
+  line-height: normal;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+
+.custom-btn:hover {
+  background: var(--custom-btn-bg-hover-color);
+  color: var(--white-color);
+}
+
+.custom-border-btn {
+  background: transparent;
+  border: 2px solid var(--custom-btn-bg-color);
+  color: var(--custom-btn-bg-color);
+}
+
+.custom-border-btn:hover {
+  background: var(--custom-btn-bg-color);
+  border-color: transparent;
+  color: var(--white-color);
+}
+
+.custom-btn-bg-white {
+  border-color: var(--white-color);
+  color: var(--white-color);
+}
+
+
+/*---------------------------------------
+  SITE HEADER              
+-----------------------------------------*/
+.site-header {
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+.site-header .container {
+  height: 100%;
+}
+
+.breadcrumb-item+.breadcrumb-item::before,
+.breadcrumb-item a:hover,
+.breadcrumb-item.active {
+  color: var(--white-color);
+}
+
+.site-header .custom-icon {
+  color: var(--white-color);
+  font-size: var(--h4-font-size);
+}
+
+.site-header .custom-icon:hover {
+  color: var(--secondary-color);
+}
+
+
+/*---------------------------------------
+  NAVIGATION              
+-----------------------------------------*/
+.sticky-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.sticky-wrapper.is-sticky .navbar {
+  background-color: var(--secondary-color);
+}
+
+.navbar {
+  background: transparent;
+  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
+  z-index: 9;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-weight-bold);
+  display: block;
+}
+
+.navbar-brand span {
+  font-family: var(--title-font-family);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  border-radius: var(--border-radius-large);
+  margin: 10px;
+  padding: 10px;
+}
+
+.navbar-nav .nav-link {
+  display: inline-block;
+  color: var(--white-color);
+  font-family: var(--title-font-family); 
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+.navbar .dropdown-menu {
+  background: var(--white-color);
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  border: 0;
+  display: inherit;
+  opacity: 0;
+  min-width: 9rem;
+  margin-top: 20px;
+  padding: 13px 0 10px 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.navbar .dropdown-menu::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid var(--white-color);
+  position: absolute;
+  top: -10px;
+  left: 10px;
+}
+
+.navbar .dropdown-item {
+  display: inline-block;
+  color: var(--p-bg-color);
+  font-family: var(--title-font-family); 
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.navbar .dropdown-item.active, 
+.navbar .dropdown-item:active,
+.navbar .dropdown-item:focus, 
+.navbar .dropdown-item:hover {
+  background: transparent;
+  color: var(--primary-color);
+}
+
+.navbar .dropdown-toggle::after {
+  content: "\f282";
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-size: var(--copyright-font-size);
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  left: 2px;
+  border: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    margin-top: 0;
+    pointer-events: auto;
+  }
+}
+
+.navbar-icon {
+  background: var(--white-color);
+  border-radius: var(--border-radius-large);
+  display: inline-block;
+  font-size: var(--h5-font-size);
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.navbar-icon:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.navbar-toggler {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  width: 30px;
+  height: 35px;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background: transparent;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
+  transition: top 300ms 50ms ease, transform 300ms 350ms ease;
+  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+  top: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(-45deg);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background: var(--white-color);
+  transition: background 10ms 300ms ease;
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon:before,
+.navbar-toggler .navbar-toggler-icon:after {
+  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: var(--white-color);
+  width: 30px;
+  height: 2px;
+  content: '';
+}
+
+.navbar-toggler .navbar-toggler-icon::before {
+  top: -8px;
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
+
+/*---------------------------------------
+  HERO        
+-----------------------------------------*/
+.hero-section {
+  background: url('../images/servicebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.hero-section .input-group {
+  background-color: var(--white-color);
+  border-radius: var(--border-radius-large);
+  padding: 10px 15px;
+}
+
+.hero-section .input-group-text {
+  background-color: transparent;
+  border: 0;
+}
+
+.hero-section input[type="search"] {
+  border: 0;
+  box-shadow: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.hero-section button[type="submit"] {
+  background-color: var(--primary-color);
+  border: 0;
+  border-radius: var(--border-radius-large) !important;
+  color: var(--white-color);
+  max-width: 150px;
+}
+
+
+/*---------------------------------------
+  TOPICS              
+-----------------------------------------*/
+.featured-section {
+  background-color: var(--secondary-color);
+  border-radius: 0 0 100px 100px;
+  padding-bottom: 100px;
+}
+
+.featured-section .row {
+  position: relative;
+  bottom: 100px;
+  margin-bottom: -100px;
+}
+
+.custom-block {
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.custom-block:hover {
+  background-color: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.custom-block > a {
+  width: 100%;
+}
+
+.custom-block-image {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 35px;
+}
+
+.custom-block .rounded-pill {
+  border-radius: 5px !important;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 20px;
+}
+
+.custom-block-overlay {
+  height: 100%;
+  min-height: 350px;
+  padding: 0;
+}
+
+.custom-block-overlay > a {
+  height: 100%;
+}
+
+.custom-block-overlay .custom-block-image {
+  border-radius: var(--border-radius-medium);
+  display: block;
+  height: 100%;
+  margin-top: 0;
+}
+
+.custom-block-overlay-text {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px;
+}
+
+.social-share {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  padding: 20px 35px;
+}
+
+.social-share .bi-bookmark {
+  color: var(--white-color);
+  font-size: var(--h5-font-size);
+}
+
+.social-share .bi-bookmark:hover {
+  color: var(--secondary-color);
+}
+
+.bg-design {
+  background-color: #00B0FF;
+}
+
+.bg-graphic {
+  background-color: #00BFA6;
+}
+
+.bg-advertising {
+  background-color: #F50057;
+}
+
+.bg-finance {
+  background-color: #536DFE;
+}
+
+.bg-music {
+  background-color: #F9A826;
+}
+
+.bg-education {
+  background-color: #00BFA6;
+}
+
+
+/*---------------------------------------
+  TOPICS               
+-----------------------------------------*/
+.topics-detail-block {
+  border-radius: var(--border-radius-medium);
+  position: relative;
+  overflow: hidden;
+}
+
+.topics-detail-block-image {
+  display: block;
+  border-radius: var(--border-radius-medium);
+}
+
+blockquote {
+  background-color: var(--section-bg-color);
+  border-radius: var(--border-radius-small);
+  font-family: var(--title-font-family);
+  font-size: var(--h4-font-size);
+  font-weight: var(--font-weight-bold);
+  display: inline-block;
+  text-align: center;
+  margin: 30px;
+  padding: 40px;
+}
+
+.topics-listing-page .site-header {
+  padding-bottom: 65px;
+}
+
+.custom-block-topics-listing-info {
+  margin: 30px 20px 20px 30px;
+}
+
+.custom-block-topics-listing {
+  height: inherit;
+}
+
+.custom-block-topics-listing .custom-block-image {
+  width: 200px;
+}
+
+
+/*---------------------------------------
+  PAGINATION              
+-----------------------------------------*/
+.pagination {
+  margin-top: 40px;
+}
+
+.page-link {
+  border: 0;
+  border-radius: var(--border-radius-small);
+  color: var(--p-color);
+  font-family: var(--title-font-family);
+  margin: 0 5px;
+  padding: 10px 20px;
+}
+
+.page-link:hover,
+.page-item:first-child .page-link:hover,
+.page-item:last-child .page-link:hover {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.page-item:first-child .page-link {
+  margin-right: 10px;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+  background-color: var(--section-bg-color);
+  border-radius: var(--border-radius-small);
+}
+
+.active>.page-link, .page-link.active {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+
+/*---------------------------------------
+  TIMELINE              
+-----------------------------------------*/
+.timeline-section {
+  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.timeline-container .vertical-scrollable-timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress {
+  width: 8px;
+  height: 87%;
+  background-color: var(--primary-color);
+  position: absolute;
+  left: 52px;
+  top: 0;
+  overflow: hidden;
+}
+
+.timeline-container .vertical-scrollable-timeline .list-progress .inner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: var(--secondary-color);
+  width: 100%;
+}
+
+.timeline-container .vertical-scrollable-timeline li {
+  position: relative;
+  padding: 20px 0px 65px 145px;
+}
+
+.timeline-container .vertical-scrollable-timeline li:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li p {
+  line-height: 40px;
+}
+
+.timeline-container .vertical-scrollable-timeline li p:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 104px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  z-index: 1;
+  transition: 0.4s all;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 4px solid #fff;
+  position: absolute;
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.4s all;
+}
+
+.timeline-container .vertical-scrollable-timeline li .icon-holder i {
+  font-size: 25px;
+  color: var(--white-color);
+}
+
+.timeline-container .vertical-scrollable-timeline li::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 8px;
+  background-color: transparent;
+  left: 52px;
+  z-index: 0;
+}
+
+.timeline-container .vertical-scrollable-timeline li.active .icon-holder {
+  background-color: var(--primary-color);
+}
+
+.timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
+  background-color: var(--primary-color);
+}
+
+
+/*---------------------------------------
+  FAQs              
+-----------------------------------------*/
+.faq-section .accordion-item {
+  border: 0;
+}
+
+.faq-section .accordion-button {
+  font-size: var(--h6-font-size);
+  font-weight: var(--font-weight-semibold);
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+  border-radius: var(--border-radius-large);
+}
+
+.faq-section .accordion-button:not(.collapsed) {
+  border-radius: var(--border-radius-large);
+  box-shadow: none;
+  color: var(--primary-color);
+}
+
+.faq-section .accordion-body {
+  color: var(--p-color);
+  font-size: var(--btn-font-size);
+  line-height: 40px;
+}
+
+/*---------------------------------------
+  NEWSLETTER               
+-----------------------------------------*/
+.newsletter-image {
+  border-radius: var(--border-radius-medium);
+}
+
+
+/*---------------------------------------
+  CONTACT               
+-----------------------------------------*/
+.google-map {
+  border-radius: var(--border-radius-medium);
+}
+
+.contact-form .form-floating>textarea {
+  border-radius: var(--border-radius-medium);
+  height: 150px;
+}
+
+
+/*---------------------------------------
+  SUBSCRIBE FORM               
+-----------------------------------------*/
+.subscribe-form-wrap {
+  padding: 50px;
+}
+
+.subscribe-form {
+  width: 95%;
+}
+
+
+/*---------------------------------------
+  CUSTOM FORM               
+-----------------------------------------*/
+.custom-form .form-control {
+  border-radius: var(--border-radius-large);
+  color: var(--p-color);
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.form-floating>label {
+  padding-left: 20px;
+}
+
+.custom-form button[type="submit"] {
+  background: var(--custom-btn-bg-color);
+  border: none;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-family: var(--title-font-family);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-semibold);
+  transition: all 0.3s;
+  margin-bottom: 0;
+}
+
+.custom-form button[type="submit"]:hover,
+.custom-form button[type="submit"]:focus {
+  background: var(--custom-btn-bg-hover-color);
+  border-color: transparent;
+}
+
+
+/*---------------------------------------
+  SITE FOOTER              
+-----------------------------------------*/
+.site-footer {
+  border-bottom: 10px solid var(--secondary-color);
+  position: relative;
+}
+
+.site-footer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 200px 200px;
+  border-color: transparent transparent var(--secondary-color) transparent;
+  pointer-events: none;
+}
+
+.site-footer-title {
+  color: var(--primary-color); 
+}
+
+.site-footer .dropdown-menu {
+  padding: 0;
+}
+
+.site-footer .dropdown-item {
+  color: var(--p-color);
+  font-size: var(--menu-font-size);
+  font-weight: var(--font-weight-medium);
+  padding: 4px 18px;
+}
+
+.site-footer .dropdown-item:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.site-footer .dropdown-menu li:first-child .dropdown-item {
+  padding-top: 10px;
+}
+
+.site-footer .dropdown-menu li:last-child .dropdown-item {
+  padding-bottom: 12px;
+}
+
+.site-footer .dropdown-toggle {
+  background-color: var(--secondary-color);
+  border-color: var(--white-color);
+}
+
+.site-footer .dropdown-toggle:hover {
+  background-color: var(--primary-color);
+  border-color: transparent;
+}
+
+.site-footer-links {
+  padding-left: 0;
+}
+
+.site-footer-link-item {
+  display: block;
+  list-style: none;
+  line-height: normal;
+}
+
+.site-footer-link {
+  color: var(--secondary-color);
+  font-size: var(--copyright-font-size);
+  font-weight: var(--font-weight-medium);
+  line-height: normal;
+}
+
+.copyright-text {
+  font-size: var(--copyright-font-size);
+}
+
+
+/*---------------------------------------
+  SOCIAL ICON               
+-----------------------------------------*/
+.social-icon {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon-item {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-icon-link {
+  background: var(--secondary-color);
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  display: block;
+  margin-right: 10px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 36px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.social-icon-link:hover {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+
+/*---------------------------------------
+  RESPONSIVE STYLES               
+-----------------------------------------*/
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .navbar {
+    background-color: var(--secondary-color);
+  }
+
+  .navbar-nav .dropdown-menu {
+    position: relative;
+    left: 10px;
+    opacity: 1;
+    pointer-events: auto;
+    max-width: 155px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    padding-bottom: 20px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0;
+  }
+
+  .nav-tabs .nav-link:first-child {
+    margin-right: 5px;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: var(--copyright-font-size);
+    padding: 10px;
+  }
+
+  .featured-section {
+    border-radius: 0 0 80px 80px;
+    padding-bottom: 50px;
+  }
+
+  .custom-block-topics-listing .custom-block-image {
+    width: auto;
+  }
+
+  .custom-block-topics-listing > .d-flex,
+  .custom-block-topics-listing-info,
+  .custom-block-topics-listing a {
+    flex-direction: column;
+  }
+
+  .timeline-container .vertical-scrollable-timeline .list-progress {
+    height: 75%;
+  }
+
+  .timeline-container .vertical-scrollable-timeline li {
+    padding-left: 135px;
+  }
+
+  .subscribe-form-wrap {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+}
+/* --- Floating Left Menu (FAB) Style --- * floating starts here/
+
+/* === Floating Left Menu Glow + Bounce Animation === */
+
+.floating-menu-container {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1050;
+}
+
+.floating-buttons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.floating-buttons li {
+  margin-bottom: 8px;
+}
+
+/* Logo Item */
+.logo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  width: 45px;
+  overflow: hidden;
+  cursor: default;
+  transition: all 0.4s ease;
+  animation: bounceIn 0.8s ease-out;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+}
+
+.logo-item:hover {
+  width: 220px;
+  box-shadow: 0 0 20px rgba(19, 84, 122, 0.6);
+}
+
+.logo-item i {
+  font-size: 24px;
+  min-width: 24px;
+}
+
+.logo-text {
+  margin-left: 10px;
+}
+
+/* Floating Buttons */
+.btn-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0 10px 10px 0;
+  transition: all 0.4s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  width: 45px;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+/* On hover: expand + glow */
+.btn-item:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 200px;
+  box-shadow: 0 0 20px rgba(13, 110, 253, 0.6);
+  transform: translateX(5px);
+}
+
+/* Sequential button animations */
+.floating-buttons li:nth-child(2) .btn-item { animation: bounceIn 0.6s ease-out 0.2s forwards; }
+.floating-buttons li:nth-child(3) .btn-item { animation: bounceIn 0.6s ease-out 0.4s forwards; }
+.floating-buttons li:nth-child(4) .btn-item { animation: bounceIn 0.6s ease-out 0.6s forwards; }
+.floating-buttons li:nth-child(5) .btn-item { animation: bounceIn 0.6s ease-out 0.8s forwards; }
+.floating-buttons li:nth-child(6) .btn-item { animation: bounceIn 0.6s ease-out 1.0s forwards; }
+
+/* --- Keyframes for bounce-in effect --- */
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px) scale(0.9);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(5px) scale(1.05);
+  }
+  80% {
+    transform: translateX(-2px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+/* Small screen adjustment */
+@media (max-width: 767px) {
+  .floating-menu-container {
+    left: 10px;
+  }
+  .btn-item {
+    width: 40px;
+    font-size: 14px;
+  }
+  .btn-item:hover {
+    width: 160px;
+  }
+}
+/* --- Floating Menu Icon Size Adjustment --- */
+
+/* Larger logo icon */
+.logo-item i {
+  font-size: 30px; /* Prominent logo size */
+  min-width: 30px;
+}
+
+/* Slightly smaller button icons */
+.btn-item i {
+  font-size: 24px; /* Balanced for menu buttons */
+  min-width: 24px;
+}
+
+/* Optional: increase spacing between icon and text */
+.btn-text {
+  margin-left: 12px;
+}
+
+/* Subtle hover animation for icons */
+.floating-menu-container i {
+  transition: transform 0.25s ease;
+}
+
+.btn-item:hover i,
+.logo-item:hover i {
+  transform: scale(1.15) rotate(5deg);
+}
+/* --- Floating Menu Smooth Expand Animation (Material-style) --- */
+
+/* Base setup */
+.logo-item,
+.btn-item {
+  transition:
+    width 0.45s cubic-bezier(0.25, 0.8, 0.25, 1),
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+  will-change: width, transform;
+}
+
+/* Logo expand animation */
+.logo-item {
+  width: 48px;
+}
+.logo-item:hover {
+  width: 220px;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
+  transform: translateX(3px);
+}
+
+/* Menu button expand animation */
+.btn-item {
+  width: 48px;
+}
+.btn-item:hover {
+  width: 200px;
+  box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.35);
+  transform: translateX(5px);
+}
+
+/* Icon hover animation */
+.floating-menu-container i {
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.btn-item:hover i,
+.logo-item:hover i {
+  transform: scale(1.15) rotate(8deg);
+}
+
+/* Smooth text fade-in when expanded */
+.logo-text,
+.btn-text {
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+.logo-item:hover .logo-text,
+.btn-item:hover .btn-text {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+/* Optional: make hover shadows softer for modern look */
+.btn-item,
+.logo-item {
+  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.12);
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 120px 20px 80px;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 1600px;
+  height: 650px;
+  perspective: 1200px;
+  position: relative;
+  padding-top: 60px;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.carousel-item {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform-style: preserve-3d;
+  transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+  cursor: pointer;
+  transform-origin: center center;
+}
+
+.carousel-item .card {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #1a1a1a, #121212);
+  border: 2px solid #3a3a3a;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+}
+
+.card-number {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 72px;
+  font-weight: 900;
+  color: rgba(153, 69, 255, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 1px solid #3a3a3a;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(50%) contrast(1.2);
+  transition: all 0.5s ease;
+}
+.carousel-item:hover .card-image img {
+  filter: grayscale(0%) contrast(1.3);
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(135deg, #fff, #9945ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-description {
+  color: #b0b0b0;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.tech-badge {
+  padding: 5px 12px;
+  background: rgba(153, 69, 255, 0.1);
+  border: 1px solid #9945ff;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #9945ff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-cta {
+  padding: 12px 30px;
+  background: linear-gradient(135deg, #9945ff, #00a8ff);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(153, 69, 255, 0.3);
+}
+.card-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(153, 69, 255, 0.5);
+}
+
+/* Carousel Controls */
+.carousel-controls {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+.carousel-btn {
+  width: 60px;
+  height: 60px;
+  background: #1a1a1a;
+  border: 2px solid #3a3a3a;
+  border-radius: 50%;
+  color: #9945ff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel-btn:hover {
+  border-color: #9945ff;
+  transform: scale(1.1);
+}
+
+/* Indicators */
+.carousel-indicators {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+.indicator {
+  width: 12px;
+  height: 12px;
+  background: #3a3a3a;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.indicator.active {
+  background: linear-gradient(135deg, #9945ff, #00a8ff);
+  transform: scale(1.3);
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1024px) {
+  .carousel-item {
+    width: 340px;
+    height: 460px;
+  }
+  .carousel-container {
+    height: 550px;
+  }
+  .card-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 280px;
+    height: 430px;
+  }
+  .carousel-controls {
+    bottom: -60px;
+  }
+  .carousel-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-description {
+    font-size: 13px;
+  }
+}
+/* templatemo-topic-listing.css: FINAL COMPLETE ANIMATIC DESIGN */
+
+/* --------------------------------------
+  SERVICES SECTION STYLING (GLASS/GRADIENT/ANIMATIC)
+-----------------------------------------*/
+
+.services-section {
+    /* Set background image for the entire section (Parallax effect) */
+    background: url('../images/servicebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    position: relative;
+}
+
+/* Add a dark overlay to the section background for contrast and readability */
+.services-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65); /* Increased darkness for contrast */
+    z-index: 0;
+}
+
+.services-section .container {
+    position: relative;
+    z-index: 1; 
+}
+
+/* Base Card Style: 3D, Transparent, Rounded Corners */
+.service-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+    /* Transparent/Frosted Glass background */
+    background-color: rgba(255, 255, 255, 0.08); 
+    backdrop-filter: blur(3px); /* Enhanced blur effect */
+    -webkit-backdrop-filter: blur(3px);
+    
+    border-radius: 18px; /* Rounded Corners applied */
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    
+    /* ANIMATIC: 3D Perspective Setup */
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    
+    /* Subtle border for definition */
+    border: 1px solid rgba(123, 202, 195, 0.3); 
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1); /* Smooth transition for all animatic effects */
+}
+
+/* ANIMATIC: 3D Tilt and GLOW Hover Effect */
+.service-card:hover {
+    transform: translateY(-12px) rotateX(1deg) rotateY(-1deg) scale(1.03); /* 3D Tilt and Scale */
+    /* GLOW: Deep glow using the primary color */
+    box-shadow: 0 25px 70px rgba(31, 98, 130, 0.6); 
+}
+
+/* Image Container */
+.service-card-image {
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    transform: translateZ(20px); 
+}
+
+.service-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+    filter: brightness(0.9); 
+}
+
+/* ANIMATIC: Image Zoom on Hover */
+.service-card:hover .service-card-image img {
+    transform: scale(1.15);
+}
+
+/* Text Content Area */
+.service-card-body {
+    padding: 30px 25px;
+    text-align: center;
+    flex-grow: 1;
+    position: relative;
+    z-index: 2;
+    
+    background: linear-gradient(180deg, rgba(31, 98, 130, 0.05), rgba(0, 0, 0, 0.1));
+    
+    transform: translateZ(10px); 
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Title Styling: Solid White for Visibility */
+.service-card-title {
+    font-family: var(--title-font-family); 
+    font-size: var(--h4-font-size);
+    
+    /* Solid, slightly transparent white for high contrast */
+    color: rgba(255, 255, 255, 0.95); 
+    
+    margin-bottom: 10px;
+    transition: all 0.4s ease;
+    
+    /* Ensure no residual gradient styling */
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    background-clip: unset;
+    text-fill-color: unset;
+}
+
+/* ANIMATIC: Dynamic Gradient Text on Hover */
+.service-card:hover .service-card-title {
+    /* Reintroduce the vibrant gradient on hover */
+    background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.service-card-body p {
+    font-family: var(--body-font-family);
+    /* Paragraph text is transparent white */
+    color: rgba(255, 255, 255, 0.8); 
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+/* templatemo-topic-listing.css: FINAL COMPACT COURSES SECTION STYLING */
+
+.courses-section {
+    position: relative;
+    /* Background Image */
+    background: url('../images/coursebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    overflow: hidden; 
+}
+
+/* Section Overlay (Little Transparent) */
+.courses-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+    z-index: 0;
+}
+
+.course-scrolling-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* GAP B/W SCROLLS: Reduced from 50px to 25px. Change this if cropping occurs on zoom. */
+    padding: 0; 
+}
+
+.course-scrolling-line {
+    width: 100%;
+    overflow: visible; 
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.course-list-wrapper {
+    display: inline-flex;
+    width: 300%; 
+    animation: scroll-ltr 60s linear infinite;
+    align-items: center;
+    overflow: visible; 
+}
+
+/* CARD WRAPPER: Size Reduction */
+.course-card-wrapper {
+    width: 120px; /* CARD WIDTH: Reduced from 170px to 120px (approx. 30% more reduction) */
+    min-width: 120px;
+    height: 150px;
+    padding: 5px 8px; /* Reduced padding */
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    overflow: visible !important;
+    z-index: 2; 
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    
+    /* Rounded Rectangle / Translucent Glass */
+    background-color: rgba(255, 255, 255, 0.08); 
+    border-radius: 12px; /* Reduced border radius */
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(5px); 
+    -webkit-backdrop-filter: blur(5px);
+
+    transition: transform 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+/* Image Container Styling: Size Reduction & Corner Rounding */
+.course-img-top {
+    width: 100%; 
+    height: 60px; /* IMAGE HEIGHT: Reduced from 85px to 60px (approx. 30% more reduction) */
+    overflow: hidden;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    margin-bottom: 0;
+}
+
+.course-img-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.4s ease;
+}
+
+/* Text Content below image */
+.course-card p {
+    font-family: var(--title-font-family); 
+    font-size: 12px; /* Smaller font for compact card */
+    color: rgba(255, 255, 255, 0.9);
+    margin: 8px 5px; /* Reduced padding */
+    white-space: normal;
+    line-height: 1.2;
+}
+
+/* ANIMATIC: Hover Effect - Zoom and Glow */
+.course-card:hover {
+    transform: scale(1.1); /* SLIGHTLY REDUCED ZOOM: To prevent cropping with smaller gap */
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(123, 202, 195, 0.8);
+    z-index: 10;
+}
+
+.course-card:hover .course-img-top img {
+     transform: scale(1.02);
+}
+
+/* ANIMATION KEYFRAMES (Keep the same) */
+@keyframes scroll-ltr {
+    from { transform: translateX(0); }
+    to { transform: translateX(-33.3333333333%); }
+}
+
+@keyframes scroll-rtl {
+    from { transform: translateX(-33.3333333333%); }
+    to { transform: translateX(0); }
+}
+
+.line-ltr .course-list-wrapper { animation-name: scroll-ltr; }
+.line-rtl .course-list-wrapper { animation-name: scroll-ltr; animation-direction: reverse; }
+
+/* Hover to Pause Animation */
+.course-scrolling-line:hover .course-list-wrapper { animation-play-state: paused; }
+
+/* cources end */
+/* templatemo-topic-listing.css: SUCCESS STORIES SECTION STYLING (FINAL FIXES) */
+
+.testimonial-section {
+    position: relative;
+    /* Background Image */
+    background: url('../images/testimonialbackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    overflow: hidden; 
+}
+
+/* Section Overlay (Little Transparent) */
+/* REMOVED OVERLAY: Commented out to show background image clearly. */
+/*
+.testimonial-section-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+}
+*/
+
+.testimonial-scrolling-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; 
+    padding: 0; 
+}
+
+.testimonial-scrolling-line {
+    width: 100%;
+    overflow: visible; 
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonial-list-wrapper {
+    display: inline-flex;
+    width: 300%; 
+    animation: scroll-ltr 60s linear infinite;
+    align-items: center;
+    overflow: visible; 
+}
+
+/* CARD WRAPPER & SIZE */
+.testimonial-card-wrapper {
+    width: 300px;
+    min-width: 300px;
+    height: auto;
+    padding: 8px 10px; 
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    overflow: visible !important;
+    z-index: 2; 
+}
+
+.testimonial-card {
+    display: flex; 
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    min-height: 220px;
+    padding: 20px;
+    text-decoration: none;
+    
+    /* Transparent Glass Style */
+    background-color: rgba(255, 255, 255, 0.08); 
+    border-radius: 15px; 
+    border: 1px solid rgba(123, 202, 195, 0.2); 
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    transition: transform 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+/* Header Block for Photo/Info Alignment */
+.header-info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.client-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px; /* CHANGED: Square photo with slight rounding */
+    margin-right: 15px;
+    object-fit: cover;
+    border: 3px solid var(--secondary-color);
+    flex-shrink: 0;
+}
+
+.client-details {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.client-name {
+    font-family: var(--title-font-family);
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.95);
+    display: block;
+}
+
+.client-title {
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    color: var(--secondary-color);
+    display: block;
+    margin-top: 2px;
+}
+
+.client-company {
+    font-family: var(--body-font-family);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    display: block;
+    margin-top: 2px;
+}
+
+/* Rating Styling */
+.client-rating {
+    color: gold;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Description Text (Now full width below header) */
+.testimonial-text {
+    width: 100%;
+}
+
+.testimonial-text p {
+    font-family: var(--body-font-family);
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0;
+    font-style: italic;
+    white-space: normal; /* FIX: Ensures testimony text wraps inside the box */
+}
+
+/* ANIMATIC: Hover Effect - Zoom and Glow */
+.testimonial-card:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 15px rgba(123, 202, 195, 0.5); /* DECREASED GLOW: Reduced blur and opacity */
+    z-index: 10;
+}
+
+/* Inherit the existing Keyframes from the Courses section fix */
+/* The keyframes are already defined as scroll-ltr and scroll-rtl */
+
+/* Hover to Pause Animation */
+.testimonial-scrolling-line:hover .testimonial-list-wrapper {
+    animation-play-state: paused;
+}
+/* templatemo-topic-listing.css: STAND OUT SECTION STYLING (TEXT ANIMATION ADDED) */
+
+.standout-section {
+    position: relative;
+    padding: 100px 0;
+    /* Main Background */
+    background: url('../images/standoutbackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+.standout-grid-container {
+    padding: 20px;
+    /* Center the list container */
+    margin: 0 auto;
+    max-width: 900px; 
+}
+
+.standout-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    /* 5x3 Grid Layout: 3 equal columns */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 15px;
+    text-align: center;
+}
+
+.standout-list li {
+    /* Transparent Blurred Layer/Card for list item */
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    /* ADJUSTED PADDING: Increased left padding to clear the dot and center text */
+    padding: 20px 20px 20px 40px; 
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    
+    /* Center Aligned Text and Dot Point */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    /* Animation setup for continuous movement */
+    animation: textJumble 5s ease-in-out infinite alternate;
+    
+    /* Transition setup for the HOVER effect on the card */
+    transition: transform 0.3s ease-out, background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+    z-index: 1;
+}
+
+/* NEW: Style and transition for the inner text wrapper */
+.standout-list li span {
+    display: block;
+    transition: transform 0.3s ease-out, color 0.3s ease-out; /* Enable transition for text movement */
+    flex-grow: 1; /* Allows text to take up remaining space for centering */
+}
+
+/* -------------------- HOVER EFFECT -------------------- */
+
+.standout-list li:hover {
+    z-index: 10;
+    /* Card Animation: Zoom and Glow */
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 20px rgba(123, 202, 195, 0.8);
+    
+    /* Pause the continuous jumbling animation on hover */
+    animation-play-state: paused;
+}
+
+/* HOVER ANIMATION FOR TEXT: Shifts up and changes color */
+.standout-list li:hover span {
+    transform: translate(0, -2px); /* Text slightly shifts up */
+    color: var(--secondary-color); /* Text changes color to secondary color */
+}
+
+/* HOVER ANIMATION FOR DOT: */
+.standout-list li::before {
+    content: '•';
+    color: var(--secondary-color);
+    font-size: 28px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1;
+    transition: transform 0.3s ease-out, color 0.3s ease-out; /* Enable transition for hover animation */
+}
+
+.standout-list li:hover::before {
+    /* Dot Animation: Moves left, rotates slightly, and changes color */
+    transform: translate(-5px, -50%) rotate(-5deg); 
+    color: var(--white-color); 
+}
+
+/* -------------------- CONTINUOUS ANIMATION -------------------- */
+
+/* Jumbling Moving Effect Keyframes */
+@keyframes textJumble {
+    0% {
+        transform: translate(0, 0) scale(1);
+        opacity: 0.95;
+    }
+    50% {
+        transform: translate(1px, -1px) scale(1.01);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-1px, 1px) scale(1);
+        opacity: 0.95;
+    }
+}
+
+/* Apply different animation delays and durations to list items for a random, "jumbling" effect */
+.standout-list li:nth-child(3n + 1) { animation-delay: 0.1s; } 
+.standout-list li:nth-child(3n + 2) { animation-delay: 0.2s; } 
+.standout-list li:nth-child(3n + 3) { animation-delay: 0.3s; } 
+.standout-list li:nth-child(5n) { animation-duration: 4.5s; } 
+.standout-list li:nth-child(7n) { animation-duration: 5.5s; }
+/* templatemo-topic-listing.css: FINAL WORKING HANGING/BRANCHING LOGIC (REDUCED GAP) */
+
+/* -------------------- SECTION SETUP -------------------- */
+
+.upcoming-title-color {
+    color: var(--white-color) !important; 
+}
+
+.upcoming-batches-section {
+    position: relative;
+    padding: 100px 0;
+    background: url('../images/upcomingbackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+.branch-group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Adjusted min-height to maintain stability */
+    min-height: 550px; 
+    padding-bottom: 50px;
+    z-index: 2;
+}
+
+/* Shared Glass Card Style */
+.parent-card, .child-card {
+    background-color: rgba(255, 255, 255, 0.05); 
+    border-radius: 15px;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    text-align: center;
+    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
+    cursor: pointer;
+}
+
+/* -------------------- PARENT CARD (THE STABLE BASE) -------------------- */
+
+.parent-card {
+    width: 90%;
+    max-width: 600px; 
+    margin-bottom: 20px;
+    z-index: 5;
+    
+    background-color: rgba(19, 84, 122, 0.2); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-color: rgba(128, 208, 199, 0.4); 
+    
+    transform: none !important; 
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+.parent-card h4 {
+    color: var(--secondary-color);
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: var(--title-font-family);
+    font-weight: 700; 
+}.parent-card .sub-text {
+    /* Set the sub-text color to White */
+    color: var(--white-color);
+    
+    /* Ensures the correct modern body font is used */
+    font-family: var(--body-font-family); 
+}
+
+/* -------------------- CHILD CARD STYLING & POSITIONING -------------------- */
+
+.child-cards-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    /* FIX 1: Decrease top to bring the whole structure closer to the Parent Card */
+    top: 250px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.child-card {
+    position: absolute;
+    width: 300px; 
+    max-width: 30%;
+    padding: 15px;
+    opacity: 1; 
+    z-index: 1;
+    
+    transform-origin: center center; 
+    animation: none !important;
+}
+
+.child-card h5 {
+    color: var(--secondary-color); 
+    font-family: var(--title-font-family);
+    font-weight: 700; 
+}
+
+/* THREAD LINE STYLING */
+.child-card::before {
+    content: '';
+    position: absolute;
+    /* FIX 3: Decrease thread height to match the new, smaller distance */
+    top: -120px; 
+    height: 120px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+    z-index: -1; 
+}
+
+.child-card p {
+    color: var(--white-color) !important; 
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 0;
+    font-family: var(--body-font-family);
+}
+
+/* --- DEFAULT (NON-HOVER) POSITION: HANGING HIGH AND TAUGHT --- */
+
+/* FIX 2: Move cards even higher (-70px) to reduce the initial gap */
+.child-card.card-1, .child-card.card-4 { transform: translate(-150px, -70px) scale(0.85); z-index: 2; }
+.child-card.card-2, .child-card.card-5 { transform: translate(0, -70px) scale(0.95); z-index: 3; }
+.child-card.card-3, .child-card.card-6 { transform: translate(150px, -70px) scale(0.85); z-index: 2; }
+
+
+/* -------------------- HOVER (DROP & BRANCH) ANIMATION FIXES -------------------- */
+
+.branch-group:hover .parent-card {
+    box-shadow: 0 0 25px rgba(123, 202, 195, 0.8);
+    transform: scale(1.05); 
+}
+
+/* 1. First Card: Drops, branches left */
+.branch-group:hover .card-1,
+.branch-group:hover .card-4 {
+    /* New Y travel: -70px (start) to -20px (end) = 50px movement. Thread is taut. */
+    transform: translate(-200px, -20px) scale(1) rotateZ(-3deg); 
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(123, 202, 195, 0.4);
+    z-index: 3;
+}
+
+/* 2. Middle Card: Drops, straight down (Prominent) */
+.branch-group:hover .card-2,
+.branch-group:hover .card-5 {
+    /* New Y travel: -70px (start) to 30px (end) = 100px movement. Thread is taut. */
+    transform: translate(0, 30px) scale(1.05) rotateZ(0deg); 
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 18px rgba(123, 202, 195, 0.9);
+    z-index: 4; 
+}
+
+/* 3. Third Card: Drops, branches right */
+.branch-group:hover .card-3,
+.branch-group:hover .card-6 {
+    /* New Y travel: -70px (start) to -20px (end) = 50px movement. Thread is taut. */
+    transform: translate(200px, -20px) scale(1) rotateZ(3deg); 
+    background-color: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 10px rgba(123, 202, 195, 0.4);
+    z-index: 3;
+}
+/* templatemo-topic-listing.css: REVISED ABOUT US STYLING (Two Columns & Zoom Hover) */
+
+/* General Section Setup */
+.about-us-section {
+    position: relative;
+    padding: 100px 0;
+    background: url('../images/upcomingbackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+}
+
+/* Visionaries Header */
+.visionaries-header {
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    color: var(--secondary-color) !important;
+}
+
+/* --- 1. MAIN OVERVIEW CARD (Left Column) --- */
+
+.about-glass-card {
+    /* Same glassmorphism style as the parent cards */
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    line-height: 1.8;
+    
+    /* ADDED LINE 1: Transition for smooth hover effect */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+/* ADDED LINE 2: Hover/Zoom Effect for the Main Card */
+.about-glass-card:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 0 20px rgba(128, 208, 199, 0.6); 
+}
+
+/* --- 2. VISIONARIES (3D FLIP & ZOOM ANIMATION) --- */
+
+.visionaries-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    perspective: 1000px;
+}
+
+.visionary-card-wrap {
+    width: 50%;
+    max-width: 300px;
+    height: 400px; 
+    transition: transform 0.3s ease-in-out; /* Added transition for the zoom effect */
+}
+
+
+
+.visionary-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+}
+
+/* Flip on hover (Unchanged) */
+.visionary-card-wrap:hover .visionary-card {
+    transform: rotateY(180deg);
+}
+
+/* Card Front/Back Styles (Unchanged - Bright Text/Colors Maintained) */
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    padding: 0;
+    color: var(--white-color);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.card-front {
+    background-color: rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.visionary-photo-rect {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.info-block {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-front h5 {
+    color: var(--secondary-color);
+    font-family: var(--title-font-family);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.card-front .title-role, .card-front .education-bio {
+    color: var(--white-color);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.card-back {
+    background-color: rgba(19, 84, 122, 0.85); 
+    transform: rotateY(180deg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.visionary-photo-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid var(--white-color);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-back h6 {
+    color: var(--white-color);
+    font-family: var(--title-font-family);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.card-back .education-bio {
+    color: var(--secondary-color);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.card-back .bio-text {
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Custom style for the subheading inside the About Us card */
+.about-glass-card .card-subheading {
+    /* Set color to secondary color and increase font weight for prominence */
+    color: var(--secondary-color) !important;
+    font-weight: 700;
+    font-size: 1.8rem; /* Keeps it slightly larger than body text */
+}
+/* styles.css snippet */
+
+/* Section styling for background image and padding */
+.career-roadmap {
+  background: url('../images/servicebackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+    position: relative;
+}
+
+
+
+.career-roadmap .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main Heading Style (white color) */
+.roadmap-heading {
+    text-align: center;
+    color: white; /* Requested white color */
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Adds contrast against background */
+}
+
+/* Grid Layout for 2 blocks in a row */
+.roadmap-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px; /* Spacing between cards */
+}
+
+/* For smaller screens, stack the cards */
+@media (max-width: 768px) {
+    .roadmap-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Single long width card styling */
+.roadmap-card.single-long {
+    grid-column: 1 / -1; /* Make it span all columns */
+}
+
+/* Card Styling: Glossy White Card with Hover/Zoom */
+.roadmap-card {
+    /* Adjusted transparency from 0.95 to 1.0 (fully opaque white) 
+       to prevent the background image from showing through the card too much,
+       which helps the text remain readable. */
+    background: rgba(255, 255, 255, 1.0); 
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-left: 5px solid #007bff; /* Adds a touch of blue color */
+}
+
+/* Hover and Zoom Effect */
+.roadmap-card:hover {
+    transform: translateY(-5px) scale(1.02); /* Slight lift and zoom */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Sub Heading Style (blue color) */
+.card-sub-heading {
+    color: #007bff; /* Requested blue color */
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e9ecef; /* Subtle separation */
+    padding-bottom: 10px;
+}
+
+/* List/Points Styling */
+.card-list {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0;
+}
+
+.card-list li {
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    padding-left: 20px;
+    font-size: 1em;
+    color: #343a40; /* Darker text for readability */
+}
+
+/* Custom bullet point (blue circle) */
+.card-list li::before {
+    content: '•';
+    color: #007bff; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+/* CSS for CORPORATE TRAININGS SECTION */
+
+/* Variables for easy adjustments */
+:root {
+    /* Controls how much the logo scales down inside the card (80% means 20% padding) */
+    --card-logo-scale: 80%; 
+    /* Defines the rectangular height */
+    --card-height: 120px;
+}
+
+/* 1. Overall Section Styling (Background & Heading) */
+#corporate-trainings {
+position: relative;
+    padding: 100px 0;
+    background: url('../images/partnersbackground.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden; 
+	text-align: center; /* This centers the <h2> and the content inside */
+}
+
+
+
+#corporate-trainings h2 {
+    color: white; 
+    margin-bottom: 40px;
+}
+
+/* 2. Grid Setup */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    perspective: 1000px; /* Needed for 3D flip */
+}
+
+/* 3. Card Container (Zoom Effect) */
+.partner-card {
+    width: 100%;
+    height: var(--card-height); /* Rectangular height */
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.partner-card:hover {
+    transform: scale(1.05); /* Zoom effect */
+}
+
+/* 4. The Inner Card (Flip Effect) */
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Rounded corners */
+}
+
+.partner-card:hover .card-inner {
+    transform: rotateY(180deg); /* Flip effect */
+}
+
+/* 5. Front and Back Faces */
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px; /* Rounded corners for faces */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Card Back (FLIP Text Side) */
+.card-back {
+    background-color: #007bff; /* Blue background */
+    color: white; 
+    transform: rotateY(180deg);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.card-back p {
+    color: white; /* Ensure text is white */
+    margin: 0;
+}
+
+
+/* 6. Image Assignment & Sizing (LOGO FRONT) */
+.partner-card .card-front:is(
+    .partner-huntmetrics, .partner-wipro, .partner-hcl, .partner-cognizant, .partner-accenture,
+    .partner-capgemini, .partner-tcs, .partner-infosys, .partner-techmahindra, .partner-lt,
+    .partner-microsoft, .partner-amazon, .partner-ibm, .partner-oracle, .partner-dell
+) {
+    /* Corrected path for the placeholder image */
+    background-image: url('../images/training1.jpg'); 
+    
+    /* Ensures logo fits entirely (contain) and scales down (80%) */
+background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* important. logo */
+
+.navbar-brand img.navbar-logo {
+    /* Increase this height value to make the logo larger */
+    height: 60px !important; 
+    
+    /* Ensure the width scales correctly */
+    width: auto !important; 
+    
+    /* Also update max-height to match the new height */
+    max-height: 60px !important; 
+    max-width: none !important;
+    
+    vertical-align: middle; 
+}
