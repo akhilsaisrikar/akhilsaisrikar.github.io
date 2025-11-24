@@ -486,11 +486,11 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background: url('servicebackground.jpg') no-repeat center center;
+  background: url('../images/servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     position: relative;
 }
 
@@ -727,7 +727,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1588,7 +1588,7 @@ blockquote {
 
 .services-section {
     /* Set background image for the entire section (Parallax effect) */
-    background: url('servicebackground.jpg') no-repeat center center;
+    background: url('../images/servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
@@ -1597,16 +1597,7 @@ blockquote {
 }
 
 /* Add a dark overlay to the section background for contrast and readability */
-.services-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.65); /* Increased darkness for contrast */
-    z-index: 0;
-}
+
 
 .services-section .container {
     position: relative;
@@ -1723,7 +1714,7 @@ blockquote {
 .courses-section {
     position: relative;
     /* Background Image */
-    background: url('coursebackground.jpg') no-repeat center center;
+    background: url('../images/coursebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
@@ -1860,7 +1851,7 @@ blockquote {
 .testimonial-section {
     position: relative;
     /* Background Image */
-    background: url('testimonialbackground.jpg') no-repeat center center;
+    background: url('../images/testimonialbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
@@ -2024,13 +2015,12 @@ blockquote {
 .testimonial-scrolling-line:hover .testimonial-list-wrapper {
     animation-play-state: paused;
 }
-/* templatemo-topic-listing.css: STAND OUT SECTION STYLING (TEXT ANIMATION ADDED) */
+/* templatemo-topic-listing.css: STAND OUT SECTION STYLING (FINAL VERSION - 5 COLUMN, ICON ABOVE, 3D TILT, DESCRIPTION OVERLAY) */
 
 .standout-section {
     position: relative;
     padding: 100px 0;
-    /* Main Background */
-    background: url('standoutbackground.jpg') no-repeat center center;
+    background: url('../images/standoutbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2038,120 +2028,178 @@ blockquote {
 
 .standout-grid-container {
     padding: 20px;
-    /* Center the list container */
     margin: 0 auto;
-    max-width: 900px; 
+    /* Increased max-width for the 5-column layout */
+    max-width: 1500px; 
 }
 
 .standout-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0; /* NON-CENTERED: Removed auto margin */
     display: grid;
-    /* 5x3 Grid Layout: 3 equal columns */
-    grid-template-columns: repeat(3, 1fr); 
+    /* KEY CHANGE: 5 equal columns */
+    grid-template-columns: repeat(5, 1fr); 
     gap: 15px;
     text-align: center;
 }
 
 .standout-list li {
-    /* Transparent Blurred Layer/Card for list item */
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: transparent; 
     border-radius: 12px;
     backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: var(--white-color);
-    /* ADJUSTED PADDING: Increased left padding to clear the dot and center text */
-    padding: 20px 20px 20px 40px; 
+    padding: 20px 20px 50px 20px; /* Adjusted padding to accommodate content shifts */
     font-size: 16px;
     font-weight: 600;
     position: relative;
     cursor: pointer;
+    overflow: hidden; /* Hides content that slides off-screen */
     
-    /* Center Aligned Text and Dot Point */
+    /* ICON ABOVE TEXT SETUP */
     display: flex;
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
     text-align: center;
     
-    /* Animation setup for continuous movement */
-    animation: textJumble 5s ease-in-out infinite alternate;
-    
-    /* Transition setup for the HOVER effect on the card */
+    /* 3D Hover Setup */
+    transform-style: preserve-3d;
     transition: transform 0.3s ease-out, background-color 0.3s ease-out, box-shadow 0.3s ease-out;
     z-index: 1;
+
+    /* REMOVED: Dot styling (::before) and textJumble animation */
 }
 
-/* NEW: Style and transition for the inner text wrapper */
-.standout-list li span {
-    display: block;
-    transition: transform 0.3s ease-out, color 0.3s ease-out; /* Enable transition for text movement */
-    flex-grow: 1; /* Allows text to take up remaining space for centering */
+/* Base content (Icon and Text) */
+.standout-list li .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: opacity 0.3s; /* Transition for fading out */
+    z-index: 6; /* Ensures content is above description when not hovered */
 }
 
-/* -------------------- HOVER EFFECT -------------------- */
-
-.standout-list li:hover {
-    z-index: 10;
-    /* Card Animation: Zoom and Glow */
-    transform: scale(1.1);
-    background-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 0 20px rgba(123, 202, 195, 0.8);
-    
-    /* Pause the continuous jumbling animation on hover */
-    animation-play-state: paused;
-}
-
-/* HOVER ANIMATION FOR TEXT: Shifts up and changes color */
-.standout-list li:hover span {
-    transform: translate(0, -2px); /* Text slightly shifts up */
-    color: var(--secondary-color); /* Text changes color to secondary color */
-}
-
-/* HOVER ANIMATION FOR DOT: */
-.standout-list li::before {
-    content: '•';
-    color: var(--secondary-color);
-    font-size: 28px;
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    line-height: 1;
-    transition: transform 0.3s ease-out, color 0.3s ease-out; /* Enable transition for hover animation */
-}
-
-.standout-list li:hover::before {
-    /* Dot Animation: Moves left, rotates slightly, and changes color */
-    transform: translate(-5px, -50%) rotate(-5deg); 
+/* Icon Styling (Larger, above text) */
+.standout-list li .standout-icon {
+    font-size: 3rem; 
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
     color: var(--white-color); 
 }
 
-/* -------------------- CONTINUOUS ANIMATION -------------------- */
+/* Text Styling */
+.standout-list li .card-content span {
+    display: block;
+    transition: color 0.3s ease;
+    flex-grow: 1; 
+    line-height: 1.2;
+}
 
-/* Jumbling Moving Effect Keyframes */
-@keyframes textJumble {
-    0% {
-        transform: translate(0, 0) scale(1);
-        opacity: 0.95;
-    }
-    50% {
-        transform: translate(1px, -1px) scale(1.01);
-        opacity: 1;
-    }
-    100% {
-        transform: translate(-1px, 1px) scale(1);
-        opacity: 0.95;
+/* --- Description Overlay Styling --- */
+.card-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    padding: 20px;
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0; /* Hidden by default */
+    transform: translateY(100%); /* Position off-screen downwards */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 12px;
+    z-index: 5; 
+}
+
+.card-description p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0;
+	color: var(--white-color);
+
+}
+
+/* -------------------- HOVER EFFECT (3D Pop-Out Tilt & Description Show) -------------------- */
+
+.standout-list li:hover {
+    z-index: 10;
+    /* 3D Tilt and Pop-out */
+    transform: perspective(1000px)  scale(1.05); 
+    background-color: rgba(255, 255, 255, 0.15); 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
+}
+
+/* Hide the main content when description is visible */
+.standout-list li:hover .card-content {
+    opacity: 0;
+}
+
+/* Show the description on card hover */
+.standout-list li:hover .card-description {
+    opacity: 1;
+    transform: translateY(0); /* Slides up to cover the card */
+}
+
+/* HOVER ANIMATION FOR ICON/TEXT COLOR (Optional - only visible for a moment during transition) */
+.standout-list li:hover .standout-icon,
+.standout-list li:hover .card-content span {
+    color: var(--secondary-color); 
+}
+
+
+/* ---------------------------------------------------- */
+/* --- UNIQUE COLORS FOR 15 STANDOUT SKILL CARDS (Forcing transparency and color) --- */
+/* ---------------------------------------------------- */
+
+.skill-1 { background-color: rgba(66, 133, 244, 0.75) !important; }
+.skill-2 { background-color: rgba(52, 168, 83, 0.75) !important; }
+.skill-3 { background-color: rgba(251, 188, 5, 0.75) !important; }
+.skill-4 { background-color: rgba(234, 67, 53, 0.75) !important; }
+.skill-5 { background-color: rgba(140, 84, 255, 0.75) !important; }
+.skill-6 { background-color: rgba(0, 188, 212, 0.75) !important; }
+.skill-7 { background-color: rgba(255, 0, 128, 0.75) !important; }
+.skill-8 { background-color: rgba(0, 150, 136, 0.75) !important; }
+.skill-9 { background-color: rgba(173, 216, 230, 0.75) !important; }
+.skill-10 { background-color: rgba(255, 215, 0, 0.75) !important; }
+.skill-11 { background-color: rgba(63, 81, 181, 0.75) !important; }
+.skill-12 { background-color: rgba(139, 195, 74, 0.75) !important; }
+.skill-13 { background-color: rgba(255, 87, 34, 0.75) !important; }
+.skill-14 { background-color: rgba(128, 0, 255, 0.75) !important; }
+.skill-15 { background-color: rgba(121, 85, 72, 0.75) !important; }
+
+
+/* --- Responsive Adjustments (Ensures smooth transitions from 5 columns) --- */
+@media (max-width: 1500px) {
+    .standout-list {
+        grid-template-columns: repeat(4, 1fr); /* 4 columns on slightly smaller screens */
     }
 }
 
-/* Apply different animation delays and durations to list items for a random, "jumbling" effect */
-.standout-list li:nth-child(3n + 1) { animation-delay: 0.1s; } 
-.standout-list li:nth-child(3n + 2) { animation-delay: 0.2s; } 
-.standout-list li:nth-child(3n + 3) { animation-delay: 0.3s; } 
-.standout-list li:nth-child(5n) { animation-duration: 4.5s; } 
-.standout-list li:nth-child(7n) { animation-duration: 5.5s; }
-/* templatemo-topic-listing.css: FINAL WORKING HANGING/BRANCHING LOGIC (REDUCED GAP) */
+@media (max-width: 1200px) {
+    .standout-list {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .standout-list {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .standout-list {
+        grid-template-columns: 1fr; /* Single column on mobile */
+    }
+}
 
 /* -------------------- SECTION SETUP -------------------- */
 
@@ -2162,7 +2210,7 @@ blockquote {
 .upcoming-batches-section {
     position: relative;
     padding: 100px 0;
-    background: url('upcomingbackground.jpg') no-repeat center center;
+    background: url('../images/upcomingbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2329,7 +2377,7 @@ blockquote {
 .about-us-section {
     position: relative;
     padding: 100px 0;
-    background: url('upcomingbackground.jpg') no-repeat center center;
+    background: url('../images/upcomingbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2499,7 +2547,7 @@ blockquote {
 
 /* Section styling for background image and padding */
 .career-roadmap {
-  background: url('servicebackground.jpg') no-repeat center center;
+  background: url('../images/servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
@@ -2553,6 +2601,7 @@ blockquote {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     border-left: 5px solid #007bff; /* Adds a touch of blue color */
+	opacity: 0.83; /* Makes the logo 15% transparent (85% opaque) */
 }
 
 /* Hover and Zoom Effect */
@@ -2611,7 +2660,7 @@ blockquote {
 #corporate-trainings {
 position: relative;
     padding: 100px 0;
-    background: url('partnersbackground.jpg') no-repeat center center;
+    background: url('../images/partnersbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2699,7 +2748,7 @@ position: relative;
     .partner-microsoft, .partner-amazon, .partner-ibm, .partner-oracle, .partner-dell
 ) {
     /* Corrected path for the placeholder image */
-    background-image: url('training1.jpg'); 
+    background-image: url('../images/training1.jpg'); 
     
     /* Ensures logo fits entirely (contain) and scales down (80%) */
 background-size: 100% auto;
@@ -2721,6 +2770,1081 @@ background-size: 100% auto;
     max-width: none !important;
     
     vertical-align: middle; 
+}
+/* styles.css */
 
+/* Styling for the section icon */
+.section-icon {
+    /* Center it horizontally (h2 inherits this from the section) */
+    display: block; 
+    
+    /* Make the icon bigger */
+    font-size: 2.5em; 
+    
+    /* Set color and spacing */
+    color: var(--primary-color); /* Use your theme's main color */
+    margin-bottom: 10px; 
+}
+.hero-carousel {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: url('../images/sliderbackground.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* Optional: creates a parallax-like effect */  
 }
 
+
+.hero-carousel-container {
+  width: 100%;
+  max-width: 1400px;
+  height: 600px;
+  perspective: 1200px;
+  position: relative;
+}
+
+.hero-carousel-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.hero-carousel-item {
+  position: absolute;
+  width: 380px;
+  height: 430px;
+  left: 48.5%;
+  top: 25%;
+  bottom: 2%;
+  transform-style: preserve-3d;
+  transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transform-origin: center center;
+}
+
+.hero-carousel-card {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #111, #222);
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.7);
+  overflow: hidden;
+  color: #fff;
+}
+
+.hero-carousel-card-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.hero-carousel-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+
+.hero-carousel-item:hover .hero-carousel-card-image img {
+  transform: scale(1.1);
+}
+
+.hero-carousel-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #fff, #9945ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-carousel-card-description {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.hero-carousel-card-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.hero-carousel-tech-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #9945ff;
+  color: #9945ff;
+  font-size: 11px;
+}
+
+.hero-carousel-card-cta {
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #9945ff, #00a8ff);
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Controls */
+.hero-carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.hero-carousel-btn {
+  width: 60px;
+  height: 60px;
+  background: #111;
+  border: 2px solid #333;
+  border-radius: 50%;
+  color: #9945ff;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.hero-carousel-btn:hover {
+  transform: scale(1.1);
+  border-color: #9945ff;
+}
+
+@media (max-width: 768px) {
+  .hero-carousel-item { width: 260px; height: 360px; }
+  .hero-carousel-btn { width: 45px; height: 45px; font-size: 20px; }
+}
+/* templatemo-topic-listing.css */
+
+/* Video Container: Fixed to the viewport */
+.site-background-video-container {
+    position: fixed; /* Stays in place when scrolling */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    overflow: hidden;
+    z-index: -10; /* KEY: Pushes the video far behind all content */
+}
+
+/* Video Element: Ensure it covers the container */
+.site-background-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* KEY: Ensures the video covers the entire screen without stretching */
+    
+    /* Optional: Apply a dark overlay for better text readability */
+    filter: brightness(100%) contrast(100%);
+}
+/* PNG Foreground Overlay Layer */
+.video-foreground-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+    /* KEY: This places the PNG layer between the content (z-index 1+) and the video (z-index -10). */
+    z-index: -9; 
+
+    /* Set the PNG as the background image. Path assumes CSS is in a 'css' folder. */
+    background-image: url('../images/videolayer.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+    /* Adjust opacity to control visibility. 1.0 is solid, 0.0 is invisible. */
+    opacity: 0.75; 
+
+    /* ESSENTIAL: Allows mouse clicks and interactions to pass THROUGH the overlay to the content above it. */
+    pointer-events: none;
+}
+/*--------------------------------------
+  NEW SECTION: TRAINING & PLACEMENTS (SCOPED)
+  - Glass-Morphism, Light Text, Secondary Color Highlights
+-----------------------------------------*/
+
+/* 1. Section Background and Text Color */
+#training-placements {
+    /* Semi-transparent dark overlay to ensure light text is readable over the background video */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: var(--white-color); 
+    text-align: center; /* Ensures the whole section is centered */
+}
+
+/* Ensure all headings are light and centered */
+#training-placements h2, 
+#training-placements h3 {
+    color: var(--white-color);
+    text-align: center;
+}
+
+/* Subheading Color Change (Empowering Your Career Journey) */
+#training-placements .section-subheading {
+    color: var(--secondary-color); /* Uses your highlight color */
+    font-weight: 600;
+}
+
+/* 2. Glass-Morphism Card Styling */
+#training-placements .glass-card {
+    /* The Glass Effect */
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+    /* Shape and Layout */
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    height: 100%;
+    
+    /* Animation and Shadow */
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* 3. Hover Effect (Animated Lift and Glow) */
+#training-placements .glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.6), 0 0 15px rgba(var(--primary-color), 0.5);
+    border-color: var(--primary-color);
+}
+
+/* 4. Icon Styling and Animation */
+#training-placements .training-icon {
+    font-size: 3rem;
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+    display: block; 
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* Icon Pulse Animation on Hover */
+#training-placements .glass-card:hover .training-icon {
+    color: var(--primary-color);
+    transform: scale(1.1);
+}
+
+/* 5. Card Content and Points Styling (Uses p tags for points) */
+
+/* Style for the descriptive text inside the cards (sub-headings) */
+#training-placements .card-description {
+    color: rgba(255, 255, 255, 0.85); /* Light text for readability */
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left; /* Aligns description text inside the card */
+}
+
+/* Container for the points (replaces <ul>) */
+#training-placements .card-points {
+    padding-left: 0;
+    margin-top: 15px;
+    text-align: left; /* Aligns points inside the card */
+}
+
+/* Styling for the individual points (replaces <li>) */
+#training-placements .card-list-item {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: var(--white-color); /* Ensures list item text is light */
+}
+
+/* Styling for the star icons */
+#training-placements .card-list-item .bi-star-fill {
+    color: var(--secondary-color) !important;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+/*--------------------------------------
+  NEW SECTION: JOB PLACEMENT ASSISTANCE (SCOPED)
+  - Horizontal Feature List with Animated Icons
+-----------------------------------------*/
+
+#placement-assistance {
+    /* Ensures light text is visible over the video background */
+    background-color: rgba(0, 0, 0, 0.4); 
+    color: var(--white-color);
+    text-align: center;
+}
+
+#placement-assistance h2 {
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
+
+/* Feature Box Styling */
+.placement-feature-box {
+    /* Subtle background and border, distinct from the Glass-Morphism cards */
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 30px 20px;
+    height: 100%;
+    
+    /* Animation setup */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Animated Hover Effect: Box Lift and subtle Scale */
+.placement-feature-box:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    border-color: var(--secondary-color);
+}
+
+/* Icon Circle Container (The unique visual feature) */
+.placement-feature-box .icon-circle {
+    /* Create the Circle */
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Background and initial glow */
+    background: var(--primary-color);
+    box-shadow: 0 0 10px var(--primary-color);
+    
+    transition: all 0.3s ease-in-out;
+}
+
+/* Icon Circle Hover: Change color and intensify glow */
+.placement-feature-box:hover .icon-circle {
+    background: var(--secondary-color);
+    box-shadow: 0 0 20px var(--secondary-color), 0 0 40px var(--secondary-color);
+}
+
+/* Icon Styling */
+.placement-feature-box .placement-icon {
+    font-size: 2.5rem;
+    color: var(--white-color); /* Icon color is always white for contrast */
+}
+
+/* Content Text Styling */
+.placement-feature-box .box-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--white-color);
+}
+
+.placement-feature-box .box-description {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+}
+/*--------------------------------------
+  NEW SECTION: ONGOING SUPPORT (SCOPED)
+  - Minimalist Boxes with Neon Glow
+-----------------------------------------*/
+
+#ongoing-support {
+    /* Ensures light text is visible over the video background */
+    background-color: rgba(0, 0, 0, 0.6); 
+    color: var(--white-color);
+    text-align: center;
+}
+
+#ongoing-support h2 {
+    color: var(--white-color);
+}
+
+/* Feature Box Styling */
+.support-feature {
+    /* Subtle background, unique border treatment */
+    background-color: rgba(255, 255, 255, 0.03);
+    border-bottom: 5px solid var(--secondary-color); /* Highlight bar at the bottom */
+    border-radius: 8px;
+    padding: 30px;
+    height: 100%;
+    
+    /* Animation setup */
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Animated Hover Effect: Box Lift and Subtle Shadow */
+.support-feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    border-bottom-color: var(--primary-color); /* Swap highlight color on hover */
+}
+
+/* Icon Styling (Large and prominent) */
+.support-feature .support-icon {
+    font-size: 4.5rem; /* Very large icon */
+    color: var(--secondary-color);
+    margin-bottom: 25px;
+    display: block; 
+    text-align: center;
+    
+    /* Animation setup */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Icon Neon Glow Effect on Hover */
+.support-feature:hover .support-icon {
+    color: var(--primary-color);
+    transform: scale(1.05);
+    /* KEY: Neon/Text Glow Effect using multiple text shadows */
+    text-shadow: 
+        0 0 5px var(--primary-color),
+        0 0 10px var(--primary-color),
+        0 0 15px var(--white-color);
+}
+
+/* Content Text Styling */
+.support-feature .box-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--white-color);
+}
+
+.support-feature .box-description {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+}
+/*--------------------------------------
+  NEW SECTION: GET STARTED TODAY (UPDATED CTA)
+  - High-Contrast CTA with Animated Buttons
+-----------------------------------------*/
+
+/* Keyframe Animation for the Button Pulse Effect */
+@keyframes ctaPulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+        transform: scale(1.02);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        transform: scale(1);
+    }
+}
+
+/* Section Container */
+#get-started {
+    /* Use a solid, contrasting background for maximum visibility */
+    background-color: var(--primary-color); 
+    color: var(--white-color);
+    text-align: center;
+}
+
+#get-started h2 {
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+/* Introductory Text and Contact Info */
+#get-started .section-description,
+#get-started .contact-info-text {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.1rem;
+}
+
+
+/* Custom Button Base Style */
+.custom-cta-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white-color);
+    border: none;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+
+/* 1. Call Now Button Styling (Magenta/Rani) */
+.call-now-btn {
+    background-color: #FF4081; /* Bright Magenta */
+}
+.call-now-btn:hover {
+    background-color: #E03572; /* Slightly darker shade on hover */
+    transform: translateY(-2px);
+    /* Trigger the pulse animation on hover */
+    animation: ctaPulse 1.5s infinite; 
+}
+
+/* 2. WhatsApp Button Styling */
+.whatsapp-btn {
+    background-color: #25d366; /* Standard WhatsApp Green */
+}
+.whatsapp-btn:hover {
+    background-color: #128c7e; /* Slightly darker WhatsApp Green */
+    transform: translateY(-2px);
+    /* Trigger the pulse animation on hover */
+    animation: ctaPulse 1.5s infinite;
+}
+
+
+/*--------------------------------------
+  NEW SECTION: SITE FOOTER
+-----------------------------------------*/
+.site-footer {
+    background-color: var(--dark-color); /* Dark background */
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.site-footer-title {
+    font-family: var(--title-font-family);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-bottom: 25px;
+}
+
+.site-footer-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.site-footer-link,
+.site-footer-link-text {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 2.2;
+    text-decoration: none;
+}
+
+.site-footer-link:hover {
+    color: var(--secondary-color);
+}
+
+.footer-icon {
+    color: var(--secondary-color);
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    max-height: 40px;
+}
+
+.footer-about-text {
+    color: rgba(255, 255, 255, 0.7) !important;
+    font-size: 0.9rem;
+}
+
+/* Map Styling */
+.footer-map {
+    width: 100%;
+    height: 150px;
+    border: 0;
+    border-radius: 8px;
+    /* Styles the map for the dark theme */
+    filter: grayscale(80%) invert(95%); 
+}
+
+/* Social Icons */
+.social-icon {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 15px;
+}
+
+.social-icon-link {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon-link:hover {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+}
+
+/* Copyright and Design Link */
+.copyright-text {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.8;
+}
+
+.design-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.design-link:hover {
+    color: var(--primary-color);
+}
+/*--------------------------------------
+  NEW SECTION: OUR ACHIEVEMENTS (SINGLE LINE, VERTICAL FLIP CARDS) - FINAL FIX
+-----------------------------------------*/
+
+#achievements {
+    padding: var(--section-padding) 0;
+    color: var(--white-color); /* General text color for the section */
+}
+
+/* Background Wrapper: Transparent Background */
+#achievements .stats-bg-wrap {
+    background-color: transparent; 
+    padding: 0;
+    border-radius: 0; 
+    overflow: hidden; 
+}
+
+/* KEY FIX: Overrides Bootstrap row gutter and enables single line with gap */
+#achievements .row.justify-content-center {
+    --bs-gutter-x: 0; 
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    padding-bottom: 20px;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+/* Scrollbar Styling (for desktop browsers supporting webkit) */
+#achievements .row.justify-content-center::-webkit-scrollbar {
+    height: 8px;
+}
+#achievements .row.justify-content-center::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+
+/* KEY CHANGE 1: Reduced card width */
+.achievement-card-col {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important; 
+    flex: 0 0 160px; /* Reduced width */
+    max-width: 160px; /* Reduced width */
+}
+
+/* KEY CHANGE 2: Reduced card width and height */
+.achievement-card {
+    background-color: transparent;
+    width: 160px; /* Reduced width */
+    height: 180px; /* Reduced height */
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+/* Inner Card Structure & Flip Logic */
+.achievement-card .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d; 
+}
+
+/* Vertical Flip on Hover */
+.achievement-card:hover .card-inner {
+    transform: rotateX(180deg); 
+}
+
+/* Card Front and Back Base Styles */
+.achievement-card .card-front,
+.achievement-card .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px; 
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    
+    /* COMMON STYLES - Shadow, Border, and now backdrop-filter for transparent cards */
+    backdrop-filter: blur(5px); /* Re-enabled for transparent effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Card Front: Initial background will be set by specific card classes */
+.achievement-card .card-front {
+    /* Background colors defined below with rgba */
+}
+
+/* Card Back: Initial background will be set by specific card classes */
+.achievement-card .card-back {
+    transform: rotateX(180deg); 
+    /* Background colors defined below with rgba */
+}
+
+/* Icon Styling (ALWAYS WHITE) */
+.achievement-icon {
+    font-size: 3rem; 
+    color: var(--white-color); /* Set to white */
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Icon Hover Effect (still white, but can scale) */
+.achievement-card:hover .card-front .achievement-icon {
+    transform: scale(1.1);
+}
+
+/* Numerics (ALWAYS WHITE) */
+.stat-number {
+    font-size: 2.2rem; 
+    font-weight: 800;
+    margin-bottom: 4px;
+    color: var(--white-color); /* Set to white */
+}
+
+/* Labels (ALWAYS WHITE) */
+.stat-label {
+    font-size: 0.9rem; 
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--white-color); /* Set to white */
+}
+
+/* Description (ALWAYS WHITE) */
+.achievement-card .card-back p {
+    font-size: 1rem; 
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--white-color); /* Set to white */
+}
+
+/* --- UNIQUE CARD BACKGROUND COLORS (Front and Back) with Transparency --- */
+
+/* Card 1: Vibrant Teal */
+.achievement-card-1 .card-front,
+.achievement-card-1 .card-back {
+    background-color: rgba(0, 173, 181, 0.7); /* Teal with 70% opacity */
+}
+
+/* Card 2: Bright Orange */
+.achievement-card-2 .card-front,
+.achievement-card-2 .card-back {
+    background-color: rgba(255, 112, 67, 0.7); /* Orange with 70% opacity */
+}
+
+/* Card 3: Electric Purple */
+.achievement-card-3 .card-front,
+.achievement-card-3 .card-back {
+    background-color: rgba(140, 84, 255, 0.7); /* Purple with 70% opacity */
+}
+
+/* Card 4: Vivid Green */
+.achievement-card-4 .card-front,
+.achievement-card-4 .card-back {
+    background-color: rgba(118, 255, 3, 0.7); /* Green with 70% opacity */
+}
+
+/* Card 5: Hot Pink */
+.achievement-card-5 .card-front,
+.achievement-card-5 .card-back {
+    background-color: rgba(247, 56, 89, 0.7); /* Pink with 70% opacity */
+}
+
+/* Card 6: Warm Yellow */
+.achievement-card-6 .card-front,
+.achievement-card-6 .card-back {
+    background-color: rgba(248, 211, 33, 0.7); /* Yellow with 70% opacity */
+}
+
+/* Card 7: Sky Blue */
+.achievement-card-7 .card-front,
+.achievement-card-7 .card-back {
+    background-color: rgba(84, 164, 244, 0.7); /* Blue with 70% opacity */
+}
+````http://googleusercontent.com/image_generation_content/2
+/*--------------------------------------
+  NEW SECTION: WHY CHOOSE US? (CIRCULAR DIAGRAM - FINAL FIX)
+-----------------------------------------*/
+
+/*--------------------------------------
+  NEW SECTION: WHY CHOOSE US? (CIRCULAR DIAGRAM - FINAL DYNAMIC VERSION)
+-----------------------------------------*/
+
+/* --- Keyframes for BLUE WAVE Animation (Scaling Pulse) --- */
+@keyframes wave-pulse {
+    0% { 
+        transform: scale(1); 
+        background-color: rgba(240, 248, 255, 0.4); 
+    }
+    50% { 
+        transform: scale(1.05); 
+        background-color: rgba(224, 240, 255, 0.8); 
+    }
+    100% { 
+        transform: scale(1); 
+        background-color: rgba(240, 248, 255, 0.4); 
+    }
+}
+
+/* --- Keyframes for Central Color Cycle Animation --- */
+@keyframes color-cycle {
+    0% { background-color: #7954F4; } /* Purple */
+    33% { background-color: #54A4F4; } /* Blue */
+    66% { background-color: #FF5252; } /* Red */
+    100% { background-color: #7954F4; }
+}
+
+
+#why-choose-us-new {
+    background-color: transparent; 
+    position: relative;
+    overflow: hidden;
+    padding: 100px 0; 
+}
+
+.why-choose-us-diagram {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 750px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* Main "WHY CHOOSE US" Circle (Purple) */
+.main-circle {
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    background-color: #7954F4; 
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+    z-index: 4; 
+    box-shadow: none; 
+    animation: color-cycle 6s infinite ease-in-out; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* Hover Animation on Central Circle */
+.main-circle:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 25px 7px rgba(255, 255, 255, 0.8); 
+}
+
+/* Large Background Circle (Light Blue Layer - Animated) */
+.large-background-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(240, 248, 255, 0.4); 
+    animation: wave-pulse 3s infinite ease-in-out alternate; 
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Individual Reason Points - Base Styling */
+.reason-point {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    z-index: 3; 
+    transition: transform 0.3s ease;
+}
+
+.reason-point:hover {
+    transform: translateY(-5px);
+}
+
+/* Icon Circles */
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: var(--white-color);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.95; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Animation on Icon Circles */
+.icon-circle:hover {
+    transform: scale(1.15) rotate(5deg); 
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); 
+}
+
+
+/* Description Box (Glass/Transparent Card) */
+.description-box {
+    background-color: rgba(255, 255, 255, 0.85); 
+    border-radius: 10px;
+    padding: 15px 20px;
+    min-width: 280px;
+    max-width: 350px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    opacity: 1; 
+    visibility: visible;
+}
+
+/* Heading H4 inside Description Box */
+.description-box h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 5px;
+    position: relative; 
+    padding-left: 18px; 
+}
+
+/* Base Star Bullet Point Style */
+.description-box h4::before {
+    content: "\2605"; 
+    font-size: 1.1rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Matching Star Colors to Icon Colors */
+.point-1 .description-box h4::before { color: #9945FF; } 
+.point-2 .description-box h4::before { color: #00A8FF; } 
+.point-3 .description-box h4::before { color: #2ED4B5; } 
+.point-6 .description-box h4::before { color: #F4C430; } 
+.point-5 .description-box h4::before { color: #FF7043; } 
+.point-4 .description-box h4::before { color: #FF5252; } 
+
+
+.description-box p {
+    font-size: 0.9rem;
+    color: var(--p-color);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+
+/* --- Positioning and Colors --- */
+
+/* Right 3 Icons (Equal Spacing) */
+.point-1 { top: 250px; right: 400px; } 
+.point-1 .icon-circle { background-color: #9945FF; } 
+.point-1 .description-box { margin-left: 20px; }
+
+.point-2 { top: 400px; right: 150px; } 
+.point-2 .icon-circle { background-color: #00A8FF; } 
+.point-2 .description-box { margin-left: 20px; }
+
+.point-3 { top: 550px; right: 400px; } 
+.point-3 .icon-circle { background-color: #2ED4B5; } 
+.point-3 .description-box { margin-left: 20px; }
+
+
+/* Left 3 Icons (Equal Spacing) */
+.point-6 { top: 250px; left: 400px; flex-direction: row-reverse; }
+.point-6 .icon-circle { background-color: #F4C430; } 
+.point-6 .description-box { margin-right: 20px; }
+
+.point-5 { top: 400px; left: 150px; flex-direction: row-reverse; }
+.point-5 .icon-circle { background-color: #FF7043; } 
+.point-5 .description-box { margin-right: 20px; }
+
+.point-4 { top: 550px; left: 400px; flex-direction: row-reverse; }
+.point-4 .icon-circle { background-color: #FF5252; } 
+.point-4 .description-box { margin-right: 20px; }
+
+
+/* --- Responsive Adjustments --- */
+@media (min-width: 992px) {
+    .point-1, .point-2, .point-3 { right: 0; left: auto; flex-direction: row; }
+    .point-4, .point-5, .point-6 { left: 0; right: auto; }
+}
+
+@media (max-width: 1200px) {
+    .why-choose-us-diagram { height: 650px; } 
+    .large-background-circle { width: 650px; height: 650px; }
+    .main-circle { width: 180px; height: 180px; font-size: 1.6rem; }
+    .icon-circle { width: 70px; height: 70px; font-size: 2.2rem; }
+    .description-box { min-width: 250px; max-width: 300px; }
+    
+    .point-1 { top: 180px; right: 300px; }
+    .point-2 { top: 320px; right: 100px; }
+    .point-3 { top: 460px; right: 300px; }
+    .point-6 { top: 180px; left: 300px; }
+    .point-5 { top: 320px; left: 100px; }
+    .point-4 { top: 460px; left: 300px; }
+}
+
+@media (max-width: 991px) {
+    .why-choose-us-diagram { height: auto; padding-top: 50px; padding-bottom: 50px; }
+    .large-background-circle, .main-circle { display: none; }
+    
+    /* Lines were removed, so no need for display: none here */
+    
+    .reason-point {
+        position: relative;
+        top: auto; right: auto; left: auto;
+        width: 100%; max-width: 400px;
+        transform: none !important;
+        flex-direction: row !important;
+        justify-content: center;
+        margin: 0 auto 25px auto;
+    }
+    .reason-point:hover { transform: none !important; }
+    
+    .reason-point .icon-circle { margin-right: 15px; margin-left: 0; }
+    .reason-point .description-box { margin: 0; }
+}
