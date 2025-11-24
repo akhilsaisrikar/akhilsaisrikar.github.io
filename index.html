@@ -1,3850 +1,1539 @@
-/*
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>ZIZA First Technologies</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+<!--
 
 TemplateMo 590 topic listing
 
 https://templatemo.com/tm-590-topic-listing
 
-*/
-
-/*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
------------------------------------------*/
-:root {
-  --white-color:                  #ffffff;
-  --primary-color:                #13547a;
-  --secondary-color:              #80d0c7;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #80d0c7;
-  --custom-btn-bg-hover-color:    #13547a;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #13547a;
-
-  --body-font-family:             'Open Sans', sans-serif;
-  --title-font-family:            'Montserrat', sans-serif;
-
-  --h1-font-size:                 58px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  20px;
-  --menu-font-size:               14px;
-  --btn-font-size:                18px;
-  --copyright-font-size:          16px;
-
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
-
-  --font-weight-normal:           400;
-  --font-weight-medium:           500;
-  --font-weight-semibold:         600;
-  --font-weight-bold:             700;
-}
-
-body {
-  background-color: var(--white-color);
-  font-family: var(--body-font-family); 
-}
-
-
-/*---------------------------------------
-  TYPOGRAPHY               
------------------------------------------*/
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--dark-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--title-font-family); 
-  font-weight: var(--font-weight-semibold);
-}
-
-h1 {
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-weight-bold);
-}
-
-h2 {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-weight-bold);
-}
-
-h3 {
-  font-size: var(--h3-font-size);
-}
-
-h4 {
-  font-size: var(--h4-font-size);
-}
-
-h5 {
-  font-size: var(--h5-font-size);
-}
-
-h6 {
-  color: var(--primary-color);
-  font-size: var(--h6-font-size);
-}
-
-p {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
-}
-
-ul li {
-  color: var(--p-color);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-normal);
-}
-
-a, 
-button {
-  touch-action: manipulation;
-  transition: all 0.3s;
-}
-
-a {
-  display: inline-block;
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--link-hover-color);
-}
-
-b,
-strong {
-  font-weight: var(--font-weight-bold);
-}
-
-
-/*---------------------------------------
-  SECTION               
------------------------------------------*/
-.section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.section-bg {
-  background-color: var(--section-bg-color);
-}
-
-.section-overlay {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  opacity: 0.85;
-}
-
-.section-overlay + .container {
-  position: relative;
-}
-
-.tab-content {
-  background-color: var(--white-color);
-  border-radius: var(--border-radius-medium);
-}
-
-.nav-tabs {
-  border-bottom: 1px solid #ecf3f2;
-  margin-bottom: 40px;
-  justify-content: center;
-}
-
-.nav-tabs .nav-link {
-  border-radius: 0;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  color: var(--p-color);
-  font-family: var(--title-font-family);
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-medium);
-  padding: 15px 25px;
-  transition: all 0.3s;
-}
-
-.nav-tabs .nav-link:first-child {
-  margin-right: 20px;
-}
-
-.nav-tabs .nav-item.show .nav-link, 
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
-.nav-tabs .nav-link:hover {
-  border-bottom-color: var(--primary-color);
-  color: var(--primary-color);
-}
-
-
-/*---------------------------------------
-  CUSTOM ICON COLOR               
------------------------------------------*/
-.custom-icon {
-  color: var(--secondary-color);
-}
-
-
-/*---------------------------------------
-  CUSTOM BUTTON               
------------------------------------------*/
-.custom-btn {
-  background: var(--custom-btn-bg-color);
-  border: 2px solid transparent;
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-semibold);
-  line-height: normal;
-  transition: all 0.3s;
-  padding: 10px 20px;
-}
-
-.custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
-  color: var(--white-color);
-}
-
-.custom-border-btn {
-  background: transparent;
-  border: 2px solid var(--custom-btn-bg-color);
-  color: var(--custom-btn-bg-color);
-}
-
-.custom-border-btn:hover {
-  background: var(--custom-btn-bg-color);
-  border-color: transparent;
-  color: var(--white-color);
-}
-
-.custom-btn-bg-white {
-  border-color: var(--white-color);
-  color: var(--white-color);
-}
-
-
-/*---------------------------------------
-  SITE HEADER              
------------------------------------------*/
-.site-header {
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-  padding-top: 150px;
-  padding-bottom: 80px;
-}
-
-.site-header .container {
-  height: 100%;
-}
-
-.breadcrumb-item+.breadcrumb-item::before,
-.breadcrumb-item a:hover,
-.breadcrumb-item.active {
-  color: var(--white-color);
-}
-
-.site-header .custom-icon {
-  color: var(--white-color);
-  font-size: var(--h4-font-size);
-}
-
-.site-header .custom-icon:hover {
-  color: var(--secondary-color);
-}
-
-
-/*---------------------------------------
-  NAVIGATION              
------------------------------------------*/
-.sticky-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
-.sticky-wrapper.is-sticky .navbar {
-  background-color: var(--secondary-color);
-}
-
-.navbar {
-  background: transparent;
-  border-bottom: 1px solid rgba(128, 208, 199, 0.35);
-  z-index: 9;
-}
-
-.navbar-brand,
-.navbar-brand:hover {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-weight-bold);
-  display: block;
-}
-
-.navbar-brand span {
-  font-family: var(--title-font-family);
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-  border-radius: var(--border-radius-large);
-  margin: 10px;
-  padding: 10px;
-}
-
-.navbar-nav .nav-link {
-  display: inline-block;
-  color: var(--white-color);
-  font-family: var(--title-font-family); 
-  font-size: var(--menu-font-size);
-  font-weight: var(--font-weight-medium);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  position: relative;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.navbar-nav .nav-link.active, 
-.navbar-nav .nav-link:hover {
-  color: var(--primary-color);
-}
-
-.navbar .dropdown-menu {
-  background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
-  border: 0;
-  display: inherit;
-  opacity: 0;
-  min-width: 9rem;
-  margin-top: 20px;
-  padding: 13px 0 10px 0;
-  transition: all 0.3s;
-  pointer-events: none;
-}
-
-.navbar .dropdown-menu::before {
-  content: "";
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 15px solid var(--white-color);
-  position: absolute;
-  top: -10px;
-  left: 10px;
-}
-
-.navbar .dropdown-item {
-  display: inline-block;
-  color: var(--p-bg-color);
-  font-family: var(--title-font-family); 
-  font-size: var(--menu-font-size);
-  font-weight: var(--font-weight-medium);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  position: relative;
-}
-
-.navbar .dropdown-item.active, 
-.navbar .dropdown-item:active,
-.navbar .dropdown-item:focus, 
-.navbar .dropdown-item:hover {
-  background: transparent;
-  color: var(--primary-color);
-}
-
-.navbar .dropdown-toggle::after {
-  content: "\f282";
-  display: inline-block;
-  font-family: bootstrap-icons !important;
-  font-size: var(--copyright-font-size);
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  vertical-align: -.125em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  left: 2px;
-  border: 0;
-}
-
-@media screen and (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    opacity: 1;
-    margin-top: 0;
-    pointer-events: auto;
-  }
-}
-
-.navbar-icon {
-  background: var(--white-color);
-  border-radius: var(--border-radius-large);
-  display: inline-block;
-  font-size: var(--h5-font-size);
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.navbar-icon:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
-}
-
-.navbar-toggler {
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  margin: 0;
-  width: 30px;
-  height: 35px;
-  outline: none;
-}
-
-.navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
-  background: transparent;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
-  top: 0;
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
-  transform: rotate(45deg);
-}
-
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-  transform: rotate(-45deg);
-}
-
-.navbar-toggler .navbar-toggler-icon {
-  background: var(--white-color);
-  transition: background 10ms 300ms ease;
-  display: block;
-  width: 30px;
-  height: 2px;
-  position: relative;
-}
-
-.navbar-toggler .navbar-toggler-icon:before,
-.navbar-toggler .navbar-toggler-icon:after {
-  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
-  position: absolute;
-  right: 0;
-  left: 0;
-  background: var(--white-color);
-  width: 30px;
-  height: 2px;
-  content: '';
-}
-
-.navbar-toggler .navbar-toggler-icon::before {
-  top: -8px;
-}
-
-.navbar-toggler .navbar-toggler-icon::after {
-  top: 8px;
-}
-
-
-/*---------------------------------------
-  HERO        
------------------------------------------*/
-.hero-section {
-  background: url('../images/servicebackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding-top: 100px; 
-    padding-bottom: 50px;
-    position: relative;
-}
-
-.hero-section .input-group {
-  background-color: var(--white-color);
-  border-radius: var(--border-radius-large);
-  padding: 10px 15px;
-}
-
-.hero-section .input-group-text {
-  background-color: transparent;
-  border: 0;
-}
-
-.hero-section input[type="search"] {
-  border: 0;
-  box-shadow: none;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.hero-section button[type="submit"] {
-  background-color: var(--primary-color);
-  border: 0;
-  border-radius: var(--border-radius-large) !important;
-  color: var(--white-color);
-  max-width: 150px;
-}
-
-
-/*---------------------------------------
-  TOPICS              
------------------------------------------*/
-.featured-section {
-  background-color: var(--secondary-color);
-  border-radius: 0 0 100px 100px;
-  padding-bottom: 100px;
-}
-
-.featured-section .row {
-  position: relative;
-  bottom: 100px;
-  margin-bottom: -100px;
-}
-
-.custom-block {
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-  padding: 30px;
-  transition: all 0.3s ease;
-  height: 100%;
-}
-
-.custom-block:hover {
-  background-color: var(--secondary-color);
-  transform: translateY(-3px);
-}
-
-.custom-block > a {
-  width: 100%;
-}
-
-.custom-block-image {
-  display: block;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  margin-top: 35px;
-}
-
-.custom-block .rounded-pill {
-  border-radius: 5px !important;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 30px;
-  height: 30px;
-  line-height: 20px;
-}
-
-.custom-block-overlay {
-  height: 100%;
-  min-height: 350px;
-  padding: 0;
-}
-
-.custom-block-overlay > a {
-  height: 100%;
-}
-
-.custom-block-overlay .custom-block-image {
-  border-radius: var(--border-radius-medium);
-  display: block;
-  height: 100%;
-  margin-top: 0;
-}
-
-.custom-block-overlay-text {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding: 30px;
-}
-
-.social-share {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
-  padding: 20px 35px;
-}
-
-.social-share .bi-bookmark {
-  color: var(--white-color);
-  font-size: var(--h5-font-size);
-}
-
-.social-share .bi-bookmark:hover {
-  color: var(--secondary-color);
-}
-
-.bg-design {
-  background-color: #00B0FF;
-}
-
-.bg-graphic {
-  background-color: #00BFA6;
-}
-
-.bg-advertising {
-  background-color: #F50057;
-}
-
-.bg-finance {
-  background-color: #536DFE;
-}
-
-.bg-music {
-  background-color: #F9A826;
-}
-
-.bg-education {
-  background-color: #00BFA6;
-}
-
-
-/*---------------------------------------
-  TOPICS               
------------------------------------------*/
-.topics-detail-block {
-  border-radius: var(--border-radius-medium);
-  position: relative;
-  overflow: hidden;
-}
-
-.topics-detail-block-image {
-  display: block;
-  border-radius: var(--border-radius-medium);
-}
-
-blockquote {
-  background-color: var(--section-bg-color);
-  border-radius: var(--border-radius-small);
-  font-family: var(--title-font-family);
-  font-size: var(--h4-font-size);
-  font-weight: var(--font-weight-bold);
-  display: inline-block;
-  text-align: center;
-  margin: 30px;
-  padding: 40px;
-}
-
-.topics-listing-page .site-header {
-  padding-bottom: 65px;
-}
-
-.custom-block-topics-listing-info {
-  margin: 30px 20px 20px 30px;
-}
-
-.custom-block-topics-listing {
-  height: inherit;
-}
-
-.custom-block-topics-listing .custom-block-image {
-  width: 200px;
-}
-
-
-/*---------------------------------------
-  PAGINATION              
------------------------------------------*/
-.pagination {
-  margin-top: 40px;
-}
-
-.page-link {
-  border: 0;
-  border-radius: var(--border-radius-small);
-  color: var(--p-color);
-  font-family: var(--title-font-family);
-  margin: 0 5px;
-  padding: 10px 20px;
-}
-
-.page-link:hover,
-.page-item:first-child .page-link:hover,
-.page-item:last-child .page-link:hover {
-  background-color: var(--secondary-color);
-  color: var(--white-color);
-}
-
-.page-item:first-child .page-link {
-  margin-right: 10px;
-}
-
-.page-item:first-child .page-link,
-.page-item:last-child .page-link {
-  background-color: var(--section-bg-color);
-  border-radius: var(--border-radius-small);
-}
-
-.active>.page-link, .page-link.active {
-  background-color: var(--secondary-color);
-  border-color: var(--secondary-color);
-}
-
-
-/*---------------------------------------
-  TIMELINE              
------------------------------------------*/
-.timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.timeline-container .vertical-scrollable-timeline {
-  list-style-type: none;
-  position: relative;
-  padding-left: 0;
-}
-
-.timeline-container .vertical-scrollable-timeline .list-progress {
-  width: 8px;
-  height: 87%;
-  background-color: var(--primary-color);
-  position: absolute;
-  left: 52px;
-  top: 0;
-  overflow: hidden;
-}
-
-.timeline-container .vertical-scrollable-timeline .list-progress .inner {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  background-color: var(--secondary-color);
-  width: 100%;
-}
-
-.timeline-container .vertical-scrollable-timeline li {
-  position: relative;
-  padding: 20px 0px 65px 145px;
-}
-
-.timeline-container .vertical-scrollable-timeline li:last-child {
-  padding-bottom: 0;
-}
-
-.timeline-container .vertical-scrollable-timeline li p {
-  line-height: 40px;
-}
-
-.timeline-container .vertical-scrollable-timeline li p:last-child {
-  margin-bottom: 0;
-}
-
-.timeline-container .vertical-scrollable-timeline li .icon-holder {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 104px;
-  height: 104px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--secondary-color);
-  border-radius: 50%;
-  z-index: 1;
-  transition: 0.4s all;
-}
-
-.timeline-container .vertical-scrollable-timeline li .icon-holder::before {
-  content: "";
-  width: 80px;
-  height: 80px;
-  border: 4px solid #fff;
-  position: absolute;
-  background-color: var(--secondary-color);
-  border-radius: 50%;
-  z-index: -1;
-  transition: 0.4s all;
-}
-
-.timeline-container .vertical-scrollable-timeline li .icon-holder i {
-  font-size: 25px;
-  color: var(--white-color);
-}
-
-.timeline-container .vertical-scrollable-timeline li::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  width: 8px;
-  background-color: transparent;
-  left: 52px;
-  z-index: 0;
-}
-
-.timeline-container .vertical-scrollable-timeline li.active .icon-holder {
-  background-color: var(--primary-color);
-}
-
-.timeline-container .vertical-scrollable-timeline li.active .icon-holder::before {
-  background-color: var(--primary-color);
-}
-
-
-/*---------------------------------------
-  FAQs              
------------------------------------------*/
-.faq-section .accordion-item {
-  border: 0;
-}
-
-.faq-section .accordion-button {
-  font-size: var(--h6-font-size);
-  font-weight: var(--font-weight-semibold);
-}
-
-.faq-section .accordion-item:first-of-type .accordion-button {
-  border-radius: var(--border-radius-large);
-}
-
-.faq-section .accordion-button:not(.collapsed) {
-  border-radius: var(--border-radius-large);
-  box-shadow: none;
-  color: var(--primary-color);
-}
-
-.faq-section .accordion-body {
-  color: var(--p-color);
-  font-size: var(--btn-font-size);
-  line-height: 40px;
-}
-
-/*---------------------------------------
-  NEWSLETTER               
------------------------------------------*/
-.newsletter-image {
-  border-radius: var(--border-radius-medium);
-}
-
-
-/*---------------------------------------
-  CONTACT               
------------------------------------------*/
-.google-map {
-  border-radius: var(--border-radius-medium);
-}
-
-.contact-form .form-floating>textarea {
-  border-radius: var(--border-radius-medium);
-  height: 150px;
-}
-
-
-/*---------------------------------------
-  SUBSCRIBE FORM               
------------------------------------------*/
-.subscribe-form-wrap {
-  padding: 50px;
-}
-
-.subscribe-form {
-  width: 95%;
-}
-
-
-/*---------------------------------------
-  CUSTOM FORM               
------------------------------------------*/
-.custom-form .form-control {
-  border-radius: var(--border-radius-large);
-  color: var(--p-color);
-  margin-bottom: 24px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 20px;
-  outline: none;
-}
-
-.form-floating>label {
-  padding-left: 20px;
-}
-
-.custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
-  border: none;
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-family: var(--title-font-family);
-  font-size: var(--p-font-size);
-  font-weight: var(--font-weight-semibold);
-  transition: all 0.3s;
-  margin-bottom: 0;
-}
-
-.custom-form button[type="submit"]:hover,
-.custom-form button[type="submit"]:focus {
-  background: var(--custom-btn-bg-hover-color);
-  border-color: transparent;
-}
-
-
-/*---------------------------------------
-  SITE FOOTER              
------------------------------------------*/
-.site-footer {
-  border-bottom: 10px solid var(--secondary-color);
-  position: relative;
-}
-
-.site-footer::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 200px 200px;
-  border-color: transparent transparent var(--secondary-color) transparent;
-  pointer-events: none;
-}
-
-.site-footer-title {
-  color: var(--primary-color); 
-}
-
-.site-footer .dropdown-menu {
-  padding: 0;
-}
-
-.site-footer .dropdown-item {
-  color: var(--p-color);
-  font-size: var(--menu-font-size);
-  font-weight: var(--font-weight-medium);
-  padding: 4px 18px;
-}
-
-.site-footer .dropdown-item:hover {
-  background-color: transparent;
-  color: var(--primary-color);
-}
-
-.site-footer .dropdown-menu li:first-child .dropdown-item {
-  padding-top: 10px;
-}
-
-.site-footer .dropdown-menu li:last-child .dropdown-item {
-  padding-bottom: 12px;
-}
-
-.site-footer .dropdown-toggle {
-  background-color: var(--secondary-color);
-  border-color: var(--white-color);
-}
-
-.site-footer .dropdown-toggle:hover {
-  background-color: var(--primary-color);
-  border-color: transparent;
-}
-
-.site-footer-links {
-  padding-left: 0;
-}
-
-.site-footer-link-item {
-  display: block;
-  list-style: none;
-  line-height: normal;
-}
-
-.site-footer-link {
-  color: var(--secondary-color);
-  font-size: var(--copyright-font-size);
-  font-weight: var(--font-weight-medium);
-  line-height: normal;
-}
-
-.copyright-text {
-  font-size: var(--copyright-font-size);
-}
-
-
-/*---------------------------------------
-  SOCIAL ICON               
------------------------------------------*/
-.social-icon {
-  margin: 0;
-  padding: 0;
-}
-
-.social-icon-item {
-  list-style: none;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.social-icon-link {
-  background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--copyright-font-size);
-  display: block;
-  margin-right: 10px;
-  text-align: center;
-  width: 35px;
-  height: 35px;
-  line-height: 36px;
-  transition: background 0.2s, color 0.2s;
-}
-
-.social-icon-link:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
-}
-
-
-/*---------------------------------------
-  RESPONSIVE STYLES               
------------------------------------------*/
-@media screen and (max-width: 991px) {
-  h1 {
-    font-size: 48px;
-  }
-
-  h2 {
-    font-size: 36px;
-  }
-
-  h3 {
-    font-size: 32px;
-  }
-
-  h4 {
-    font-size: 28px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-
-  h6 {
-    font-size: 18px;
-  }
-
-  .section-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  .navbar {
-    background-color: var(--secondary-color);
-  }
-
-  .navbar-nav .dropdown-menu {
-    position: relative;
-    left: 10px;
-    opacity: 1;
-    pointer-events: auto;
-    max-width: 155px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-  }
-
-  .navbar-expand-lg .navbar-nav {
-    padding-bottom: 20px;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0;
-  }
-
-  .nav-tabs .nav-link:first-child {
-    margin-right: 5px;
-  }
-
-  .nav-tabs .nav-link {
-    font-size: var(--copyright-font-size);
-    padding: 10px;
-  }
-
-  .featured-section {
-    border-radius: 0 0 80px 80px;
-    padding-bottom: 50px;
-  }
-
-  .custom-block-topics-listing .custom-block-image {
-    width: auto;
-  }
-
-  .custom-block-topics-listing > .d-flex,
-  .custom-block-topics-listing-info,
-  .custom-block-topics-listing a {
-    flex-direction: column;
-  }
-
-  .timeline-container .vertical-scrollable-timeline .list-progress {
-    height: 75%;
-  }
-
-  .timeline-container .vertical-scrollable-timeline li {
-    padding-left: 135px;
-  }
-
-  .subscribe-form-wrap {
-    padding-top: 30px;
-    padding-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 36px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  h3 {
-    font-size: 26px;
-  }
-
-  h4 {
-    font-size: 22px;
-  }
-
-  h5 {
-    font-size: 20px;
-  }
-}
-/* --- Floating Left Menu (FAB) Style --- * floating starts here/
-
-/* === Floating Left Menu Glow + Bounce Animation === */
-
-.floating-menu-container {
-  position: fixed;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  z-index: 1050;
-}
-
-.floating-buttons {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.floating-buttons li {
-  margin-bottom: 8px;
-}
-
-/* Logo Item */
-.logo-item {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  font-size: 18px;
-  font-weight: 700;
-  border-radius: 0 10px 10px 0;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  white-space: nowrap;
-  width: 45px;
-  overflow: hidden;
-  cursor: default;
-  transition: all 0.4s ease;
-  animation: bounceIn 0.8s ease-out;
-  animation-delay: 0.1s;
-  animation-fill-mode: both;
-}
-
-.logo-item:hover {
-  width: 220px;
-  box-shadow: 0 0 20px rgba(19, 84, 122, 0.6);
-}
-
-.logo-item i {
-  font-size: 24px;
-  min-width: 24px;
-}
-
-.logo-text {
-  margin-left: 10px;
-}
-
-/* Floating Buttons */
-.btn-item {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 0 10px 10px 0;
-  transition: all 0.4s ease;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  white-space: nowrap;
-  width: 45px;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateX(-20px);
-}
-
-/* On hover: expand + glow */
-.btn-item:hover {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-  width: 200px;
-  box-shadow: 0 0 20px rgba(13, 110, 253, 0.6);
-  transform: translateX(5px);
-}
-
-/* Sequential button animations */
-.floating-buttons li:nth-child(2) .btn-item { animation: bounceIn 0.6s ease-out 0.2s forwards; }
-.floating-buttons li:nth-child(3) .btn-item { animation: bounceIn 0.6s ease-out 0.4s forwards; }
-.floating-buttons li:nth-child(4) .btn-item { animation: bounceIn 0.6s ease-out 0.6s forwards; }
-.floating-buttons li:nth-child(5) .btn-item { animation: bounceIn 0.6s ease-out 0.8s forwards; }
-.floating-buttons li:nth-child(6) .btn-item { animation: bounceIn 0.6s ease-out 1.0s forwards; }
-
-/* --- Keyframes for bounce-in effect --- */
-@keyframes bounceIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-30px) scale(0.9);
-  }
-  60% {
-    opacity: 1;
-    transform: translateX(5px) scale(1.05);
-  }
-  80% {
-    transform: translateX(-2px) scale(0.98);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0) scale(1);
-  }
-}
-
-/* Small screen adjustment */
-@media (max-width: 767px) {
-  .floating-menu-container {
-    left: 10px;
-  }
-  .btn-item {
-    width: 40px;
-    font-size: 14px;
-  }
-  .btn-item:hover {
-    width: 160px;
-  }
-}
-/* --- Floating Menu Icon Size Adjustment --- */
-
-/* Larger logo icon */
-.logo-item i {
-  font-size: 30px; /* Prominent logo size */
-  min-width: 30px;
-}
-
-/* Slightly smaller button icons */
-.btn-item i {
-  font-size: 24px; /* Balanced for menu buttons */
-  min-width: 24px;
-}
-
-/* Optional: increase spacing between icon and text */
-.btn-text {
-  margin-left: 12px;
-}
-
-/* Subtle hover animation for icons */
-.floating-menu-container i {
-  transition: transform 0.25s ease;
-}
-
-.btn-item:hover i,
-.logo-item:hover i {
-  transform: scale(1.15) rotate(5deg);
-}
-/* --- Floating Menu Smooth Expand Animation (Material-style) --- */
-
-/* Base setup */
-.logo-item,
-.btn-item {
-  transition:
-    width 0.45s cubic-bezier(0.25, 0.8, 0.25, 1),
-    background-color 0.3s ease,
-    box-shadow 0.3s ease,
-    transform 0.3s ease;
-  will-change: width, transform;
-}
-
-/* Logo expand animation */
-.logo-item {
-  width: 48px;
-}
-.logo-item:hover {
-  width: 220px;
-  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
-  transform: translateX(3px);
-}
-
-/* Menu button expand animation */
-.btn-item {
-  width: 48px;
-}
-.btn-item:hover {
-  width: 200px;
-  box-shadow: 5px 8px 20px rgba(0, 0, 0, 0.35);
-  transform: translateX(5px);
-}
-
-/* Icon hover animation */
-.floating-menu-container i {
-  transition: transform 0.25s ease, color 0.25s ease;
-}
-.btn-item:hover i,
-.logo-item:hover i {
-  transform: scale(1.15) rotate(8deg);
-}
-
-/* Smooth text fade-in when expanded */
-.logo-text,
-.btn-text {
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-.logo-item:hover .logo-text,
-.btn-item:hover .btn-text {
-  opacity: 1;
-  transition-delay: 0.1s;
-}
-
-/* Optional: make hover shadows softer for modern look */
-.btn-item,
-.logo-item {
-  box-shadow: 0 6px 18px rgba(13, 110, 253, 0.12);
-}
-.hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 120px 20px 80px;
-}
-
-.carousel-container {
-  width: 100%;
-  max-width: 1600px;
-  height: 650px;
-  perspective: 1200px;
-  position: relative;
-  padding-top: 60px;
-}
-
-.carousel {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-}
-
-.carousel-item {
-  position: absolute;
-  width: 400px;
-  height: 500px;
-  left: 50%;
-  top: 50%;
-  transform-style: preserve-3d;
-  transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
-  cursor: pointer;
-  transform-origin: center center;
-}
-
-.carousel-item .card {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #1a1a1a, #121212);
-  border: 2px solid #3a3a3a;
-  border-radius: 20px;
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
-}
-
-.card-number {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 72px;
-  font-weight: 900;
-  color: rgba(153, 69, 255, 0.1);
-}
-
-.card-image {
-  width: 100%;
-  height: 200px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  border: 1px solid #3a3a3a;
-}
-
-.card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: grayscale(50%) contrast(1.2);
-  transition: all 0.5s ease;
-}
-.carousel-item:hover .card-image img {
-  filter: grayscale(0%) contrast(1.3);
-  transform: scale(1.1);
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background: linear-gradient(135deg, #fff, #9945ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.card-description {
-  color: #b0b0b0;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  font-size: 14px;
-}
-
-.card-tech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-.tech-badge {
-  padding: 5px 12px;
-  background: rgba(153, 69, 255, 0.1);
-  border: 1px solid #9945ff;
-  border-radius: 20px;
-  font-size: 12px;
-  color: #9945ff;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.card-cta {
-  padding: 12px 30px;
-  background: linear-gradient(135deg, #9945ff, #00a8ff);
-  border: none;
-  border-radius: 30px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 5px 15px rgba(153, 69, 255, 0.3);
-}
-.card-cta:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(153, 69, 255, 0.5);
-}
-
-/* Carousel Controls */
-.carousel-controls {
-  position: absolute;
-  bottom: -70px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 20px;
-}
-.carousel-btn {
-  width: 60px;
-  height: 60px;
-  background: #1a1a1a;
-  border: 2px solid #3a3a3a;
-  border-radius: 50%;
-  color: #9945ff;
-  font-size: 24px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.carousel-btn:hover {
-  border-color: #9945ff;
-  transform: scale(1.1);
-}
-
-/* Indicators */
-.carousel-indicators {
-  position: absolute;
-  top: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 15px;
-}
-.indicator {
-  width: 12px;
-  height: 12px;
-  background: #3a3a3a;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.indicator.active {
-  background: linear-gradient(135deg, #9945ff, #00a8ff);
-  transform: scale(1.3);
-}
-
-/* Responsive Breakpoints */
-@media (max-width: 1024px) {
-  .carousel-item {
-    width: 340px;
-    height: 460px;
-  }
-  .carousel-container {
-    height: 550px;
-  }
-  .card-image {
-    height: 180px;
-  }
-}
-
-@media (max-width: 768px) {
-  .carousel-item {
-    width: 280px;
-    height: 430px;
-  }
-  .carousel-controls {
-    bottom: -60px;
-  }
-  .carousel-btn {
-    width: 50px;
-    height: 50px;
-    font-size: 20px;
-  }
-  .card-title {
-    font-size: 20px;
-  }
-  .card-description {
-    font-size: 13px;
-  }
-}
-/* templatemo-topic-listing.css: FINAL COMPLETE ANIMATIC DESIGN */
-
-/* --------------------------------------
-  SERVICES SECTION STYLING (GLASS/GRADIENT/ANIMATIC)
------------------------------------------*/
-
-.services-section {
-    /* Set background image for the entire section (Parallax effect) */
-    background: url('../images/servicebackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding-top: 100px; 
-    padding-bottom: 100px;
-    position: relative;
-}
-
-/* Add a dark overlay to the section background for contrast and readability */
-
-
-.services-section .container {
-    position: relative;
-    z-index: 1; 
-}
-
-/* Base Card Style: 3D, Transparent, Rounded Corners */
-.service-card {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
+-->
+    </head>
     
-    /* Transparent/Frosted Glass background */
-    background-color: rgba(255, 255, 255, 0.08); 
-    backdrop-filter: blur(3px); /* Enhanced blur effect */
-    -webkit-backdrop-filter: blur(3px);
+    <body id="top">
+
+    <div class="site-background-video-container">
+        <video autoplay muted loop playsinline class="site-background-video">
+            <source src="images/HeroBanner-New.mp4" type="video/mp4">
+            <img src="images/corporate-fallback.jpg" alt="Website background image">
+        </video>
+    </div>
+	<div class="video-foreground-overlay"></div> 
     
-    border-radius: 18px; /* Rounded Corners applied */
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+    <main>
+    <main>
+		
+		
+		<div class="floating-menu-container">
+        <ul class="floating-buttons">
+            
+            <li class="menu-logo">
+                <div class="logo-item" title="Company Logo / Main Menu">
+                    <i class="bi bi-phone-fill"></i>
+                    <span class="logo-text">ZIZA FIRST</span>
+                </div>
+            </li>
+
+            <li>
+                <a href="#" class="btn-item" title="Apply Job">
+                    <i class="bi bi-briefcase-fill"></i>
+                    <span class="btn-text">Apply For Job</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-item" title="Join Our Courses">
+                    <i class="bi bi-book-half"></i>
+                    <span class="btn-text">Join Our Courses</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-item" title="Explore Our Services">
+                    <i class="bi bi-globe"></i>
+                    <span class="btn-text">Explore Our Services</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-item" title="Online & Offline Drives">
+                    <i class="bi bi-calendar-event-fill"></i>
+                    <span class="btn-text">Online & Offline Drives</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-item" title="Campus Recruitment">
+                    <i class="bi bi-mortarboard-fill"></i>
+                    <span class="btn-text">Campus Recruitment</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" alt="Ziza First Logo" class="navbar-logo">                    </a>
+
+                    <div class="d-lg-none ms-auto me-4">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>
     
-    /* ANIMATIC: 3D Perspective Setup */
-    perspective: 1000px;
-    transform-style: preserve-3d;
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
     
-    /* Subtle border for definition */
-    border: 1px solid rgba(123, 202, 195, 0.3); 
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1); /* Smooth transition for all animatic effects */
-}
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
 
-/* ANIMATIC: 3D Tilt and GLOW Hover Effect */
-.service-card:hover {
-    transform: translateY(-12px) rotateX(1deg) rotateY(-1deg) scale(1.03); /* 3D Tilt and Scale */
-    /* GLOW: Deep glow using the primary color */
-    box-shadow: 0 25px 70px rgba(31, 98, 130, 0.6); 
-}
-
-/* Image Container */
-.service-card-image {
-    width: 100%;
-    height: 180px;
-    overflow: hidden;
-    position: relative;
-    transform: translateZ(20px); 
-}
-
-.service-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.6s ease;
-    filter: brightness(0.9); 
-}
-
-/* ANIMATIC: Image Zoom on Hover */
-.service-card:hover .service-card-image img {
-    transform: scale(1.15);
-}
-
-/* Text Content Area */
-.service-card-body {
-    padding: 30px 25px;
-    text-align: center;
-    flex-grow: 1;
-    position: relative;
-    z-index: 2;
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">Services</a>
+                            </li>
     
-    background: linear-gradient(180deg, rgba(31, 98, 130, 0.05), rgba(0, 0, 0, 0.1));
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Courses</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Training</a>
+                            </li>
     
-    transform: translateZ(10px); 
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-}
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Placements</a>
+								
+                            </li>
+							
 
-/* Title Styling: Solid White for Visibility */
-.service-card-title {
-    font-family: var(--title-font-family); 
-    font-size: var(--h4-font-size);
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Our Team</a>
+								
+                            </li>
+							
+						
+							
+							<li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact Us</a>
+								
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block">
+                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+			
+            
+
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">Learn. Build. Grow.</h1>
+
+                            <h6 class="text-center">
+
+                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                                <div class="input-group input-group-lg">
+                                    <span class="input-group-text bi-search" id="basic-addon1">
+                                        
+                                    </span>
+
+                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
+
+                                    <button type="submit" class="form-control">Search</button>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+           
+			<!-- 🔹 3D Hero Carousel Section -->
+<section class="hero-carousel">
+  <div class="hero-carousel-container">
+    <div class="hero-carousel-inner" id="carousel"></div>
+
+    <div class="hero-carousel-controls">
+      <button class="hero-carousel-btn" id="prevBtn">‹</button>
+      <button class="hero-carousel-btn" id="nextBtn">›</button>
+    </div>
+  </div>
+</section>
+<section id="achievements" class="section-padding">
+    <div class="container-fluid stats-bg-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                
+                <div class="achievement-card-col achievement-card-1"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-building-fill achievement-icon"></i>
+                                <h3 class="stat-number">300+</h3>
+                                <p class="stat-label">Hiring Partners</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Our extensive network ensures maximum placement opportunities for graduates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card-col achievement-card-2"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+								<i class="bi bi-clock-history achievement-icon"></i>                                
+								<h3 class="stat-number">15+</h3>
+                                <p class="stat-label">Years Experience</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Decades of industry experience guiding our training and placement strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card-col achievement-card-3"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-mortarboard-fill achievement-icon"></i>
+                                <h3 class="stat-number">10,000+</h3>
+                                <p class="stat-label">Trained Students</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Proven track record of successful skill development and career launching globally.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card-col achievement-card-4"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-person-badge-fill achievement-icon"></i>
+                                <h3 class="stat-number">9,000+</h3>
+                                <p class="stat-label">Students Hired</p>
+                            </div>
+                            <div class="card-back">
+                                <p>High success rate reflecting the quality and relevance of our career-focused curriculum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="achievement-card-col achievement-card-5"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-briefcase-fill achievement-icon"></i>
+                                <h3 class="stat-number">8,500+</h3>
+                                <p class="stat-label">Working Professionals</p>
+                            </div>
+                            <div class="card-back">
+                                <p>We empower experienced professionals to upskill and advance their existing careers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card-col achievement-card-6"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-person-lines-fill achievement-icon"></i>
+                                <h3 class="stat-number">20+</h3>
+                                <p class="stat-label">Expert Trainers</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Dedicated team of certified and industry-experienced mentors and trainers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card-col achievement-card-7"> 
+                    <div class="achievement-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <i class="bi bi-bank achievement-icon"></i>
+                                <h3 class="stat-number">20+</h3>
+                                <p class="stat-label">Campus Drives</p>
+                            </div>
+                            <div class="card-back">
+                                <p>Direct hiring events organized regularly, connecting students with top employers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+            
+		<section class="services-section section-padding" id="services">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-12 text-center mb-5">
+                            <h2 class="text-white mb-4">Our professional Services</h1>
+                <p class="lead" style="font-family: var(--body-font-family); color: var(--p-color);">Delivering excellence through technology, training, and innovation.</p>
+            </div>
+
+            <div class="row">
+                
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service1.jpg" class="img-fluid" alt="IT Consulting">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">IT Consulting</h4>
+                            <p>Expert guidance to optimize your IT infrastructure and strategy for better efficiency.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service2.jpg" class="img-fluid" alt="CRT Trainings">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">CRT Trainings</h4>
+                            <p>Intensive campus recruitment training to improve placement success rates.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service3.jpg" class="img-fluid" alt="Digital Marketing">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">Digital Marketing</h4>
+                            <p>Boost your brand visibility with customized online marketing solutions.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service4.jpg" class="img-fluid" alt="CSR Trainings">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">CSR Projects</h4>
+                            <p>Encouraging sustainable practices through targeted CSR learning programs.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service5.jpg" class="img-fluid" alt="Corporate Training">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">Corporate Training</h4>
+                            <p>Customized sessions to upskill your workforce and improve productivity.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service6.jpg" class="img-fluid" alt="Academic Projects">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">Academic Projects</h4>
+                            <p>Hands-on assistance for innovative academic projects and prototypes.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service7.jpg" class="img-fluid" alt="Certifications">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">Certifications</h4>
+                            <p>Industry-approved certifications to validate your professional skills.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service8.jpg" class="img-fluid" alt="Web Development">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">Web Development</h4>
+                            <p>Responsive, SEO-friendly websites tailored to your business goals.</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <a href="#" class="service-card animatic-card">
+                        <div class="service-card-image">
+                            <img src="images/service9.jpg" class="img-fluid" alt="App Development">
+                        </div>
+                        <div class="service-card-body">
+                            <h4 class="service-card-title">App Development</h4>
+                            <p>iOS and Android apps with robust performance and user-friendly designs.</p>
+                        </div>
+                    </a>
+                </div>
+            </div> </div>
+    </div>
+</section>
+<section class="courses-section section-padding" id="courses">
+    <div class="courses-section-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12 col-12 text-center mb-5" style="position: relative; z-index: 2;">
+                <h2 class="mb-4" style="font-family: var(--title-font-family); color: rgba(255, 255, 255, 0.95);">Our Expert Courses</h2>
+            </div>
+
+            <div class="col-12 course-scrolling-container">
+
+                <div class="course-scrolling-line line-ltr">
+                    <div class="course-list-wrapper">
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Python" class="img-fluid"></span><p>Python Programming</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Java" class="img-fluid"></span><p>Java Programming</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C" class="img-fluid"></span><p>C Programming</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C++" class="img-fluid"></span><p>C++ Programming</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="JavaScript" class="img-fluid"></span><p>JavaScript</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="HTML & CSS" class="img-fluid"></span><p>HTML & CSS</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ReactJS" class="img-fluid"></span><p>ReactJS</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="NodeJS" class="img-fluid"></span><p>NodeJS</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Python" class="img-fluid"></span><p>Python Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Java" class="img-fluid"></span><p>Java Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C" class="img-fluid"></span><p>C Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C++" class="img-fluid"></span><p>C++ Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="JavaScript" class="img-fluid"></span><p>JavaScript</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="HTML & CSS" class="img-fluid"></span><p>HTML & CSS</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ReactJS" class="img-fluid"></span><p>ReactJS</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="NodeJS" class="img-fluid"></span><p>NodeJS</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Python" class="img-fluid"></span><p>Python Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Java" class="img-fluid"></span><p>Java Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C" class="img-fluid"></span><p>C Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="C++" class="img-fluid"></span><p>C++ Programming</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="JavaScript" class="img-fluid"></span><p>JavaScript</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="HTML & CSS" class="img-fluid"></span><p>HTML & CSS</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ReactJS" class="img-fluid"></span><p>ReactJS</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="NodeJS" class="img-fluid"></span><p>NodeJS</p></a></div>
+                    </div>
+                </div>
+
+                <div class="course-scrolling-line line-rtl">
+                    <div class="course-list-wrapper">
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Full Stack" class="img-fluid"></span><p>Full Stack Development</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DSA" class="img-fluid"></span><p>Data Structures & Algorithms</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="SQL" class="img-fluid"></span><p>Database Management (SQL)</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ML" class="img-fluid"></span><p>Machine Learning</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Deep Learning" class="img-fluid"></span><p>Deep Learning</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="AI" class="img-fluid"></span><p>Artificial Intelligence</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cloud" class="img-fluid"></span><p>Cloud Computing</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DevOps" class="img-fluid"></span><p>AWS & DevOps</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Full Stack" class="img-fluid"></span><p>Full Stack Development</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DSA" class="img-fluid"></span><p>Data Structures & Algorithms</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="SQL" class="img-fluid"></span><p>Database Management (SQL)</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ML" class="img-fluid"></span><p>Machine Learning</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Deep Learning" class="img-fluid"></span><p>Deep Learning</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="AI" class="img-fluid"></span><p>Artificial Intelligence</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cloud" class="img-fluid"></span><p>Cloud Computing</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DevOps" class="img-fluid"></span><p>AWS & DevOps</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Full Stack" class="img-fluid"></span><p>Full Stack Development</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DSA" class="img-fluid"></span><p>Data Structures & Algorithms</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="SQL" class="img-fluid"></span><p>Database Management (SQL)</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="ML" class="img-fluid"></span><p>Machine Learning</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Deep Learning" class="img-fluid"></span><p>Deep Learning</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="AI" class="img-fluid"></span><p>Artificial Intelligence</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cloud" class="img-fluid"></span><p>Cloud Computing</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="DevOps" class="img-fluid"></span><p>AWS & DevOps</p></a></div>
+                    </div>
+                </div>
+
+                <div class="course-scrolling-line line-ltr">
+                    <div class="course-list-wrapper">
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Kubernetes" class="img-fluid"></span><p>Kubernetes</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Docker" class="img-fluid"></span><p>Docker</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cybersecurity" class="img-fluid"></span><p>Cybersecurity</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Ethical Hacking" class="img-fluid"></span><p>Ethical Hacking</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="UI/UX" class="img-fluid"></span><p>UI/UX Design</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Digital Marketing" class="img-fluid"></span><p>Digital Marketing</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Big Data" class="img-fluid"></span><p>Big Data & Hadoop</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Tableau" class="img-fluid"></span><p>Tableau & Power BI</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Kubernetes" class="img-fluid"></span><p>Kubernetes</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Docker" class="img-fluid"></span><p>Docker</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cybersecurity" class="img-fluid"></span><p>Cybersecurity</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Ethical Hacking" class="img-fluid"></span><p>Ethical Hacking</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="UI/UX" class="img-fluid"></span><p>UI/UX Design</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Digital Marketing" class="img-fluid"></span><p>Digital Marketing</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Big Data" class="img-fluid"></span><p>Big Data & Hadoop</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Tableau" class="img-fluid"></span><p>Tableau & Power BI</p></a></div>
+                        <div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Kubernetes" class="img-fluid"></span><p>Kubernetes</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Docker" class="img-fluid"></span><p>Docker</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Cybersecurity" class="img-fluid"></span><p>Cybersecurity</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Ethical Hacking" class="img-fluid"></span><p>Ethical Hacking</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="UI/UX" class="img-fluid"></span><p>UI/UX Design</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Digital Marketing" class="img-fluid"></span><p>Digital Marketing</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Big Data" class="img-fluid"></span><p>Big Data & Hadoop</p></a></div><div class="course-card-wrapper"><a href="#" class="course-card"><span><img src="images/course1.jpg" alt="Tableau" class="img-fluid"></span><p>Tableau & Power BI</p></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-padding" id="training-placements">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h2 class="mb-2">Training & Placements –</h2>
+                <p class="section-subheading mb-4">Empowering Your Career Journey</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-12 text-center mb-5">
+                <p class="mb-0 text-light">Unlock Your Potential with Our Comprehensive Training and Placement Services. At ZizaFirst Technologies, we’re dedicated to not only providing exceptional IT training but also ensuring that you’re equipped for success in the job market. Our Training and Placement services are designed to offer you a seamless transition from learning to career advancement.</p>
+            </div>
+        </div>
+
+        <div class="row training-grid-container">
+            
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="glass-card">
+                    <i class="bi bi-cpu-fill training-icon"></i>
+                    <h3 class="card-heading">Specialized IT Training Programs</h3>
+                    <p class="card-description">Our training programs are meticulously crafted to address the latest trends and technologies in the IT industry. We offer:</p>
+                    <div class="card-points">
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Hands-On Courses:</strong> Gain practical experience through project-based learning and real-world scenarios.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Expert Instruction:</strong> Learn from industry professionals with extensive experience and expertise.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Certification Preparation:</strong> Prepare for industry-recognized certifications such as CompTIA, AWS, Cisco, and more.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="glass-card">
+                    <i class="bi bi-journal-code training-icon"></i>
+                    <h3 class="card-heading">Career-Oriented Curriculum</h3>
+                    <p class="card-description">Our curriculum is designed with your career success in mind:</p>
+                    <div class="card-points">
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Industry-Relevant Skills:</strong> Focus on skills that are in high demand, ensuring you are job-ready upon completion.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Soft Skills Training:</strong> Develop essential soft skills like communication, teamwork, and problem-solving that employers value.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Project Work:</strong> Engage in real-world projects and case studies that demonstrate your practical capabilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="glass-card">
+                    <i class="bi bi-person-check-fill training-icon"></i>
+                    <h3 class="card-heading">Personalized Career Counseling</h3>
+                    <p class="card-description">We provide tailored support to help you navigate your career path:</p>
+                    <div class="card-points">
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Career Guidance:</strong> Receive expert advice on career planning, goal setting, and job market trends.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Resume Building:</strong> Get assistance with crafting a professional resume that highlights your skills and achievements.</p>
+                        <p class="card-list-item"><i class="bi bi-star-fill text-warning me-2"></i><strong>Interview Preparation:</strong> Participate in mock interviews and receive feedback to improve your performance.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="section-padding" id="placement-assistance">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h2 class="mb-4 text-light">Job Placement Assistance</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="placement-feature-box">
+                    <div class="icon-circle">
+                        <i class="bi bi-search placement-icon"></i>
+                    </div>
+                    <h3 class="box-heading">Job Matching</h3>
+                    <p class="box-description">Access our network of industry connections to find job opportunities that align with your skills and career goals.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="placement-feature-box">
+                    <div class="icon-circle">
+                        <i class="bi bi-hand-index-thumb-fill placement-icon"></i>
+                    </div>
+                    <h3 class="box-heading">Placement Support</h3>
+                    <p class="box-description">Benefit from our partnerships with leading companies and recruitment agencies to increase your chances of landing a job.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 mb-4">
+                <div class="placement-feature-box">
+                    <div class="icon-circle">
+                        <i class="bi bi-broadcast-pin placement-icon"></i>
+                    </div>
+                    <h3 class="box-heading">Career Fairs and Networking Events</h3>
+                    <p class="box-description">Participate in exclusive events to meet potential employers and explore job openings.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section class="section-padding" id="ongoing-support">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center">
+                <h2 class="mb-5 text-light">Ongoing Support</h2>
+                <p class="mb-4 text-light">Even after you secure a position, we offer continued support:</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-5 col-md-6 col-12 mb-4">
+                <div class="support-feature">
+                    <i class="bi bi-people-fill support-icon"></i>
+                    <h3 class="box-heading text-light">Alumni Network</h3>
+                    <p class="box-description">Join our community of professionals for networking, career advice, and continued learning.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 col-12 mb-4">
+                <div class="support-feature">
+                    <i class="bi bi-graph-up support-icon"></i>
+                    <h3 class="box-heading text-light">Professional Development</h3>
+                    <p class="box-description">Access resources and workshops to further enhance your skills and advance in your career.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+            <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">How does it work?</h1>
+                        </div>
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="timeline-container">
+                                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                                    <div class="list-progress">
+                                        <div class="inner"></div>
+                                    </div>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Expert-Led Training</h4>
+
+                                        <p class="text-white">Our comprehensive training programs are designed and delivered by industry experts, combining practical skills with real-world projects to prepare students for top career opportunities</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-search"></i>
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4 class="text-white mb-3">Online &amp; Offline Drives
+</h4>
+
+                                        <p class="text-white">We organize regular online and offline placement drives to ensure that every student has equal opportunities to secure their dream job, regardless of location.</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-bookmark"></i>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Campus Recruitment</h4>
+
+                                        <p class="text-white">Our strong industry connections allow us to conduct exclusive campus recruitment drives with top-tier companies, ensuring high placement rates.
+
+</p>
+
+                                        <div class="icon-holder">
+                                          <i class="bi-book"></i>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center mt-5">
+                            <p class="text-white">
+                                Want to learn more?
+                                <a href="#" class="btn custom-btn custom-border-btn ms-3">Check out Youtube</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			<section class="standout-section section-padding" id="standout">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-12 text-center mb-5">
+                <h2 class="mb-3 text-white">WHAT MAKES YOU STAND OUT?</h2>
+                <h4 class="text-white-50">Technical Skills complement with Soft Skills</h4>
+            </div>
+
+            <div class="col-12 standout-grid-container">
+                <ul class="standout-list">
+                    <li class="skill-1">
+                        <div class="card-content">
+                            <i class="bi bi-globe2 standout-icon"></i> 
+                            <span>English Language Skills</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Mastering grammar and vocabulary for global communication.</p>
+                        </div>
+                    </li>
+                    <li class="skill-2">
+                        <div class="card-content">
+                            <i class="bi bi-chat-left-text-fill standout-icon"></i> 
+                            <span>Communication Skills</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Effective verbal and non-verbal interaction for professional success.</p>
+                        </div>
+                    </li>
+                    <li class="skill-3">
+                        <div class="card-content">
+                            <i class="bi bi-mic-fill standout-icon"></i> 
+                            <span>Voice & Accent</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Neutralizing accent for clarity in multinational environments.</p>
+                        </div>
+                    </li>
+                    <li class="skill-4">
+                        <div class="card-content">
+                            <i class="bi bi-heart-fill standout-icon"></i> 
+                            <span>Soft Skills</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Developing emotional intelligence and interpersonal abilities.</p>
+                        </div>
+                    </li>
+                    <li class="skill-5">
+                        <div class="card-content">
+                            <i class="bi bi-graph-up-arrow standout-icon"></i> 
+                            <span>Business English</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Professional language use in meetings, emails, and reports.</p>
+                        </div>
+                    </li>
+                    <li class="skill-6">
+                        <div class="card-content">
+                            <i class="bi bi-lightning-charge-fill standout-icon"></i> 
+                            <span>Fluency Building Techniques</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Strategies for achieving smooth and effortless speech.</p>
+                        </div>
+                    </li>
+                    <li class="skill-7">
+                        <div class="card-content">
+                            <i class="bi bi-pencil-square standout-icon"></i> 
+                            <span>Writing Skills</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Crafting clear, concise, and professional written documents.</p>
+                        </div>
+                    </li>
+                    <li class="skill-8">
+                        <div class="card-content">
+                            <i class="bi bi-megaphone-fill standout-icon"></i> 
+                            <span>Public Speaking</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Techniques to present confidently and effectively to an audience.</p>
+                        </div>
+                    </li>
+                    <li class="skill-9">
+                        <div class="card-content">
+                            <i class="bi bi-journal-text standout-icon"></i> 
+                            <span>Reading Skills</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Improving comprehension and speed for technical and business texts.</p>
+                        </div>
+                    </li>
+                    <li class="skill-10">
+                        <div class="card-content">
+                            <i class="bi bi-person-fill-gear standout-icon"></i> 
+                            <span>Workplace Etiquettes</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Understanding and applying professional behavior and conduct.</p>
+                        </div>
+                    </li>
+                    <li class="skill-11">
+                        <div class="card-content">
+                            <i class="bi bi-people-fill standout-icon"></i> 
+                            <span>Group Discussions, Debates</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Structured practice in team communication and persuasive arguments.</p>
+                        </div>
+                    </li>
+                    <li class="skill-12">
+                        <div class="card-content">
+                            <i class="bi bi-calculator-fill standout-icon"></i> 
+                            <span>Aptitude & Reasoning Tests</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Sharpening logical and analytical skills required for entry exams.</p>
+                        </div>
+                    </li>
+                    <li class="skill-13">
+                        <div class="card-content">
+                            <i class="bi bi-file-earmark-person-fill standout-icon"></i> 
+                            <span>Resume Writing</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Creating impactful resumes that secure interview calls.</p>
+                        </div>
+                    </li>
+                    <li class="skill-14">
+                        <div class="card-content">
+                            <i class="bi bi-person-check-fill standout-icon"></i> 
+                            <span>Interview Techniques</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Mastering common questions, body language, and negotiation.</p>
+                        </div>
+                    </li>
+                    <li class="skill-15">
+                        <div class="card-content">
+                            <i class="bi bi-building-fill standout-icon"></i> 
+                            <span>Corporate Etiquette Training</span>
+                        </div>
+                        <div class="card-description">
+                            <p>Training on office conduct, meetings, and professional dressing.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="career-roadmap">
+    <div class="container">
+        <h2 class="roadmap-heading">Roadmap to a Successful IT Career</h2>
+        
+        <div class="roadmap-grid">
+            
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">1. Assess Your Current Status</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Evaluate Your Skills:</strong> Take stock of your current technical knowledge, education, and professional experience.
+                    </li>
+                    <li>
+                        <strong>Identify Gaps:</strong> Determine the skills and knowledge you currently lack that are required for your desired IT role.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">2. Research the IT Landscape</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Explore Sectors:</strong> Understand the different branches of IT (e.g., DevOps, AI/ML, Cloud) and their respective job markets.
+                    </li>
+                    <li>
+                        <strong>Analyze Demand:</strong> Research which roles are in high demand and what salary expectations are for entry-level and advanced positions.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">3. Identify Your Goals and Interests</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Define Your Career Path:</strong> Decide which area of IT interests you most (e.g., cybersecurity, data science, cloud computing, software development).
+                    </li>
+                    <li>
+                        <strong>Set Clear Objectives:</strong> Determine what specific skills or certifications you want to acquire and how they align with your career goals.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">4. Choose the Right Learning Resources</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Enroll in Courses:</strong> Choose a right choice of training company, find reputable training programs, online courses, or bootcamps that offer in-depth knowledge in your chosen area.
+                    </li>
+                    <li>
+                        <strong>Obtain Certifications:</strong> Pursue industry-recognized certifications (e.g., CompTIA, AWS Certified Solutions Architect, Cisco CCNA) to validate your skills and knowledge.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">5. Gain Practical Experience</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Work on Projects:</strong> Apply your skills through personal or open-source projects. Building a portfolio of projects demonstrates your ability to solve real-world problems.
+                    </li>
+                    <li>
+                        <strong>Internships and Volunteering:</strong> Seek internships or volunteer opportunities to gain hands-on experience and make professional connections.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">6. Develop a Growth Mindset</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Stay Updated:</strong> IT is a rapidly evolving field. Keep up with the latest trends, technologies, and best practices by following industry blogs, forums, and news.
+                    </li>
+                    <li>
+                        <strong>Continuous Learning:</strong> Embrace lifelong learning. Attend webinars, workshops, and conferences to stay current and expand your knowledge.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">7. Network and Build Your Brand</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Join Professional Groups:</strong> Participate in IT communities, both online (LinkedIn groups, Reddit, etc.) and offline (meetups, industry events) to network with peers and professionals.
+                    </li>
+                    <li>
+                        <strong>Create an Online Presence:</strong> Build a professional online profile showcasing your skills, projects, and achievements. Platforms like LinkedIn, GitHub, or a personal website can be effective.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card">
+                <h3 class="card-sub-heading">8. Demonstrate Your Skills</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Share Your Work:</strong> Publish your projects, write blog posts, or contribute to forums to showcase your expertise and thought leadership.
+                    </li>
+                    <li>
+                        <strong>Seek Feedback:</strong> Engage with mentors, peers, and professionals to get feedback on your work and improve.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="roadmap-card single-long">
+                <h3 class="card-sub-heading">9. Prepare for Job Applications and Interviews</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Craft a Strong Resume:</strong> Highlight your skills, certifications, and practical experience. Tailor your resume for each job application to match the job description.
+                    </li>
+                    <li>
+                        <strong>Practice Interview Skills:</strong> Prepare for technical and behavioral interview questions. Use resources like LeetCode, HackerRank, or mock interviews to practice.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="roadmap-card single-long">
+                <h3 class="card-sub-heading">10. Leverage Career Services and Mentorship</h3>
+                <ul class="card-list">
+                    <li>
+                        <strong>Use Career Resources:</strong> Utilize these resources for resume building, interview preparation, and job placement.
+                    </li>
+                    <li>
+                        <strong>Find a Mentor:</strong> Connect with experienced professionals in your field for guidance, advice, and support as you navigate your career.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="upcoming-batches-section section-padding" id="upcoming">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-12 col-12 text-center mb-5">
+                <h2 class="mb-2 upcoming-title-color">Upcoming Batches</h2>
+                <h3 class="text-white-50">Innovative Services</h3>
+            </div>
+            
+            <div class="col-lg-6 col-12 mx-auto branch-group">
+                
+                <div class="parent-card" id="parent-training">
+                    <h4>Next-Generation IT Training</h4>
+                    <p class="sub-text">Our training programs are crafted to meet the demands of today and anticipate the needs of tomorrow:</p>
+                </div>
+
+                <ul class="child-cards-container">
+                    <li class="child-card card-1">
+                        <h5>Virtual Reality Training</h5>
+                        <p>Engage in realistic, immersive training scenarios that replicate real-world challenges.</p>
+                    </li>
+                    <li class="child-card card-2">
+                        <h5>Gamified Learning Modules</h5>
+                        <p>Learn through interactive games and simulations designed to make complex concepts easy and enjoyable.</p>
+                    </li>
+                    <li class="child-card card-3">
+                        <h5>AI-Powered Personalization</h5>
+                        <p>Experience customized learning paths driven by AI, tailored to your skills and goals.</p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-lg-6 col-12 mx-auto branch-group">
+                
+                <div class="parent-card" id="parent-consulting">
+                    <h4>Strategic Consulting</h4>
+                    <p class="sub-text">Our consulting services are designed to drive innovation and efficiency:</p>
+                </div>
+
+                <ul class="child-cards-container">
+                    <li class="child-card card-4">
+                        <h5>Digital Transformation</h5>
+                        <p>Reimagine your business processes with cutting-edge technology and agile methodologies.</p>
+                    </li>
+                    <li class="child-card card-5">
+                        <h5>Advanced Analytics</h5>
+                        <p>Utilize data analytics and machine learning to make informed, strategic decisions.</p>
+                    </li>
+                    <li class="child-card card-6">
+                        <h5>Future-Proof IT Strategy</h5>
+                        <p>Develop a roadmap for integrating emerging technologies and staying competitive.</p>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<section id="why-choose-us-new" class="section-padding">
     
-    /* Solid, slightly transparent white for high contrast */
-    color: rgba(255, 255, 255, 0.95); 
-    
-    margin-bottom: 10px;
-    transition: all 0.4s ease;
-    
-    /* Ensure no residual gradient styling */
-    -webkit-background-clip: unset;
-    -webkit-text-fill-color: unset;
-    background-clip: unset;
-    text-fill-color: unset;
-}
 
-/* ANIMATIC: Dynamic Gradient Text on Hover */
-.service-card:hover .service-card-title {
-    /* Reintroduce the vibrant gradient on hover */
-    background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-}
-
-.service-card-body p {
-    font-family: var(--body-font-family);
-    /* Paragraph text is transparent white */
-    color: rgba(255, 255, 255, 0.8); 
-    font-size: 15px;
-    line-height: 1.6;
-    margin-bottom: 0;
-}
-/* templatemo-topic-listing.css: FINAL COMPACT COURSES SECTION STYLING */
-
-.courses-section {
-    position: relative;
-    /* Background Image */
-    background: url('../images/coursebackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
-    overflow: hidden; 
-}
-
-/* Section Overlay (Little Transparent) */
-.courses-section-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.0);
-    z-index: 0;
-}
-
-.course-scrolling-container {
-    display: flex;
-    flex-direction: column;
-    gap: 25px; /* GAP B/W SCROLLS: Reduced from 50px to 25px. Change this if cropping occurs on zoom. */
-    padding: 0; 
-}
-
-.course-scrolling-line {
-    width: 100%;
-    overflow: visible; 
-    white-space: nowrap;
-    position: relative;
-    z-index: 1;
-}
-
-.course-list-wrapper {
-    display: inline-flex;
-    width: 300%; 
-    animation: scroll-ltr 60s linear infinite;
-    align-items: center;
-    overflow: visible; 
-}
-
-/* CARD WRAPPER: Size Reduction */
-.course-card-wrapper {
-    width: 120px; /* CARD WIDTH: Reduced from 170px to 120px (approx. 30% more reduction) */
-    min-width: 120px;
-    height: 150px;
-    padding: 5px 8px; /* Reduced padding */
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    overflow: visible !important;
-    z-index: 2; 
-}
-
-.course-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    
-    /* Rounded Rectangle / Translucent Glass */
-    background-color: rgba(255, 255, 255, 0.08); 
-    border-radius: 12px; /* Reduced border radius */
-    border: 1px solid rgba(255, 255, 255, 0.15); 
-    backdrop-filter: blur(5px); 
-    -webkit-backdrop-filter: blur(5px);
-
-    transition: transform 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
-    position: relative;
-    z-index: 1;
-}
-
-/* Image Container Styling: Size Reduction & Corner Rounding */
-.course-img-top {
-    width: 100%; 
-    height: 60px; /* IMAGE HEIGHT: Reduced from 85px to 60px (approx. 30% more reduction) */
-    overflow: hidden;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    margin-bottom: 0;
-}
-
-.course-img-top img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; 
-    transition: transform 0.4s ease;
-}
-
-/* Text Content below image */
-.course-card p {
-    font-family: var(--title-font-family); 
-    font-size: 12px; /* Smaller font for compact card */
-    color: rgba(255, 255, 255, 0.9);
-    margin: 8px 5px; /* Reduced padding */
-    white-space: normal;
-    line-height: 1.2;
-}
-
-/* ANIMATIC: Hover Effect - Zoom and Glow */
-.course-card:hover {
-    transform: scale(1.1); /* SLIGHTLY REDUCED ZOOM: To prevent cropping with smaller gap */
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 20px rgba(123, 202, 195, 0.8);
-    z-index: 10;
-}
-
-.course-card:hover .course-img-top img {
-     transform: scale(1.02);
-}
-
-/* ANIMATION KEYFRAMES (Keep the same) */
-@keyframes scroll-ltr {
-    from { transform: translateX(0); }
-    to { transform: translateX(-33.3333333333%); }
-}
-
-@keyframes scroll-rtl {
-    from { transform: translateX(-33.3333333333%); }
-    to { transform: translateX(0); }
-}
-
-.line-ltr .course-list-wrapper { animation-name: scroll-ltr; }
-.line-rtl .course-list-wrapper { animation-name: scroll-ltr; animation-direction: reverse; }
-
-/* Hover to Pause Animation */
-.course-scrolling-line:hover .course-list-wrapper { animation-play-state: paused; }
-
-/* cources end */
-/* templatemo-topic-listing.css: SUCCESS STORIES SECTION STYLING (FINAL FIXES) */
-
-.testimonial-section {
-    position: relative;
-    /* Background Image */
-    background: url('../images/testimonialbackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0;
-    overflow: hidden; 
-}
-
-/* Section Overlay (Little Transparent) */
-/* REMOVED OVERLAY: Commented out to show background image clearly. */
-/*
-.testimonial-section-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 0;
-}
-*/
-
-.testimonial-scrolling-container {
-    display: flex;
-    flex-direction: column;
-    gap: 25px; 
-    padding: 0; 
-}
-
-.testimonial-scrolling-line {
-    width: 100%;
-    overflow: visible; 
-    white-space: nowrap;
-    position: relative;
-    z-index: 1;
-}
-
-.testimonial-list-wrapper {
-    display: inline-flex;
-    width: 300%; 
-    animation: scroll-ltr 60s linear infinite;
-    align-items: center;
-    overflow: visible; 
-}
-
-/* CARD WRAPPER & SIZE */
-.testimonial-card-wrapper {
-    width: 300px;
-    min-width: 300px;
-    height: auto;
-    padding: 8px 10px; 
-    box-sizing: border-box;
-    display: inline-block;
-    position: relative;
-    overflow: visible !important;
-    z-index: 2; 
-}
-
-.testimonial-card {
-    display: flex; 
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    height: 100%;
-    min-height: 220px;
-    padding: 20px;
-    text-decoration: none;
-    
-    /* Transparent Glass Style */
-    background-color: rgba(255, 255, 255, 0.08); 
-    border-radius: 15px; 
-    border: 1px solid rgba(123, 202, 195, 0.2); 
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-
-    transition: transform 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
-    position: relative;
-    z-index: 1;
-}
-
-/* Header Block for Photo/Info Alignment */
-.header-info {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 15px;
-    width: 100%;
-}
-
-.client-photo {
-    width: 60px;
-    height: 60px;
-    border-radius: 8px; /* CHANGED: Square photo with slight rounding */
-    margin-right: 15px;
-    object-fit: cover;
-    border: 3px solid var(--secondary-color);
-    flex-shrink: 0;
-}
-
-.client-details {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.2;
-}
-
-.client-name {
-    font-family: var(--title-font-family);
-    font-size: 18px;
-    font-weight: 700;
-    color: rgba(255, 255, 255, 0.95);
-    display: block;
-}
-
-.client-title {
-    font-family: var(--body-font-family);
-    font-size: 14px;
-    color: var(--secondary-color);
-    display: block;
-    margin-top: 2px;
-}
-
-.client-company {
-    font-family: var(--body-font-family);
-    font-size: 14px;
-    color: rgba(255, 255, 255, 0.7);
-    display: block;
-    margin-top: 2px;
-}
-
-/* Rating Styling */
-.client-rating {
-    color: gold;
-    font-size: 12px;
-    margin-top: 5px;
-}
-
-/* Description Text (Now full width below header) */
-.testimonial-text {
-    width: 100%;
-}
-
-.testimonial-text p {
-    font-family: var(--body-font-family);
-    font-size: 15px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
-    margin-bottom: 0;
-    font-style: italic;
-    white-space: normal; /* FIX: Ensures testimony text wraps inside the box */
-}
-
-/* ANIMATIC: Hover Effect - Zoom and Glow */
-.testimonial-card:hover {
-    transform: scale(1.05);
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 15px rgba(123, 202, 195, 0.5); /* DECREASED GLOW: Reduced blur and opacity */
-    z-index: 10;
-}
-
-/* Inherit the existing Keyframes from the Courses section fix */
-/* The keyframes are already defined as scroll-ltr and scroll-rtl */
-
-/* Hover to Pause Animation */
-.testimonial-scrolling-line:hover .testimonial-list-wrapper {
-    animation-play-state: paused;
-}
-/* templatemo-topic-listing.css: STAND OUT SECTION STYLING (FINAL VERSION - 5 COLUMN, ICON ABOVE, 3D TILT, DESCRIPTION OVERLAY) */
-
-.standout-section {
-    position: relative;
-    padding: 100px 0;
-    background: url('../images/standoutbackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden; 
-}
-
-.standout-grid-container {
-    padding: 20px;
-    margin: 0 auto;
-    /* Increased max-width for the 5-column layout */
-    max-width: 1500px; 
-}
-
-.standout-list {
-    list-style: none;
-    padding: 0;
-    margin: 0; /* NON-CENTERED: Removed auto margin */
-    display: grid;
-    /* KEY CHANGE: 5 equal columns */
-    grid-template-columns: repeat(5, 1fr); 
-    gap: 15px;
-    text-align: center;
-}
-
-.standout-list li {
-    background-color: transparent; 
-    border-radius: 12px;
-    backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
-    padding: 20px 20px 50px 20px; /* Adjusted padding to accommodate content shifts */
-    font-size: 16px;
-    font-weight: 600;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden; /* Hides content that slides off-screen */
-    
-    /* ICON ABOVE TEXT SETUP */
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-    /* 3D Hover Setup */
-    transform-style: preserve-3d;
-    transition: transform 0.3s ease-out, background-color 0.3s ease-out, box-shadow 0.3s ease-out;
-    z-index: 1;
-
-    /* REMOVED: Dot styling (::before) and textJumble animation */
-}
-
-/* Base content (Icon and Text) */
-.standout-list li .card-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    transition: opacity 0.3s; /* Transition for fading out */
-    z-index: 6; /* Ensures content is above description when not hovered */
-}
-
-/* Icon Styling (Larger, above text) */
-.standout-list li .standout-icon {
-    font-size: 3rem; 
-    margin-bottom: 5px;
-    transition: color 0.3s ease;
-    color: var(--white-color); 
-}
-
-/* Text Styling */
-.standout-list li .card-content span {
-    display: block;
-    transition: color 0.3s ease;
-    flex-grow: 1; 
-    line-height: 1.2;
-}
-
-/* --- Description Overlay Styling --- */
-.card-description {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; 
-    padding: 20px;
-    color: var(--white-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    opacity: 0; /* Hidden by default */
-    transform: translateY(100%); /* Position off-screen downwards */
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    border-radius: 12px;
-    z-index: 5; 
-}
-
-.card-description p {
-    font-size: 0.9rem;
-    font-weight: 400;
-    margin: 0;
-	color: var(--white-color);
-
-}
-
-/* -------------------- HOVER EFFECT (3D Pop-Out Tilt & Description Show) -------------------- */
-
-.standout-list li:hover {
-    z-index: 10;
-    /* 3D Tilt and Pop-out */
-    transform: perspective(1000px)  scale(1.05); 
-    background-color: rgba(255, 255, 255, 0.15); 
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5); 
-}
-
-/* Hide the main content when description is visible */
-.standout-list li:hover .card-content {
-    opacity: 0;
-}
-
-/* Show the description on card hover */
-.standout-list li:hover .card-description {
-    opacity: 1;
-    transform: translateY(0); /* Slides up to cover the card */
-}
-
-/* HOVER ANIMATION FOR ICON/TEXT COLOR (Optional - only visible for a moment during transition) */
-.standout-list li:hover .standout-icon,
-.standout-list li:hover .card-content span {
-    color: var(--secondary-color); 
-}
-
-
-/* ---------------------------------------------------- */
-/* --- UNIQUE COLORS FOR 15 STANDOUT SKILL CARDS (Forcing transparency and color) --- */
-/* ---------------------------------------------------- */
-
-.skill-1 { background-color: rgba(66, 133, 244, 0.75) !important; }
-.skill-2 { background-color: rgba(52, 168, 83, 0.75) !important; }
-.skill-3 { background-color: rgba(251, 188, 5, 0.75) !important; }
-.skill-4 { background-color: rgba(234, 67, 53, 0.75) !important; }
-.skill-5 { background-color: rgba(140, 84, 255, 0.75) !important; }
-.skill-6 { background-color: rgba(0, 188, 212, 0.75) !important; }
-.skill-7 { background-color: rgba(255, 0, 128, 0.75) !important; }
-.skill-8 { background-color: rgba(0, 150, 136, 0.75) !important; }
-.skill-9 { background-color: rgba(173, 216, 230, 0.75) !important; }
-.skill-10 { background-color: rgba(255, 215, 0, 0.75) !important; }
-.skill-11 { background-color: rgba(63, 81, 181, 0.75) !important; }
-.skill-12 { background-color: rgba(139, 195, 74, 0.75) !important; }
-.skill-13 { background-color: rgba(255, 87, 34, 0.75) !important; }
-.skill-14 { background-color: rgba(128, 0, 255, 0.75) !important; }
-.skill-15 { background-color: rgba(121, 85, 72, 0.75) !important; }
-
-
-/* --- Responsive Adjustments (Ensures smooth transitions from 5 columns) --- */
-@media (max-width: 1500px) {
-    .standout-list {
-        grid-template-columns: repeat(4, 1fr); /* 4 columns on slightly smaller screens */
-    }
-}
-
-@media (max-width: 1200px) {
-    .standout-list {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
-    }
-}
-
-@media (max-width: 768px) {
-    .standout-list {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns on tablets */
-    }
-}
-
-@media (max-width: 576px) {
-    .standout-list {
-        grid-template-columns: 1fr; /* Single column on mobile */
-    }
-}
-
-/* -------------------- SECTION SETUP -------------------- */
-
-.upcoming-title-color {
-    color: var(--white-color) !important; 
-}
-
-.upcoming-batches-section {
-    position: relative;
-    padding: 100px 0;
-    background: url('../images/upcomingbackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden; 
-}
-
-.branch-group {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Adjusted min-height to maintain stability */
-    min-height: 550px; 
-    padding-bottom: 50px;
-    z-index: 2;
-}
-
-/* Shared Glass Card Style */
-.parent-card, .child-card {
-    background-color: rgba(255, 255, 255, 0.05); 
-    border-radius: 15px;
-    backdrop-filter: blur(8px); 
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 20px;
-    text-align: center;
-    transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94); 
-    cursor: pointer;
-}
-
-/* -------------------- PARENT CARD (THE STABLE BASE) -------------------- */
-
-.parent-card {
-    width: 90%;
-    max-width: 600px; 
-    margin-bottom: 20px;
-    z-index: 5;
-    
-    background-color: rgba(19, 84, 122, 0.2); 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-    border-color: rgba(128, 208, 199, 0.4); 
-    
-    transform: none !important; 
-    animation: none !important;
-    opacity: 1 !important;
-}
-
-.parent-card h4 {
-    color: var(--secondary-color);
-    font-size: 24px;
-    margin-bottom: 5px;
-    font-family: var(--title-font-family);
-    font-weight: 700; 
-}.parent-card .sub-text {
-    /* Set the sub-text color to White */
-    color: var(--white-color);
-    
-    /* Ensures the correct modern body font is used */
-    font-family: var(--body-font-family); 
-}
-
-/* -------------------- CHILD CARD STYLING & POSITIONING -------------------- */
-
-.child-cards-container {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    /* FIX 1: Decrease top to bring the whole structure closer to the Parent Card */
-    top: 250px; 
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 1;
-}
-
-.child-card {
-    position: absolute;
-    width: 300px; 
-    max-width: 30%;
-    padding: 15px;
-    opacity: 1; 
-    z-index: 1;
-    
-    transform-origin: center center; 
-    animation: none !important;
-}
-
-.child-card h5 {
-    color: var(--secondary-color); 
-    font-family: var(--title-font-family);
-    font-weight: 700; 
-}
-
-/* THREAD LINE STYLING */
-.child-card::before {
-    content: '';
-    position: absolute;
-    /* FIX 3: Decrease thread height to match the new, smaller distance */
-    top: -120px; 
-    height: 120px; 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 2px;
-    background-color: var(--secondary-color);
-    opacity: 0.8;
-    z-index: -1; 
-}
-
-.child-card p {
-    color: var(--white-color) !important; 
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 0;
-    font-family: var(--body-font-family);
-}
-
-/* --- DEFAULT (NON-HOVER) POSITION: HANGING HIGH AND TAUGHT --- */
-
-/* FIX 2: Move cards even higher (-70px) to reduce the initial gap */
-.child-card.card-1, .child-card.card-4 { transform: translate(-150px, -70px) scale(0.85); z-index: 2; }
-.child-card.card-2, .child-card.card-5 { transform: translate(0, -70px) scale(0.95); z-index: 3; }
-.child-card.card-3, .child-card.card-6 { transform: translate(150px, -70px) scale(0.85); z-index: 2; }
-
-
-/* -------------------- HOVER (DROP & BRANCH) ANIMATION FIXES -------------------- */
-
-.branch-group:hover .parent-card {
-    box-shadow: 0 0 25px rgba(123, 202, 195, 0.8);
-    transform: scale(1.05); 
-}
-
-/* 1. First Card: Drops, branches left */
-.branch-group:hover .card-1,
-.branch-group:hover .card-4 {
-    /* New Y travel: -70px (start) to -20px (end) = 50px movement. Thread is taut. */
-    transform: translate(-200px, -20px) scale(1) rotateZ(-3deg); 
-    background-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 0 10px rgba(123, 202, 195, 0.4);
-    z-index: 3;
-}
-
-/* 2. Middle Card: Drops, straight down (Prominent) */
-.branch-group:hover .card-2,
-.branch-group:hover .card-5 {
-    /* New Y travel: -70px (start) to 30px (end) = 100px movement. Thread is taut. */
-    transform: translate(0, 30px) scale(1.05) rotateZ(0deg); 
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 0 18px rgba(123, 202, 195, 0.9);
-    z-index: 4; 
-}
-
-/* 3. Third Card: Drops, branches right */
-.branch-group:hover .card-3,
-.branch-group:hover .card-6 {
-    /* New Y travel: -70px (start) to -20px (end) = 50px movement. Thread is taut. */
-    transform: translate(200px, -20px) scale(1) rotateZ(3deg); 
-    background-color: rgba(255, 255, 255, 0.15);
-    box-shadow: 0 0 10px rgba(123, 202, 195, 0.4);
-    z-index: 3;
-}
-/* templatemo-topic-listing.css: REVISED ABOUT US STYLING (Two Columns & Zoom Hover) */
-
-/* General Section Setup */
-.about-us-section {
-    position: relative;
-    padding: 100px 0;
-    background: url('../images/upcomingbackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden; 
-}
-
-/* Visionaries Header */
-.visionaries-header {
-    font-family: var(--title-font-family);
-    font-weight: 700;
-    color: var(--secondary-color) !important;
-}
-
-/* --- 1. MAIN OVERVIEW CARD (Left Column) --- */
-
-.about-glass-card {
-    /* Same glassmorphism style as the parent cards */
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    backdrop-filter: blur(8px); 
-    -webkit-backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 30px;
-    line-height: 1.8;
-    
-    /* ADDED LINE 1: Transition for smooth hover effect */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
-}
-
-/* ADDED LINE 2: Hover/Zoom Effect for the Main Card */
-.about-glass-card:hover {
-    transform: scale(1.03); 
-    box-shadow: 0 0 20px rgba(128, 208, 199, 0.6); 
-}
-
-/* --- 2. VISIONARIES (3D FLIP & ZOOM ANIMATION) --- */
-
-.visionaries-container {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    perspective: 1000px;
-}
-
-.visionary-card-wrap {
-    width: 50%;
-    max-width: 300px;
-    height: 400px; 
-    transition: transform 0.3s ease-in-out; /* Added transition for the zoom effect */
-}
-
-
-
-.visionary-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.4);
-    border-radius: 15px;
-}
-
-/* Flip on hover (Unchanged) */
-.visionary-card-wrap:hover .visionary-card {
-    transform: rotateY(180deg);
-}
-
-/* Card Front/Back Styles (Unchanged - Bright Text/Colors Maintained) */
-
-.card-front, .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 15px;
-    padding: 0;
-    color: var(--white-color);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-}
-
-.card-front {
-    background-color: rgba(255, 255, 255, 0.08);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.visionary-photo-rect {
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
-    border-radius: 15px 15px 0 0;
-}
-
-.info-block {
-    width: 100%;
-    padding: 15px;
-    text-align: center;
-}
-
-.card-front h5 {
-    color: var(--secondary-color);
-    font-family: var(--title-font-family);
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.card-front .title-role, .card-front .education-bio {
-    color: var(--white-color);
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-
-.card-back {
-    background-color: rgba(19, 84, 122, 0.85); 
-    transform: rotateY(180deg);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-
-.visionary-photo-circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; 
-    object-fit: cover;
-    margin-bottom: 15px;
-    border: 3px solid var(--white-color);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
-
-.card-back h6 {
-    color: var(--white-color);
-    font-family: var(--title-font-family);
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.card-back .education-bio {
-    color: var(--secondary-color);
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.card-back .bio-text {
-    color: var(--white-color);
-    font-size: 14px;
-    line-height: 1.6;
-    margin: 0;
-}
-
-
-/* Custom style for the subheading inside the About Us card */
-.about-glass-card .card-subheading {
-    /* Set color to secondary color and increase font weight for prominence */
-    color: var(--secondary-color) !important;
-    font-weight: 700;
-    font-size: 1.8rem; /* Keeps it slightly larger than body text */
-}
-/* styles.css snippet */
-
-/* Section styling for background image and padding */
-.career-roadmap {
-  background: url('../images/servicebackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed; 
-    padding-top: 100px; 
-    padding-bottom: 100px;
-    position: relative;
-}
-
-
-
-.career-roadmap .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Main Heading Style (white color) */
-.roadmap-heading {
-    text-align: center;
-    color: white; /* Requested white color */
-    margin-bottom: 40px;
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Adds contrast against background */
-}
-
-/* Grid Layout for 2 blocks in a row */
-.roadmap-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px; /* Spacing between cards */
-}
-
-/* For smaller screens, stack the cards */
-@media (max-width: 768px) {
-    .roadmap-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Single long width card styling */
-.roadmap-card.single-long {
-    grid-column: 1 / -1; /* Make it span all columns */
-}
-
-/* Card Styling: Glossy White Card with Hover/Zoom */
-.roadmap-card {
-    /* Adjusted transparency from 0.95 to 1.0 (fully opaque white) 
-       to prevent the background image from showing through the card too much,
-       which helps the text remain readable. */
-    background: rgba(255, 255, 255, 1.0); 
-    border-radius: 12px;
-    padding: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    border-left: 5px solid #007bff; /* Adds a touch of blue color */
-	opacity: 0.83; /* Makes the logo 15% transparent (85% opaque) */
-}
-
-/* Hover and Zoom Effect */
-.roadmap-card:hover {
-    transform: translateY(-5px) scale(1.02); /* Slight lift and zoom */
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-}
-
-/* Sub Heading Style (blue color) */
-.card-sub-heading {
-    color: #007bff; /* Requested blue color */
-    font-size: 1.5em;
-    margin-top: 0;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #e9ecef; /* Subtle separation */
-    padding-bottom: 10px;
-}
-
-/* List/Points Styling */
-.card-list {
-    list-style: none; /* Remove default bullet points */
-    padding-left: 0;
-}
-
-.card-list li {
-    position: relative;
-    margin-bottom: 15px;
-    line-height: 1.6;
-    padding-left: 20px;
-    font-size: 1em;
-    color: #343a40; /* Darker text for readability */
-}
-
-/* Custom bullet point (blue circle) */
-.card-list li::before {
-    content: '•';
-    color: #007bff; 
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    position: absolute;
-    left: 0;
-}
-/* CSS for CORPORATE TRAININGS SECTION */
-
-/* Variables for easy adjustments */
-:root {
-    /* Controls how much the logo scales down inside the card (80% means 20% padding) */
-    --card-logo-scale: 80%; 
-    /* Defines the rectangular height */
-    --card-height: 120px;
-}
-
-/* 1. Overall Section Styling (Background & Heading) */
-#corporate-trainings {
-position: relative;
-    padding: 100px 0;
-    background: url('../images/partnersbackground.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden; 
-	text-align: center; /* This centers the <h2> and the content inside */
-}
-
-
-
-#corporate-trainings h2 {
-    color: white; 
-    margin-bottom: 40px;
-}
-
-/* 2. Grid Setup */
-.partners-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    perspective: 1000px; /* Needed for 3D flip */
-}
-
-/* 3. Card Container (Zoom Effect) */
-.partner-card {
-    width: 100%;
-    height: var(--card-height); /* Rectangular height */
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
-
-.partner-card:hover {
-    transform: scale(1.05); /* Zoom effect */
-}
-
-/* 4. The Inner Card (Flip Effect) */
-.card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 15px; /* Rounded corners */
-}
-
-.partner-card:hover .card-inner {
-    transform: rotateY(180deg); /* Flip effect */
-}
-
-/* 5. Front and Back Faces */
-.card-front, .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 15px; /* Rounded corners for faces */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-/* Card Back (FLIP Text Side) */
-.card-back {
-    background-color: #007bff; /* Blue background */
-    color: white; 
-    transform: rotateY(180deg);
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-.card-back p {
-    color: white; /* Ensure text is white */
-    margin: 0;
-}
-
-
-/* 6. Image Assignment & Sizing (LOGO FRONT) */
-.partner-card .card-front:is(
-    .partner-huntmetrics, .partner-wipro, .partner-hcl, .partner-cognizant, .partner-accenture,
-    .partner-capgemini, .partner-tcs, .partner-infosys, .partner-techmahindra, .partner-lt,
-    .partner-microsoft, .partner-amazon, .partner-ibm, .partner-oracle, .partner-dell
-) {
-    /* Corrected path for the placeholder image */
-    background-image: url('../images/training1.jpg'); 
-    
-    /* Ensures logo fits entirely (contain) and scales down (80%) */
-background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* important. logo */
-
-.navbar-brand img.navbar-logo {
-    /* Increase this height value to make the logo larger */
-    height: 60px !important; 
-    
-    /* Ensure the width scales correctly */
-    width: auto !important; 
-    
-    /* Also update max-height to match the new height */
-    max-height: 60px !important; 
-    max-width: none !important;
-    
-    vertical-align: middle; 
-}
-/* styles.css */
-
-/* Styling for the section icon */
-.section-icon {
-    /* Center it horizontally (h2 inherits this from the section) */
-    display: block; 
-    
-    /* Make the icon bigger */
-    font-size: 2.5em; 
-    
-    /* Set color and spacing */
-    color: var(--primary-color); /* Use your theme's main color */
-    margin-bottom: 10px; 
-}
-.hero-carousel {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-  font-family: Arial, sans-serif;
-  background: url('../images/sliderbackground.jpg') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed; /* Optional: creates a parallax-like effect */  
-}
-
-
-.hero-carousel-container {
-  width: 100%;
-  max-width: 1400px;
-  height: 600px;
-  perspective: 1200px;
-  position: relative;
-}
-
-.hero-carousel-inner {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-}
-
-.hero-carousel-item {
-  position: absolute;
-  width: 380px;
-  height: 430px;
-  left: 48.5%;
-  top: 25%;
-  bottom: 2%;
-  transform-style: preserve-3d;
-  transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
-  transform-origin: center center;
-}
-
-.hero-carousel-card {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #111, #222);
-  border: 2px solid #333;
-  border-radius: 20px;
-  padding: 25px;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.7);
-  overflow: hidden;
-  color: #fff;
-}
-
-.hero-carousel-card-image {
-  width: 100%;
-  height: 200px;
-  border-radius: 12px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-
-.hero-carousel-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: all 0.4s ease;
-}
-
-.hero-carousel-item:hover .hero-carousel-card-image img {
-  transform: scale(1.1);
-}
-
-.hero-carousel-card-title {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  background: linear-gradient(135deg, #fff, #9945ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.hero-carousel-card-description {
-  font-size: 14px;
-  color: #ccc;
-  margin-bottom: 20px;
-  line-height: 1.4;
-}
-
-.hero-carousel-card-tech {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 15px;
-}
-
-.hero-carousel-tech-badge {
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid #9945ff;
-  color: #9945ff;
-  font-size: 11px;
-}
-
-.hero-carousel-card-cta {
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #9945ff, #00a8ff);
-  border: none;
-  border-radius: 25px;
-  color: #fff;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-/* Controls */
-.hero-carousel-controls {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-50%);
-  pointer-events: none;
-}
-
-.hero-carousel-btn {
-  width: 60px;
-  height: 60px;
-  background: #111;
-  border: 2px solid #333;
-  border-radius: 50%;
-  color: #9945ff;
-  font-size: 28px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  pointer-events: auto;
-}
-
-.hero-carousel-btn:hover {
-  transform: scale(1.1);
-  border-color: #9945ff;
-}
-
-@media (max-width: 768px) {
-  .hero-carousel-item { width: 260px; height: 360px; }
-  .hero-carousel-btn { width: 45px; height: 45px; font-size: 20px; }
-}
-/* templatemo-topic-listing.css */
-
-/* Video Container: Fixed to the viewport */
-.site-background-video-container {
-    position: fixed; /* Stays in place when scrolling */
-    top: 0;
-    left: 0;
-    width: 100vw; /* Viewport width */
-    height: 100vh; /* Viewport height */
-    overflow: hidden;
-    z-index: -10; /* KEY: Pushes the video far behind all content */
-}
-
-/* Video Element: Ensure it covers the container */
-.site-background-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* KEY: Ensures the video covers the entire screen without stretching */
-    
-    /* Optional: Apply a dark overlay for better text readability */
-    filter: brightness(100%) contrast(100%);
-}
-/* PNG Foreground Overlay Layer */
-.video-foreground-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    
-    /* KEY: This places the PNG layer between the content (z-index 1+) and the video (z-index -10). */
-    z-index: -9; 
-
-    /* Set the PNG as the background image. Path assumes CSS is in a 'css' folder. */
-    background-image: url('../images/videolayer.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat;
-    
-    /* Adjust opacity to control visibility. 1.0 is solid, 0.0 is invisible. */
-    opacity: 0.75; 
-
-    /* ESSENTIAL: Allows mouse clicks and interactions to pass THROUGH the overlay to the content above it. */
-    pointer-events: none;
-}
-/*--------------------------------------
-  NEW SECTION: TRAINING & PLACEMENTS (SCOPED)
-  - Glass-Morphism, Light Text, Secondary Color Highlights
------------------------------------------*/
-
-/* 1. Section Background and Text Color */
-#training-placements {
-    /* Semi-transparent dark overlay to ensure light text is readable over the background video */
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: var(--white-color); 
-    text-align: center; /* Ensures the whole section is centered */
-}
-
-/* Ensure all headings are light and centered */
-#training-placements h2, 
-#training-placements h3 {
-    color: var(--white-color);
-    text-align: center;
-}
-
-/* Subheading Color Change (Empowering Your Career Journey) */
-#training-placements .section-subheading {
-    color: var(--secondary-color); /* Uses your highlight color */
-    font-weight: 600;
-}
-
-/* 2. Glass-Morphism Card Styling */
-#training-placements .glass-card {
-    /* The Glass Effect */
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    
-    /* Shape and Layout */
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 30px;
-    height: 100%;
-    
-    /* Animation and Shadow */
-    transition: all 0.3s ease-in-out;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-}
-
-/* 3. Hover Effect (Animated Lift and Glow) */
-#training-placements .glass-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 16px 64px 0 rgba(0, 0, 0, 0.6), 0 0 15px rgba(var(--primary-color), 0.5);
-    border-color: var(--primary-color);
-}
-
-/* 4. Icon Styling and Animation */
-#training-placements .training-icon {
-    font-size: 3rem;
-    color: var(--secondary-color);
-    margin-bottom: 20px;
-    display: block; 
-    text-align: center;
-    transition: transform 0.3s ease;
-}
-
-/* Icon Pulse Animation on Hover */
-#training-placements .glass-card:hover .training-icon {
-    color: var(--primary-color);
-    transform: scale(1.1);
-}
-
-/* 5. Card Content and Points Styling (Uses p tags for points) */
-
-/* Style for the descriptive text inside the cards (sub-headings) */
-#training-placements .card-description {
-    color: rgba(255, 255, 255, 0.85); /* Light text for readability */
-    margin-bottom: 20px;
-    line-height: 1.6;
-    text-align: left; /* Aligns description text inside the card */
-}
-
-/* Container for the points (replaces <ul>) */
-#training-placements .card-points {
-    padding-left: 0;
-    margin-top: 15px;
-    text-align: left; /* Aligns points inside the card */
-}
-
-/* Styling for the individual points (replaces <li>) */
-#training-placements .card-list-item {
-    font-size: 1rem;
-    margin-bottom: 12px;
-    line-height: 1.5;
-    color: var(--white-color); /* Ensures list item text is light */
-}
-
-/* Styling for the star icons */
-#training-placements .card-list-item .bi-star-fill {
-    color: var(--secondary-color) !important;
-    font-size: 0.8rem;
-    vertical-align: middle;
-}
-/*--------------------------------------
-  NEW SECTION: JOB PLACEMENT ASSISTANCE (SCOPED)
-  - Horizontal Feature List with Animated Icons
------------------------------------------*/
-
-#placement-assistance {
-    /* Ensures light text is visible over the video background */
-    background-color: rgba(0, 0, 0, 0.4); 
-    color: var(--white-color);
-    text-align: center;
-}
-
-#placement-assistance h2 {
-    color: var(--white-color);
-    margin-bottom: 40px;
-}
-
-/* Feature Box Styling */
-.placement-feature-box {
-    /* Subtle background and border, distinct from the Glass-Morphism cards */
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 12px;
-    padding: 30px 20px;
-    height: 100%;
-    
-    /* Animation setup */
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-/* Animated Hover Effect: Box Lift and subtle Scale */
-.placement-feature-box:hover {
-    transform: translateY(-5px) scale(1.02);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-    border-color: var(--secondary-color);
-}
-
-/* Icon Circle Container (The unique visual feature) */
-.placement-feature-box .icon-circle {
-    /* Create the Circle */
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin: 0 auto 20px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    /* Background and initial glow */
-    background: var(--primary-color);
-    box-shadow: 0 0 10px var(--primary-color);
-    
-    transition: all 0.3s ease-in-out;
-}
-
-/* Icon Circle Hover: Change color and intensify glow */
-.placement-feature-box:hover .icon-circle {
-    background: var(--secondary-color);
-    box-shadow: 0 0 20px var(--secondary-color), 0 0 40px var(--secondary-color);
-}
-
-/* Icon Styling */
-.placement-feature-box .placement-icon {
-    font-size: 2.5rem;
-    color: var(--white-color); /* Icon color is always white for contrast */
-}
-
-/* Content Text Styling */
-.placement-feature-box .box-heading {
-    font-size: 1.3rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: var(--white-color);
-}
-
-.placement-feature-box .box-description {
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.6;
-}
-/*--------------------------------------
-  NEW SECTION: ONGOING SUPPORT (SCOPED)
-  - Minimalist Boxes with Neon Glow
------------------------------------------*/
-
-#ongoing-support {
-    /* Ensures light text is visible over the video background */
-    background-color: rgba(0, 0, 0, 0.6); 
-    color: var(--white-color);
-    text-align: center;
-}
-
-#ongoing-support h2 {
-    color: var(--white-color);
-}
-
-/* Feature Box Styling */
-.support-feature {
-    /* Subtle background, unique border treatment */
-    background-color: rgba(255, 255, 255, 0.03);
-    border-bottom: 5px solid var(--secondary-color); /* Highlight bar at the bottom */
-    border-radius: 8px;
-    padding: 30px;
-    height: 100%;
-    
-    /* Animation setup */
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-/* Animated Hover Effect: Box Lift and Subtle Shadow */
-.support-feature:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
-    border-bottom-color: var(--primary-color); /* Swap highlight color on hover */
-}
-
-/* Icon Styling (Large and prominent) */
-.support-feature .support-icon {
-    font-size: 4.5rem; /* Very large icon */
-    color: var(--secondary-color);
-    margin-bottom: 25px;
-    display: block; 
-    text-align: center;
-    
-    /* Animation setup */
-    transition: all 0.3s ease-in-out;
-}
-
-/* Icon Neon Glow Effect on Hover */
-.support-feature:hover .support-icon {
-    color: var(--primary-color);
-    transform: scale(1.05);
-    /* KEY: Neon/Text Glow Effect using multiple text shadows */
-    text-shadow: 
-        0 0 5px var(--primary-color),
-        0 0 10px var(--primary-color),
-        0 0 15px var(--white-color);
-}
-
-/* Content Text Styling */
-.support-feature .box-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: var(--white-color);
-}
-
-.support-feature .box-description {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.6;
-}
-/*--------------------------------------
-  NEW SECTION: GET STARTED TODAY (UPDATED CTA)
-  - High-Contrast CTA with Animated Buttons
------------------------------------------*/
-
-/* Keyframe Animation for the Button Pulse Effect */
-@keyframes ctaPulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-        transform: scale(1);
-    }
-    50% {
-        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
-        transform: scale(1.02);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-        transform: scale(1);
-    }
-}
-
-/* Section Container */
-#get-started {
-    /* Use a solid, contrasting background for maximum visibility */
-    background-color: var(--primary-color); 
-    color: var(--white-color);
-    text-align: center;
-}
-
-#get-started h2 {
-    color: var(--white-color);
-    font-weight: 700;
-}
-
-/* Introductory Text and Contact Info */
-#get-started .section-description,
-#get-started .contact-info-text {
-    color: rgba(255, 255, 255, 0.9);
-    font-size: 1.1rem;
-}
-
-
-/* Custom Button Base Style */
-.custom-cta-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 35px;
-    border-radius: 50px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-decoration: none;
-    color: var(--white-color);
-    border: none;
-    transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
-}
-
-/* 1. Call Now Button Styling (Magenta/Rani) */
-.call-now-btn {
-    background-color: #FF4081; /* Bright Magenta */
-}
-.call-now-btn:hover {
-    background-color: #E03572; /* Slightly darker shade on hover */
-    transform: translateY(-2px);
-    /* Trigger the pulse animation on hover */
-    animation: ctaPulse 1.5s infinite; 
-}
-
-/* 2. WhatsApp Button Styling */
-.whatsapp-btn {
-    background-color: #25d366; /* Standard WhatsApp Green */
-}
-.whatsapp-btn:hover {
-    background-color: #128c7e; /* Slightly darker WhatsApp Green */
-    transform: translateY(-2px);
-    /* Trigger the pulse animation on hover */
-    animation: ctaPulse 1.5s infinite;
-}
-
-
-/*--------------------------------------
-  NEW SECTION: SITE FOOTER
------------------------------------------*/
-.site-footer {
-    background-color: var(--dark-color); /* Dark background */
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
-.site-footer-title {
-    font-family: var(--title-font-family);
-    font-size: 1.25rem;
-    font-weight: 700;
-    color: var(--white-color);
-    margin-bottom: 25px;
-}
-
-.site-footer-links {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.site-footer-link,
-.site-footer-link-text {
-    font-size: 1rem;
-    color: rgba(255, 255, 255, 0.7);
-    line-height: 2.2;
-    text-decoration: none;
-}
-
-.site-footer-link:hover {
-    color: var(--secondary-color);
-}
-
-.footer-icon {
-    color: var(--secondary-color);
-}
-
-.footer-logo {
-    height: 40px;
-    width: auto;
-    max-height: 40px;
-}
-
-.footer-about-text {
-    color: rgba(255, 255, 255, 0.7) !important;
-    font-size: 0.9rem;
-}
-
-/* Map Styling */
-.footer-map {
-    width: 100%;
-    height: 150px;
-    border: 0;
-    border-radius: 8px;
-    /* Styles the map for the dark theme */
-    filter: grayscale(80%) invert(95%); 
-}
-
-/* Social Icons */
-.social-icon {
-    display: flex;
-    justify-content: flex-start;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    gap: 15px;
-}
-
-.social-icon-link {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: var(--white-color);
-    font-size: 1rem;
-    transition: all 0.3s ease;
-}
-
-.social-icon-link:hover {
-    background-color: var(--secondary-color);
-    color: var(--dark-color);
-}
-
-/* Copyright and Design Link */
-.copyright-text {
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.5);
-    line-height: 1.8;
-}
-
-.design-link {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-.design-link:hover {
-    color: var(--primary-color);
-}
-/*--------------------------------------
-  NEW SECTION: OUR ACHIEVEMENTS (SINGLE LINE, VERTICAL FLIP CARDS) - FINAL FIX
------------------------------------------*/
-
-#achievements {
-    padding: var(--section-padding) 0;
-    color: var(--white-color); /* General text color for the section */
-}
-
-/* Background Wrapper: Transparent Background */
-#achievements .stats-bg-wrap {
-    background-color: transparent; 
-    padding: 0;
-    border-radius: 0; 
-    overflow: hidden; 
-}
-
-/* KEY FIX: Overrides Bootstrap row gutter and enables single line with gap */
-#achievements .row.justify-content-center {
-    --bs-gutter-x: 0; 
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-    
-    display: flex;
-    flex-wrap: nowrap; 
-    overflow-x: auto; 
-    padding-bottom: 20px;
-    gap: 15px;
-    justify-content: flex-start;
-}
-
-/* Scrollbar Styling (for desktop browsers supporting webkit) */
-#achievements .row.justify-content-center::-webkit-scrollbar {
-    height: 8px;
-}
-#achievements .row.justify-content-center::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-}
-
-
-/* KEY CHANGE 1: Reduced card width */
-.achievement-card-col {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-bottom: 0 !important; 
-    flex: 0 0 160px; /* Reduced width */
-    max-width: 160px; /* Reduced width */
-}
-
-/* KEY CHANGE 2: Reduced card width and height */
-.achievement-card {
-    background-color: transparent;
-    width: 160px; /* Reduced width */
-    height: 180px; /* Reduced height */
-    perspective: 1000px;
-    cursor: pointer;
-}
-
-/* Inner Card Structure & Flip Logic */
-.achievement-card .card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d; 
-}
-
-/* Vertical Flip on Hover */
-.achievement-card:hover .card-inner {
-    transform: rotateX(180deg); 
-}
-
-/* Card Front and Back Base Styles */
-.achievement-card .card-front,
-.achievement-card .card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 15px; 
-    border-radius: 15px;
-    transition: all 0.3s ease;
-    
-    /* COMMON STYLES - Shadow, Border, and now backdrop-filter for transparent cards */
-    backdrop-filter: blur(5px); /* Re-enabled for transparent effect */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-/* Card Front: Initial background will be set by specific card classes */
-.achievement-card .card-front {
-    /* Background colors defined below with rgba */
-}
-
-/* Card Back: Initial background will be set by specific card classes */
-.achievement-card .card-back {
-    transform: rotateX(180deg); 
-    /* Background colors defined below with rgba */
-}
-
-/* Icon Styling (ALWAYS WHITE) */
-.achievement-icon {
-    font-size: 3rem; 
-    color: var(--white-color); /* Set to white */
-    margin-bottom: 8px;
-    transition: all 0.3s ease;
-}
-
-/* Icon Hover Effect (still white, but can scale) */
-.achievement-card:hover .card-front .achievement-icon {
-    transform: scale(1.1);
-}
-
-/* Numerics (ALWAYS WHITE) */
-.stat-number {
-    font-size: 2.2rem; 
-    font-weight: 800;
-    margin-bottom: 4px;
-    color: var(--white-color); /* Set to white */
-}
-
-/* Labels (ALWAYS WHITE) */
-.stat-label {
-    font-size: 0.9rem; 
-    font-weight: 500;
-    text-transform: uppercase;
-    color: var(--white-color); /* Set to white */
-}
-
-/* Description (ALWAYS WHITE) */
-.achievement-card .card-back p {
-    font-size: 1rem; 
-    font-weight: 400;
-    line-height: 1.4;
-    color: var(--white-color); /* Set to white */
-}
-
-/* --- UNIQUE CARD BACKGROUND COLORS (Front and Back) with Transparency --- */
-
-/* Card 1: Vibrant Teal */
-.achievement-card-1 .card-front,
-.achievement-card-1 .card-back {
-    background-color: rgba(0, 173, 181, 0.7); /* Teal with 70% opacity */
-}
-
-/* Card 2: Bright Orange */
-.achievement-card-2 .card-front,
-.achievement-card-2 .card-back {
-    background-color: rgba(255, 112, 67, 0.7); /* Orange with 70% opacity */
-}
-
-/* Card 3: Electric Purple */
-.achievement-card-3 .card-front,
-.achievement-card-3 .card-back {
-    background-color: rgba(140, 84, 255, 0.7); /* Purple with 70% opacity */
-}
-
-/* Card 4: Vivid Green */
-.achievement-card-4 .card-front,
-.achievement-card-4 .card-back {
-    background-color: rgba(118, 255, 3, 0.7); /* Green with 70% opacity */
-}
-
-/* Card 5: Hot Pink */
-.achievement-card-5 .card-front,
-.achievement-card-5 .card-back {
-    background-color: rgba(247, 56, 89, 0.7); /* Pink with 70% opacity */
-}
-
-/* Card 6: Warm Yellow */
-.achievement-card-6 .card-front,
-.achievement-card-6 .card-back {
-    background-color: rgba(248, 211, 33, 0.7); /* Yellow with 70% opacity */
-}
-
-/* Card 7: Sky Blue */
-.achievement-card-7 .card-front,
-.achievement-card-7 .card-back {
-    background-color: rgba(84, 164, 244, 0.7); /* Blue with 70% opacity */
-}
-````http://googleusercontent.com/image_generation_content/2
-/*--------------------------------------
-  NEW SECTION: WHY CHOOSE US? (CIRCULAR DIAGRAM - FINAL FIX)
------------------------------------------*/
-
-/*--------------------------------------
-  NEW SECTION: WHY CHOOSE US? (CIRCULAR DIAGRAM - FINAL DYNAMIC VERSION)
------------------------------------------*/
-
-/* --- Keyframes for BLUE WAVE Animation (Scaling Pulse) --- */
-@keyframes wave-pulse {
-    0% { 
-        transform: scale(1); 
-        background-color: rgba(240, 248, 255, 0.4); 
-    }
-    50% { 
-        transform: scale(1.05); 
-        background-color: rgba(224, 240, 255, 0.8); 
-    }
-    100% { 
-        transform: scale(1); 
-        background-color: rgba(240, 248, 255, 0.4); 
-    }
-}
-
-/* --- Keyframes for Central Color Cycle Animation --- */
-@keyframes color-cycle {
-    0% { background-color: #7954F4; } /* Purple */
-    33% { background-color: #54A4F4; } /* Blue */
-    66% { background-color: #FF5252; } /* Red */
-    100% { background-color: #7954F4; }
-}
-
-
-#why-choose-us-new {
-    background-color: transparent; 
-    position: relative;
-    overflow: hidden;
-    padding: 100px 0; 
-}
-
-.why-choose-us-diagram {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    height: 750px; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
-/* Main "WHY CHOOSE US" Circle (Purple) */
-.main-circle {
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    background-color: #7954F4; 
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: var(--white-color);
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-    line-height: 1.2;
-    z-index: 4; 
-    box-shadow: none; 
-    animation: color-cycle 6s infinite ease-in-out; 
-    cursor: pointer; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
-
-/* Hover Animation on Central Circle */
-.main-circle:hover {
-    transform: scale(1.1); 
-    box-shadow: 0 0 25px 7px rgba(255, 255, 255, 0.8); 
-}
-
-/* Large Background Circle (Light Blue Layer - Animated) */
-.large-background-circle {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    background-color: rgba(240, 248, 255, 0.4); 
-    animation: wave-pulse 3s infinite ease-in-out alternate; 
-    border-radius: 50%;
-    z-index: 1;
-    box-shadow: 0 0 35px rgba(0, 0, 0, 0.2);
-}
-
-/* Individual Reason Points - Base Styling */
-.reason-point {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    z-index: 3; 
-    transition: transform 0.3s ease;
-}
-
-.reason-point:hover {
-    transform: translateY(-5px);
-}
-
-/* Icon Circles */
-.icon-circle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    color: var(--white-color);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-    opacity: 0.95; 
-    cursor: pointer; 
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-/* Hover Animation on Icon Circles */
-.icon-circle:hover {
-    transform: scale(1.15) rotate(5deg); 
-    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7); 
-}
-
-
-/* Description Box (Glass/Transparent Card) */
-.description-box {
-    background-color: rgba(255, 255, 255, 0.85); 
-    border-radius: 10px;
-    padding: 15px 20px;
-    min-width: 280px;
-    max-width: 350px;
-    backdrop-filter: blur(2px);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    opacity: 1; 
-    visibility: visible;
-}
-
-/* Heading H4 inside Description Box */
-.description-box h4 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--dark-color);
-    margin-bottom: 5px;
-    position: relative; 
-    padding-left: 18px; 
-}
-
-/* Base Star Bullet Point Style */
-.description-box h4::before {
-    content: "\2605"; 
-    font-size: 1.1rem;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-
-/* Matching Star Colors to Icon Colors */
-.point-1 .description-box h4::before { color: #9945FF; } 
-.point-2 .description-box h4::before { color: #00A8FF; } 
-.point-3 .description-box h4::before { color: #2ED4B5; } 
-.point-6 .description-box h4::before { color: #F4C430; } 
-.point-5 .description-box h4::before { color: #FF7043; } 
-.point-4 .description-box h4::before { color: #FF5252; } 
-
-
-.description-box p {
-    font-size: 0.9rem;
-    color: var(--p-color);
-    line-height: 1.5;
-    margin-bottom: 0;
-}
-
-
-/* --- Positioning and Colors --- */
-
-/* Right 3 Icons (Equal Spacing) */
-.point-1 { top: 250px; right: 400px; } 
-.point-1 .icon-circle { background-color: #9945FF; } 
-.point-1 .description-box { margin-left: 20px; }
-
-.point-2 { top: 400px; right: 150px; } 
-.point-2 .icon-circle { background-color: #00A8FF; } 
-.point-2 .description-box { margin-left: 20px; }
-
-.point-3 { top: 550px; right: 400px; } 
-.point-3 .icon-circle { background-color: #2ED4B5; } 
-.point-3 .description-box { margin-left: 20px; }
-
-
-/* Left 3 Icons (Equal Spacing) */
-.point-6 { top: 250px; left: 400px; flex-direction: row-reverse; }
-.point-6 .icon-circle { background-color: #F4C430; } 
-.point-6 .description-box { margin-right: 20px; }
-
-.point-5 { top: 400px; left: 150px; flex-direction: row-reverse; }
-.point-5 .icon-circle { background-color: #FF7043; } 
-.point-5 .description-box { margin-right: 20px; }
-
-.point-4 { top: 550px; left: 400px; flex-direction: row-reverse; }
-.point-4 .icon-circle { background-color: #FF5252; } 
-.point-4 .description-box { margin-right: 20px; }
-
-
-/* --- Responsive Adjustments --- */
-@media (min-width: 992px) {
-    .point-1, .point-2, .point-3 { right: 0; left: auto; flex-direction: row; }
-    .point-4, .point-5, .point-6 { left: 0; right: auto; }
-}
-
-@media (max-width: 1200px) {
-    .why-choose-us-diagram { height: 650px; } 
-    .large-background-circle { width: 650px; height: 650px; }
-    .main-circle { width: 180px; height: 180px; font-size: 1.6rem; }
-    .icon-circle { width: 70px; height: 70px; font-size: 2.2rem; }
-    .description-box { min-width: 250px; max-width: 300px; }
-    
-    .point-1 { top: 180px; right: 300px; }
-    .point-2 { top: 320px; right: 100px; }
-    .point-3 { top: 460px; right: 300px; }
-    .point-6 { top: 180px; left: 300px; }
-    .point-5 { top: 320px; left: 100px; }
-    .point-4 { top: 460px; left: 300px; }
-}
-
-@media (max-width: 991px) {
-    .why-choose-us-diagram { height: auto; padding-top: 50px; padding-bottom: 50px; }
-    .large-background-circle, .main-circle { display: none; }
-    
-    /* Lines were removed, so no need for display: none here */
-    
-    .reason-point {
-        position: relative;
-        top: auto; right: auto; left: auto;
-        width: 100%; max-width: 400px;
-        transform: none !important;
-        flex-direction: row !important;
-        justify-content: center;
-        margin: 0 auto 25px auto;
-    }
-    .reason-point:hover { transform: none !important; }
-    
-    .reason-point .icon-circle { margin-right: 15px; margin-left: 0; }
-    .reason-point .description-box { margin: 0; }
-}
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center">
+                <div class="why-choose-us-diagram">
+                    <div class="main-circle">
+                        <span>WHY<br>CHOOSE<br>US?</span>
+                    </div>
+                    <div class="large-background-circle"></div>
+
+                    <div class="reason-point point-1">
+                        <div class="icon-circle">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Expert Instructors</h4>
+                            <p>Learn from industry-leading professionals with years of real-world experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-point point-2">
+                        <div class="icon-circle">
+                            <i class="bi bi-book-half"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Comprehensive Courses</h4>
+                            <p>From foundational skills to advanced certifications, our diverse range of courses.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-point point-3">
+                        <div class="icon-circle">
+                            <i class="bi bi-pc-display-horizontal"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Hands-On Learning</h4>
+                            <p>Engage in practical, hands-on training that ensures you gain the experience you need.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-point point-4">
+                        <div class="icon-circle">
+                            <i class="bi bi-calendar-week"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Flexible Formats</h4>
+                            <p>In-person classes, live online, or on-demand courses, flexible options to fit your schedule.</p>
+                        </div>
+                    </div>
+
+                    <div class="reason-point point-5">
+                        <div class="icon-circle">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Career Support</h4>
+                            <p>Dedicated career services: resume building, interview prep, and job placement assistance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="reason-point point-6">
+                        <div class="icon-circle">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <div class="description-box">
+                            <h4>Global Community</h4>
+                            <p>Join a vast network of students and alumni worldwide for mentorship and growth.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="corporate-trainings">
+    <h2>Corporate Trainings Partners</h2>
+    <div class="partners-grid">
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-huntmetrics">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Huntmetrics</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-wipro">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Wipro</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-hcl">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>HCL Technologies</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-cognizant">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Cognizant</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-accenture">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Accenture</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-capgemini">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Capgemini</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-tcs">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>TCS</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-infosys">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Infosys</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-techmahindra">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Tech Mahindra</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-lt">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Larsen & Toubro</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-microsoft">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Microsoft</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-amazon">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Amazon</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-ibm">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>IBM</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-oracle">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Oracle</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="partner-card">
+            <div class="card-inner">
+                <div class="card-front partner-dell">
+                    <div class="corner-light"></div>
+                </div>
+                <div class="card-back">
+                    <p>Dell</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+<section class="about-us-section section-padding" id="about">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-12 col-12 text-center mb-5">
+                <h2 class="mb-2 text-white">About Us</h2>
+            </div>
+
+            <div class="col-lg-6 col-12 d-flex flex-column mb-5">
+                
+                <div class="about-glass-card h-100">
+                    
+                    <h3 class="text-white-50 mb-4 card-subheading">Redefining IT Training and Consulting</h3>
+                    
+                    <p class="text-white">
+                        Founded in 2021, ZizaFirst Technologies is dedicated to pushing the boundaries of IT training and consulting. Our team of industry pioneers is committed to integrating cutting-edge technology with strategic insights to drive your business forward.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-12 mb-4">
+          
+                
+                <div class="visionaries-container">
+                    
+                    <div class="visionary-card-wrap">
+                        <div class="visionary-card">
+                            <div class="card-front">
+                                <img src="images/stanley.jpg" alt="Stanley J Medapati, CEO" class="visionary-photo-rect">
+                                <div class="info-block">
+                                    <h5>Stanley J Medapati</h5>
+                                    <p class="title-role">CEO</p>
+                                    <p class="education-bio">Perspective Transformation Specialist</p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <img src="images/stanley.jpg" alt="Stanley J Medapati, CEO" class="visionary-photo-circle">
+                                <h6>Stanley J Medapati, CEO</h6>
+                                <p class="education-bio">**Education:** Advanced Strategy, Innovation & Leadership</p>
+                                <p class="bio-text">A thought leader in perspective transformation, Stanley drives our vision with a passion for innovation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="visionary-card-wrap">
+                        <div class="visionary-card">
+                            <div class="card-front">
+                                <img src="images/naveen.jpg" alt="Naveen Kumar, COO" class="visionary-photo-rect">
+                                <div class="info-block">
+                                    <h5>Naveen Kumar</h5>
+                                    <p class="title-role">COO</p>
+                                    <p class="education-bio">Certified Cyber Security Expert</p>
+                                </div>
+                            </div>
+                            <div class="card-back">
+                                <img src="images/naveen.jpg" alt="Naveen Kumar, COO" class="visionary-photo-circle">
+                                <h6>Naveen Kumar, COO</h6>
+                                <p class="education-bio">**Education:** M.S. Cyber Security, Ethical Hacking</p>
+                                <p class="bio-text">Naveen’s expertise in Cyber Security ensures our clients receive forward-thinking solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+			
+			<section class="testimonial-section section-padding" id="success">
+    <div class="testimonial-section-overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12 col-12 text-center mb-5" style="position: relative; z-index: 2;">
+                <h2 class="mb-2" style="font-family: var(--title-font-family); color: rgba(255, 255, 255, 0.95);">Success Stories</h2>
+                <p class="text-white-50 mx-auto" style="max-width: 600px; line-height: 1.6;">
+                    Hear from our successful graduates who have advanced their careers with our training and placement services:
+                </p>
+            </div>
+
+            <div class="col-12 testimonial-scrolling-container mb-4">
+                <h3 class="text-white mb-3" style="font-size: 20px; text-align: center;">Testimonials</h3>
+                <div class="testimonial-scrolling-line testimonial-scroll-ltr">
+                    <div class="testimonial-list-wrapper">
+                        
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Aisha Khan" class="client-photo"><div class="client-details"><span class="client-name">Aisha Khan</span><span class="client-title">Software Engineer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div></div></div><div class="testimonial-text"><p>"Landed my dream DevOps role right after placement. The AWS training was intense but worth it."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="David Lee" class="client-photo"><div class="client-details"><span class="client-name">David Lee</span><span class="client-title">Full-Stack Developer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"The deep dive into ReactJS and NodeJS was unmatched. I finally feel confident building full-stack applications."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Priya Sharma" class="client-photo"><div class="client-details"><span class="client-name">Priya Sharma</span><span class="client-title">Data Analyst</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div></div></div><div class="testimonial-text"><p>"Database management was always a hurdle. The SQL course broke it down perfectly. Now I manage large client data."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Omar Bahr" class="client-photo"><div class="client-details"><span class="client-name">Omar Bahr</span><span class="client-title">Security Analyst</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"Cybersecurity training changed my career path. I moved from IT support to a security analyst in 6 months."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Sarah Chen" class="client-photo"><div class="client-details"><span class="client-name">Sarah Chen</span><span class="client-title">UI/UX Designer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"The UI/UX course was brilliant. My portfolio quality jumped instantly. Got hired by a major design agency."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Ben Carter" class="client-photo"><div class="client-details"><span class="client-name">Ben Carter</span><span class="client-title">ML Engineer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"The Machine Learning program provided the hands-on experience I needed. Now working on predictive models."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Hina Patel" class="client-photo"><div class="client-details"><span class="client-name">Hina Patel</span><span class="client-title">Security Consultant</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div></div></div><div class="testimonial-text"><p>"Ethical Hacking skills secured my promotion. The practical labs were incredibly realistic."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Mark Jones" class="client-photo"><div class="client-details"><span class="client-name">Mark Jones</span><span class="client-title">IT Automation Specialist</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"The Python course was fast-paced and efficient. It's now my go-to language for automation scripts."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Jessica Wu" class="client-photo"><div class="client-details"><span class="client-name">Jessica Wu</span><span class="client-title">Cloud Engineer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div></div></div><div class="testimonial-text"><p>"Cloud Computing training was essential. I now specialize in Kubernetes deployments."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Robert Kim" class="client-photo"><div class="client-details"><span class="client-name">Robert Kim</span><span class="client-title">Junior Developer</span><div class="client-rating"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div></div></div><div class="testimonial-text"><p>"The placement team was fantastic. They prepared me for every interview challenge."</p></div></div></div>
+                        
+                        </div>
+                </div>
+            </div>
+
+            <div class="col-12 testimonial-scrolling-container mt-4">
+                <h3 class="text-white mb-3" style="font-size: 20px; text-align: center;">Case Studies</h3>
+                <div class="testimonial-scrolling-line testimonial-scroll-ltr">
+                    <div class="testimonial-list-wrapper">
+                        
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 1" class="client-photo"><div class="client-details"><span class="client-name">Case Study 1</span><span class="client-company">Placed at TCS, India</span><span class="client-title">Transition Success</span></div></div><div class="testimonial-text"><p>"Read about how our training and placement programs have helped individuals achieve their career goals."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 2" class="client-photo"><div class="client-details"><span class="client-name">Case Study 2</span><span class="client-company">Placed at Google, Dublin</span><span class="client-title">Salary Growth</span></div></div><div class="testimonial-text"><p>"Landed a 40% salary increase after completing the Full Stack and DevOps certification programs."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 3" class="client-photo"><div class="client-details"><span class="client-name">Case Study 3</span><span class="client-company">Placed at Amazon, US</span><span class="client-title">Career Pivot</span></div></div><div class="testimonial-text"><p>"Switched from a non-technical field to a Data Science role using our dedicated Machine Learning track."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 4" class="client-photo"><div class="client-details"><span class="client-name">Case Study 4</span><span class="client-company">Placed at IBM, Remote</span><span class="client-title">Project Showcase</span></div></div><div class="testimonial-text"><p>"Successfully delivered a complex cloud migration project during their placement period."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 5" class="client-photo"><div class="client-details"><span class="client-name">Case Study 5</span><span class="client-company">Placed at Oracle, UK</span><span class="client-title">Skill Mastery</span></div></div><div class="testimonial-text"><p>"Achieved 100% score on the final C++ Programming certification exam after dedicated training."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 6" class="client-photo"><div class="client-details"><span class="client-name">Case Study 6</span><span class="client-company">Placed at Microsoft, Asia</span><span class="client-title">Senior Role Attainment</span></div></div><div class="testimonial-text"><p>"An experienced professional used the training to successfully move into a Senior Architect position."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 7" class="client-photo"><div class="client-details"><span class="client-name">Case Study 7</span><span class="client-company">Placed at Cisco, Europe</span><span class="client-title">Tech Stack Upgrade</span></div></div><div class="testimonial-text"><p>"Upgraded skills from legacy systems to modern ReactJS and Node.js for a leading tech company."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 8" class="client-photo"><div class="client-details"><span class="client-name">Case Study 8</span><span class="client-company">Placed at Meta, Global</span><span class="client-title">Global Placement</span></div></div><div class="testimonial-text"><p>"Secured a remote position with an international firm thanks to the global training focus."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 9" class="client-photo"><div class="client-details"><span class="client-name">Case Study 9</span><span class="client-company">Placed at Accenture, AU</span><span class="client-title">Certification Achievement</span></div></div><div class="testimonial-text"><p>"Earned three major Cloud certifications in parallel with the main course curriculum."</p></div></div></div>
+                        <div class="testimonial-card-wrapper"><div class="testimonial-card"><div class="header-info"><img src="images/demo.jpg" alt="Case 10" class="client-photo"><div class="client-details"><span class="client-name">Case Study 10</span><span class="client-company">Placed at Self-Employed</span><span class="client-title">Entrepreneurial Launch</span></div></div><div class="testimonial-text"><p>"Launched a successful tech startup using the full-stack development skills acquired here."</p></div></div></div>
+
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+            <section class="faq-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">Frequently Asked Questions</h2>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-5 col-12">
+                            <img src="images/faq_graphic.jpg" class="img-fluid" alt="FAQs">
+                        </div>
+
+                        <div class="col-lg-6 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What makes ZizaFirst different from other training institutes?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            ZizaFirst combines expert-led learning, hands-on project training, and end-to-end career support.
+We focus not just on teaching — but on building real skills that help you grow, get certified, and get placed in leading companies.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Are the courses suitable for beginners or only for professionals?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Our courses are designed for all skill levels — from beginners looking to start their tech journey to professionals aiming to upgrade.
+Each program includes step-by-step modules, live sessions, and mentor guidance to ensure every learner succeeds.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        How does ZizaFirst help students with placements?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            We provide 100% placement assistance through resume building, interview preparation, mock tests, and direct recruitment drives.
+Our strong network of hiring partners ensures students get real opportunities in top companies across India.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+			
+<footer class="site-footer section-padding">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                <a class="navbar-brand d-flex align-items-center mb-3" href="index.html">
+                    <img src="images/logo.png" class="footer-logo" alt="Ziza First Technologies Logo">
+                </a>
+                <p class="text-light footer-about-text mt-3">Ready to take the next step towards a successful IT career? Let us help you.</p>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-6 mb-4 mb-lg-0">
+                <h6 class="site-footer-title mb-3">Quick Links</h6>
+                <ul class="site-footer-links">
+                    <li><a href="#top" class="site-footer-link">Home</a></li>
+                    <li><a href="#training-placements" class="site-footer-link">Services</a></li>
+                    <li><a href="#" class="site-footer-link">About Us</a></li>
+                    <li><a href="#get-started" class="site-footer-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-6 mb-4 mb-lg-0">
+                <h6 class="site-footer-title mb-3">Contact Information</h6>
+                <p class="site-footer-link-text mb-2">
+                    <i class="bi bi-geo-alt-fill me-2 footer-icon"></i> Opposite Aakash IIT, Habsiguda, Hyderabad, Telangana- 500075
+                </p>
+                <p class="site-footer-link-text mb-2">
+                    <i class="bi bi-envelope-fill me-2 footer-icon"></i> <a href="mailto:info@ZizaFirst.com" class="site-footer-link">info@ZizaFirst.com</a>
+                </p>
+                <p class="site-footer-link-text mb-2">
+                    <i class="bi bi-phone-fill me-2 footer-icon"></i> <a href="tel:04049976184" class="site-footer-link">040-49976184</a>
+                </p>
+                <p class="site-footer-link-text">
+                    <i class="bi bi-whatsapp me-2 footer-icon"></i> <a href="https://wa.me/917995507041" target="_blank" class="site-footer-link">7995507041</a>
+                </p>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-12">
+                <h6 class="site-footer-title mb-3">Find Us</h6>
+                <iframe 
+                    class="footer-map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.9664557993077!2d78.53765181487661!3d17.414603406200236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb997f89d380e9%3A0x67c290a1e3e7f45!2sHabsiguda%2C%20Hyderabad%2C%20Telangana%20500075!5e0!3m2!1sen!2sin!4v1636545224345!5m2!1sen!2sin" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                
+                <ul class="social-icon mt-4">
+                    <li><a href="#" class="social-icon-link bi-facebook"></a></li>
+                    <li><a href="#" class="social-icon-link bi-twitter"></a></li>
+                    <li><a href="#" class="social-icon-link bi-instagram"></a></li>
+                    <li><a href="#" class="social-icon-link bi-linkedin"></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-12">
+                <p class="copyright-text text-center text-light">
+                    Copyright © 2026 Ziza First Technologies. All rights reserved.
+                    <br>Design: <a rel="nofollow" href="http://www.zizafirst.com" target="_blank" class="design-link">Ziza First</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>
