@@ -486,7 +486,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background: url('../images/servicebackground.jpg') no-repeat center center;
+  background: url('../servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
@@ -727,7 +727,7 @@ blockquote {
   TIMELINE              
 -----------------------------------------*/
 .timeline-section {
-  background-image: url('../images/colleagues-working-cozy-office-medium-shot.jpg');
+  background-image: url('../colleagues-working-cozy-office-medium-shot.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1412,7 +1412,7 @@ blockquote {
 
 .services-section {
     /* Set background image for the entire section (Parallax effect) */
-    background: url('../images/servicebackground.jpg') no-repeat center center;
+    background: url('../servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
@@ -1538,7 +1538,7 @@ blockquote {
 .courses-section {
     position: relative;
     /* Background Image */
-    background: url('../images/coursebackground.jpg') no-repeat center center;
+    background: url('../coursebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
@@ -1675,7 +1675,7 @@ blockquote {
 .testimonial-section {
     position: relative;
     /* Background Image */
-    background: url('../images/testimonialbackground.jpg') no-repeat center center;
+    background: url('../testimonialbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 100px 0;
@@ -1844,7 +1844,7 @@ blockquote {
 .standout-section {
     position: relative;
     padding: 100px 0;
-    background: url('../images/standoutbackground.jpg') no-repeat center center;
+    background: url('../standoutbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2034,7 +2034,7 @@ blockquote {
 .upcoming-batches-section {
     position: relative;
     padding: 100px 0;
-    background: url('../images/upcomingbackground.jpg') no-repeat center center;
+    background: url('../upcomingbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2201,7 +2201,7 @@ blockquote {
 .about-us-section {
     position: relative;
     padding: 100px 0;
-    background: url('../images/upcomingbackground.jpg') no-repeat center center;
+    background: url('../upcomingbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2371,7 +2371,7 @@ blockquote {
 
 /* Section styling for background image and padding */
 .career-roadmap {
-  background: url('../images/servicebackground.jpg') no-repeat center center;
+  background: url('../servicebackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; 
     padding-top: 100px; 
@@ -2484,7 +2484,7 @@ blockquote {
 #corporate-trainings {
 position: relative;
     padding: 100px 0;
-    background: url('../images/partnersbackground.jpg') no-repeat center center;
+    background: url('../partnersbackground.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden; 
@@ -2572,7 +2572,7 @@ position: relative;
     .partner-microsoft, .partner-amazon, .partner-ibm, .partner-oracle, .partner-dell
 ) {
     /* Corrected path for the placeholder image */
-    background-image: url('../images/training1.jpg'); 
+    background-image: url('../training1.jpg'); 
     
     /* Ensures logo fits entirely (contain) and scales down (80%) */
 background-size: 100% auto;
@@ -2617,7 +2617,7 @@ background-size: 100% auto;
   position: relative;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  background: url('../images/sliderbackground.jpg') no-repeat center center;
+  background: url('../sliderbackground.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed; /* Optional: creates a parallax-like effect */  
 }
@@ -2792,7 +2792,7 @@ background-size: 100% auto;
     z-index: -9; 
 
     /* Set the PNG as the background image. Path assumes CSS is in a 'css' folder. */
-    background-image: url('../images/videolayer.png'); 
+    background-image: url('../videolayer.png'); 
     background-size: cover; 
     background-repeat: no-repeat;
     
@@ -3853,3 +3853,4 @@ background-size: 100% auto;
         text-align: center;
     }
 }
+
