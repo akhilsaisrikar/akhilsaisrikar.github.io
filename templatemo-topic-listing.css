@@ -2797,7 +2797,7 @@ background-size: 100% auto;
     background-repeat: no-repeat;
     
     /* Adjust opacity to control visibility. 1.0 is solid, 0.0 is invisible. */
-    opacity: 0.75; 
+    opacity: 0.85; 
 
     /* ESSENTIAL: Allows mouse clicks and interactions to pass THROUGH the overlay to the content above it. */
     pointer-events: none;
@@ -3127,6 +3127,7 @@ background-size: 100% auto;
     background-color: var(--primary-color); /* Dark background */
     padding-top: 60px;
     padding-bottom: 30px;
+    opacity: 0.85; 
 }
 
 .site-footer-title {
@@ -3407,7 +3408,18 @@ background-size: 100% auto;
 .achievement-card-7 .card-back {
     background-color: rgba(84, 164, 244, 0.7); /* Blue with 70% opacity */
 }
-````http://googleusercontent.com/image_generation_content/2
+
+.achievements-hero-image {
+    max-width: 50%; /* Ensure the image is responsive and doesn't overflow */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Allows for centering with margin auto */
+    margin: 0 auto 1px auto; /* Center horizontally, add bottom space */
+    /* You can adjust the max-width further if you want it to be smaller than 100% of the container */
+    /* For example: max-width: 600px; */
+}
+
+/* If you're using Bootstrap, the .img-fluid and .text-center classes will likely handle much of this. */
+/* The .mb-5 class on the wrapping div will provide the bottom margin. */
 /*--------------------------------------
   NEW SECTION: WHY CHOOSE US? (CIRCULAR DIAGRAM - FINAL FIX)
 -----------------------------------------*/
@@ -3666,7 +3678,9 @@ background-size: 100% auto;
     background-color: var(--white-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 15px;
-    border-radius: 8px !important; /* Ensure rounded corners */
+	    text-align: center;
+
+    border-radius: 10px !important; /* Ensure rounded corners */
     overflow: hidden;
 }
 
