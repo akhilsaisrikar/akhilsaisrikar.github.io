@@ -1,1 +1,2342 @@
-
+#EXTM3U
+#EXTINF:20,4TV News (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1007/master.m3u8
+#EXTINF:19,6 TV Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/232/master.m3u8
+#EXTINF:24,7S Music (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/7SMUSIC/index.m3u8
+#EXTINF:0,9X Jalwa (1080p)
+#EXTVLCOPT:network-caching=1000
+https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
+#EXTINF:20,9X Jhakaas (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/6/master.m3u8
+#EXTINF:0,9X Tashan
+#EXTVLCOPT:network-caching=1000
+https://9xjio.wiseplayout.com/9X_Tashan/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Music" - 9XM (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/9xm/master.m3u8?ads.vf=JyGLrSjXxAC
+#EXTINF:0,10 TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/391/master.m3u8
+#EXTINF:0,22Scope News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://thelegitpro.in/HDlive/22scope/index.fmp4.m3u8
+#EXTINF:0,99TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1211/master.m3u8
+#EXTINF:0,&flix (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0523/master.m3u8
+#EXTINF:0,&flix HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02k/index.m3u8
+#EXTINF:0,&pictures (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0521/master.m3u8
+#EXTINF:0,&pictures HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a033/index.m3u8
+#EXTINF:0,&prive HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a03f/index.m3u8
+#EXTINF:0,&TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09v/index.m3u8
+#EXTINF:0,&TV HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a034/index.m3u8
+#EXTINF:0,&xplor HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0556/master.m3u8
+#EXTINF:0,Aadinath TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/AADINATHTV/index.m3u8
+#EXTINF:0,Aaj Tak (720p)
+#EXTVLCOPT:network-caching=1000
+https://feeds.intoday.in/aajtak/api/master.m3u8
+#EXTINF:0,Aaj Tak HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:0,Aakaash Aath (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/969/master.m3u8
+#EXTINF:0,Aaseervatham TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/AASEERVATHAMTV/index.m3u8
+#EXTINF:0,Aastha (720p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/index.m3u8
+#EXTINF:0,Aastha Bhajan (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:bhajan.smil/playlist.m3u8
+#EXTINF:0,Aastha Gujarati (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/playlist.m3u8
+#EXTINF:0,Aastha Kannada (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8
+#EXTINF:0,Aastha Prime 1 (720p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthaprime1.smil/master.m3u8
+#EXTINF:0,Aastha Tamil (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
+#EXTINF:0,Aastha Telugu (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - ABN Andhra Jyothy (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abn-andhra-jyothy/index.m3u8?ads.vf=UlAYFOs6jHe
+#EXTINF:0,ABN TV India (540p)
+#EXTVLCOPT:network-caching=1000
+https://mediaserver.abnvideos.com/streams/abntvindia.m3u8
+#EXTINF:0,ABP Ananda (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ananda-livetv/master.m3u8
+#EXTINF:0,ABP Asmita (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/asmita-livetv/master.m3u8
+#EXTINF:0,ABP Ganga (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/ganga-livetv/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - ABP Majha (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-majha/master.m3u8?ads.vf=GrYsIxoBPri
+#EXTINF:0,ABP News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2l4ar6y3mrs4k.cloudfront.net/live-streaming/abpnews-livetv/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - ABP Sanjha (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/abp-sanjha/master.m3u8?ads.vf=pLnwLviYDD0
+#EXTINF:0,Abzy Dhakad (504p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/4fe6ab07a13543d6bdb2ec63b3e2df44/index.m3u8
+#EXTINF:0,Abzy Movies (480p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/db8d4eca72d64748a00d0631debf542d/index.m3u8
+#EXTINF:0,Adhyatm TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/AdhyatmTV/index.m3u8
+#EXTINF:0,Adithya TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zk/index.m3u8
+#EXTINF:0,AKD Calcutta News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.legitpro.co.in/cnnnews/index.m3u8
+#EXTINF:0,Alankar TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
+#EXTINF:0,All Time Movies (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/ALLTIMEMOVIES/index.m3u8
+#EXTINF:0,AmarUjala (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amarujala.ottlive.co.in/amarujala/index.m3u8
+#EXTINF:0,Amrita TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://ddash74r36xqp.cloudfront.net/master.m3u8
+#EXTINF:0,Anand TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.legitpro.co.in/anandtv/index.m3u8
+#EXTINF:0,Ananda Barta (720p)
+#EXTVLCOPT:network-caching=1000
+https://account19.livebox.co.in/Anandabarta2hls/live.m3u8
+#EXTINF:0,ANB News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/ANBNEWSNATIONAL/index.m3u8
+#EXTINF:0,Angel TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://janya-digimix.akamaized.net/vglive-sk-394914/india/ngrp:angelindia_all/playlist.m3u8
+#EXTINF:0,Animax Asia India (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg02159-kcglobal-amg02159c1-samsung-in-521.playouts.now.amagi.tv/playlist/amg02159-kcglobal-animax-samsungin/playlist.m3u8
+#EXTINF:0,Anjan TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://anjantv.pc.cdn.bitgravity.com/anjantv/live/amlst:event_anjan_,.smil/playlist.m3u8
+#EXTINF:0,Anmol Cinema (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a017/index.m3u8
+#EXTINF:0,Anmol Cinema 2 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0541/master.m3u8
+#EXTINF:0,Anmol TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://163.61.227.29:8000/play/a04a/index.m3u8
+#EXTINF:0,ANN News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://legitpro.co.in/annnews/annnews/index.m3u8
+#EXTINF:0,APN (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/APN/index.m3u8
+#EXTINF:0,Apna Punjab TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://plus.gigabitcdn.net/live-stream/apna-punjab-H3sE/playlist.m3u8
+#EXTINF:0,Aradana TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/961/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Argus News (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/argus-news/index.m3u8?ads.vf=IvskZqDOz5G
+#EXTINF:0,Aryan TV National (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/ARYANTVNATIONAL/index.m3u8
+#EXTINF:0,Asianet (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0474/master.m3u8
+#EXTINF:0,Asianet HD (720p)
+#EXTVLCOPT:network-caching=1000
+http://217.20.112.199/asianet/index.m3u8
+#EXTINF:0,Asianet Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0476/master.m3u8
+#EXTINF:0,Asianet News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8
+#EXTINF:0,Asianet Plus (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0z4/index.m3u8
+#EXTINF:0,Asianet Suvarna News (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://asianetnews.vgcdn.net/vglive-sk-335835/playlist.m3u8
+#EXTINF:0,Assam Talks (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/ASSAMTALKS/index.m3u8
+#EXTINF:0,Awaaz India TV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
+#EXTINF:0,Awakening TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/AWAKENINGTV/index.m3u8
+#EXTINF:0,Ayush TV (360p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://95eryw39dwn4-hls-live.wmncdn.net/Ayushu/271ddf829afeece44d8732757fba1a66.sdp/index.m3u8
+#EXTINF:0,B4U Bhojpuri (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
+#EXTINF:0,B4U Hitz (576p)
+#EXTVLCOPT:network-caching=1000
+http://115.42.65.142:9981/stream/channelid/1099703605
+#EXTINF:0,B4U Kadak (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdnb4u.wiseplayout.com/B4U_Kadak/master.m3u8
+#EXTINF:0,B4U Movies India (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
+#EXTINF:0,B4U Music (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdnb4u.wiseplayout.com/B4U_Music/master.m3u8
+#EXTINF:0,Bada Khabar (432p)
+#EXTVLCOPT:network-caching=1000
+https://stream.ashokadigital.net/badakhabar/badakhabar/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Music" - Balle Balle (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/balle-balle/index.m3u8?ads.vf=b8WZfP1_RIy
+#EXTINF:0,Bansal News (720p)
+#EXTVLCOPT:network-caching=1000
+https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8
+#EXTINF:0,Bflix Movies (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/BFLIX/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Religious" - Bhakthi Siri (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bhakthi-siri/index.m3u8?ads.vf=gdvNYWzRJii
+#EXTINF:0,Bhakthi TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/397/master.m3u8
+#EXTINF:0,Bhakti Sagar (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/BHAKTISAGAR/index.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - Bharat24 (1080p)
+#EXTVLCOPT:http-referrer=https://cdn.ottlive.co.in/bharat24/embed.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://cdn.ottlive.co.in/bharat24/index.fmp4.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Bharat Express (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bharat-express/index.m3u8?ads.vf=rc4w_mtwL4W
+#EXTINF:0,Bharat Samachar (480p)
+#EXTVLCOPT:network-caching=1000
+https://idvd.multitvsolution.com/idvo/bharatsamachar.m3u8
+#EXTINF:0,Bhojpuri Cinema (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:0,Big Magic (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/BIGMAGIC/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Big Tv (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/big-tv/index.m3u8?ads.vf=T2i6boC2Cna
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Movies" - Box Cinema (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d3s7x6kmqcnb6b.cloudfront.net/d/distro001a/QK2TKFREGRYXDI8IJGHW/hls3/now,-1m/m.m3u8?ads.vf=l_Bw4LbbQO8
+#EXTINF:0,Brio TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/BRIOTV/index.m3u8
+#EXTINF:0,BRK News (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1037/master.m3u8
+#EXTINF:0,BVG (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/BVG/index.m3u8
+#EXTINF:0,Calvary TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/CALVARYTV/index.m3u8
+#EXTINF:0,Captain (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/CAPTAIN/index.m3u8
+#EXTINF:0,CCV (480p)
+#EXTVLCOPT:network-caching=1000
+https://5a1178b42cc03.streamlock.net/8212/8212/playlist.m3u8
+#EXTINF:0,Channel Divya (1080p)
+#EXTVLCOPT:network-caching=1000
+https://vg-pitaaratvlive.akamaized.net/v1/vglive-sk-906482/playlist.m3u8
+#EXTINF:0,Channel WIN (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/229/master.m3u8
+#EXTINF:0,Chardikla Gurbaani TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://chardikalatimestv.gigabitcdn.net/in-chardikala/chardikala-gurbani-tv/playlist.m3u8
+#EXTINF:0,Chardikla Time TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://chardikalagurbanitv.gigabitcdn.net/in-chardikala/chardikala-timetv/playlist.m3u8
+#EXTINF:0,Chardikla Time TV North America (1080p)
+#EXTVLCOPT:network-caching=1000
+https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8
+#EXTINF:0,Chintu TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0587/master.m3u8
+#EXTINF:0,Chithiram (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/1243/master.m3u8
+#EXTINF:0,Chutti TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0z5/index.m3u8
+#EXTINF:0,CNBC Awaaz (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Awaaz_NW18_MOB/output01/master.m3u8
+#EXTINF:0,CNBC Bajar (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Bazaar_NW18_MOB/output01/master.m3u8
+#EXTINF:0,CNBC TV18 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/CNBC_TV18_NW18_MOB/output01/index.m3u8
+#EXTINF:0,CNBC TV18 Prime HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/CNBC_Tv18_Prime_HD_NW18_MOB/output01/index.m3u8
+#EXTINF:0,Cnews Bharat (720p)
+#EXTVLCOPT:network-caching=1000
+https://legitpro.co.in/cnews/cnews/index.fmp4.m3u8
+#EXTINF:0,Colors (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a077/index.m3u8
+#EXTINF:0,Colors Bangla (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0464/master.m3u8
+#EXTINF:0,Colors Bangla Cinema (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zo/index.m3u8
+#EXTINF:0,Colors Bangla HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0ds/index.m3u8
+#EXTINF:0,Colors Cineplex (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0392/master.m3u8
+#EXTINF:0,Colors Cineplex Bollywood (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.182.170.32:8888/play/a01o
+#EXTINF:0,Colors Cineplex HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0435/master.m3u8
+#EXTINF:0,Colors Cineplex Superhits (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0394/master.m3u8
+#EXTINF:0,Colors Gujarati (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0491/master.m3u8
+#EXTINF:0,Colors Gujarati Cinema (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zm/index.m3u8
+#EXTINF:0,Colors HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0a1/index.m3u8
+#EXTINF:0,Colors Infinity (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0402/master.m3u8
+#EXTINF:0,Colors Infinity HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0du/index.m3u8
+#EXTINF:0,Colors Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0482/master.m3u8
+#EXTINF:0,Colors Kannada Cinema (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0485/master.m3u8
+#EXTINF:0,Colors Kannada HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0456/master.m3u8
+#EXTINF:0,Colors Marathi (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0467/master.m3u8
+#EXTINF:0,Colors Marathi HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0454/master.m3u8
+#EXTINF:0,Colors Rishtey Asia (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0323/master.m3u8
+#EXTINF:0,Colors Super (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0484/master.m3u8
+#EXTINF:0,Colors Tamil (720p)
+#EXTVLCOPT:network-caching=1000
+http://15.235.144.106:14052
+#EXTINF:0,Colors Tamil HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0459/master.m3u8
+#EXTINF:0,CTVN AKD Plus (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.legitpro.co.in/ctvnakdplus/index.m3u8
+#EXTINF:0,CVR English (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/425/master.m3u8
+#EXTINF:0,CVR Health (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/395/master.m3u8
+#EXTINF:0,CVR News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/CVRNEWS/index.m3u8
+#EXTINF:0,CVR OM Spiritual (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/957/master.m3u8
+#EXTINF:0,Dabangg (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/DABANGG/index.m3u8
+#EXTINF:0,Dangal 2 (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-dangal2.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:0,Dangal TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-dangal.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:0,Darshan 24 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DARSHAN24/index.m3u8
+#EXTINF:0,Darshana TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/DARSHANATV/index.m3u8
+#EXTINF:0,DD Arun Prabha (360p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/308556d9fd1246adb479ef012a39bbfe/index.m3u8
+#EXTINF:0,DD Assam (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DDASSAM/index.m3u8
+#EXTINF:0,DD Bangla (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DDBANGLA/index.m3u8
+#EXTINF:0,DD Bharati (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/10/master.m3u8
+#EXTINF:0,DD Bihar (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/35/master.m3u8
+#EXTINF:0,DD Chandana
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/0c980455d2fb4b69bcc6235745ee6039/index.m3u8
+#EXTINF:0,DD Chhattisgarh (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/15/master.m3u8
+#EXTINF:0,DD Girnar (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/DDGIRNAR/index.m3u8
+#EXTINF:0,DD Goa (504p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e5b9db1cc184406bb97159da2f120f91/index.m3u8
+#EXTINF:0,DD Haryana
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/950fc69666474351bde0a32b9600c804/index.m3u8
+#EXTINF:0,DD Himachal Pradesh (504p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/afd2e335b0ba40eb9bdf1096118c6ede/index.m3u8
+#EXTINF:0,DD India (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/index.m3u8
+#EXTINF:0,DD Jharkhand
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/e8c3741f8c154d3185831f4e31777fb2/index.m3u8
+#EXTINF:0,DD Kashir (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DDKASHIR/index.m3u8
+#EXTINF:0,DD Kisan (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/9/master.m3u8
+#EXTINF:0,DD Madhya Pradesh (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/31/master.m3u8
+#EXTINF:0,DD Malayalam (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/DDMALAYALAM/index.m3u8
+#EXTINF:0,DD Manipur (504p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/8b75afc6576f450e8f554b6c877681d2/index.m3u8
+#EXTINF:0,DD Meghalaya (504p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/4f81bc8d13dd49b484da35988abb8729/index.m3u8
+#EXTINF:0,DD Mizoram (504p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/eea48c6b61074052a2fa8532ff795ff1/index.m3u8
+#EXTINF:0,DD Nagaland (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/DDNAGALAND/index.m3u8
+#EXTINF:0,DD National (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0065/master.m3u8
+#EXTINF:0,DD National HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/40492a64c1db4a1385ba1a397d357d3a/index.m3u8
+#EXTINF:0,DD News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/DDNEWS/index.m3u8
+#EXTINF:0,DD News HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/0811cd8c37ca4c409d5385a6cd2fa18b/index.m3u8
+#EXTINF:0,DD Odia (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DDODIA/index.m3u8
+#EXTINF:0,DD Punjabi
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/da821c24a59d4e57960497aeaca8fb33/index.m3u8
+#EXTINF:0,DD Rajasthan (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/34/master.m3u8
+#EXTINF:0,DD Sahyadri (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/DDSAHYADRI/index.m3u8
+#EXTINF:0,DD Sahyadri HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0341/master.m3u8
+#EXTINF:0,DD Saptagiri (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/DDSAPTAGIRI/index.m3u8
+#EXTINF:0,DD Sports SD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:0,DD Tamil (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/abf46b14847e45499f4a47f3a9afe93d/index.m3u8
+#EXTINF:0,DD Tamil HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0593/master.m3u8
+#EXTINF:0,DD Tripura (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/DDTRIPURA/index.m3u8
+#EXTINF:0,DD Urdu (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/8/master.m3u8
+#EXTINF:0,DD Uttar Pradesh (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/36/master.m3u8
+#EXTINF:0,DD Uttarakhand (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/17/master.m3u8
+#EXTINF:0,DD Yadagiri (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/21/master.m3u8
+#EXTINF:0,Desi Channel (720p)
+#EXTVLCOPT:network-caching=1000
+https://livestream.unlimitedcdn.com/agm-dc/desi-channel/index.m3u8
+#EXTINF:0,Dhamaal (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1291/master.m3u8
+#EXTINF:0,Dhamaka Movies B4U (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/235/master.m3u8
+#EXTINF:0,Dharm Sandesh (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/DHARMSANDESH/index.m3u8
+#EXTINF:0,Dharsan TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://galaxyott.live/hls/dharshantv.m3u8
+#EXTINF:0,Dheeran TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8
+#EXTINF:0,Dhoom Music (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1456/master.m3u8
+#EXTINF:0,Disha TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/DISHATV/index.m3u8
+#EXTINF:0,Disney Channel (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.182.170.32:8888/play/a04g
+#EXTINF:0,Disney Channel HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0451/master.m3u8
+#EXTINF:0,Disney International HD (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0qo/index.m3u8
+#EXTINF:0,Disney Junior (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09r/index.m3u8
+#EXTINF:0,DY 365 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/DY365/index.m3u8
+#EXTINF:0,E 24 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/E24/index.m3u8
+#EXTINF:0,EET TV (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://live.streamjo.com/eetlive/eettv.m3u8
+#EXTINF:0,Enterr 10 Bangla (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://live-bangla.akamaized.net/liveabr/playlist.m3u8
+#EXTINF:0,Epic TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-czbq30x55knit.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-czbq30x55knit/DIYC/PMSL/IN10/Epic_TV_IN_B/Epic_TV_IN_B.m3u8
+#EXTINF:0,ET Now (720p)
+#EXTVLCOPT:network-caching=1000
+https://pubads.g.doubleclick.net/ssai/event/pJrzNyDoT_K_GwYQsijTsQ/master.m3u8
+#EXTINF:0,ET Now Swadesh (720p)
+#EXTVLCOPT:network-caching=1000
+https://d32gxr3r1ksq2p.cloudfront.net/master.m3u8
+#EXTINF:0,ETV Abhiruchi (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2tbworamivdmb.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_ABHIRUCHI_H264-3_cloud-in/index.m3u8
+#EXTINF:0,ETV Andhra Pradesh (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d14vo2b97spizt.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264-3_cloud_in/index.m3u8
+#EXTINF:0,ETV Bal Bharat (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0305/master.m3u8
+#EXTINF:0,ETV Cinema HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d1q7j6ha51ro6f.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264-3_cloud_in/index.m3u8
+#EXTINF:0,ETV Comedy (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-wie8j8y69d2uy.akamaized.net/WWBI/Amagi/ETV_Comedy_IN/playlist.m3u8
+#EXTINF:0,ETV Josh (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-uyh1ow5zouoio.akamaized.net/WWBI/Amagi/ETV_Josh_IN/playlist.m3u8
+#EXTINF:0,ETV Life (480p)
+#EXTVLCOPT:network-caching=1000
+https://d2cj1h11htct8o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_LIFE_H264_cloud_in/index.m3u8
+#EXTINF:0,ETV Music (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
+#EXTINF:0,ETV News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-3448kp65yhc5w.akamaized.net/WWBI/Amagi/ETV_News_IN/playlist.m3u8
+#EXTINF:0,ETV Plus HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d27tnkf60df3v4.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_PLUS_H264-3_cloud_in/index.m3u8
+#EXTINF:0,ETV Telangana (1080p)
+#EXTVLCOPT:network-caching=1000
+https://dssp63pjfajz9.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_TS_H264-3_cloud_in/index.m3u8
+#EXTINF:0,ETV Telugu HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2z3q47xzd535o.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_HD_H264-2_cloud_in/index.m3u8
+#EXTINF:0,Fakt Marathi (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10002/master.m3u8
+#EXTINF:0,Fateh TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/FATEHTV/index.m3u8
+#EXTINF:0,Filamchi Bhojpuri (1080p)
+#EXTVLCOPT:network-caching=1000
+https://epiconvh.akamaized.net/live/filamchi/master.m3u8
+#EXTINF:0,First India News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/1STINDIANEWS/index.m3u8
+#EXTINF:0,Food Food (576p)
+#EXTVLCOPT:network-caching=1000
+http://45.148.145.57/IN_FOODFOOD/index.m3u8
+#EXTINF:0,Gangaur TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://pbgangaur.wiseplayout.com/Gangaur/master.m3u8
+#EXTINF:0,Gaunda Punjab TV
+#EXTVLCOPT:network-caching=1000
+http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
+#EXTINF:0,Gemini Comedy (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a101/index.m3u8
+#EXTINF:0,Gemini Life (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zg/index.m3u8
+#EXTINF:0,Gemini Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0586/master.m3u8
+#EXTINF:0,Gemini Movies HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zf/index.m3u8
+#EXTINF:0,Gemini Music SD (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0589/master.m3u8
+#EXTINF:0,Gemini TV (1080p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0y2/index.m3u8
+#EXTINF:0,Gemini TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0568/master.m3u8
+#EXTINF:0,Global Punjab (1080p)
+#EXTVLCOPT:network-caching=1000
+https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8
+#EXTINF:0,Goa365 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ktismaservers.in:3086/live/goa365live.m3u8
+#EXTINF:0,Goldmines (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1459/master.m3u8
+#EXTINF:0,Goldmines 2 (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1460/master.m3u8
+#EXTINF:0,Goldmines Movies (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1461/master.m3u8
+#EXTINF:0,Good News Today (720p)
+#EXTVLCOPT:network-caching=1000
+https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8
+#EXTINF:0,GoodNews TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://bpgdlwwar3ze-hls-live.wmncdn.net/goodnews/live.stream/playlist.m3u8
+#EXTINF:0,Grace TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/GRACETV/index.m3u8
+#EXTINF:0,GS TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/GSTV/index.m3u8
+#EXTINF:0,GTC Punjabi (1080p)
+#EXTVLCOPT:network-caching=1000
+https://gtc-yupp.vgcdn.net/vglive-sk-254807/index.m3u8
+#EXTINF:0,Guarantee News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://guaranteenews.in:8443/live/gnews/index.m3u8
+#EXTINF:0,Gujarat First (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.legitpro.co.in/gujaratfirst/index.m3u8
+#EXTINF:0,Gulistan News (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://live.gulistannews.in/hls/gul.m3u8
+#EXTINF:0,Gyandarshan (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/14/master.m3u8
+#EXTINF:0,Hamdard TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://tv.hamdardtv.com/hamdard/index.m3u8
+#EXTINF:0,Har Khabar (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/HARKHABAR/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Religious" - Hare Krsna (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hare-krsna/master.m3u8?ads.vf=BTLYq9OkYrW
+#EXTINF:0,Harvest TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvesttvlive1/bbb19eae240ec100af921d511efc86a0.sdp/index.m3u8
+#EXTINF:0,Harvest TV Keralam (720p)
+#EXTVLCOPT:network-caching=1000
+https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestenglish/d1796a22d24e8696c7d5d0b5c349fdd2.sdp/index.m3u8
+#EXTINF:0,Harvest USA (576p)
+#EXTVLCOPT:network-caching=1000
+https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8
+#EXTINF:0,Hebron TV (432p)
+#EXTVLCOPT:network-caching=1000
+https://account20.livebox.co.in/charleshls/live.m3u8
+#EXTINF:0,Hi Dost! (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/224/master.m3u8
+#EXTINF:0,High News (480p)
+#EXTVLCOPT:network-caching=1000
+https://highmedia.livebox.co.in/HIGHNEWShls/LIVE.m3u8
+#EXTINF:0,Hindi Khabar (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1041/master.m3u8
+#EXTINF:0,Hindu Dharmam (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/959/master.m3u8
+#EXTINF:0,History TV18 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0427/master.m3u8
+#EXTINF:0,History TV18 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0449/master.m3u8
+#EXTINF:0,HMTV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/280/master.m3u8
+#EXTINF:0,HNN 24x7 (576p)
+#EXTVLCOPT:network-caching=1000
+https://ott.livelegitpro.in:9899/hnnnews/hnnnews/tracks-v1/index.fmp4.m3u8
+#EXTINF:0,Hope Channel India (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/HOPECHANNELINDIA/index.m3u8
+#EXTINF:0,Hornbill TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1463/master.m3u8
+#EXTINF:0,Hungama TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0z1/index.m3u8
+#EXTINF:0,Hyder TV
+#EXTVLCOPT:network-caching=1000
+https://cdn.live247stream.com/hyder/tv/playlist.m3u8
+#EXTINF:0,IBC 24 (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/220/master.m3u8
+#EXTINF:0,Ind 24 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/IND24/index.m3u8
+#EXTINF:0,India Ahead (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/INDIAAHEAD/index.m3u8
+#EXTINF:0,India Daily Live (1080p)
+#EXTVLCOPT:network-caching=1000
+https://indiadaily.ottlive.co.in/indiadailylive/index.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - India News (1080p)
+#EXTVLCOPT:http-referrer=https://newsxott.in/embed.html?channel=indianewsnational
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/indianewsnational.m3u8
+#EXTINF:0,India News Gujarati (1080p)
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/indianewsgujarat.m3u8
+#EXTINF:0,India News Haryana (1080p)
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/indianewsharyana.m3u8
+#EXTINF:0,India News Madhya Pradesh/Chhattisgarh (576p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.newsx.com/itv/itvnetwork7/playlist.m3u8
+#EXTINF:0,India News Punjab/Himachal (1080p)
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/indianewspunjab.m3u8
+#EXTINF:0,India News Uttar Pradesh (1080p)
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/indianewsupuk.m3u8
+#EXTINF:0,India Today (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:0,India TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://pl-indiatvnews.akamaized.net/out/v1/db79179b608641ceaa5a4d0dd0dca8da/index.m3u8
+#EXTINF:0,India TV Aap Ki Adalat (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg01550-amg01550c6-samsung-in-4679.playouts.now.amagi.tv/playlist/amg01550-indiatvfast-indiatvakasamsung-samsungin/playlist.m3u8
+#EXTINF:0,India TV Speed News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-lyf4c0hwzg5dd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lyf4c0hwzg5dd/v1/vglive-sk-479089/main.m3u8
+#EXTINF:0,India Voice (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/INDIAVOICE/index.m3u8
+#EXTINF:0,Indywood TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://43wrzjnpqoxe-hls-live.wmncdn.net/indywood/indywoodtv/index.m3u8
+#EXTINF:0,INews (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/411/master.m3u8
+#EXTINF:0,INH 24x7 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/INH24X7/index.m3u8
+#EXTINF:0,Insync (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/INSYNC/index.m3u8
+#EXTINF:0,Isai Aruvi (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0wn/index.m3u8
+#EXTINF:0,Ishwar Bhakti TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8
+#EXTINF:0,J Movie (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0314/master.m3u8
+#EXTINF:0,Jai Maharashtra (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1465/master.m3u8
+#EXTINF:0,Jaihind TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/JAIHIND/index.m3u8
+#EXTINF:0,Jalsha Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0463/master.m3u8
+#EXTINF:0,Jalsha Movies HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dt/index.m3u8
+#EXTINF:0,Jan TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10004/master.m3u8
+#EXTINF:0,Janam TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8
+#EXTINF:0,Janta TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.jswk.online/IK_RTPM/live/index.m3u8
+#EXTINF:0,Jaya Max (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0wk/index.m3u8
+#EXTINF:0,Jaya Plus (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/JayaPLus/index.m3u8
+#EXTINF:0,Jaya TV (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0400/master.m3u8
+#EXTINF:0,Jeevan TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1467/master.m3u8
+#EXTINF:0,Jinvani Channel (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/989/master.m3u8
+#EXTINF:0,JK 24x7 News (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://live.gulistannews.in/hls/jk.m3u8
+#EXTINF:0,Jonack TV (360p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8
+#EXTINF:0,Jothi TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0yr/index.m3u8
+#EXTINF:0,K News India (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/KNEWSINDIA/index.m3u8
+#EXTINF:0,Kairali Arabia (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/KAIRALIARABIA/index.m3u8
+#EXTINF:0,Kairali News (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1469/master.m3u8
+#EXTINF:0,Kairali TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/KAIRALI/index.m3u8
+#EXTINF:0,Kairali We (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1530/master.m3u8
+#EXTINF:0,Kalaignar Murasu (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0320/master.m3u8
+#EXTINF:0,Kalaignar Seithigal (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-cf-kalaignarnews.dailyhunt.in/master.m3u8
+#EXTINF:0,Kalaignar TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0316/master.m3u8
+#EXTINF:0,Kalinga TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.thelegitpro.in/kalingatv/kalingatv/index.fmp4.m3u8
+#EXTINF:0,Kannur Vision (1080p)
+#EXTVLCOPT:network-caching=1000
+https://stream.logichost.in/kannurvision/live/playlist.m3u8
+#EXTINF:0,Kappa TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1123/master.m3u8
+#EXTINF:0,Kashish News (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.thelegitpro.in/kashishnews/kashishnews/index.m3u8
+#EXTINF:0,Kaumudy TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
+#EXTINF:0,KCL TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://kcltv.livebox.co.in/kclhls/live.m3u8
+#EXTINF:0,KCM (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg02159-amg02159c7-samsung-in-4001.playouts.now.amagi.tv/playlist/amg02159-kcglobal-kcm-samsungin/playlist.m3u8
+#EXTINF:0,Kerala Vision (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/KERALAVISION/index.m3u8
+#EXTINF:0,Khabar Fast (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/KHABARFAST/index.m3u8
+#EXTINF:0,Khabrain Abhi Tak (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/KHABRAINABHITAK/index.m3u8
+#EXTINF:0,Khushboo Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1473/master.m3u8
+#EXTINF:0,KITE Victers (Kerala) (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
+#EXTINF:0,Kochu TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0xk/index.m3u8
+#EXTINF:0,Kolkata TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdn.ottlive.co.in/kolkatatv/index.m3u8
+#EXTINF:0,KTV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0575/master.m3u8
+#EXTINF:0,KTV Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
+#EXTINF:0,KTV HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a05i/index.m3u8
+#EXTINF:0,Kushi TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zn/index.m3u8
+#EXTINF:0,Life TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://lifetv.livebox.co.in/lifetvhls/lifetv.m3u8
+#EXTINF:0,Living India News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://stream.ottlive.co.in/livingindia/index.m3u8
+#EXTINF:0,Lokshahi News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://see.lokshahi.live/live/index.m3u8
+#EXTINF:0,M Nadu TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/MNADU/index.m3u8
+#EXTINF:0,M Sign Media (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://rtmp2.logicwebs.in:1935/msign/msignmedia/playlist.m3u8
+#EXTINF:0,Madha TV (600p)
+#EXTVLCOPT:network-caching=1000
+https://60e68b19dd194.streamlock.net:55/madhatv/madhatv.stream_HDp/playlist.m3u8
+#EXTINF:0,Madhimugam TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1476/master.m3u8
+#EXTINF:0,Maha Movie (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10007/master.m3u8
+#EXTINF:0,Mahaa Max (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d8wpu6ewxtzy0.cloudfront.net/mahaamaxx/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Mahaa News (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/mahaa-news/index.m3u8?ads.vf=_1jxa_r1i5G
+#EXTINF:0,Maiboli (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/MAIBOLI/index.m3u8
+#EXTINF:0,Makkal TV (576i)
+#EXTVLCOPT:network-caching=1000
+https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
+#EXTINF:0,Malabar News (720p)
+#EXTVLCOPT:network-caching=1000
+http://cloud.logichost.in:1935/live/malabarnews/index.m3u8
+#EXTINF:0,Malai Murasu TV (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8
+#EXTINF:0,Malar TV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/473/master.m3u8
+#EXTINF:0,Mango Mobile TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg01911-mangotv-amg01911c1-xiaomi-in-1270.playouts.now.amagi.tv/playlist/amg01911-mangomassmedia-mangotv-xiaomiin/playlist.m3u8
+#EXTINF:0,Manorama News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8
+#EXTINF:0,Manoranjan Grand (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1011/master.m3u8
+#EXTINF:0,Manoranjan Movies (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/228/master.m3u8
+#EXTINF:0,Manoranjan TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1013/master.m3u8
+#EXTINF:0,Mastiii (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/MASTIII/index.m3u8
+#EXTINF:0,Mathrubhumi News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/MATHRUBHUMINEWS/index.m3u8
+#EXTINF:0,Max Movies (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.maxtn.in/maxmovies/maxmovies/index.m3u8
+#EXTINF:0,Max Music (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.maxtn.in/maxmusic/maxmusic/index.m3u8
+#EXTINF:0,Mayyazhi (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://131.153.22.8:1935/MAYYAZHI/live/playlist.m3u8
+#EXTINF:0,Mazhavil Manorama (396p)
+#EXTVLCOPT:network-caching=1000
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8
+#EXTINF:0,Mazhavil Manorama HD (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-7.pishow.tv/live/1129/master.m3u8
+#EXTINF:0,MBC TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/MBCTV/index.m3u8
+#EXTINF:0,Media One (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1481/master.m3u8
+#EXTINF:0,Mercy TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://5dd3981940faa.streamlock.net/mercytv/mercytv/playlist.m3u8
+#EXTINF:0,Metro TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8
+#EXTINF:0,Mh 1 Music (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/MHONE/index.m3u8
+#EXTINF:0,Mh 1 News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/MHONENEWS/index.m3u8
+#EXTINF:0,MH One Dil Se (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/MHONEDILSE/index.m3u8
+#EXTINF:0,MH One Movies (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/MHONEMOVIE/index.m3u8
+#EXTINF:0,MH One Shraddha (360p)
+#EXTVLCOPT:network-caching=1000
+https://paramount.jswk.online/shraddhamhone/index.m3u8
+#EXTINF:0,Mirror Now (720p)
+#EXTVLCOPT:http-referrer=https://www.timesnownews.com/
+#EXTVLCOPT:network-caching=1000
+https://dai.google.com/linear/hls/event/ClPOullTQky5vGPf7fMZ8g/master.m3u8
+#EXTINF:0,MK Six (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1253/master.m3u8
+#EXTINF:0,MNTV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mntv.livebox.co.in/mntvhls/live.m3u8
+#EXTINF:0,MNTV Music (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mntv.livebox.co.in/musichls/live.m3u8
+#EXTINF:0,MNX (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0089/master.m3u8
+#EXTINF:0,MNX HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0i6/index.m3u88
+#EXTINF:0,Moon TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://player.mslivestream.net/mslive/e10bb900976df9177b9a080314f26f86.sdp/index.m3u8
+#EXTINF:0,Movieplex (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/MOVIEPLEX/index.m3u8
+#EXTINF:0,Movies Now (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0090/master.m3u8
+#EXTINF:0,Movies Now + (1080p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0i4/index.m3u88
+#EXTINF:0,Mr. Bean Animated (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00627-amg00627c23-samsung-au-4110.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:0,MTV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0397/master.m3u8
+#EXTINF:0,MTV HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0436/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Munsif Tv (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/munsif-tv/index.m3u8?ads.vf=bgM_sblbBYC
+#EXTINF:0,Music India (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/226/master.m3u8
+#EXTINF:0,Nagaland TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10014/master.m3u8
+#EXTINF:0,Namdhari (404p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://namdhari.tv/live/sbs1.m3u8
+#EXTINF:0,Nandighosha TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://www.nandighoshatvlive.com/hls/stream/index.m3u8
+#EXTINF:0,National Geographic (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0426/master.m3u8
+#EXTINF:0,National Geographic HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a007/index.m3u8
+#EXTINF:0,National Geographic Wild (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a06r/index.m3u8
+#EXTINF:0,National Geographic Wild HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02s/index.m3u8
+#EXTINF:0,Nazara (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cc-p1izg43bk7sj5.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-p1izg43bk7sj5/DIYC/PMSL/IN10/Nazara_IN_B/Nazara_IN_B.m3u8
+#EXTINF:0,NDTV 24X7 (480p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8
+#EXTINF:0,NDTV Good Times (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg01448-samsungin-ndtvgoodtimes-samsungin-ad-gp.amagi.tv/playlist/amg01448-samsungin-ndtvgoodtimes-samsungin/playlist.m3u8
+#EXTINF:0,NDTV India (480p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8
+#EXTINF:0,NDTV Madhya Pradesh Chhattisgarh (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvmpcg/master_1.m3u8
+#EXTINF:0,NDTV Marathi (1080p)
+#EXTVLCOPT:http-referrer=https://marathi.ndtv.com/
+#EXTVLCOPT:network-caching=1000
+https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
+#EXTINF:0,NDTV Profit (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/chunklist_5.m3u8
+#EXTINF:0,NDTV Rajasthan (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ndtvregional.akamaized.net/hls/live/2102726-b/ndtvraj/master_1.m3u8
+#EXTINF:0,NE News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/NENEWS/index.m3u8
+#EXTINF:0,Nepal 1 (396p)
+#EXTVLCOPT:network-caching=1000
+https://d1msejlow1t3l4.cloudfront.net/fta/nepal1/chunks.m3u8
+#EXTINF:0,Network 10
+#EXTVLCOPT:network-caching=1000
+https://network10.livebox.co.in/network10hls/live.m3u8
+#EXTINF:0,News 1st (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/268/master.m3u8
+#EXTINF:0,News 7 Tamil (576p)
+#EXTVLCOPT:network-caching=1000
+https://segment.yuppcdn.net/240122/news7/playlist.m3u8
+#EXTINF:0,News9Live (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-tv9yupp.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-237347/main.m3u8
+#EXTINF:0,News 11 (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/NEWS11BHARAT/index.m3u8
+#EXTINF:0,News18 Assam North-East (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Bangla (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Bangla_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Bihar Jharkhand (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Bihar_Jharkhand_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Gujarati (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Gujarati_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 India (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_India_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 JKLH (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_JKLH_NW18_MOB/output01/master.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - News18 Kannada (1080p)
+#EXTVLCOPT:http-referrer=https://kannada.news18.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Kannada_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Kerala (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Kerala_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Lokmat (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Madhya Pradesh/Chhattisgarh (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_MP_Chhattisgarh_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Odia (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Odia_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Punjab/Haryana/Himachal (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Punjab_Haryana_HP_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Rajasthan (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Rajasthan_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Tamil Nadu (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Tamil_Nadu_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Urdu (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_Urdu_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News18 Uttar Pradesh Uttarakhand (1080p)
+#EXTVLCOPT:network-caching=1000
+https://n18syndication.akamaized.net/bpk-tv/News18_UP_Uttarakhand_NW18_MOB/output01/master.m3u8
+#EXTINF:0,News 24 (720p)
+#EXTVLCOPT:network-caching=1000
+https://vidcdn.vidgyor.com/news24-origin/liveabr/playlist.m3u8
+#EXTINF:0,News Daily 24 (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10009/master.m3u8
+#EXTINF:0,News India 24x7 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.legitpro.co.in/newsindia/index.m3u8
+#EXTINF:0,News J (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1279/master.m3u8
+#EXTINF:0,News Live (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-6.pishow.tv/live/10011/master.m3u8
+#EXTINF:0,News Malayalam 24x7 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d18a8tqmogafg2.cloudfront.net/newsmalayalam/index.m3u8
+#EXTINF:0,News Nation (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
+#EXTINF:0,News Tamil 24x7 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d18a8tqmogafg2.cloudfront.net/newstamil/index.m3u8
+#EXTINF:0,News X (1080p)
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/newsx.m3u8
+#EXTINF:0,NewsTime Bangla (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1494/master.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - NewsX World (1080p)
+#EXTVLCOPT:http-referrer=https://newsxott.in/embed.html?channel=newsxworld
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://newsxott.in/hls/newsxworld.m3u8
+#EXTINF:0,Nick HD+ (1080p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0i3/index.m3u88
+#EXTINF:0,Nick Jr. (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0409/master.m3u8
+#EXTINF:0,Nickelodeon (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0cq/index.m3u8
+#EXTINF:0,Nireekshana TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/965/master.m3u8
+#EXTINF:0,NK TV 24x7 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - Northeast Live (720p)
+#EXTVLCOPT:http-referrer=https://server.thelegitpro.in/northeastlive/northeastlive/embed.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
+#EXTINF:0,NTC TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://galaxyott.live/hls/ntv.m3u8
+#EXTINF:0,NTV Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/ntv_nim_https/110322/ntv/playlist.m3u8
+#EXTINF:0,Odisha TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8
+#EXTINF:0,Oli TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.olidigital.in/olitv/olitv/index.m3u8
+#EXTINF:0,OM TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/OMTV/index.m3u8
+#EXTINF:0,Orange Bangla TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1499/master.m3u8
+#EXTINF:0,Oscar Movies Bhojpuri (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/233/master.m3u8
+#EXTINF:0,Paras Gold (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/PARASGOLD/index.m3u8
+#EXTINF:0,Pasand TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/PASANDTV/index.m3u8
+#EXTINF:0,Peace Of Mind TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/PEACEOFMIND/index.m3u8
+#EXTINF:0,Peace TV Bangla (1080p)
+#EXTVLCOPT:network-caching=1000
+https://dzkyvlfyge.erbvr.com/PeaceTvBangla/index.m3u8
+#EXTINF:0,Peace TV Urdu (1080p)
+#EXTVLCOPT:network-caching=1000
+https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8
+#EXTINF:0,Peppers TV (751p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1383/master.m3u8
+#EXTINF:0,Pitaara (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-pitaaratvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-583798/playlist.m3u8
+#EXTINF:0,PMC Telugu (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/PMC/index.m3u8
+#EXTINF:0,Polimer News (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-cf-polimernews.dailyhunt.in/master.m3u8
+#EXTINF:0,Polimer TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1241/master.m3u8
+#EXTINF:0, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" group-title="News" - Power TV (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://powertvkannada.com/hls/stream.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Prameya News7 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/prameya-news7/index.m3u8?ads.vf=OOr8NB75jnK
+#EXTINF:0,Prarthana TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Pratham Khabar 24x7 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/pratham-khabar-24x7/index.m3u8?ads.vf=BVw-POiR-D8
+#EXTINF:0,Pratidin Time (576p)
+#EXTVLCOPT:network-caching=1000
+https://server.thelegitpro.in/pratidintime/pratidintime/index.fmp4.m3u8
+#EXTINF:0,Pravah Picture HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0455/master.m3u8
+#EXTINF:0,Pravasi Channel (1080p)
+#EXTVLCOPT:network-caching=1000
+https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:0,Prime9 News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
+#EXTINF:0,Prudent Media (1080p)
+#EXTVLCOPT:network-caching=1000
+https://prudentmcdn.rixcast.com/prudentm.m3u8
+#EXTINF:0,PTC Chakde (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/449/master.m3u8
+#EXTINF:0,PTC Music (720p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
+#EXTINF:0,PTC News (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1502/master.m3u8
+#EXTINF:0,PTC Punjabi (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/3e22a9c278db4e3eb779afd42e41b0a6/index.m3u8
+#EXTINF:0,PTC Punjabi Gold (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6e14bac6d0384e129521a4d005188bfb/index.m3u8
+#EXTINF:0,Public Movies (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/PUBLICMOVIES/index.m3u8
+#EXTINF:0,Public Music (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/441/master.m3u8
+#EXTINF:0,Public TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/439/master.m3u8
+#EXTINF:0,Pudhari News (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0176/master.m3u8
+#EXTINF:0,Pulari TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://royalstarindia.co.in/pularitv_hls/pularitv.m3u8
+#EXTINF:0,Punjabi Hits (1080p)
+#EXTVLCOPT:network-caching=1000
+https://stream.ottlive.co.in/punjabihits/index.m3u8
+#EXTINF:0,Punjabi Zindabad (360p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://stream.pztv.online/pztv/playlist.m3u8
+#EXTINF:0,Puthiya Thalaimurai (576p)
+#EXTVLCOPT:network-caching=1000
+https://segment.yuppcdn.net/240122/puthiya/playlist.m3u8
+#EXTINF:0,Puthuyugam TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/PUTHUYUGAMTV/index.m3u8
+#EXTINF:0,Qello Concerts by Stingray (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,R Plus (768p)
+#EXTVLCOPT:network-caching=1000
+https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
+#EXTINF:0,R Plus Gold (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1231/master.m3u8
+#EXTINF:0,Raftaar Media (240p)
+#EXTVLCOPT:network-caching=1000
+https://6n3yorwpy9ok-hls-live.5centscdn.com/raftaarmedia/243bd1ce0387f18005abfc43b001646a.sdp/playlist.m3u8
+#EXTINF:0,Raj Digital Plus (1080p)
+#EXTVLCOPT:network-caching=1000
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RajTV_Digital_plus/master_1.m3u8
+#EXTINF:0,Raj Musix Malayalam (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/RAJMUSIXMALAYALAM/index.m3u8
+#EXTINF:0,Raj Musix Tamil (1080p)
+#EXTVLCOPT:network-caching=1000
+https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8
+#EXTINF:0,Raj Musix Telugu (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/1213/master.m3u8
+#EXTINF:0,Raj News Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/RAJNEWSKANDA/index.m3u8
+#EXTINF:0,Raj News Malayalam (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/RAJNEWSMALAYALAM/index.m3u8
+#EXTINF:0,Raj News Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/RAJNEWSTELUGU/index.m3u8
+#EXTINF:0,Raj TV
+#EXTVLCOPT:network-caching=1000
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/2839e3d1e0f84a2e821c1708d5fdfdf0/index.m3u8
+#EXTINF:0,Ramdhenu (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/RAMDHENU/index.m3u8
+#EXTINF:0,Rang (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/RANG/index.m3u8
+#EXTINF:0,RDX Goa (720p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:0,Real News Kerala (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://bk7l298nyx53-hls-live.5centscdn.com/realnews/e7dee419f91aa9e65939d3677fb9c4f5.sdp/playlist.m3u8
+#EXTINF:0,Rengoni (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/RENGONI/index.m3u8
+#EXTINF:0,Reporter TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://segment.yuppcdn.net/050522/reporter/playlist.m3u8
+#EXTINF:0,Republic Bangla (1080p)
+#EXTVLCOPT:network-caching=1000
+https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-456368/main.m3u8
+#EXTINF:0,Republic Bharat (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-275673/main.m3u8
+#EXTINF:0,Republic Kannada (1080p)
+#EXTVLCOPT:network-caching=1000
+https://vg-republictvlive.akamaized.net/ptnr-republicweb/title-Republic_TV_Kannada/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/1acd1ce1-c6a7-4ae4-afa1-133ffb111ebb/main.m3u8
+#EXTINF:0,Republic TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://samsung-republictv.amagi.tv/ts-ap-s1-n1/playlist/samsungin-republictv-samsungindia/playlist.m3u8
+#EXTINF:0,Roja Movies (1080p)
+#EXTVLCOPT:network-caching=1000
+https://stream.rojatv.cloud/rojatv/rojatv/index.m3u8
+#EXTINF:0,Roja TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live.rojatv.cloud/rojatv/rojatv/index.m3u8
+#EXTINF:0,Romedy Now (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0091/master.m3u8
+#EXTINF:0,Rongeen TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.thelegitpro.in/rongeentv/rongeentv/index.m3u8
+#EXTINF:0,RT India (1080p)
+#EXTVLCOPT:network-caching=1000
+https://rt-india.rttv.com/dvr/rtindia/playlist.m3u8
+#EXTINF:0,Rupasi Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1039/master.m3u8
+#EXTINF:0,Saam TV
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/437/master.m3u8
+#EXTINF:0,Sada TV (1080p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+http://cdn12.henico.net:8080/live/sadatv/index.m3u8
+#EXTINF:0,Sadhna (720p)
+#EXTVLCOPT:network-caching=1000
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhanalivetv/live.stream/playlist.m3u8
+#EXTINF:0,Sadhna Plus News (720p)
+#EXTVLCOPT:network-caching=1000
+https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
+#EXTINF:0,Safari TV (480p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8
+#EXTINF:0,Sahana News (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt03.tangotv.in/SAHANANEWS/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Sakshi Tv (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sakshi-tv/index.m3u8?ads.vf=V-hlmSQNYO4
+#EXTINF:0,Salaam TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeesalaam/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/426c6db7-595e-4aa8-859c-7e86ed2811d0/af896be5-4743-41fc-8b6a-eb05e44f3a6e/3.m3u8
+#EXTINF:0,Salvation TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ktismaservers.in:3902/live/salvationtvlive.m3u8
+#EXTINF:0,Samay Kolkata (1080p)
+#EXTVLCOPT:network-caching=1000
+https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
+#EXTINF:0,Sana Plus (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/SanaPlusHD/index.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Entertainment" - Sana Tv (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/sana-tv/index.m3u8?ads.vf=VcGQSvUuGWi
+#EXTINF:0,Sandesh News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://dkshlpp7ugzua.cloudfront.net/sandeshnews/index.m3u8
+#EXTINF:0,Sangeet Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1143/master.m3u8
+#EXTINF:0,Sangeet Bhojpuri (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1293/master.m3u8
+#EXTINF:0,Sangeet Marathi (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1229/master.m3u8
+#EXTINF:0,Sankara TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1135/master.m3u8
+#EXTINF:0,Sansad TV 1 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/index.m3u8
+#EXTINF:0,Sansad TV 2 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
+#EXTINF:0,Sanskar TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d26idhjf0y1p2g.cloudfront.net/out/v1/cd66dd25b9774cb29943bab54bbf3e2f/index.m3u8
+#EXTINF:0,Sanskar Web TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://deatfcv3xdvi3.cloudfront.net/out/v1/7a43dd2f64e34ec28da1b4bd6923251a/index.m3u8
+#EXTINF:0,Santvani Channel (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/475/master.m3u8
+#EXTINF:0,Sathiyam TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://live-cf-sathiyamtv.dailyhunt.in/master.m3u8
+#EXTINF:0,Satsang TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2vfwvjxwtwq1t.cloudfront.net/out/v1/6b24239d5517495b986e7705490c6e65/index.m3u8
+#EXTINF:0,Satsang Web TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d1ji7e9jbzm5g8.cloudfront.net/out/v1/769f22f64d80442889306b9c4abea63c/index.m3u8
+#EXTINF:0,Shalini TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://stream.singamcloud.in/shalinitv/shalinitv/index.m3u8
+#EXTINF:0,Shalom (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2c4zqo2rb5uf1.cloudfront.net/master.m3u8
+#EXTINF:0,Shemaroo Josh (720p)
+#EXTVLCOPT:network-caching=1000
+https://airtelapp.shemaroo.com/shemarooChumbakTV/smil:shemarooChumbakTVadp.smil/playlist.m3u8
+#EXTINF:0,Shemaroo Marathi Bana (720p)
+#EXTVLCOPT:network-caching=1000
+https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8]
+#EXTINF:0,Shemaroo TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/230/master.m3u8
+#EXTINF:0,Shemaroo Umang (720p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/SHEMAROOUMANG/index.m3u8
+#EXTINF:0,Shubh Cinema TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/index.m3u8
+#EXTINF:0,Shubh TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
+#EXTINF:0,Shubhsandesh TV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://6284rn2xr7xv-hls-live.wmncdn.net/shubhsandeshtv1/live123.stream/index.m3u8
+#EXTINF:0,Siri Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/SIRIKANNADAALLTIME/index.m3u8
+#EXTINF:0,Sirippoli TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0318/master.m3u8
+#EXTINF:0,Soham TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0146/master.m3u8
+#EXTINF:0,Songdew TV (396p)
+#EXTVLCOPT:network-caching=1000
+https://yuppnimrestreammum.akamaized.net/181224/smil:songdewtv.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:0,Sonic (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dl/index.m3u8
+#EXTINF:0,Sony Aath (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a07a/index.m3u8
+#EXTINF:0,Sony BBC Earth (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0384/master.m3u8
+#EXTINF:0,Sony BBC Earth HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0uh/index.m3u8
+#EXTINF:0,Sony Entertainment Television HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02z/index.m3u8
+#EXTINF:0,Sony Marathi (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0u5/index.m3u8
+#EXTINF:0,Sony Max (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a025/index.m3u8
+#EXTINF:0,Sony Max 2 (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a002/index.m3u8
+#EXTINF:0,Sony Max HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0373/master.m3u8
+#EXTINF:0,Sony Pal (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0383/master.m3u8
+#EXTINF:0,Sony Pix (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0364/master.m3u8
+#EXTINF:0,Sony Pix HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0ed/index.m3u8
+#EXTINF:0,Sony SAB (720p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09s/index.m3u8
+#EXTINF:0,Sony SAB HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0db/index.m3u8
+#EXTINF:0,Sony Sports Ten 1 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0369/master.m3u8
+#EXTINF:0,Sony Sports Ten 1 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a05w/index.m3u8
+#EXTINF:0,Sony Sports Ten 2 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0365/master.m3u8
+#EXTINF:0,Sony Sports Ten 2 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a02t/index.m3u8
+#EXTINF:0,Sony Sports Ten 3 Hindi (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09q/index.m3u8
+#EXTINF:0,Sony Sports Ten 3 Hindi HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0jr/index.m3u88
+#EXTINF:0,Sony Sports Ten 5 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dw/index.m3u8
+#EXTINF:0,Sony Wah (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0361/master.m3u8
+#EXTINF:0,Sony Yay! (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0cl/index.m3u8
+#EXTINF:0,Sooriyan TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://live20.bozztv.com/giatv/giatv-Infinittyott/Infinittyott/playlist.m3u8
+#EXTINF:0,Star Bharat (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a01z/index.m3u8
+#EXTINF:0,Star Bharat HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a05z/index.m3u8
+#EXTINF:0,Star Gold (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0389/master.m3u8
+#EXTINF:0,Star Gold 2 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0390/master.m3u8
+#EXTINF:0,Star Gold 2 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0d0/index.m3u8
+#EXTINF:0,Star Gold HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dd/index.m3u8
+#EXTINF:0,Star Gold Romance (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a029/index.m3u8
+#EXTINF:0,Star Gold Select (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0395/master.m3u8
+#EXTINF:0,Star Gold Select HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a032/index.m3u8
+#EXTINF:0,Star Gold Thrills (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0396/master.m3u8
+#EXTINF:0,Star Jalsha (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0462/master.m3u8
+#EXTINF:0,Star Jalsha HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0457/master.m3u8
+#EXTINF:0,Star Maa (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0478/master.m3u8
+#EXTINF:0,Star Maa Gold (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a063/index.m3u8
+#EXTINF:0,Star Maa Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0479/master.m3u8
+#EXTINF:0,Star Maa Music (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0481/master.m3u8
+#EXTINF:0,Star Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0403/master.m3u8
+#EXTINF:0,Star Movies HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02j/index.m3u8
+#EXTINF:0,Star Movies Select (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0404/master.m3u8
+#EXTINF:0,Star Movies Select HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02i/index.m3u8
+#EXTINF:0,Star Pravah (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0466/master.m3u8
+#EXTINF:0,Star Pravah HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0453/master.m3u8
+#EXTINF:0,Star Sports 1 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0412/master.m3u8
+#EXTINF:0,Star Sports 1 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0441/master.m3u8
+#EXTINF:0,Star Sports 1 Hindi (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0415/master.m3u8
+#EXTINF:0,Star Sports 1 Hindi HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0443/master.m3u8
+#EXTINF:0,Star Sports 1 Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0420/master.m3u8
+#EXTINF:0,Star Sports 1 Tamil (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0419/master.m3u8
+#EXTINF:0,Star Sports 1 Tamil HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0472/master.m3u8
+#EXTINF:0,Star Sports 1 Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0421/master.m3u8
+#EXTINF:0,Star Sports 2 (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0413/master.m3u8
+#EXTINF:0,Star Sports 2 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a05u/index.m3u8
+#EXTINF:0,Star Sports 2 Hindi (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0x8/index.m3u8
+#EXTINF:0,Star Sports 2 Hindi HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a028/index.m3u8
+#EXTINF:0,Star Sports 2 Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0422/master.m3u8
+#EXTINF:0,Star Sports 2 Tamil (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dc/index.m3u8
+#EXTINF:0,Star Sports 2 Tamil HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0d1/index.m3u8
+#EXTINF:0,Star Sports 2 Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0424/master.m3u8
+#EXTINF:0,Star Sports 2 Telugu HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0513/master.m3u8
+#EXTINF:0,Star Sports 3 (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.121.6.5:8000/play/a05y/index.m3u8
+#EXTINF:0,Star Sports Khel (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0423/master.m3u8
+#EXTINF:0,Star Sports Select 1 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02e/index.m3u8
+#EXTINF:0,Star Sports Select 2 HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a02q/index.m3u8
+#EXTINF:0,Star Suvarna (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0483/master.m3u8
+#EXTINF:0,Star Suvarna HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0zd/index.m3u8
+#EXTINF:0,Star Suvarna Plus (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0486/master.m3u8
+#EXTINF:0,Star Utsav (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0310/master.m3u8
+#EXTINF:0,Star Utsav Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0322/master.m3u8
+#EXTINF:0,Star Vijay (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0469/master.m3u8
+#EXTINF:0,Star Vijay HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a11b/index.m3u8
+#EXTINF:0,Starnet (480p)
+#EXTVLCOPT:network-caching=1000
+https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
+#EXTINF:0,StarPlus (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09p/index.m3u8
+#EXTINF:0,StarPlus HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09z/index.m3u8
+#EXTINF:0,Steelbird Music (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
+#EXTINF:0,Stingray Classic Rock (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/ose-101ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Stingray DJAZZ (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/djazz-djaads-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Stingray Easy Listening (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/ose-137ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Stingray Naturescape (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/naturescape-a003-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Stingray The Spa (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Stingray Today's KPOP (1080p)
+#EXTVLCOPT:network-caching=1000
+https://lotus.stingray.com/manifest/ose-317ads-montreal/samsungtvplus/master.m3u8
+#EXTINF:0,Studio One + (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/276/master.m3u8
+#EXTINF:0,Studio Yuva (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt01.tangotv.in/STUDIOYUVA/index.m3u8
+#EXTINF:0,Subhavaartha TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://2mk9qae4rwyb-hls-live.wmncdn.net/shubhavartha/live.stream/playlist.m3u8
+#EXTINF:0,Subin TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://stream.galaxyott.live/live/subintv/index.m3u8
+#EXTINF:0,Sudarshan News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://ott.livelegitpro.in/sudarshannews/sudarshannews/tracks-v1/index.fmp4.m3u8
+#EXTINF:0,Sun Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+http://103.161.153.165:8000/play/a03k/index.m3u8
+#EXTINF:0,Sun Life (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0585/master.m3u8
+#EXTINF:0,Sun Marathi (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0576/master.m3u8
+#EXTINF:0,Sun Marathi SD (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0577/master.m3u8
+#EXTINF:0,Sun Music (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0563/master.m3u8
+#EXTINF:0,Sun Music HD (720p)
+#EXTVLCOPT:network-caching=1000
+http://15.235.144.106:14055
+#EXTINF:0,Sun Neo (576p)
+#EXTVLCOPT:network-caching=1000
+http://163.61.227.29:8000/play/a04t/index.m3u8
+#EXTINF:0,Sun Neo HD (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0582/master.m3u8
+#EXTINF:0,Sun News (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0ys/index.m3u8
+#EXTINF:0,Sun TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0532/master.m3u8
+#EXTINF:0,Sun TV HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0590/master.m3u8
+#EXTINF:0,Super Hungama (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.161.153.165:8000/play/a05a/index.m3u8
+#EXTINF:0,Suriyan TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://stream.sscloud7.com/live/suriyantv/index.m3u8
+#EXTINF:0,Surya Comedy (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0578/master.m3u8
+#EXTINF:0,Surya Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0567/master.m3u8
+#EXTINF:0,Surya Music (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0579/master.m3u8
+#EXTINF:0,Surya TV (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dq/index.m3u8
+#EXTINF:0,Surya TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0566/master.m3u8
+#EXTINF:0,SVBC 2 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8
+#EXTINF:0,SVBC 3 (720p)
+#EXTVLCOPT:network-caching=1000
+https://player.mslivestream.net/svbc/2e628d7e1b65d31254fd7705ff7ee64d.sdp/playlist.m3u8
+#EXTINF:0,SVBC 4 (1080p)
+#EXTVLCOPT:network-caching=1000
+https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8
+#EXTINF:0,SVBC Sri Venkateswara Bhakti Channel (1080p)
+#EXTVLCOPT:network-caching=1000
+https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8
+#EXTINF:0,Swadesh News (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/465/master.m3u8
+#EXTINF:0,Swantham (576p)
+#EXTVLCOPT:network-caching=1000
+http://cloud.logichost.in:1935/SWANTHAM/live/index.m3u8
+#EXTINF:0,Swaraj Express SMBC (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/477/master.m3u8
+#EXTINF:0,Swatantra TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/SwatantraTV/index.m3u8
+#EXTINF:0,T News (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/385/master.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="Music" - Tabbar Hits (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tabbar-hits/index.m3u8?ads.vf=n1xb6TPm9sa
+#EXTINF:0,Tamil Janam (720p)
+#EXTVLCOPT:network-caching=1000
+https://app.ashokadigital.net/app/324ea1b0/index.m3u8
+#EXTINF:0,Tamil Vision TV (1080p)
+#EXTVLCOPT:network-caching=1000
+http://live.tamilvision.tv:8081/TVI/HD/playlist.m3u8
+#EXTINF:0,Tamilan TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdn.zionmediait.com/zionmediaitserver2024/97484f5ce6da96e496a9b87c439835d0.sdp/playlist.m3u8
+#EXTINF:0,Tarang Music (720p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
+#EXTINF:0,Tarang TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
+#EXTINF:0,Tehzeeb TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/239/master.m3u8
+#EXTINF:0,Thalaa TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://streams2.sofast.tv/ptnr-yupptv/title-THALAA-TV-TAM_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2069c593-3c07-4d62-9d44-746be5c3a5d6/manifest.m3u8
+#EXTINF:0,Thanthi One (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/THANTHIONE/index.m3u8
+#EXTINF:0,Thanthi TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1612/master.m3u8
+#EXTINF:0,The Pet Collective
+#EXTVLCOPT:network-caching=1000
+https://the-pet-collective-international-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0,Time Vision News (720p)
+#EXTVLCOPT:network-caching=1000
+http://rtmp.logichost.in:1935/timevision/timevision/playlist.m3u8
+#EXTINF:0,Times Now Navbharat (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg01448-samsungin-tinnavbharat-samsungin-ad-m8.amagi.tv/playlist/amg01448-samsungin-tinnavbharat-samsungin/playlist.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - Times Now News (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/times-now-news/master.m3u8?ads.vf=yxbqJWPCXd4
+#EXTINF:0,Times Now World (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0124/master.m3u8
+#EXTINF:0,Tolly TV (1080p)
+#EXTVLCOPT:network-caching=1000
+https://streams2.sofast.tv/ptnr-yupptv/title-TOLLY-TV-TEL_yupptv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
+#EXTINF:0,Total Bhakti (1080p)
+#EXTVLCOPT:network-caching=1000
+https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
+#EXTINF:0,Total TV Haryana (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-2.pishow.tv/live/1522/master.m3u8
+#EXTINF:0,Travelxp 4K HDR (2160p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
+#EXTINF:0,Travelxp HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0118/master.m3u8
+#EXTINF:0,Travelxp Tamil (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0202/master.m3u8
+#EXTINF:0,Tunes 6 (720p)
+#EXTVLCOPT:network-caching=1000
+https://stream.d6-pro.com/tunes6music/live/video.m3u8
+#EXTINF:0,TV5 Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1526/master.m3u8
+#EXTINF:0,TV5 News (576p)
+#EXTVLCOPT:network-caching=1000
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/tv5_nim_https/110322/tv5/playlist.m3u8
+#EXTINF:0,TV9 Bangla (720p)
+#EXTVLCOPT:network-caching=1000
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
+#EXTINF:0,TV9 Bharatvarsh (720p)
+#EXTVLCOPT:network-caching=1000
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9hinjzgtpe/liveabr/playlist.m3u8
+#EXTINF:0,TV9 Gujarati (720p)
+#EXTVLCOPT:network-caching=1000
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9guj3ki8lu/liveabr/playlist.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - TV9 Kannada (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv9-kannada/main.m3u8?ads.vf=FNdRKVQYaHW
+#EXTINF:0,TV9 Marathi (720p)
+#EXTVLCOPT:network-caching=1000
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
+#EXTINF:0,TV9 Telugu (720p)
+#EXTVLCOPT:network-caching=1000
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
+#EXTINF:0,TV BRICS English (1080p)
+#EXTVLCOPT:network-caching=1000
+https://engbrics.mediacdn.ru/cdn/brics/english/playlist.m3u8
+#EXTINF:0, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" group-title="News" - TV Punjab (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0
+#EXTVLCOPT:network-caching=1000
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/tv-punjab/master.m3u8?ads.vf=W-glh07KfBm
+#EXTINF:0,Twenty Four News (396p)
+#EXTVLCOPT:network-caching=1000
+https://segment.yuppcdn.net/110322/channel24/playlist.m3u8
+#EXTINF:0,Udaya Comedy (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0574/master.m3u8
+#EXTINF:0,Udaya Movies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0570/master.m3u8
+#EXTINF:0,Udaya Music (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0588/master.m3u8
+#EXTINF:0,Udaya TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0569/master.m3u8
+#EXTINF:0,Ultimate TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumbai-edge.smartplaytv.in/utv/index.m3u8
+#EXTINF:0,Unique TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt05.tangotv.in/UNIQUETV/index.m3u8
+#EXTINF:0,V6 News (576p)
+#EXTVLCOPT:network-caching=1000
+https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/v6news_nim_https/140622/v6news/playlist.m3u8
+#EXTINF:0,Vaanavil TV (720p)
+#EXTVLCOPT:network-caching=1000
+https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8
+#EXTINF:0,Vanitha TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-1.pishow.tv/live/393/master.m3u8
+#EXTINF:0,Vasanth TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt04.tangotv.in/VASANTHTV/index.m3u8
+#EXTINF:0,VBC News (576p)
+#EXTVLCOPT:network-caching=1000
+https://5a1178b42cc03.streamlock.net/8200/8200/playlist.m3u8
+#EXTINF:0,VCV (720p) [Not 24/7]
+#EXTVLCOPT:network-caching=1000
+https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
+#EXTINF:0,Vedic (480p)
+#EXTVLCOPT:network-caching=1000
+https://aasthaott.akamaized.net/110923/smil:vedic.smil/playlist.m3u8
+#EXTINF:0,Velicham TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/461/master.m3u8
+#EXTINF:0,Vendhar TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-3.pishow.tv/live/1271/master.m3u8
+#EXTINF:0,Vijay Super (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0te/index.m3u8
+#EXTINF:0,Vijay Takkar (576p)
+#EXTVLCOPT:network-caching=1000
+http://111.88.78.21:8000/play/a0xx/index.m3u8
+#EXTINF:0,VIP News (360p)
+#EXTVLCOPT:network-caching=1000
+https://live.vipnews24x7.co.in/vipnews24x7/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
+#EXTINF:0,Vissa TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://mumt02.tangotv.in/VISSATV/index.m3u8
+#EXTINF:0,Vyas NIC (576p)
+#EXTVLCOPT:network-caching=1000
+https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
+#EXTINF:0,Wayanad Vision (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cloudsavre.in.net/hls/stream.m3u8
+#EXTINF:0,We One Kerala (720p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+http://kl.logicwebs.in:1935/sreemedia/sreemedia/playlist.m3u8
+#EXTINF:0,Weatherspy
+#EXTVLCOPT:network-caching=1000
+https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8
+#EXTINF:0,Win TV (576p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-4.pishow.tv/live/1531/master.m3u8
+#EXTINF:0,YRF Music (1080p)
+#EXTVLCOPT:network-caching=1000
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:0,Zainabia Channel
+#EXTVLCOPT:network-caching=1000
+https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
+#EXTINF:0,ZB Bhakti (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.zillarbarta.com/zbbhakti/index.m3u8
+#EXTINF:0,ZB Cartoon (1080p)
+#EXTVLCOPT:network-caching=1000
+https://server.zillarbarta.com/zbcatun/video.m3u8
+#EXTINF:0,ZB Cinema (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.zillarbarta.com/ZBCINEMA/index.m3u8
+#EXTINF:0,ZB Music (720p)
+#EXTVLCOPT:network-caching=1000
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:0,Zee 24 Ghanta (576p)
+#EXTVLCOPT:network-caching=1000
+http://45.148.145.57/IN_Zee24Ghanta/index.m3u8
+#EXTINF:0,Zee 24 Kalak (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zee24kalak/v1/manifest/611d79b11b77e2f571934fd80ca1413453772ac7/497f7199-758d-495d-9d2f-a5489231c428/14b7c8ec-16da-47f2-8d7e-5bbaec67b3e2/3.m3u8
+#EXTINF:0,Zee 24 Taas (720p)
+#EXTVLCOPT:network-caching=1000
+https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
+#EXTINF:0,Zee Action (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0531/master.m3u8
+#EXTINF:0,Zee Bangla (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0512/master.m3u8
+#EXTINF:0,Zee Bangla HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.161.153.165:8000/play/zeebnhd/index.m3u8
+#EXTINF:0,Zee Bangla Sonar (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a070/index.m3u8
+#EXTINF:0,Zee Bharat (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeehindustan/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/96bbab12-582e-4540-af70-510ab6824581/main.m3u8
+#EXTINF:0,Zee Bihar Jharkhand (720p)
+#EXTVLCOPT:network-caching=1000
+https://raw.githubusercontent.com/Alstruit/adaptive-streams/alstruit-4_24_in/streams/in/ZeeBiharJharkhand.m3u8
+#EXTINF:0,Zee Biskope (576p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0kf/index.m3u88
+#EXTINF:0,Zee Bollymovies (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg17931-zee-amg17931c8-samsung-th-6526.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:0,Zee Bollymovies Australia (1080p) [Geo-blocked]
+#EXTVLCOPT:network-caching=1000
+https://amg17931-zee-amg17931c8-samsung-au-8871.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:0,Zee Bollywood (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dk/index.m3u8
+#EXTINF:0,Zee Business (720p)
+#EXTVLCOPT:network-caching=1000
+https://dwby15d04agvq.cloudfront.net/index_5.m3u8
+#EXTINF:0,Zee Cafe HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0cx/index.m3u8
+#EXTINF:0,Zee Chitramandir (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0351/master.m3u8
+#EXTINF:0,Zee Cine Classic (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8
+#EXTINF:0,Zee Cinema (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0517/master.m3u8
+#EXTINF:0,Zee Cinema HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.113.103.202:8001/play/a005/index.m3u8
+#EXTINF:0,Zee Cinemalu (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0544/master.m3u8
+#EXTINF:0,Zee Classic (576p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a09w/index.m3u8
+#EXTINF:0,Zee Comedy Nation (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00862-amg00862c5-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c5-amgplt0173/playlist.m3u8
+#EXTINF:0,Zee Delhi NCR Haryana (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeedelhincr/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/cc483a15-1b39-4642-872d-5d08d362ed01/main.m3u8
+#EXTINF:0,Zee Dil Se (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
+#EXTINF:0,Zee Horror Nights (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00862-amg00862c7-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c7-amgplt0173/playlist.m3u8
+#EXTINF:0,Zee Kannada (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0514/master.m3u8
+#EXTINF:0,Zee Kannada News (720p)
+#EXTVLCOPT:network-caching=1000
+https://d3vzwoqcbpfm8p.cloudfront.net/index_4.m3u8
+#EXTINF:0,Zee Keralam SD (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0559/master.m3u8
+#EXTINF:0,Zee Madhya Pradesh Chhattisgarh (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeemadhyachhattisgarh/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/2ab17056-6187-4f0e-a34d-f436ac479d6c/main.m3u8
+#EXTINF:0,Zee Malayalam News (720p)
+#EXTVLCOPT:network-caching=1000
+https://d1ty2af03alkwd.cloudfront.net/index_4.m3u8
+#EXTINF:0,Zee Marathi (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0525/master.m3u8
+#EXTINF:0,Zee Marathi HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0508/master.m3u8
+#EXTINF:0,Zee News (1080p)
+#EXTVLCOPT:network-caching=1000
+https://dknttpxmr0dwf.cloudfront.net/index_57.m3u8
+#EXTINF:0,Zee Punjab Haryana Himachal (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeepunjabharyanahima/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/65eed269-2f3a-4dd0-ac89-d18959af28e3/main.m3u8
+#EXTINF:0,Zee Punjabi (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0560/master.m3u8
+#EXTINF:0,Zee Rajasthan (720p)
+#EXTVLCOPT:network-caching=1000
+https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeerajashthannews/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/8e864b9a-1681-41a0-99a6-387490bc5b24/main.m3u8
+#EXTINF:0,Zee Sarthak (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0555/master.m3u8
+#EXTINF:0,Zee South Flix (1080p)
+#EXTVLCOPT:network-caching=1000
+https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
+#EXTINF:0,Zee Talkies (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0518/master.m3u8
+#EXTINF:0,Zee Talkies HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://116.90.120.128:8000/play/a0io/index.m3u88
+#EXTINF:0,Zee Tamil (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0535/master.m3u8
+#EXTINF:0,Zee Tamil HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0557/master.m3u8
+#EXTINF:0,Zee Telugu (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0537/master.m3u8
+#EXTINF:0,Zee Telugu News (720p)
+#EXTVLCOPT:network-caching=1000
+https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
+#EXTINF:0,Zee Thirai (1080p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0558/master.m3u8
+#EXTINF:0,Zee Thirai SD (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0554/master.m3u8
+#EXTINF:0,Zee TV (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0528/master.m3u8
+#EXTINF:0,Zee TV HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0cs/index.m3u8
+#EXTINF:0,Zee Uttar Pradesh/Uttarakhand (720p)
+#EXTVLCOPT:network-caching=1000
+https://duw35ict5q7th.cloudfront.net/index_3.m3u8
+#EXTINF:0,Zee Yuva (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0510/master.m3u8
+#EXTINF:0,Zee Zest (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0516/master.m3u8
+#EXTINF:0,Zee Zest HD (1080p)
+#EXTVLCOPT:network-caching=1000
+http://103.229.254.25:7001/play/a0dp/index.m3u8
+#EXTINF:0,ZillarBarta News
+#EXTVLCOPT:network-caching=1000
+https://server.zillarbarta.com/zillarbarta/index.m3u8
+#EXTINF:0,Zing! (576p)
+#EXTVLCOPT:network-caching=1000
+http://iptvcasomsapi.jprdigital.in/x-media/C0307/master.m3u8
+#EXTINF:0,Zoom
+#EXTVLCOPT:network-caching=1000
+https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:0,Zoom Global (720p)
+#EXTVLCOPT:network-caching=1000
+https://d14c63magvk61v.cloudfront.net/strm/channels/zoom/master.m3u8
